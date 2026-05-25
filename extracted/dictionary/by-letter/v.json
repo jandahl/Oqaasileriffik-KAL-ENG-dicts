@@ -1,0 +1,456 @@
+{
+  "meta": {
+    "schema_version": "1.0",
+    "generated_at": "2026-05-25T22:16:43.766833+00:00",
+    "license": "CC-BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source_repo": "https://github.com/Oqaasileriffik/dicts",
+    "fork_repo": "https://github.com/jandahl/Oqaasileriffik-KAL-ENG-dicts",
+    "attribution": "Oqaasileriffik (Greenlandic Language Secretariat), 2018 Chicago Kalaallisut–English Dictionary, CC-BY-SA 4.0",
+    "changes": "Subset of entries extracted and reformatted; class_path fields added for KalaalliCut color mapping."
+  },
+  "dictionary_entries": [
+    {
+      "id": "I_Sheet1_741",
+      "lexeme": "vigarsuaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "vigarsuaq",
+      "gloss_en": "marram grass, beach grass",
+      "source_file": "I.ods",
+      "source_row": 741
+    },
+    {
+      "id": "V W Y_VWY_3",
+      "lexeme": "vekselstrømmi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "vekselstrømmi",
+      "gloss_en": "alternating current, AC",
+      "source_file": "V W Y.ods",
+      "source_row": 3
+    },
+    {
+      "id": "V W Y_VWY_4",
+      "lexeme": "vinkeli",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "vinkeli",
+      "gloss_en": "angle",
+      "source_file": "V W Y.ods",
+      "source_row": 4
+    },
+    {
+      "id": "V W Y_VWY_6",
+      "lexeme": "viinnissat tigumasut",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "viinnissat tigumasut",
+      "gloss_en": "bunch of grapes",
+      "source_file": "V W Y.ods",
+      "source_row": 6
+    },
+    {
+      "id": "V W Y_VWY_7",
+      "lexeme": "vatti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "vatti",
+      "gloss_en": "cotton ball, wadding, cotton batting",
+      "source_file": "V W Y.ods",
+      "source_row": 7
+    },
+    {
+      "id": "V W Y_VWY_9",
+      "lexeme": "villa",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "villa",
+      "gloss_en": "detached house",
+      "source_file": "V W Y.ods",
+      "source_row": 9
+    },
+    {
+      "id": "V W Y_VWY_10",
+      "lexeme": "vavva",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "vavva",
+      "gloss_en": "dog (children's language)",
+      "source_file": "V W Y.ods",
+      "source_row": 10
+    },
+    {
+      "id": "V W Y_VWY_11",
+      "lexeme": "viinnisorpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "viinnisorpoq",
+      "gloss_en": "drinks wine",
+      "source_file": "V W Y.ods",
+      "source_row": 11
+    },
+    {
+      "id": "V W Y_VWY_12",
+      "lexeme": "viinnissaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "viinnissaq",
+      "gloss_en": "grape",
+      "source_file": "V W Y.ods",
+      "source_row": 12
+    },
+    {
+      "id": "V W Y_VWY_13",
+      "lexeme": "viinnequt",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "viinnequt",
+      "gloss_en": "grape vine",
+      "source_file": "V W Y.ods",
+      "source_row": 13
+    },
+    {
+      "id": "V W Y_VWY_14",
+      "lexeme": "viiveerpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "viiveerpoq",
+      "gloss_en": "is sleeping (children's speech)",
+      "source_file": "V W Y.ods",
+      "source_row": 14
+    },
+    {
+      "id": "V W Y_VWY_15",
+      "lexeme": "vuggestue",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "vuggestue",
+      "gloss_en": "nursery school, day care",
+      "source_file": "V W Y.ods",
+      "source_row": 15
+    },
+    {
+      "id": "V W Y_VWY_17",
+      "lexeme": "vitamineqarluartoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "vitamineqarluartoq",
+      "gloss_en": "something rich in vitamins",
+      "source_file": "V W Y.ods",
+      "source_row": 17
+    },
+    {
+      "id": "V W Y_VWY_19",
+      "lexeme": "vaataparsi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "vaataparsi",
+      "gloss_en": "spirit level",
+      "source_file": "V W Y.ods",
+      "source_row": 19
+    },
+    {
+      "id": "V W Y_VWY_20",
+      "lexeme": "vikari",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "vikari",
+      "gloss_en": "substitute teacher, temp worker, temp",
+      "source_file": "V W Y.ods",
+      "source_row": 20
+    },
+    {
+      "id": "V W Y_VWY_21",
+      "lexeme": "ventili",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ventili",
+      "gloss_en": "valve",
+      "source_file": "V W Y.ods",
+      "source_row": 21
+    },
+    {
+      "id": "V W Y_VWY_22",
+      "lexeme": "vanilje",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "vanilje",
+      "gloss_en": "vanilla",
+      "source_file": "V W Y.ods",
+      "source_row": 22
+    },
+    {
+      "id": "V W Y_VWY_23",
+      "lexeme": "vaseliina",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "vaseliina",
+      "gloss_en": "vaseline",
+      "source_file": "V W Y.ods",
+      "source_row": 23
+    },
+    {
+      "id": "V W Y_VWY_24",
+      "lexeme": "vermouthi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "vermouthi",
+      "gloss_en": "vermouth",
+      "source_file": "V W Y.ods",
+      "source_row": 24
+    },
+    {
+      "id": "V W Y_VWY_25",
+      "lexeme": "versi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "versi",
+      "gloss_en": "verse",
+      "source_file": "V W Y.ods",
+      "source_row": 25
+    },
+    {
+      "id": "V W Y_VWY_26",
+      "lexeme": "video",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "video",
+      "gloss_en": "video",
+      "source_file": "V W Y.ods",
+      "source_row": 26
+    },
+    {
+      "id": "V W Y_VWY_27",
+      "lexeme": "vikingi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "vikingi",
+      "gloss_en": "viking",
+      "source_file": "V W Y.ods",
+      "source_row": 27
+    },
+    {
+      "id": "V W Y_VWY_28",
+      "lexeme": "vitamini",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "vitamini",
+      "gloss_en": "vitamin",
+      "source_file": "V W Y.ods",
+      "source_row": 28
+    },
+    {
+      "id": "V W Y_VWY_29",
+      "lexeme": "vodka",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "vodka",
+      "gloss_en": "vodka",
+      "source_file": "V W Y.ods",
+      "source_row": 29
+    },
+    {
+      "id": "V W Y_VWY_30",
+      "lexeme": "volleyballi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "volleyballi",
+      "gloss_en": "volleyball",
+      "source_file": "V W Y.ods",
+      "source_row": 30
+    },
+    {
+      "id": "V W Y_VWY_31",
+      "lexeme": "volti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "volti",
+      "gloss_en": "volt",
+      "source_file": "V W Y.ods",
+      "source_row": 31
+    },
+    {
+      "id": "V W Y_VWY_32",
+      "lexeme": "vaffeli",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "vaffeli",
+      "gloss_en": "waffle",
+      "source_file": "V W Y.ods",
+      "source_row": 32
+    },
+    {
+      "id": "V W Y_VWY_33",
+      "lexeme": "valsi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "valsi",
+      "gloss_en": "waltz",
+      "source_file": "V W Y.ods",
+      "source_row": 33
+    },
+    {
+      "id": "V W Y_VWY_34",
+      "lexeme": "videorpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "videorpoq",
+      "gloss_en": "watches videos",
+      "source_file": "V W Y.ods",
+      "source_row": 34
+    },
+    {
+      "id": "V W Y_VWY_35",
+      "lexeme": "voksi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "voksi",
+      "gloss_en": "wax",
+      "source_file": "V W Y.ods",
+      "source_row": 35
+    },
+    {
+      "id": "V W Y_VWY_39",
+      "lexeme": "viinnisorfik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "viinnisorfik",
+      "gloss_en": "wine glass",
+      "source_file": "V W Y.ods",
+      "source_row": 39
+    },
+    {
+      "id": "V W Y_VWY_40",
+      "lexeme": "viinni",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "viinni",
+      "gloss_en": "wine, bottle of wine",
+      "source_file": "V W Y.ods",
+      "source_row": 40
+    },
+    {
+      "id": "V W Y_VWY_41",
+      "lexeme": "vaajari",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "vaajari",
+      "gloss_en": "wire",
+      "source_file": "V W Y.ods",
+      "source_row": 41
+    },
+    {
+      "id": "V W Y_VWY_42",
+      "lexeme": "versiliorpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "versiliorpoq",
+      "gloss_en": "writes poetry, writes verse",
+      "source_file": "V W Y.ods",
+      "source_row": 42
+    }
+  ]
+}

@@ -9,5 +9,19 @@
     "attribution": "Oqaasileriffik (Greenlandic Language Secretariat), 2018 Chicago Kalaallisut–English Dictionary, CC-BY-SA 4.0",
     "changes": "Subset of entries extracted and reformatted; class_path fields added for KalaalliCut color mapping."
   },
-  "sandhi_presets": []
+  "dictionary_entries": [
+    {
+      "id": "Z AE OE AA_ZÆØÅ_17",
+      "lexeme": "Ålandimiu",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "Ålandimiu",
+      "gloss_en": "someone from Åland",
+      "source_file": "Z AE OE AA.ods",
+      "source_row": 17
+    }
+  ]
 }

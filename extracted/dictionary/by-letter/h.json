@@ -1,0 +1,571 @@
+{
+  "meta": {
+    "schema_version": "1.0",
+    "generated_at": "2026-05-25T22:16:43.766833+00:00",
+    "license": "CC-BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source_repo": "https://github.com/Oqaasileriffik/dicts",
+    "fork_repo": "https://github.com/jandahl/Oqaasileriffik-KAL-ENG-dicts",
+    "attribution": "Oqaasileriffik (Greenlandic Language Secretariat), 2018 Chicago Kalaallisut–English Dictionary, CC-BY-SA 4.0",
+    "changes": "Subset of entries extracted and reformatted; class_path fields added for KalaalliCut color mapping."
+  },
+  "dictionary_entries": [
+    {
+      "id": "H_H_2",
+      "lexeme": "ha?",
+      "word_class": "",
+      "class_path": [],
+      "stem": "ha?",
+      "gloss_en": "What?, What did you say?, What was that?",
+      "source_file": "H.ods",
+      "source_row": 2
+    },
+    {
+      "id": "H_H_3",
+      "lexeme": "haa!",
+      "word_class": "",
+      "class_path": [],
+      "stem": "haa!",
+      "gloss_en": "Look!",
+      "source_file": "H.ods",
+      "source_row": 3
+    },
+    {
+      "id": "H_H_4",
+      "lexeme": "hangari",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "hangari",
+      "gloss_en": "hangar",
+      "source_file": "H.ods",
+      "source_row": 4
+    },
+    {
+      "id": "H_H_5",
+      "lexeme": "hashi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "hashi",
+      "gloss_en": "hashish",
+      "source_file": "H.ods",
+      "source_row": 5
+    },
+    {
+      "id": "H_H_6",
+      "lexeme": "hebræerisut",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "hebræerisut",
+      "gloss_en": "Hebrew",
+      "source_file": "H.ods",
+      "source_row": 6
+    },
+    {
+      "id": "H_H_7",
+      "lexeme": "hej!",
+      "word_class": "",
+      "class_path": [],
+      "stem": "hej!",
+      "gloss_en": "Hi!, Hey!",
+      "source_file": "H.ods",
+      "source_row": 7
+    },
+    {
+      "id": "H_H_8",
+      "lexeme": "hektoliteri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "hektoliteri",
+      "gloss_en": "hectoliter",
+      "source_file": "H.ods",
+      "source_row": 8
+    },
+    {
+      "id": "H_H_9",
+      "lexeme": "helikopteri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "helikopteri",
+      "gloss_en": "helicopter",
+      "source_file": "H.ods",
+      "source_row": 9
+    },
+    {
+      "id": "H_H_10",
+      "lexeme": "heliporti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "heliporti",
+      "gloss_en": "heliport",
+      "source_file": "H.ods",
+      "source_row": 10
+    },
+    {
+      "id": "H_H_11",
+      "lexeme": "heroini",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "heroini",
+      "gloss_en": "heroin",
+      "source_file": "H.ods",
+      "source_row": 11
+    },
+    {
+      "id": "H_H_12",
+      "lexeme": "hertugi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "hertugi",
+      "gloss_en": "duke, the Duke",
+      "source_file": "H.ods",
+      "source_row": 12
+    },
+    {
+      "id": "H_H_13",
+      "lexeme": "hesterpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "hesterpoq",
+      "gloss_en": "rides a horse, is horseback riding",
+      "source_file": "H.ods",
+      "source_row": 13
+    },
+    {
+      "id": "H_H_14",
+      "lexeme": "hestersoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "hestersoq",
+      "gloss_en": "knight",
+      "source_file": "H.ods",
+      "source_row": 14
+    },
+    {
+      "id": "H_H_15",
+      "lexeme": "hesti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "hesti",
+      "gloss_en": "horse",
+      "source_file": "H.ods",
+      "source_row": 15
+    },
+    {
+      "id": "H_H_16",
+      "lexeme": "hesti angutiviaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "hesti angutiviaq",
+      "gloss_en": "stallion",
+      "source_file": "H.ods",
+      "source_row": 16
+    },
+    {
+      "id": "H_H_17",
+      "lexeme": "hesti arnaviaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "hesti arnaviaq",
+      "gloss_en": "mare",
+      "source_file": "H.ods",
+      "source_row": 17
+    },
+    {
+      "id": "H_H_18",
+      "lexeme": "hesti piaraq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "hesti piaraq",
+      "gloss_en": "foal",
+      "source_file": "H.ods",
+      "source_row": 18
+    },
+    {
+      "id": "H_H_19",
+      "lexeme": "HF",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "HF",
+      "gloss_en": "Higher Preparatory Examination",
+      "source_file": "H.ods",
+      "source_row": 19
+    },
+    {
+      "id": "H_H_20",
+      "lexeme": "hii!",
+      "word_class": "",
+      "class_path": [],
+      "stem": "hii!",
+      "gloss_en": "oh my!",
+      "source_file": "H.ods",
+      "source_row": 20
+    },
+    {
+      "id": "H_H_21",
+      "lexeme": "hiisterpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "hiisterpoq",
+      "gloss_en": "rides a horse, is horseback riding",
+      "source_file": "H.ods",
+      "source_row": 21
+    },
+    {
+      "id": "H_H_22",
+      "lexeme": "hiistersoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "hiistersoq",
+      "gloss_en": "knight",
+      "source_file": "H.ods",
+      "source_row": 22
+    },
+    {
+      "id": "H_H_23",
+      "lexeme": "hiisti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "hiisti",
+      "gloss_en": "knight",
+      "source_file": "H.ods",
+      "source_row": 23
+    },
+    {
+      "id": "H_H_24",
+      "lexeme": "hiisti angutiviaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "hiisti angutiviaq",
+      "gloss_en": "stallion",
+      "source_file": "H.ods",
+      "source_row": 24
+    },
+    {
+      "id": "H_H_25",
+      "lexeme": "hiisti arnaviaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "hiisti arnaviaq",
+      "gloss_en": "mare",
+      "source_file": "H.ods",
+      "source_row": 25
+    },
+    {
+      "id": "H_H_26",
+      "lexeme": "hiisti piaraq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "hiisti piaraq",
+      "gloss_en": "foal",
+      "source_file": "H.ods",
+      "source_row": 26
+    },
+    {
+      "id": "H_H_27",
+      "lexeme": "hindbæri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "hindbæri",
+      "gloss_en": "raspberry",
+      "source_file": "H.ods",
+      "source_row": 27
+    },
+    {
+      "id": "H_H_28",
+      "lexeme": "HIV-mik tunillannartoqarneq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "HIV-mik tunillannartoqarneq",
+      "gloss_en": "HIV positive",
+      "source_file": "H.ods",
+      "source_row": 28
+    },
+    {
+      "id": "H_H_29",
+      "lexeme": "HIV-mik tunillanneqarsimasoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "HIV-mik tunillanneqarsimasoq",
+      "gloss_en": "someone with AIDS",
+      "source_file": "H.ods",
+      "source_row": 29
+    },
+    {
+      "id": "H_H_30",
+      "lexeme": "hjemmestyrekommissioni",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "hjemmestyrekommissioni",
+      "gloss_en": "Home Rule Government Commission",
+      "source_file": "H.ods",
+      "source_row": 30
+    },
+    {
+      "id": "H_H_31",
+      "lexeme": "hjerteri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "hjerteri",
+      "gloss_en": "hearts (playing card suit)",
+      "source_file": "H.ods",
+      "source_row": 31
+    },
+    {
+      "id": "H_H_32",
+      "lexeme": "horaa!",
+      "word_class": "",
+      "class_path": [],
+      "stem": "horaa!",
+      "gloss_en": "Hurrah!",
+      "source_file": "H.ods",
+      "source_row": 32
+    },
+    {
+      "id": "H_H_33",
+      "lexeme": "horaartorpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "horaartorpoq",
+      "gloss_en": "cries \"Hurrah!\"",
+      "source_file": "H.ods",
+      "source_row": 33
+    },
+    {
+      "id": "H_H_34",
+      "lexeme": "hoteli",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "hoteli",
+      "gloss_en": "hotel",
+      "source_file": "H.ods",
+      "source_row": 34
+    },
+    {
+      "id": "H_H_35",
+      "lexeme": "hovedkorti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "hovedkorti",
+      "gloss_en": "motherboard",
+      "source_file": "H.ods",
+      "source_row": 35
+    },
+    {
+      "id": "H_H_36",
+      "lexeme": "hundrede",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "hundrede",
+      "gloss_en": "hundred",
+      "source_file": "H.ods",
+      "source_row": 36
+    },
+    {
+      "id": "H_H_37",
+      "lexeme": "hundrederarterut",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "hundrederarterut",
+      "gloss_en": "hundreth",
+      "source_file": "H.ods",
+      "source_row": 37
+    },
+    {
+      "id": "H_H_38",
+      "lexeme": "hvidkåli",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "hvidkåli",
+      "gloss_en": "cabbage",
+      "source_file": "H.ods",
+      "source_row": 38
+    },
+    {
+      "id": "H_H_39",
+      "lexeme": "hvidløgi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "hvidløgi",
+      "gloss_en": "garlic",
+      "source_file": "H.ods",
+      "source_row": 39
+    },
+    {
+      "id": "H_H_40",
+      "lexeme": "hvidløgsflute",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "hvidløgsflute",
+      "gloss_en": "garlic bread",
+      "source_file": "H.ods",
+      "source_row": 40
+    },
+    {
+      "id": "H_H_41",
+      "lexeme": "hvidviinni",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "hvidviinni",
+      "gloss_en": "white wine",
+      "source_file": "H.ods",
+      "source_row": 41
+    },
+    {
+      "id": "H_H_42",
+      "lexeme": "højskole",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "højskole",
+      "gloss_en": "trade school",
+      "source_file": "H.ods",
+      "source_row": 42
+    },
+    {
+      "id": "H_H_43",
+      "lexeme": "højtaleri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "højtaleri",
+      "gloss_en": "speaker",
+      "source_file": "H.ods",
+      "source_row": 43
+    },
+    {
+      "id": "H_H_44",
+      "lexeme": "høvdingi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "høvdingi",
+      "gloss_en": "chieftan",
+      "source_file": "H.ods",
+      "source_row": 44
+    },
+    {
+      "id": "H_H_45",
+      "lexeme": "håndboldi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "håndboldi",
+      "gloss_en": "handball",
+      "source_file": "H.ods",
+      "source_row": 45
+    }
+  ]
+}
