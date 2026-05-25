@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["meta", "sandhi_presets", "dictionary_entries"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["schema_version", "license", "attribution", "generated_at"]
+    },
+    "sandhi_presets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "desc", "class_path", "seq", "expected", "source"],
+        "properties": {
+          "seq": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["text", "type", "join"],
+              "properties": {
+                "type": { "enum": ["ROOT", "AFFIX", "INFLECTION"] },
+                "join": { "enum": ["NONE", "TRUNCATIVE", "ASSIMILATIVE", "ADDITIVE"] }
+              }
+            }
+          }
+        }
+      }
+    },
+    "dictionary_entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "lexeme", "word_class", "class_path", "source_file", "source_row"]
+      }
+    }
+  }
+}
