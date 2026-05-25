@@ -62,7 +62,7 @@ Non-zero exit on any error.
 ### 4. Commit script and output together
 
 ```bash
-git add convert/ extracted/presets.json
+git add convert/ extracted/dictionary/presets.json
 git commit -m "feat(convert): ..."
 git push
 ```
@@ -97,13 +97,13 @@ Full schema in `convert/schema.json`.
 
 ## How KalaalliCut consumes this file
 
-KalaalliCut fetches the file directly from:
+`presets.json` is published via GitHub Pages on every push to `main`:
 
 ```
-https://raw.githubusercontent.com/jandahl/Oqaasileriffik-KAL-ENG-dicts/main/extracted/presets.json
+https://jandahl.github.io/Oqaasileriffik-KAL-ENG-dicts/presets.json
 ```
 
-**Do not split `extracted/presets.json` into multiple files** — KalaalliCut
+**Do not split `extracted/dictionary/presets.json` into multiple files** — KalaalliCut
 expects a single monolithic JSON document.
 
 ---
