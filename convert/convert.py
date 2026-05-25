@@ -199,7 +199,7 @@ def main() -> None:
     repo_root = Path(__file__).parent.parent.resolve()
     convert_dir = repo_root / "convert"
     ods_dir = repo_root / "2018 Chicago"
-    extracted_dir = repo_root / "extracted"
+    extracted_dir = repo_root / "extracted" / "dictionary"
     schema_path = convert_dir / "schema.json"
     authored_path = convert_dir / "authored_presets.json"
 

@@ -1,0 +1,65 @@
+morphemes:
+  V_ler_Vb:
+    _template: verbal_modifier_truncating
+    lexical_facts:
+      meaning: "to begin to V, to start V-ing (inceptive)"
+    application_logic:
+      underlying_form: "-ler"
+    pedagogy:
+      examples:
+        - surface: "nerilerpoq"
+          natural: "He started eating / He began to eat."
+    provenance: ["Fortescue1984:161"]
+
+  V_tar_Vb:
+    _template: verbal_modifier_truncating
+    lexical_facts:
+      meaning: "to V repeatedly, habitually (iterative/habitual)"
+    application_logic:
+      underlying_form: "-tar"
+      notes: ["Variant -sar after certain consonants"]
+    pedagogy:
+      examples:
+        - surface: "neritarpoq"
+          natural: "He eats regularly / He usually eats."
+    provenance: ["Fortescue1984:323"]
+
+  V_ssa_Vb:
+    _template: verbal_modifier_additive
+    lexical_facts:
+      meaning: "will V, is going to V (prospective/future)"
+    application_logic:
+      underlying_form: "-ssa"
+    pedagogy:
+      examples:
+        - surface: "nerissavoq"
+          natural: "He will eat."
+        - surface: "takussaaq"
+          natural: "He will see him."
+    provenance: ["Fortescue1984:295"]
+
+  V_niar_Vb:
+    _template: verbal_modifier_truncating
+    lexical_facts:
+      meaning: "to go in order to V, intend to V"
+    application_logic:
+      underlying_form: "-niar"
+    pedagogy:
+      examples:
+        - surface: "neriniarpoq"
+          natural: "He went to eat / He intends to eat."
+    provenance: ["Fortescue1984:210"]
+
+  V_sinnaa_Vb:
+    _template: verbal_modifier_additive
+    lexical_facts:
+      meaning: "can V, to be able to V (potential)"
+    application_logic:
+      underlying_form: "-sinnaa"
+    pedagogy:
+      examples:
+        - surface: "takusinnaajunga"
+          natural: "I can see."
+        - surface: "nerisinnaanavianngitsoq"
+          natural: "something that is impossible to eat"
+    provenance: ["Fortescue1984:293"]

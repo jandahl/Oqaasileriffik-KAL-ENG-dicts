@@ -1,0 +1,62 @@
+morphemes:
+  V_neq_N:
+    _template: deverbal_noun
+    lexical_facts:
+      meaning: "the act of V-ing; the fact that one V-s"
+    application_logic:
+      underlying_form: "-neq"
+      notes:
+        - "Productive nominalizer; yields abstract/event nouns"
+        - "Variant -niq in some environments"
+    pedagogy:
+      examples:
+        - surface: "nerineq"
+          natural: "eating, the act of eating"
+        - surface: "takuneq"
+          natural: "seeing, the act of seeing"
+    provenance: ["Fortescue1984:207", "Lybech2020:198"]
+
+  V_taq_N:
+    _template: deverbal_noun
+    lexical_facts:
+      meaning: "something/someone that has been V-ed (patient noun)"
+    application_logic:
+      underlying_form: "-taq"
+    pedagogy:
+      examples:
+        - surface: "neritaq"
+          natural: "something that has been eaten, food"
+        - surface: "takutaq"
+          natural: "something that has been seen"
+    provenance: ["Fortescue1984:324"]
+
+  V_soq_N:
+    _template: deverbal_noun
+    lexical_facts:
+      meaning: "one who V-s (agent/participial noun)"
+    application_logic:
+      underlying_form: "-soq"
+      notes: ["Participial form; also the base for relative participle constructions"]
+    pedagogy:
+      examples:
+        - surface: "nerisoq"
+          natural: "one who eats, the one eating"
+        - surface: "atuisoq"
+          natural: "one who reads, reader"
+    provenance: ["Fortescue1984:299"]
+
+  V_fik_N:
+    _template: deverbal_noun
+    lexical_facts:
+      meaning: "place for V-ing, instrument/facility for V-ing"
+    application_logic:
+      underlying_form: "-fik"
+      boundary_behavior: additive
+      continuation_class: N_POSTBASE
+    pedagogy:
+      examples:
+        - surface: "atuarfik"
+          natural: "school (place for reading/studying)"
+        - surface: "siniffiit"
+          natural: "bedrooms (places for sleeping)"
+    provenance: ["Fortescue1984:70"]

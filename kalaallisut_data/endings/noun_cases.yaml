@@ -1,0 +1,108 @@
+morphemes:
+  N_ABS_SG:
+    lexical_facts:
+      morpheme_type: inflectional_ending
+      category_shift: "N -> N"
+      meaning: "absolutive singular (citation form; subject of intransitive verb, object of transitive verb)"
+    application_logic:
+      underlying_form: "Ø"
+      boundary_behavior: none
+      continuation_class: WORD_FINAL
+    pedagogy:
+      examples:
+        - surface: "inuk"
+          natural: "person (subject of intransitive or object of transitive)"
+    provenance: ["Fortescue1984:26", "Bittner1994:9"]
+
+  N_ERG_SG:
+    lexical_facts:
+      morpheme_type: inflectional_ending
+      category_shift: "N -> N"
+      meaning: "ergative/relative singular (subject of transitive verb; possessor)"
+    application_logic:
+      underlying_form: "-p"
+      boundary_behavior: additive
+      continuation_class: WORD_FINAL
+    pedagogy:
+      note: "-up after consonant-final stems; -p after vowel-final stems."
+      examples:
+        - surface: "arnap"
+          natural: "the woman's / the woman (as transitive subject)"
+    provenance: ["Fortescue1984:26", "Bittner1994:9"]
+
+  N_INS_SG:
+    lexical_facts:
+      morpheme_type: inflectional_ending
+      category_shift: "N -> N"
+      meaning: "instrumental singular (object of intransitive verb with -qar; manner; means)"
+    application_logic:
+      underlying_form: "-mik"
+      boundary_behavior: additive
+      continuation_class: WORD_FINAL
+    pedagogy:
+      examples:
+        - surface: "qimmiimik"
+          natural: "a dog (instrumental — e.g., as object of -qar)"
+    provenance: ["Fortescue1984:26"]
+
+  N_ALL_SG:
+    lexical_facts:
+      morpheme_type: inflectional_ending
+      category_shift: "N -> N"
+      meaning: "allative singular (motion towards; purpose)"
+    application_logic:
+      underlying_form: "-mut"
+      boundary_behavior: additive
+      continuation_class: WORD_FINAL
+    pedagogy:
+      examples:
+        - surface: "atuarfimmut"
+          natural: "to school, towards school"
+    provenance: ["Fortescue1984:26"]
+
+  N_LOC_SG:
+    lexical_facts:
+      morpheme_type: inflectional_ending
+      category_shift: "N -> N"
+      meaning: "locative singular (position at/in)"
+    application_logic:
+      underlying_form: "-mi"
+      boundary_behavior: additive
+      continuation_class: WORD_FINAL
+    pedagogy:
+      examples:
+        - surface: "iglumi"
+          natural: "in the house"
+        - surface: "nunami"
+          natural: "on land, in the country"
+    provenance: ["Fortescue1984:26"]
+
+  N_ABL_SG:
+    lexical_facts:
+      morpheme_type: inflectional_ending
+      category_shift: "N -> N"
+      meaning: "ablative singular (motion away from; origin)"
+    application_logic:
+      underlying_form: "-mit"
+      boundary_behavior: additive
+      continuation_class: WORD_FINAL
+    pedagogy:
+      examples:
+        - surface: "iglumit"
+          natural: "from the house"
+    provenance: ["Fortescue1984:26"]
+
+  N_EQU_SG:
+    lexical_facts:
+      morpheme_type: inflectional_ending
+      category_shift: "N -> N"
+      meaning: "equalis/similaris singular (like, as, in the manner of)"
+    application_logic:
+      underlying_form: "-tut"
+      boundary_behavior: additive
+      continuation_class: WORD_FINAL
+    pedagogy:
+      examples:
+        - surface: "angutitut"
+          natural: "like a man, as a man"
+    provenance: ["Fortescue1984:26"]

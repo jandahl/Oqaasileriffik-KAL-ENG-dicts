@@ -1,0 +1,59 @@
+morphemes:
+  N_qaq_Vb:
+    _template: intrans_denominal_verb
+    lexical_facts:
+      meaning: "to have; there is/are"
+    application_logic:
+      underlying_form: "-qaq"
+      notes:
+        - "Surface form -qar before vowel-initial endings (schwa rule)"
+        - "Deletes stem-final consonant (truncating)"
+    pedagogy:
+      examples:
+        - surface: "qimmeqarpoq"
+          natural: "He has a dog."
+        - surface: "immaqarpoq"
+          natural: "There is water."
+    provenance: ["Lybech2020:154", "Sadock1980:307"]
+
+  N_u_Vb:
+    _template: intrans_denominal_verb
+    lexical_facts:
+      meaning: "to be (copula)"
+    application_logic:
+      underlying_form: "-u"
+    pedagogy:
+      note: "Attaches to a vowel-final stem; deletes preceding consonant."
+      examples:
+        - surface: "angutaavoq"
+          natural: "He is a man."
+        - surface: "inuiaqatigiinniarmik nunaffigeqqissaarsinnaanissaminnik nalunaarusiassarsiissitissasinnaavoq"
+          natural: "It can be announced as a place for human coexistence."
+    provenance: ["Lybech2020:154"]
+
+  N_lior_Vb:
+    _template: trans_denominal_verb
+    lexical_facts:
+      meaning: "to make, to produce, to work with"
+    application_logic:
+      underlying_form: "-lior"
+      notes:
+        - "Truncating; deletes stem-final consonant"
+        - "Variant -liur in some dialects"
+    pedagogy:
+      examples:
+        - surface: "igaliorpaa"
+          natural: "He is making a window."
+    provenance: ["Fortescue1984:163"]
+
+  N_umaar_Vb:
+    _template: intrans_denominal_verb
+    lexical_facts:
+      meaning: "to resemble, to act like, to go as"
+    application_logic:
+      underlying_form: "-umaar"
+    pedagogy:
+      examples:
+        - surface: "angutiumaarpoq"
+          natural: "He acts like a man / He goes as a man."
+    provenance: ["Fortescue1984:354"]
