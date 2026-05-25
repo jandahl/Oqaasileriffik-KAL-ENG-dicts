@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - extracted/dictionary/presets.json
+      - extracted/dictionary/**
   workflow_dispatch:
 
 permissions:

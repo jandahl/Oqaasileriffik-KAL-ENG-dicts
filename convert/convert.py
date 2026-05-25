@@ -235,26 +235,47 @@ def main() -> None:
     sandhi_presets = load_authored_presets(authored_path)
     log.info("Loaded %d hand-authored sandhi presets", len(sandhi_presets))
 
-    data = {
-        "meta": {
-            "schema_version": "1.0",
-            "generated_at": datetime.now(timezone.utc).isoformat(),
-            "license": "CC-BY-SA 4.0",
-            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-            "source_repo": "https://github.com/Oqaasileriffik/dicts",
-            "fork_repo": "https://github.com/jandahl/Oqaasileriffik-KAL-ENG-dicts",
-            "attribution": "Oqaasileriffik (Greenlandic Language Secretariat), 2018 Chicago Kalaallisut–English Dictionary, CC-BY-SA 4.0",
-            "changes": "Subset of entries extracted and reformatted; class_path fields added for KalaalliCut color mapping.",
-        },
-        "sandhi_presets": sandhi_presets,
-        "dictionary_entries": all_entries,
+    meta = {
+        "schema_version": "1.0",
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "license": "CC-BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "source_repo": "https://github.com/Oqaasileriffik/dicts",
+        "fork_repo": "https://github.com/jandahl/Oqaasileriffik-KAL-ENG-dicts",
+        "attribution": "Oqaasileriffik (Greenlandic Language Secretariat), 2018 Chicago Kalaallisut–English Dictionary, CC-BY-SA 4.0",
+        "changes": "Subset of entries extracted and reformatted; class_path fields added for KalaalliCut color mapping.",
     }
 
-    validate_output(data, schema_path)
+    # Validate the full bundle before splitting
+    validate_output(
+        {"meta": meta, "sandhi_presets": sandhi_presets, "dictionary_entries": all_entries},
+        schema_path,
+    )
 
+    # Root presets.json holds only sandhi_presets; dictionary_entries live in by-letter/
     presets_path = extracted_dir / "presets.json"
-    write_atomic(presets_path, data)
-    log.info("Wrote %s (%d dictionary entries)", presets_path, len(all_entries))
+    write_atomic(presets_path, {"meta": meta, "sandhi_presets": sandhi_presets})
+    log.info("Wrote %s (%d sandhi presets)", presets_path, len(sandhi_presets))
+
+    # Split dictionary_entries by first letter of lexeme
+    by_letter_dir = extracted_dir / "by-letter"
+    by_letter_dir.mkdir(exist_ok=True)
+
+    grouped: dict[str, list] = {}
+    for entry in all_entries:
+        lexeme = entry.get("lexeme", "")
+        letter = lexeme[0].lower() if lexeme else "_"
+        grouped.setdefault(letter, []).append(entry)
+
+    for letter, entries in sorted(grouped.items()):
+        letter_path = by_letter_dir / f"{letter}.json"
+        write_atomic(letter_path, {"meta": meta, "dictionary_entries": entries})
+        log.info("Wrote %s (%d entries)", letter_path, len(entries))
+
+    log.info(
+        "Wrote %d by-letter files covering %d total dictionary entries",
+        len(grouped), len(all_entries),
+    )
 
     if args.generate_stubs:
         log.info("--generate-stubs requested (not yet implemented)")

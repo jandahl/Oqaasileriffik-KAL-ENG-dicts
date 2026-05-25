@@ -1,0 +1,700 @@
+{
+  "meta": {
+    "schema_version": "1.0",
+    "generated_at": "2026-05-25T22:16:43.766833+00:00",
+    "license": "CC-BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source_repo": "https://github.com/Oqaasileriffik/dicts",
+    "fork_repo": "https://github.com/jandahl/Oqaasileriffik-KAL-ENG-dicts",
+    "attribution": "Oqaasileriffik (Greenlandic Language Secretariat), 2018 Chicago Kalaallisut–English Dictionary, CC-BY-SA 4.0",
+    "changes": "Subset of entries extracted and reformatted; class_path fields added for KalaalliCut color mapping."
+  },
+  "dictionary_entries": [
+    {
+      "id": "D_PP_2",
+      "lexeme": "diameteri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "diameteri",
+      "gloss_en": "diameter",
+      "source_file": "D.ods",
+      "source_row": 2
+    },
+    {
+      "id": "D_PP_3",
+      "lexeme": "diaavulu",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "diaavulu",
+      "gloss_en": "devil",
+      "source_file": "D.ods",
+      "source_row": 3
+    },
+    {
+      "id": "D_PP_4",
+      "lexeme": "dadleri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "dadleri",
+      "gloss_en": "date",
+      "source_file": "D.ods",
+      "source_row": 4
+    },
+    {
+      "id": "D_PP_5",
+      "lexeme": "danskeq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "danskeq",
+      "gloss_en": "Dane",
+      "source_file": "D.ods",
+      "source_row": 5
+    },
+    {
+      "id": "D_PP_6",
+      "lexeme": "danskisooq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "danskisooq",
+      "gloss_en": "a text in Danish",
+      "source_file": "D.ods",
+      "source_row": 6
+    },
+    {
+      "id": "D_PP_7",
+      "lexeme": "danskisoorpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "danskisoorpoq",
+      "gloss_en": "takes Danish in school",
+      "source_file": "D.ods",
+      "source_row": 7
+    },
+    {
+      "id": "D_PP_8",
+      "lexeme": "danskisoorpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "danskisoorpoq",
+      "gloss_en": "speaks Danish",
+      "source_file": "D.ods",
+      "source_row": 8
+    },
+    {
+      "id": "D_PP_9",
+      "lexeme": "danskisut",
+      "word_class": "",
+      "class_path": [],
+      "stem": "danskisut",
+      "gloss_en": "in Danish",
+      "source_file": "D.ods",
+      "source_row": 9
+    },
+    {
+      "id": "D_PP_10",
+      "lexeme": "danskit oqaasii",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "danskit oqaasii",
+      "gloss_en": "Danish language",
+      "source_file": "D.ods",
+      "source_row": 10
+    },
+    {
+      "id": "D_PP_11",
+      "lexeme": "decembari",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "decembari",
+      "gloss_en": "December",
+      "source_file": "D.ods",
+      "source_row": 11
+    },
+    {
+      "id": "D_PP_12",
+      "lexeme": "deciliteri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "deciliteri",
+      "gloss_en": "deciliter",
+      "source_file": "D.ods",
+      "source_row": 12
+    },
+    {
+      "id": "D_PP_13",
+      "lexeme": "decimalbrøki",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "decimalbrøki",
+      "gloss_en": "decimal fraction",
+      "source_file": "D.ods",
+      "source_row": 13
+    },
+    {
+      "id": "D_PP_14",
+      "lexeme": "decimeteri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "decimeteri",
+      "gloss_en": "decimeter",
+      "source_file": "D.ods",
+      "source_row": 14
+    },
+    {
+      "id": "D_PP_15",
+      "lexeme": "demokratii",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "demokratii",
+      "gloss_en": "democracy",
+      "source_file": "D.ods",
+      "source_row": 15
+    },
+    {
+      "id": "D_PP_16",
+      "lexeme": "departementschefi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "departementschefi",
+      "gloss_en": "person in charge of a department, head, director",
+      "source_file": "D.ods",
+      "source_row": 16
+    },
+    {
+      "id": "D_PP_17",
+      "lexeme": "diagonali",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "diagonali",
+      "gloss_en": "geom. diagonal",
+      "source_file": "D.ods",
+      "source_row": 17
+    },
+    {
+      "id": "D_PP_18",
+      "lexeme": "diagrammi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "diagrammi",
+      "gloss_en": "diagram",
+      "source_file": "D.ods",
+      "source_row": 18
+    },
+    {
+      "id": "D_PP_19",
+      "lexeme": "diakoni",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "diakoni",
+      "gloss_en": "deacon",
+      "source_file": "D.ods",
+      "source_row": 19
+    },
+    {
+      "id": "D_PP_20",
+      "lexeme": "diamanti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "diamanti",
+      "gloss_en": "diamond",
+      "source_file": "D.ods",
+      "source_row": 20
+    },
+    {
+      "id": "D_PP_21",
+      "lexeme": "diamanti aattalik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "diamanti aattalik",
+      "gloss_en": "blood diamond",
+      "source_file": "D.ods",
+      "source_row": 21
+    },
+    {
+      "id": "D_PP_22",
+      "lexeme": "dieselimik ingerlatilik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "dieselimik ingerlatilik",
+      "gloss_en": "diesel engine",
+      "source_file": "D.ods",
+      "source_row": 22
+    },
+    {
+      "id": "D_PP_23",
+      "lexeme": "dieselimik orsulik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "dieselimik orsulik",
+      "gloss_en": "diesel engine",
+      "source_file": "D.ods",
+      "source_row": 23
+    },
+    {
+      "id": "D_PP_24",
+      "lexeme": "dieselitortoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "dieselitortoq",
+      "gloss_en": "diesel engine",
+      "source_file": "D.ods",
+      "source_row": 24
+    },
+    {
+      "id": "D_PP_25",
+      "lexeme": "difteritisi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "difteritisi",
+      "gloss_en": "diphtheria",
+      "source_file": "D.ods",
+      "source_row": 25
+    },
+    {
+      "id": "D_PP_26",
+      "lexeme": "digitalinngortippaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "digitalinngortippaa",
+      "gloss_en": "convert text or picture into a digital form",
+      "source_file": "D.ods",
+      "source_row": 26
+    },
+    {
+      "id": "D_PP_27",
+      "lexeme": "digitalinngortitaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "digitalinngortitaq",
+      "gloss_en": "digitalized",
+      "source_file": "D.ods",
+      "source_row": 27
+    },
+    {
+      "id": "D_PP_28",
+      "lexeme": "digitalinngortitsineq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "digitalinngortitsineq",
+      "gloss_en": "digitization",
+      "source_file": "D.ods",
+      "source_row": 28
+    },
+    {
+      "id": "D_PP_29",
+      "lexeme": "diktati",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "diktati",
+      "gloss_en": "dictation lesson, dictate",
+      "source_file": "D.ods",
+      "source_row": 29
+    },
+    {
+      "id": "D_PP_30",
+      "lexeme": "direktioni",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "direktioni",
+      "gloss_en": "management, management offices",
+      "source_file": "D.ods",
+      "source_row": 30
+    },
+    {
+      "id": "D_PP_31",
+      "lexeme": "direktøri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "direktøri",
+      "gloss_en": "head, director",
+      "source_file": "D.ods",
+      "source_row": 31
+    },
+    {
+      "id": "D_PP_32",
+      "lexeme": "Disko Bugti",
+      "word_class": "taggit atiusoq",
+      "class_path": [
+        "nominal_root",
+        "proper_noun"
+      ],
+      "stem": "Disko Bugti",
+      "gloss_en": "Disko Bay",
+      "source_file": "D.ods",
+      "source_row": 32
+    },
+    {
+      "id": "D_PP_33",
+      "lexeme": "diskosi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "diskosi",
+      "gloss_en": "discus used in track and field sports",
+      "source_file": "D.ods",
+      "source_row": 33
+    },
+    {
+      "id": "D_PP_34",
+      "lexeme": "diskoteki",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "diskoteki",
+      "gloss_en": "discotheque",
+      "source_file": "D.ods",
+      "source_row": 34
+    },
+    {
+      "id": "D_PP_35",
+      "lexeme": "dividende",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "dividende",
+      "gloss_en": "dividend",
+      "source_file": "D.ods",
+      "source_row": 35
+    },
+    {
+      "id": "D_PP_36",
+      "lexeme": "divisioni",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "divisioni",
+      "gloss_en": "division in a sport",
+      "source_file": "D.ods",
+      "source_row": 36
+    },
+    {
+      "id": "D_PP_37",
+      "lexeme": "doblerpaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "doblerpaa",
+      "gloss_en": "bids \"double\" in card games",
+      "source_file": "D.ods",
+      "source_row": 37
+    },
+    {
+      "id": "D_PP_38",
+      "lexeme": "dogmatikki",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "dogmatikki",
+      "gloss_en": "dogmatic",
+      "source_file": "D.ods",
+      "source_row": 38
+    },
+    {
+      "id": "D_PP_39",
+      "lexeme": "doktori",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "doktori",
+      "gloss_en": "doctor, holder of a Ph.D or M.D. degree",
+      "source_file": "D.ods",
+      "source_row": 39
+    },
+    {
+      "id": "D_PP_40",
+      "lexeme": "doktorinngorniut",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "doktorinngorniut",
+      "gloss_en": "doctoral dissertation defense",
+      "source_file": "D.ods",
+      "source_row": 40
+    },
+    {
+      "id": "D_PP_41",
+      "lexeme": "doktorinngorpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "doktorinngorpoq",
+      "gloss_en": "receives a doctorate",
+      "source_file": "D.ods",
+      "source_row": 41
+    },
+    {
+      "id": "D_PP_42",
+      "lexeme": "dollari",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "dollari",
+      "gloss_en": "dollar",
+      "source_file": "D.ods",
+      "source_row": 42
+    },
+    {
+      "id": "D_PP_43",
+      "lexeme": "dommeri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "dommeri",
+      "gloss_en": "referee, umpire, judge",
+      "source_file": "D.ods",
+      "source_row": 43
+    },
+    {
+      "id": "D_PP_44",
+      "lexeme": "domprovsti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "domprovsti",
+      "gloss_en": "dean",
+      "source_file": "D.ods",
+      "source_row": 44
+    },
+    {
+      "id": "D_PP_45",
+      "lexeme": "Dorsetkulturi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "Dorsetkulturi",
+      "gloss_en": "Dorst Culture",
+      "source_file": "D.ods",
+      "source_row": 45
+    },
+    {
+      "id": "D_PP_46",
+      "lexeme": "dr",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "dr",
+      "gloss_en": "abbrev. doctor",
+      "source_file": "D.ods",
+      "source_row": 46
+    },
+    {
+      "id": "D_PP_47",
+      "lexeme": "dronningi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "dronningi",
+      "gloss_en": "queen",
+      "source_file": "D.ods",
+      "source_row": 47
+    },
+    {
+      "id": "D_PP_48",
+      "lexeme": "dumperpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "dumperpoq",
+      "gloss_en": "fails a test or exam",
+      "source_file": "D.ods",
+      "source_row": 48
+    },
+    {
+      "id": "D_PP_49",
+      "lexeme": "dunki",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "dunki",
+      "gloss_en": "plastic or metal screw top container for liquid",
+      "source_file": "D.ods",
+      "source_row": 49
+    },
+    {
+      "id": "D_PP_50",
+      "lexeme": "duplikatori",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "duplikatori",
+      "gloss_en": "copier",
+      "source_file": "D.ods",
+      "source_row": 50
+    },
+    {
+      "id": "D_PP_51",
+      "lexeme": "duplikeererpaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "duplikeererpaa",
+      "gloss_en": "makes a copy of it, copies it",
+      "source_file": "D.ods",
+      "source_row": 51
+    },
+    {
+      "id": "D_PP_52",
+      "lexeme": "dusøri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "dusøri",
+      "gloss_en": "reward for return of lost property",
+      "source_file": "D.ods",
+      "source_row": 52
+    },
+    {
+      "id": "D_PP_53",
+      "lexeme": "dynamo",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "dynamo",
+      "gloss_en": "dynamo",
+      "source_file": "D.ods",
+      "source_row": 53
+    },
+    {
+      "id": "D_PP_54",
+      "lexeme": "døgni",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "døgni",
+      "gloss_en": "period of 24 hours, calendar day",
+      "source_file": "D.ods",
+      "source_row": 54
+    }
+  ]
+}

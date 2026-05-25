@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "schema_version": "1.0",
+    "generated_at": "2026-05-25T22:16:43.766833+00:00",
+    "license": "CC-BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source_repo": "https://github.com/Oqaasileriffik/dicts",
+    "fork_repo": "https://github.com/jandahl/Oqaasileriffik-KAL-ENG-dicts",
+    "attribution": "Oqaasileriffik (Greenlandic Language Secretariat), 2018 Chicago Kalaallisut–English Dictionary, CC-BY-SA 4.0",
+    "changes": "Subset of entries extracted and reformatted; class_path fields added for KalaalliCut color mapping."
+  },
+  "dictionary_entries": [
+    {
+      "id": "Z AE OE AA_ZÆØÅ_12",
+      "lexeme": "økologi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "økologi",
+      "gloss_en": "ecologist",
+      "source_file": "Z AE OE AA.ods",
+      "source_row": 12
+    },
+    {
+      "id": "Z AE OE AA_ZÆØÅ_13",
+      "lexeme": "økologii",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "økologii",
+      "gloss_en": "ecology",
+      "source_file": "Z AE OE AA.ods",
+      "source_row": 13
+    },
+    {
+      "id": "Z AE OE AA_ZÆØÅ_14",
+      "lexeme": "økonoma",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "økonoma",
+      "gloss_en": "nutritionist in an institution",
+      "source_file": "Z AE OE AA.ods",
+      "source_row": 14
+    },
+    {
+      "id": "Z AE OE AA_ZÆØÅ_15",
+      "lexeme": "øre",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "øre",
+      "gloss_en": "øre (one hundredth of a Danish crob)",
+      "source_file": "Z AE OE AA.ods",
+      "source_row": 15
+    },
+    {
+      "id": "Z AE OE AA_ZÆØÅ_16",
+      "lexeme": "østersi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "østersi",
+      "gloss_en": "oyster",
+      "source_file": "Z AE OE AA.ods",
+      "source_row": 16
+    }
+  ]
+}

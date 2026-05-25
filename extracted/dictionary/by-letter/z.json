@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "schema_version": "1.0",
+    "generated_at": "2026-05-25T22:16:43.766833+00:00",
+    "license": "CC-BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source_repo": "https://github.com/Oqaasileriffik/dicts",
+    "fork_repo": "https://github.com/jandahl/Oqaasileriffik-KAL-ENG-dicts",
+    "attribution": "Oqaasileriffik (Greenlandic Language Secretariat), 2018 Chicago Kalaallisut–English Dictionary, CC-BY-SA 4.0",
+    "changes": "Subset of entries extracted and reformatted; class_path fields added for KalaalliCut color mapping."
+  },
+  "dictionary_entries": [
+    {
+      "id": "Z AE OE AA_ZÆØÅ_2",
+      "lexeme": "zebra",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "zebra",
+      "gloss_en": "zebra",
+      "source_file": "Z AE OE AA.ods",
+      "source_row": 2
+    },
+    {
+      "id": "Z AE OE AA_ZÆØÅ_3",
+      "lexeme": "zigzagi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "zigzagi",
+      "gloss_en": "zigzag",
+      "source_file": "Z AE OE AA.ods",
+      "source_row": 3
+    },
+    {
+      "id": "Z AE OE AA_ZÆØÅ_4",
+      "lexeme": "zinki",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "zinki",
+      "gloss_en": "zink",
+      "source_file": "Z AE OE AA.ods",
+      "source_row": 4
+    },
+    {
+      "id": "Z AE OE AA_ZÆØÅ_5",
+      "lexeme": "zoologi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "zoologi",
+      "gloss_en": "zoologist",
+      "source_file": "Z AE OE AA.ods",
+      "source_row": 5
+    },
+    {
+      "id": "Z AE OE AA_ZÆØÅ_6",
+      "lexeme": "zoologii",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "zoologii",
+      "gloss_en": "zoology",
+      "source_file": "Z AE OE AA.ods",
+      "source_row": 6
+    }
+  ]
+}
