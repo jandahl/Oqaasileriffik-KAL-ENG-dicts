@@ -11,6 +11,7 @@ Example: {"dream": ["s"], "sleep": ["s", "u"], "walk": ["a", "p"]}
 """
 
 import json
+import os
 import re
 from pathlib import Path
 from collections import defaultdict
@@ -25,14 +26,12 @@ STOPWORDS = {
 }
 
 def tokenize_gloss(gloss: str) -> set[str]:
-    """
-    Tokenize a gloss string into significant English keywords.
-    - lowercase
-    - split on non-alphanumeric
-    - skip tokens < 3 chars
-    - skip stopwords
-    """
-    tokens = re.findall(r'\b\w{3,}\b', gloss.lower())
+    # Strip contractions/possessives before splitting to avoid false matches
+    # ("don't" → "do", "person's" → "person"), then extract only alpha tokens.
+    text = gloss.lower()
+    text = re.sub(r"n['’]t\b", "", text)
+    text = re.sub(r"['’]s\b", "", text)
+    tokens = re.findall(r'\b[a-z]{3,}\b', text)
     return {t for t in tokens if t not in STOPWORDS}
 
 def build_gloss_index(by_letter_dir: Path, output_file: Path) -> None:
@@ -58,7 +57,10 @@ def build_gloss_index(by_letter_dir: Path, output_file: Path) -> None:
         keyword_count = 0
 
         for entry in entries:
-            gloss_en = entry.get("gloss_en", "").strip()
+            gloss_en = entry.get("gloss_en")
+            if not isinstance(gloss_en, str):
+                continue
+            gloss_en = gloss_en.strip()
             if not gloss_en:
                 continue
 
@@ -73,8 +75,10 @@ def build_gloss_index(by_letter_dir: Path, output_file: Path) -> None:
 
     output_dict = {kw: sorted(letters) for kw, letters in sorted(index.items())}
 
-    with open(output_file, "w", encoding="utf-8") as f:
+    tmp = output_file.with_suffix(".tmp")
+    with open(tmp, "w", encoding="utf-8") as f:
         json.dump(output_dict, f, ensure_ascii=False, separators=(",", ":"))
+    os.replace(tmp, output_file)
 
     print(f"Wrote {output_file}")
 
