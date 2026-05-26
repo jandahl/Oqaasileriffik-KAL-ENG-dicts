@@ -1,0 +1,92 @@
+#!/usr/bin/env python3
+"""
+Build an inverted index of English keywords to Kalaallisut starting letters.
+
+Reads all by-letter/*.json files, tokenizes gloss_en fields, and writes
+gloss_index.json mapping each significant English keyword to the set of
+Kalaallisut starting letters where that keyword appears.
+
+Output: extracted/dictionary/gloss_index.json
+Example: {"dream": ["s"], "sleep": ["s", "u"], "walk": ["a", "p"]}
+"""
+
+import json
+import os
+import re
+from pathlib import Path
+from collections import defaultdict
+
+STOPWORDS = {
+    "a", "an", "the", "and", "or", "to", "of", "in", "is", "be", "i", "it",
+    "at", "on", "as", "by", "do", "go", "my", "we", "he", "she", "they",
+    "this", "that", "with", "for", "not", "no", "so", "but", "are", "was",
+    "were", "been", "have", "has", "had", "your", "their", "what", "which",
+    "who", "when", "where", "why", "how", "all", "each", "every", "both",
+    "either", "neither", "some", "any", "many", "much", "few", "more", "most",
+}
+
+def tokenize_gloss(gloss: str) -> set[str]:
+    # Strip contractions/possessives before splitting to avoid false matches
+    # ("don't" → "do", "person's" → "person"), then extract only alpha tokens.
+    text = gloss.lower()
+    text = re.sub(r"n['’]t\b", "", text)
+    text = re.sub(r"['’]s\b", "", text)
+    tokens = re.findall(r'\b[a-z]{3,}\b', text)
+    return {t for t in tokens if t not in STOPWORDS}
+
+def build_gloss_index(by_letter_dir: Path, output_file: Path) -> None:
+    """
+    Build the gloss index from all by-letter JSON files.
+    """
+    index = defaultdict(set)
+
+    by_letter_dir = Path(by_letter_dir)
+    json_files = sorted(by_letter_dir.glob("*.json"))
+
+    if not json_files:
+        raise FileNotFoundError(f"No .json files found in {by_letter_dir}")
+
+    for json_file in json_files:
+        letter = json_file.stem
+        print(f"Processing {letter}.json...", end=" ")
+
+        with open(json_file, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        entries = data.get("dictionary_entries", [])
+        keyword_count = 0
+
+        for entry in entries:
+            gloss_en = entry.get("gloss_en")
+            if not isinstance(gloss_en, str):
+                continue
+            gloss_en = gloss_en.strip()
+            if not gloss_en:
+                continue
+
+            keywords = tokenize_gloss(gloss_en)
+            for kw in keywords:
+                index[kw].add(letter)
+                keyword_count += 1
+
+        print(f"{len(entries)} entries, {keyword_count} keywords indexed")
+
+    print(f"\nTotal unique keywords: {len(index)}")
+
+    output_dict = {kw: sorted(letters) for kw, letters in sorted(index.items())}
+
+    tmp = output_file.with_suffix(".tmp")
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(output_dict, f, ensure_ascii=False, separators=(",", ":"))
+    os.replace(tmp, output_file)
+
+    print(f"Wrote {output_file}")
+
+if __name__ == "__main__":
+    by_letter_dir = Path(__file__).parent.parent / "extracted" / "dictionary" / "by-letter"
+    output_file = Path(__file__).parent.parent / "extracted" / "dictionary" / "gloss_index.json"
+
+    if not by_letter_dir.exists():
+        raise FileNotFoundError(f"Directory not found: {by_letter_dir}")
+
+    build_gloss_index(by_letter_dir, output_file)
