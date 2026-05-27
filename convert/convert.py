@@ -251,13 +251,13 @@ def main() -> None:
     }
 
     all_entries: list[dict] = []
-    any_parsed = False
+    script_mtime = Path(__file__).stat().st_mtime
 
     for ods_path in ods_paths:
         cache_path = cache_dir / f"{ods_path.stem}.json"
         ods_mtime = ods_path.stat().st_mtime
 
-        if cache_path.exists() and cache_path.stat().st_mtime >= ods_mtime:
+        if cache_path.exists() and cache_path.stat().st_mtime >= max(ods_mtime, script_mtime):
             try:
                 log.info("Skipping %s (cache up to date)", ods_path.name)
                 all_entries.extend(json.loads(cache_path.read_text(encoding='utf-8')))
@@ -298,27 +298,21 @@ def main() -> None:
         letter = lexeme[0].lower() if lexeme else "_"
         grouped.setdefault(letter, []).append(entry)
 
-    outputs_exist = (
-        all_entries_path.exists()
-        and gloss_index_path.exists()
-        and all((by_letter_dir / f"{l}.json").exists() for l in grouped)
-    )
+    # Always write outputs — code changes to convert.py or build_gloss_index.py
+    # must be reflected even when ODS files are unchanged. Deterministic
+    # generated_at means unchanged sources produce identical JSON (clean git diff).
+    for letter, entries in sorted(grouped.items()):
+        letter_path = by_letter_dir / f"{letter}.json"
+        write_atomic(letter_path, {"meta": meta, "dictionary_entries": entries})
+        log.info("Wrote %s (%d entries)", letter_path, len(entries))
 
-    if not any_parsed and outputs_exist:
-        log.info("All outputs up to date — nothing to rebuild")
-    else:
-        for letter, entries in sorted(grouped.items()):
-            letter_path = by_letter_dir / f"{letter}.json"
-            write_atomic(letter_path, {"meta": meta, "dictionary_entries": entries})
-            log.info("Wrote %s (%d entries)", letter_path, len(entries))
+    log.info("Wrote %d by-letter files", len(grouped))
 
-        log.info("Wrote %d by-letter files", len(grouped))
+    write_atomic(all_entries_path, {"meta": meta, "dictionary_entries": all_entries})
+    log.info("Wrote %s (%d total entries)", all_entries_path, len(all_entries))
 
-        write_atomic(all_entries_path, {"meta": meta, "dictionary_entries": all_entries})
-        log.info("Wrote %s (%d total entries)", all_entries_path, len(all_entries))
-
-        build_gloss_index(by_letter_dir, gloss_index_path)
-        log.info("Wrote %s", gloss_index_path)
+    build_gloss_index(by_letter_dir, gloss_index_path)
+    log.info("Wrote %s", gloss_index_path)
 
     if args.generate_stubs:
         log.info("--generate-stubs requested (not yet implemented)")
