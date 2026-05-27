@@ -272,8 +272,7 @@ def main() -> None:
 
         tmp = cache_path.with_suffix('.tmp')
         tmp.write_text(json.dumps(entries, ensure_ascii=False), encoding='utf-8')
-        os.replace(tmp, cache_path)
-        any_parsed = True
+        tmp.replace(cache_path)
 
     log.info("Total dictionary_entries: %d", len(all_entries))
 
@@ -298,9 +297,11 @@ def main() -> None:
         letter = lexeme[0].lower() if lexeme else "_"
         grouped.setdefault(letter, []).append(entry)
 
-    # Always write outputs — code changes to convert.py or build_gloss_index.py
-    # must be reflected even when ODS files are unchanged. Deterministic
-    # generated_at means unchanged sources produce identical JSON (clean git diff).
+    # Purge stale letter files before writing so a letter that disappears
+    # from the source (e.g. after upstream ODS changes) doesn't linger.
+    for f in by_letter_dir.glob("*.json"):
+        f.unlink()
+
     for letter, entries in sorted(grouped.items()):
         letter_path = by_letter_dir / f"{letter}.json"
         write_atomic(letter_path, {"meta": meta, "dictionary_entries": entries})
