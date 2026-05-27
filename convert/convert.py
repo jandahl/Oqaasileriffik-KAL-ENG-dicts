@@ -224,22 +224,22 @@ def main() -> None:
     log.info("Starting ODS conversion pipeline")
 
     extracted_dir.mkdir(exist_ok=True)
+    by_letter_dir = extracted_dir / "by-letter"
+    by_letter_dir.mkdir(exist_ok=True)
 
-    all_entries: list[dict] = []
-    for ods_path in sorted(ods_dir.glob("*.ods")):
-        log.info("Parsing %s ...", ods_path.name)
-        entries = parse_ods_file(ods_path, COLUMN_MAP)
-        all_entries.extend(entries)
-        log.info("  -> %d entries", len(entries))
+    # Per-ODS parse cache (gitignored). Each file stores the raw entries list
+    # for one ODS file; avoids re-parsing unchanged sources.
+    cache_dir = extracted_dir / ".cache"
+    cache_dir.mkdir(exist_ok=True)
 
-    log.info("Total dictionary_entries: %d", len(all_entries))
+    ods_paths = sorted(ods_dir.glob("*.ods"))
+    max_ods_mtime = max(p.stat().st_mtime for p in ods_paths)
 
-    sandhi_presets = load_authored_presets(authored_path)
-    log.info("Loaded %d hand-authored sandhi presets", len(sandhi_presets))
-
+    # generated_at is derived from source mtimes so re-running on unchanged
+    # files produces byte-identical JSON and a clean git diff.
     meta = {
         "schema_version": "1.0",
-        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "generated_at": datetime.fromtimestamp(max_ods_mtime, tz=timezone.utc).isoformat(),
         "license": "CC-BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "source_repo": "https://github.com/Oqaasileriffik/dicts",
@@ -248,44 +248,71 @@ def main() -> None:
         "changes": "Subset of entries extracted and reformatted; class_path fields added for KalaalliCut color mapping.",
     }
 
-    # Validate the full bundle before splitting
+    all_entries: list[dict] = []
+    any_parsed = False
+
+    for ods_path in ods_paths:
+        cache_path = cache_dir / f"{ods_path.stem}.json"
+        ods_mtime = ods_path.stat().st_mtime
+
+        if cache_path.exists() and cache_path.stat().st_mtime >= ods_mtime:
+            log.info("Skipping %s (cache up to date)", ods_path.name)
+            all_entries.extend(json.loads(cache_path.read_text(encoding='utf-8')))
+            continue
+
+        log.info("Parsing %s ...", ods_path.name)
+        entries = parse_ods_file(ods_path, COLUMN_MAP)
+        log.info("  -> %d entries", len(entries))
+        all_entries.extend(entries)
+
+        tmp = cache_path.with_suffix('.tmp')
+        tmp.write_text(json.dumps(entries, ensure_ascii=False), encoding='utf-8')
+        os.replace(tmp, cache_path)
+        any_parsed = True
+
+    log.info("Total dictionary_entries: %d", len(all_entries))
+
+    sandhi_presets = load_authored_presets(authored_path)
+    log.info("Loaded %d hand-authored sandhi presets", len(sandhi_presets))
+
     validate_output(
         {"meta": meta, "sandhi_presets": sandhi_presets, "dictionary_entries": all_entries},
         schema_path,
     )
 
-    # Root presets.json holds only sandhi_presets; dictionary_entries live in by-letter/
     presets_path = extracted_dir / "presets.json"
     write_atomic(presets_path, {"meta": meta, "sandhi_presets": sandhi_presets})
     log.info("Wrote %s (%d sandhi presets)", presets_path, len(sandhi_presets))
 
-    # Split dictionary_entries by first letter of lexeme
-    by_letter_dir = extracted_dir / "by-letter"
-    by_letter_dir.mkdir(exist_ok=True)
-
-    grouped: dict[str, list] = {}
-    for entry in all_entries:
-        lexeme = entry.get("lexeme", "")
-        letter = lexeme[0].lower() if lexeme else "_"
-        grouped.setdefault(letter, []).append(entry)
-
-    for letter, entries in sorted(grouped.items()):
-        letter_path = by_letter_dir / f"{letter}.json"
-        write_atomic(letter_path, {"meta": meta, "dictionary_entries": entries})
-        log.info("Wrote %s (%d entries)", letter_path, len(entries))
-
-    log.info(
-        "Wrote %d by-letter files covering %d total dictionary entries",
-        len(grouped), len(all_entries),
+    all_entries_path = extracted_dir / "all_entries.json"
+    gloss_index_path = extracted_dir / "gloss_index.json"
+    outputs_exist = (
+        all_entries_path.exists()
+        and gloss_index_path.exists()
+        and any(by_letter_dir.glob("*.json"))
     )
 
-    all_entries_path = extracted_dir / "all_entries.json"
-    write_atomic(all_entries_path, {"meta": meta, "dictionary_entries": all_entries})
-    log.info("Wrote %s (%d total entries)", all_entries_path, len(all_entries))
+    if not any_parsed and outputs_exist:
+        log.info("All outputs up to date — nothing to rebuild")
+    else:
+        grouped: dict[str, list] = {}
+        for entry in all_entries:
+            lexeme = entry.get("lexeme", "")
+            letter = lexeme[0].lower() if lexeme else "_"
+            grouped.setdefault(letter, []).append(entry)
 
-    gloss_index_path = extracted_dir / "gloss_index.json"
-    build_gloss_index(by_letter_dir, gloss_index_path)
-    log.info("Wrote %s", gloss_index_path)
+        for letter, entries in sorted(grouped.items()):
+            letter_path = by_letter_dir / f"{letter}.json"
+            write_atomic(letter_path, {"meta": meta, "dictionary_entries": entries})
+            log.info("Wrote %s (%d entries)", letter_path, len(entries))
+
+        log.info("Wrote %d by-letter files", len(grouped))
+
+        write_atomic(all_entries_path, {"meta": meta, "dictionary_entries": all_entries})
+        log.info("Wrote %s (%d total entries)", all_entries_path, len(all_entries))
+
+        build_gloss_index(by_letter_dir, gloss_index_path)
+        log.info("Wrote %s", gloss_index_path)
 
     if args.generate_stubs:
         log.info("--generate-stubs requested (not yet implemented)")
