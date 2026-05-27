@@ -292,7 +292,8 @@ def main() -> None:
     grouped: dict[str, list] = {}
     for entry in all_entries:
         lexeme = entry.get("lexeme") or ""
-        letter = lexeme[0].lower() if lexeme else "_"
+        first_char = lexeme[0] if lexeme else ""
+        letter = first_char.lower() if first_char.isalnum() else "_"
         grouped.setdefault(letter, []).append(entry)
 
     written: set[str] = set()
