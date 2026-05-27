@@ -293,19 +293,22 @@ def main() -> None:
 
     grouped: dict[str, list] = {}
     for entry in all_entries:
-        lexeme = entry.get("lexeme", "")
+        lexeme = entry.get("lexeme") or ""
         letter = lexeme[0].lower() if lexeme else "_"
         grouped.setdefault(letter, []).append(entry)
 
-    # Purge stale letter files before writing so a letter that disappears
-    # from the source (e.g. after upstream ODS changes) doesn't linger.
-    for f in by_letter_dir.glob("*.json"):
-        f.unlink()
-
+    written: set[str] = set()
     for letter, entries in sorted(grouped.items()):
         letter_path = by_letter_dir / f"{letter}.json"
         write_atomic(letter_path, {"meta": meta, "dictionary_entries": entries})
         log.info("Wrote %s (%d entries)", letter_path, len(entries))
+        written.add(letter_path.name)
+
+    # Remove any letter files from previous runs not produced this time.
+    for f in by_letter_dir.glob("*.json"):
+        if f.name not in written:
+            f.unlink()
+            log.info("Removed stale %s", f.name)
 
     log.info("Wrote %d by-letter files", len(grouped))
 
