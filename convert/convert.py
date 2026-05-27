@@ -184,9 +184,9 @@ def validate_output(data: dict, schema_path: Path) -> None:
     log.info("Schema validation passed")
 
 
-def write_atomic(path: Path, data: dict) -> None:
+def write_atomic(path: Path, data, indent: int | None = 2) -> None:
     tmp = path.with_suffix('.tmp')
-    tmp.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding='utf-8')
+    tmp.write_text(json.dumps(data, ensure_ascii=False, indent=indent), encoding='utf-8')
     os.replace(tmp, path)
 
 
@@ -270,9 +270,7 @@ def main() -> None:
         log.info("  -> %d entries", len(entries))
         all_entries.extend(entries)
 
-        tmp = cache_path.with_suffix('.tmp')
-        tmp.write_text(json.dumps(entries, ensure_ascii=False), encoding='utf-8')
-        tmp.replace(cache_path)
+        write_atomic(cache_path, entries, indent=None)
 
     log.info("Total dictionary_entries: %d", len(all_entries))
 
