@@ -186,8 +186,11 @@ def validate_output(data: dict, schema_path: Path) -> None:
 
 def write_atomic(path: Path, data, indent: int | None = 2) -> None:
     tmp = path.with_suffix('.tmp')
-    tmp.write_text(json.dumps(data, ensure_ascii=False, indent=indent), encoding='utf-8')
-    os.replace(tmp, path)
+    try:
+        tmp.write_text(json.dumps(data, ensure_ascii=False, indent=indent), encoding='utf-8')
+        os.replace(tmp, path)
+    finally:
+        tmp.unlink(missing_ok=True)
 
 
 def main() -> None:
