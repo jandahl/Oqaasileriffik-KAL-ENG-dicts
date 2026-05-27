@@ -233,6 +233,8 @@ def main() -> None:
     cache_dir.mkdir(exist_ok=True)
 
     ods_paths = sorted(ods_dir.glob("*.ods"))
+    if not ods_paths:
+        raise FileNotFoundError(f"No ODS files found in {ods_dir}")
     max_ods_mtime = max(p.stat().st_mtime for p in ods_paths)
 
     # generated_at is derived from source mtimes so re-running on unchanged
@@ -256,9 +258,12 @@ def main() -> None:
         ods_mtime = ods_path.stat().st_mtime
 
         if cache_path.exists() and cache_path.stat().st_mtime >= ods_mtime:
-            log.info("Skipping %s (cache up to date)", ods_path.name)
-            all_entries.extend(json.loads(cache_path.read_text(encoding='utf-8')))
-            continue
+            try:
+                log.info("Skipping %s (cache up to date)", ods_path.name)
+                all_entries.extend(json.loads(cache_path.read_text(encoding='utf-8')))
+                continue
+            except (json.JSONDecodeError, OSError) as e:
+                log.warning("Cache read failed for %s (%s), re-parsing", ods_path.name, e)
 
         log.info("Parsing %s ...", ods_path.name)
         entries = parse_ods_file(ods_path, COLUMN_MAP)
@@ -286,21 +291,22 @@ def main() -> None:
 
     all_entries_path = extracted_dir / "all_entries.json"
     gloss_index_path = extracted_dir / "gloss_index.json"
+
+    grouped: dict[str, list] = {}
+    for entry in all_entries:
+        lexeme = entry.get("lexeme", "")
+        letter = lexeme[0].lower() if lexeme else "_"
+        grouped.setdefault(letter, []).append(entry)
+
     outputs_exist = (
         all_entries_path.exists()
         and gloss_index_path.exists()
-        and any(by_letter_dir.glob("*.json"))
+        and all((by_letter_dir / f"{l}.json").exists() for l in grouped)
     )
 
     if not any_parsed and outputs_exist:
         log.info("All outputs up to date — nothing to rebuild")
     else:
-        grouped: dict[str, list] = {}
-        for entry in all_entries:
-            lexeme = entry.get("lexeme", "")
-            letter = lexeme[0].lower() if lexeme else "_"
-            grouped.setdefault(letter, []).append(entry)
-
         for letter, entries in sorted(grouped.items()):
             letter_path = by_letter_dir / f"{letter}.json"
             write_atomic(letter_path, {"meta": meta, "dictionary_entries": entries})
