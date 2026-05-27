@@ -4,26 +4,31 @@ Fork of [Oqaasileriffik/dicts](https://github.com/Oqaasileriffik/dicts), the
 Greenlandic Language Secretariat's 2018 Chicago Kalaallisut–English dictionary.
 
 This fork adds a conversion pipeline (`convert/`) that extracts lexical data from
-the source ODS files and produces `extracted/presets.json`, consumed at runtime by
-[jandahl/KalaalliCut](https://github.com/jandahl/KalaalliCut) to populate its
-sandhi demo preset cards with real dictionary entries and word-class colors.
+the source ODS files and produces structured JSON consumed by
+[jandahl/KalaalliCut](https://github.com/jandahl/KalaalliCut).
 
 ---
 
 ## Directory layout
 
 ```
-2018 Chicago/           # upstream source — never modify
-LICENSE.txt             # upstream CC-BY-SA 4.0 — never modify
+2018 Chicago/               # upstream source — never modify
+LICENSE.txt                 # upstream CC-BY-SA 4.0 — never modify
 convert/
-  convert.py            # ODS → JSON pipeline script
-  requirements.txt      # pinned: odfpy, jsonschema
-  authored_presets.json # hand-curated sandhi examples (always come first)
-  schema.json           # JSON Schema for extracted/presets.json
-  COLUMN_MAP_NOTES.md   # documents what each mapped column contains
+  convert.py                # ODS → JSON pipeline (runs the full pipeline)
+  build_gloss_index.py      # inverted EN keyword index (called by convert.py)
+  requirements.txt          # pinned: odfpy, jsonschema
+  authored_presets.json     # hand-curated sandhi examples
+  schema.json               # JSON Schema for full data bundle validation
+  COLUMN_MAP_NOTES.md       # documents what each mapped column contains
 extracted/
-  presets.json          # generated output — committed after every run
-  LICENSE               # CC-BY-SA 4.0 derived-work notice
+  dictionary/
+    presets.json            # {meta, sandhi_presets} — committed after every run
+    all_entries.json        # {meta, dictionary_entries} — all entries in one file
+    gloss_index.json        # inverted EN keyword → [starting letters] index
+    by-letter/
+      a.json … z.json       # {meta, dictionary_entries} split by first letter
+    LICENSE                 # CC-BY-SA 4.0 derived-work notice
 ```
 
 ---
@@ -49,43 +54,71 @@ python convert/convert.py --inspect "2018 Chicago/A.ods"
 Prints every column header for every sheet and exits. Compare with
 `convert/COLUMN_MAP_NOTES.md` to verify the mapping is still valid.
 
-### 3. Run the conversion
+### 3. Run the full pipeline
 
 ```bash
 python convert/convert.py
 ```
 
-Processes every `*.ods` file in `2018 Chicago/`, validates the output against
-`convert/schema.json`, and writes `extracted/presets.json` atomically.
+This single command:
+
+1. Parses every `*.ods` file in `2018 Chicago/`
+2. Validates the full data bundle against `convert/schema.json`
+3. Writes `extracted/dictionary/presets.json` — `{meta, sandhi_presets}`
+4. Writes `extracted/dictionary/all_entries.json` — `{meta, dictionary_entries}` (all entries)
+5. Writes `extracted/dictionary/by-letter/*.json` — entries split by first letter of lexeme
+6. Builds `extracted/dictionary/gloss_index.json` — inverted EN keyword → starting-letter index
+
 Non-zero exit on any error.
 
-### 4. Commit script and output together
+### 4. Commit scripts and output together
 
 ```bash
-git add convert/ extracted/dictionary/presets.json
+git add convert/ extracted/dictionary/
 git commit -m "feat(convert): ..."
 git push
 ```
 
-`convert/` changes and `extracted/presets.json` must always be in the same commit.
+All `convert/` changes and generated output files must always be in the same commit.
 
 ---
 
-## Output schema
+## Output files
 
-`extracted/presets.json` is a single JSON object:
+### `presets.json`
+
+Sandhi presets only — small file loaded on every KalaalliCut page load.
 
 ```json
 {
-  "meta": {
-    "schema_version": "1.0",
-    "generated_at": "<ISO-8601-UTC>",
-    "license": "CC-BY-SA 4.0",
-    "attribution": "Oqaasileriffik (Greenlandic Language Secretariat), ..."
-  },
-  "sandhi_presets": [ ... ],   // hand-authored examples first, then any generated
+  "meta": { "schema_version": "1.0", "generated_at": "<ISO-8601-UTC>", ... },
+  "sandhi_presets": [ ... ]
+}
+```
+
+### `all_entries.json`
+
+Full dictionary — use when you need all entries without issuing per-letter requests.
+
+```json
+{
+  "meta": { ... },
   "dictionary_entries": [ ... ]
 }
+```
+
+### `by-letter/{letter}.json`
+
+One file per starting letter of lexeme. Same `{meta, dictionary_entries}` shape as
+`all_entries.json`. Use for lazy/partial loading.
+
+### `gloss_index.json`
+
+Inverted index of English keywords → sorted list of Kalaallisut starting letters.
+Compact minified JSON (~291 KB uncompressed).
+
+```json
+{ "dream": ["s"], "sleep": ["a", "i", "s", "t", "u"], ... }
 ```
 
 Each `dictionary_entries` item has at minimum:
@@ -95,16 +128,17 @@ Full schema in `convert/schema.json`.
 
 ---
 
-## How KalaalliCut consumes this file
+## GH Pages URLs
 
-`presets.json` is published via GitHub Pages on every push to `main`:
+All output files are published on every push to `main` that changes anything under
+`extracted/dictionary/`:
 
 ```
 https://jandahl.github.io/Oqaasileriffik-KAL-ENG-dicts/presets.json
+https://jandahl.github.io/Oqaasileriffik-KAL-ENG-dicts/all_entries.json
+https://jandahl.github.io/Oqaasileriffik-KAL-ENG-dicts/gloss_index.json
+https://jandahl.github.io/Oqaasileriffik-KAL-ENG-dicts/by-letter/a.json
 ```
-
-**Do not split `extracted/dictionary/presets.json` into multiple files** — KalaalliCut
-expects a single monolithic JSON document.
 
 ---
 
@@ -118,8 +152,8 @@ Required attribution text (must appear in any derivative work):
 > Oqaasileriffik (Greenlandic Language Secretariat), 2018 Chicago
 > Kalaallisut–English Dictionary, CC-BY-SA 4.0
 
-**ShareAlike** means any derivative work — including `extracted/presets.json` and
-any downstream product that incorporates it (such as KalaalliCut) — must be
+**ShareAlike** means any derivative work — including the generated JSON files and
+any downstream product that incorporates them (such as KalaalliCut) — must be
 released under CC-BY-SA 4.0 or a compatible license.
 
 ---
@@ -133,4 +167,4 @@ git merge upstream/main
 ```
 
 After merging, re-run `--inspect` to confirm column layout is unchanged, then
-rerun the conversion and commit the updated output.
+rerun the pipeline and commit the updated output.

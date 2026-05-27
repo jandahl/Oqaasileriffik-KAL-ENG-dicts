@@ -6,6 +6,8 @@ from pathlib import Path
 from datetime import datetime, timezone
 import argparse
 
+from build_gloss_index import build_gloss_index
+
 from odf.opendocument import load
 from odf.table import Table, TableRow, TableCell
 from odf.text import P
@@ -276,6 +278,14 @@ def main() -> None:
         "Wrote %d by-letter files covering %d total dictionary entries",
         len(grouped), len(all_entries),
     )
+
+    all_entries_path = extracted_dir / "all_entries.json"
+    write_atomic(all_entries_path, {"meta": meta, "dictionary_entries": all_entries})
+    log.info("Wrote %s (%d total entries)", all_entries_path, len(all_entries))
+
+    gloss_index_path = extracted_dir / "gloss_index.json"
+    build_gloss_index(by_letter_dir, gloss_index_path)
+    log.info("Wrote %s", gloss_index_path)
 
     if args.generate_stubs:
         log.info("--generate-stubs requested (not yet implemented)")
