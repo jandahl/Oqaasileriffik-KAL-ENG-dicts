@@ -35,7 +35,7 @@ def tokenize_gloss(gloss: str) -> set[str]:
     text = re.sub(r"n['’]t\b", "", text)
     text = re.sub(r"['’]s\b", "", text)
     # Normalize unicode characters to strip diacritics (e.g., cliché -> cliche)
-    text = "".join(c for c in unicodedata.normalize('NFKD', text) if not unicodedata.combining(c))
+    text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('ascii')
     tokens = re.findall(r'\b[a-z]{3,}\b', text)
     return {t for t in tokens if t not in STOPWORDS}
 
@@ -53,6 +53,8 @@ def build_gloss_index(by_letter_dir: Path, output_file: Path) -> None:
 
     for json_file in json_files:
         letter = json_file.stem
+        if len(letter) != 1 and letter != "_":
+            continue
         print(f"Processing {letter}.json...", end=" ")
 
         with open(json_file, "r", encoding="utf-8") as f:
@@ -60,12 +62,12 @@ def build_gloss_index(by_letter_dir: Path, output_file: Path) -> None:
 
         entries = data.get("dictionary_entries", [])
         if not isinstance(entries, list):
-            continue
+            raise ValueError(f"Expected 'dictionary_entries' to be a list in {json_file.name}")
         keyword_count = 0
 
         for entry in entries:
             if not isinstance(entry, dict):
-                continue
+                raise ValueError(f"Expected entry to be a dict in {json_file.name}")
             gloss_en = entry.get("gloss_en")
             if not isinstance(gloss_en, str):
                 continue
