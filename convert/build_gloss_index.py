@@ -42,8 +42,7 @@ def tokenize_gloss(gloss: str) -> set[str]:
     text = re.sub(r"n['’]t\b", "", text)
     text = re.sub(r"['’]s\b", "", text)
     # Replace common ligatures/special characters to avoid losing them or corrupting words
-    for char, repl in LIGATURE_REPLACEMENTS.items():
-        text = text.replace(char, repl)
+    text = text.translate(str.maketrans(LIGATURE_REPLACEMENTS))
     # Normalize unicode characters to strip diacritics (e.g., cliché -> cliche)
     text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('ascii')
     tokens = re.findall(r'\b[a-z]{3,}\b', text)
