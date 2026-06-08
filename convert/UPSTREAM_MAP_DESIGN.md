@@ -18,9 +18,9 @@ Every upstream pipeline must generate a JSON file containing the extracted data 
     {
       "source_id": "unique identifier within the upstream",
       "raw_data": {
-        // Source-specific fields mapped exactly as they are.
-        // E.g., for KAL-ENG-dicts: lexeme, word_class, gloss_en
-        // For katersat: lex_lexeme, lex_valence, lex_sandhi, fst_ana, etc.
+        "lexeme": "example_lexeme",
+        "word_class": "example_class",
+        "gloss_en": "example_gloss"
       }
     }
   ]

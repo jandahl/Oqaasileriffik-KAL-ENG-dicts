@@ -63,7 +63,7 @@ def build_gloss_index(by_letter_dir: Path, output_file: Path) -> None:
 
     for json_file in json_files:
         letter = json_file.stem
-        if len(letter) != 1 or not (letter.isalpha() or letter == "_"):
+        if len(letter) != 1 or not (letter.isalnum() or letter == "_"):
             continue
         print(f"Processing {letter}.json...", end=" ")
 
