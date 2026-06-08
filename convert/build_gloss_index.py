@@ -24,16 +24,16 @@ STOPWORDS = {
     "were", "been", "have", "has", "had", "your", "their", "what", "which",
     "who", "when", "where", "why", "how", "all", "each", "every", "both",
     "either", "neither", "some", "any", "many", "much", "few", "more", "most",
-    "you", "me", "him", "her", "us", "them", "his", "its", "our", "can",
+    "you", "him", "her", "them", "his", "its", "our", "can",
     "will", "would", "should", "could", "may", "might", "must",
 }
 
-LIGATURE_REPLACEMENTS = {
+LIGATURE_TRANSLATION = str.maketrans({
     "æ": "ae",
     "ø": "o",
     "å": "a",
     "œ": "oe"
-}
+})
 
 def tokenize_gloss(gloss: str) -> set[str]:
     # Strip contractions/possessives before splitting to avoid false matches
@@ -42,7 +42,7 @@ def tokenize_gloss(gloss: str) -> set[str]:
     text = re.sub(r"n['’]t\b", "", text)
     text = re.sub(r"['’]s\b", "", text)
     # Replace common ligatures/special characters to avoid losing them or corrupting words
-    text = text.translate(str.maketrans(LIGATURE_REPLACEMENTS))
+    text = text.translate(LIGATURE_TRANSLATION)
     # Normalize unicode characters to strip diacritics (e.g., cliché -> cliche)
     text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('ascii')
     tokens = re.findall(r'\b[a-z]{3,}\b', text)
