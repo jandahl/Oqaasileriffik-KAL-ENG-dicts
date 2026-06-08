@@ -21,7 +21,7 @@
         "type": "object",
         "required": ["source_id", "raw_data"],
         "properties": {
-          "source_id": { "type": "string" },
+          "source_id": { "type": ["string", "integer"] },
           "raw_data": { "type": "object" }
         }
       }

@@ -13,6 +13,7 @@ Example: {"dream": ["s"], "sleep": ["s", "u"], "walk": ["a", "p"]}
 import json
 import os
 import re
+import unicodedata
 from pathlib import Path
 from collections import defaultdict
 
@@ -23,6 +24,8 @@ STOPWORDS = {
     "were", "been", "have", "has", "had", "your", "their", "what", "which",
     "who", "when", "where", "why", "how", "all", "each", "every", "both",
     "either", "neither", "some", "any", "many", "much", "few", "more", "most",
+    "you", "me", "him", "her", "us", "them", "his", "its", "our", "can",
+    "will", "would", "should", "could", "may", "might", "must",
 }
 
 def tokenize_gloss(gloss: str) -> set[str]:
@@ -31,6 +34,8 @@ def tokenize_gloss(gloss: str) -> set[str]:
     text = gloss.lower()
     text = re.sub(r"n['’]t\b", "", text)
     text = re.sub(r"['’]s\b", "", text)
+    # Normalize unicode characters to strip diacritics (e.g., cliché -> cliche)
+    text = "".join(c for c in unicodedata.normalize('NFKD', text) if not unicodedata.combining(c))
     tokens = re.findall(r'\b[a-z]{3,}\b', text)
     return {t for t in tokens if t not in STOPWORDS}
 
@@ -54,9 +59,13 @@ def build_gloss_index(by_letter_dir: Path, output_file: Path) -> None:
             data = json.load(f)
 
         entries = data.get("dictionary_entries", [])
+        if not isinstance(entries, list):
+            continue
         keyword_count = 0
 
         for entry in entries:
+            if not isinstance(entry, dict):
+                continue
             gloss_en = entry.get("gloss_en")
             if not isinstance(gloss_en, str):
                 continue
