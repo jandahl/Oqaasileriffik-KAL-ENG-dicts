@@ -28,6 +28,13 @@ STOPWORDS = {
     "will", "would", "should", "could", "may", "might", "must",
 }
 
+LIGATURE_REPLACEMENTS = {
+    "æ": "ae",
+    "ø": "o",
+    "å": "a",
+    "œ": "oe"
+}
+
 def tokenize_gloss(gloss: str) -> set[str]:
     # Strip contractions/possessives before splitting to avoid false matches
     # ("don't" → "do", "person's" → "person"), then extract only alpha tokens.
@@ -35,13 +42,7 @@ def tokenize_gloss(gloss: str) -> set[str]:
     text = re.sub(r"n['’]t\b", "", text)
     text = re.sub(r"['’]s\b", "", text)
     # Replace common ligatures/special characters to avoid losing them or corrupting words
-    replacements = {
-        "æ": "ae",
-        "ø": "o",
-        "å": "a",
-        "œ": "oe"
-    }
-    for char, repl in replacements.items():
+    for char, repl in LIGATURE_REPLACEMENTS.items():
         text = text.replace(char, repl)
     # Normalize unicode characters to strip diacritics (e.g., cliché -> cliche)
     text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('ascii')
@@ -63,12 +64,15 @@ def build_gloss_index(by_letter_dir: Path, output_file: Path) -> None:
 
     for json_file in json_files:
         letter = json_file.stem
-        if len(letter) != 1 and letter != "_":
+        if len(letter) != 1 or not (letter.isalpha() or letter == "_"):
             continue
         print(f"Processing {letter}.json...", end=" ")
 
         with open(json_file, "r", encoding="utf-8") as f:
             data = json.load(f)
+
+        if not isinstance(data, dict):
+            raise ValueError(f"Expected top-level JSON object to be a dictionary in {json_file.name}")
 
         entries = data.get("dictionary_entries", [])
         if not isinstance(entries, list):
