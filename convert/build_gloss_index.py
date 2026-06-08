@@ -34,6 +34,15 @@ def tokenize_gloss(gloss: str) -> set[str]:
     text = gloss.lower()
     text = re.sub(r"n['’]t\b", "", text)
     text = re.sub(r"['’]s\b", "", text)
+    # Replace common ligatures/special characters to avoid losing them or corrupting words
+    replacements = {
+        "æ": "ae",
+        "ø": "o",
+        "å": "a",
+        "œ": "oe"
+    }
+    for char, repl in replacements.items():
+        text = text.replace(char, repl)
     # Normalize unicode characters to strip diacritics (e.g., cliché -> cliche)
     text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('ascii')
     tokens = re.findall(r'\b[a-z]{3,}\b', text)
@@ -46,6 +55,7 @@ def build_gloss_index(by_letter_dir: Path, output_file: Path) -> None:
     index = defaultdict(set)
 
     by_letter_dir = Path(by_letter_dir)
+    output_file = Path(output_file)
     json_files = sorted(by_letter_dir.glob("*.json"))
 
     if not json_files:
@@ -97,7 +107,7 @@ if __name__ == "__main__":
     by_letter_dir = Path(__file__).parent.parent / "extracted" / "dictionary" / "by-letter"
     output_file = Path(__file__).parent.parent / "extracted" / "dictionary" / "gloss_index.json"
 
-    if not by_letter_dir.exists():
+    if not by_letter_dir.is_dir():
         raise FileNotFoundError(f"Directory not found: {by_letter_dir}")
 
     build_gloss_index(by_letter_dir, output_file)
