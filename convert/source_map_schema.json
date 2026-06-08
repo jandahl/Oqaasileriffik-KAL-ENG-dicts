@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["meta", "entries"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["source_repo", "extraction_date", "available_fields"],
+      "properties": {
+        "source_repo": { "type": "string" },
+        "extraction_date": { "type": "string", "format": "date-time" },
+        "available_fields": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source_id", "raw_data"],
+        "properties": {
+          "source_id": { "type": ["string", "integer"] },
+          "raw_data": { "type": "object" }
+        }
+      }
+    }
+  }
+}

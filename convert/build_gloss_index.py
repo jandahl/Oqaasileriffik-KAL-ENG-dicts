@@ -13,6 +13,7 @@ Example: {"dream": ["s"], "sleep": ["s", "u"], "walk": ["a", "p"]}
 import json
 import os
 import re
+import unicodedata
 from pathlib import Path
 from collections import defaultdict
 
@@ -23,7 +24,16 @@ STOPWORDS = {
     "were", "been", "have", "has", "had", "your", "their", "what", "which",
     "who", "when", "where", "why", "how", "all", "each", "every", "both",
     "either", "neither", "some", "any", "many", "much", "few", "more", "most",
+    "you", "him", "her", "them", "his", "its", "our", "can",
+    "will", "would", "should", "could", "may", "might", "must",
 }
+
+LIGATURE_TRANSLATION = str.maketrans({
+    "æ": "ae",
+    "ø": "o",
+    "å": "a",
+    "œ": "oe"
+})
 
 def tokenize_gloss(gloss: str) -> set[str]:
     # Strip contractions/possessives before splitting to avoid false matches
@@ -31,6 +41,10 @@ def tokenize_gloss(gloss: str) -> set[str]:
     text = gloss.lower()
     text = re.sub(r"n['’]t\b", "", text)
     text = re.sub(r"['’]s\b", "", text)
+    # Replace common ligatures/special characters to avoid losing them or corrupting words
+    text = text.translate(LIGATURE_TRANSLATION)
+    # Normalize unicode characters to strip diacritics (e.g., cliché -> cliche)
+    text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('ascii')
     tokens = re.findall(r'\b[a-z]{3,}\b', text)
     return {t for t in tokens if t not in STOPWORDS}
 
@@ -41,22 +55,32 @@ def build_gloss_index(by_letter_dir: Path, output_file: Path) -> None:
     index = defaultdict(set)
 
     by_letter_dir = Path(by_letter_dir)
+    output_file = Path(output_file)
     json_files = sorted(by_letter_dir.glob("*.json"))
 
     if not json_files:
         raise FileNotFoundError(f"No .json files found in {by_letter_dir}")
 
     for json_file in json_files:
-        letter = json_file.stem
+        letter = json_file.stem.lower()
+        if len(letter) != 1 or not (letter.isalnum() or letter == "_"):
+            continue
         print(f"Processing {letter}.json...", end=" ")
 
         with open(json_file, "r", encoding="utf-8") as f:
             data = json.load(f)
 
+        if not isinstance(data, dict):
+            raise ValueError(f"Expected top-level JSON object to be a dictionary in {json_file.name}")
+
         entries = data.get("dictionary_entries", [])
+        if not isinstance(entries, list):
+            raise ValueError(f"Expected 'dictionary_entries' to be a list in {json_file.name}")
         keyword_count = 0
 
         for entry in entries:
+            if not isinstance(entry, dict):
+                raise ValueError(f"Expected entry to be a dict in {json_file.name}")
             gloss_en = entry.get("gloss_en")
             if not isinstance(gloss_en, str):
                 continue
@@ -86,7 +110,7 @@ if __name__ == "__main__":
     by_letter_dir = Path(__file__).parent.parent / "extracted" / "dictionary" / "by-letter"
     output_file = Path(__file__).parent.parent / "extracted" / "dictionary" / "gloss_index.json"
 
-    if not by_letter_dir.exists():
+    if not by_letter_dir.is_dir():
         raise FileNotFoundError(f"Directory not found: {by_letter_dir}")
 
     build_gloss_index(by_letter_dir, output_file)
