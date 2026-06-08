@@ -62,7 +62,7 @@ def build_gloss_index(by_letter_dir: Path, output_file: Path) -> None:
         raise FileNotFoundError(f"No .json files found in {by_letter_dir}")
 
     for json_file in json_files:
-        letter = json_file.stem
+        letter = json_file.stem.lower()
         if len(letter) != 1 or not (letter.isalnum() or letter == "_"):
             continue
         print(f"Processing {letter}.json...", end=" ")
