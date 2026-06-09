@@ -20,13 +20,23 @@ from collections import defaultdict
 import nltk
 from nltk.corpus import stopwords
 
-# Ensure stopwords are downloaded
-try:
-    nltk.data.find('corpora/stopwords.zip')
-except LookupError:
-    nltk.download('stopwords', quiet=True)
+class LazyStopwords:
+    def __init__(self) -> None:
+        self._stopwords: set[str] | None = None
 
-STOPWORDS = set(stopwords.words('english'))
+    def _load(self) -> set[str]:
+        if self._stopwords is None:
+            try:
+                nltk.data.find('corpora/stopwords.zip')
+            except LookupError:
+                nltk.download('stopwords', quiet=True)
+            self._stopwords = set(stopwords.words('english'))
+        return self._stopwords
+
+    def __contains__(self, item: object) -> bool:
+        return item in self._load()
+
+STOPWORDS = LazyStopwords()
 
 LIGATURE_TRANSLATION = str.maketrans({
     "æ": "ae",
