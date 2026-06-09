@@ -7,10 +7,7 @@ from datetime import datetime, timezone
 import argparse
 from typing import Any
 
-if __package__:
-    from .build_gloss_index import build_gloss_index
-else:
-    from build_gloss_index import build_gloss_index
+from convert.build_gloss_index import build_gloss_index
 
 from odf.opendocument import load
 from odf.table import Table, TableRow, TableCell
