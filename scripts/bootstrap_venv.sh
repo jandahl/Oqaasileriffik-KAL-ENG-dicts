@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 ROOT_DIR="$(dirname "$DIR")"
 VENV_DIR="$ROOT_DIR/.venv"
 
