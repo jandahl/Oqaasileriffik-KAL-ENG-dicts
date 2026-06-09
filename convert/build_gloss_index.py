@@ -46,9 +46,7 @@ class LazyStopwords:
         return self._stopwords
 
     def __contains__(self, item: object) -> bool:
-        if self._stopwords is None:
-            self._load()
-        return item in self._stopwords
+        return item in self._load()
 
 STOPWORDS = LazyStopwords()
 
