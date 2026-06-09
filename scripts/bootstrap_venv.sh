@@ -10,15 +10,13 @@ if [ ! -d "$VENV_DIR" ]; then
     python3 -m venv "$VENV_DIR"
 fi
 
-source "$VENV_DIR/bin/activate"
-
 echo "Upgrading pip..."
-pip install --upgrade pip
+"$VENV_DIR/bin/pip" install --upgrade pip
 
 if [ -f "$ROOT_DIR/pyproject.toml" ]; then
     echo "Installing project and dev requirements from pyproject.toml..."
     # Install the project in editable mode with dev dependencies
-    pip install -e "$ROOT_DIR[dev]"
+    "$VENV_DIR/bin/pip" install -e "$ROOT_DIR[dev]"
 else
     echo "No pyproject.toml found."
 fi

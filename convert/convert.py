@@ -94,7 +94,7 @@ WORD_CLASS_TO_PATH: dict[str, list[str]] = {
 }
 
 
-def get_cell_text(cell: Any) -> str:
+def get_cell_text(cell: TableCell) -> str:
     """Extract text content from an ODF TableCell."""
     parts = []
     for p in cell.getElementsByType(P):
@@ -104,7 +104,7 @@ def get_cell_text(cell: Any) -> str:
     return ''.join(parts).strip()
 
 
-def is_gloss_sheet(sheet: Any) -> bool:
+def is_gloss_sheet(sheet: Table) -> bool:
     """Return True only for sheets whose header row has GLOSS_SHEET_MARKER in col 2."""
     rows = sheet.getElementsByType(TableRow)
     if not rows:
@@ -169,14 +169,14 @@ def parse_ods_file(filepath: Path, column_map: dict) -> list[dict]:
     return entries
 
 
-def load_authored_presets(path: Path) -> list[dict]:
+def load_authored_presets(path: Path) -> list[dict[str, Any]]:
     if not path.exists():
         return []
     try:
         data = json.loads(path.read_text(encoding='utf-8'))
-        if isinstance(data, list):
+        if isinstance(data, list) and all(isinstance(item, dict) for item in data):
             return data
-        log.warning("authored_presets is not a list")
+        log.warning("authored_presets is not a list of dictionaries")
         return []
     except Exception as e:
         log.warning("Failed to load authored_presets: %s", e)
