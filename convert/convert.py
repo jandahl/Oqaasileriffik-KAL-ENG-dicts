@@ -173,7 +173,11 @@ def load_authored_presets(path: Path) -> list[dict]:
     if not path.exists():
         return []
     try:
-        return list(json.loads(path.read_text(encoding='utf-8')))
+        data = json.loads(path.read_text(encoding='utf-8'))
+        if isinstance(data, list):
+            return data
+        log.warning("authored_presets is not a list")
+        return []
     except Exception as e:
         log.warning("Failed to load authored_presets: %s", e)
         return []
