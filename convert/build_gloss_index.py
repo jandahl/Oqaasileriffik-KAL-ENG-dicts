@@ -25,6 +25,7 @@ class LazyStopwords:
         self._stopwords: set[str] | None = None
 
     def _load(self) -> set[str]:
+        global STOPWORDS
         if self._stopwords is None:
             try:
                 nltk.data.find('corpora/stopwords')
@@ -44,12 +45,13 @@ class LazyStopwords:
                     "NLTK 'stopwords' corpus is not available and could not be loaded. "
                     "Please check your internet connection or pre-install the corpus."
                 ) from e
+        STOPWORDS = self._stopwords
         return self._stopwords
 
     def __contains__(self, item: object) -> bool:
         return item in self._load()
 
-STOPWORDS = LazyStopwords()
+STOPWORDS: set[str] = LazyStopwords()  # type: ignore
 
 LIGATURE_TRANSLATION = str.maketrans({
     "æ": "ae",
