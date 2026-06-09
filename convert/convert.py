@@ -5,6 +5,7 @@ import logging
 from pathlib import Path
 from datetime import datetime, timezone
 import argparse
+from typing import Any
 
 from build_gloss_index import build_gloss_index
 
@@ -93,7 +94,7 @@ WORD_CLASS_TO_PATH: dict[str, list[str]] = {
 }
 
 
-def get_cell_text(cell) -> str:
+def get_cell_text(cell: Any) -> str:
     """Extract text content from an ODF TableCell."""
     parts = []
     for p in cell.getElementsByType(P):
@@ -103,7 +104,7 @@ def get_cell_text(cell) -> str:
     return ''.join(parts).strip()
 
 
-def is_gloss_sheet(sheet) -> bool:
+def is_gloss_sheet(sheet: Any) -> bool:
     """Return True only for sheets whose header row has GLOSS_SHEET_MARKER in col 2."""
     rows = sheet.getElementsByType(TableRow)
     if not rows:
@@ -168,11 +169,11 @@ def parse_ods_file(filepath: Path, column_map: dict) -> list[dict]:
     return entries
 
 
-def load_authored_presets(path: Path) -> list:
+def load_authored_presets(path: Path) -> list[dict]:
     if not path.exists():
         return []
     try:
-        return json.loads(path.read_text(encoding='utf-8'))
+        return list(json.loads(path.read_text(encoding='utf-8')))
     except Exception as e:
         log.warning("Failed to load authored_presets: %s", e)
         return []
@@ -184,7 +185,7 @@ def validate_output(data: dict, schema_path: Path) -> None:
     log.info("Schema validation passed")
 
 
-def write_atomic(path: Path, data, indent: int | None = 2) -> None:
+def write_atomic(path: Path, data: Any, indent: int | None = 2) -> None:
     tmp = path.with_suffix('.tmp')
     try:
         tmp.write_text(json.dumps(data, ensure_ascii=False, indent=indent), encoding='utf-8')
