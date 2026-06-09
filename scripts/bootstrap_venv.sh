@@ -5,7 +5,13 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 ROOT_DIR="$(dirname "$DIR")"
 VENV_DIR="$ROOT_DIR/.venv"
 
-if [ ! -x "$VENV_DIR/bin/python" ]; then
+if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "cygwin" ]]; then
+    VENV_PYTHON="$VENV_DIR/Scripts/python"
+else
+    VENV_PYTHON="$VENV_DIR/bin/python"
+fi
+
+if [ ! -x "$VENV_PYTHON" ]; then
     if ! command -v python3 > /dev/null 2>&1; then
         echo "Error: python3 is required but not installed." >&2
         exit 1
@@ -19,12 +25,12 @@ if [ ! -x "$VENV_DIR/bin/python" ]; then
 fi
 
 echo "Upgrading pip..."
-"$VENV_DIR/bin/python" -m pip install --upgrade pip
+"$VENV_PYTHON" -m pip install --upgrade pip
 
 if [ -f "$ROOT_DIR/pyproject.toml" ]; then
     echo "Installing project and dev requirements from pyproject.toml..."
     # Install the project in editable mode with dev dependencies
-    (cd "$ROOT_DIR" && "$VENV_DIR/bin/python" -m pip install -e ".[dev]")
+    (cd "$ROOT_DIR" && "$VENV_PYTHON" -m pip install -e ".[dev]")
 else
     echo "No pyproject.toml found."
 fi
