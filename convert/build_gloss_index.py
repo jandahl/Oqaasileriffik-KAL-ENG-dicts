@@ -17,15 +17,15 @@ import unicodedata
 from pathlib import Path
 from collections import defaultdict
 
+import collections.abc
 import nltk
 from nltk.corpus import stopwords
 
-class LazyStopwords:
+class LazyStopwords(collections.abc.Set[str]):
     def __init__(self) -> None:
         self._stopwords: set[str] | None = None
 
     def _load(self) -> set[str]:
-        global STOPWORDS
         if self._stopwords is None:
             try:
                 nltk.data.find('corpora/stopwords')
@@ -45,13 +45,18 @@ class LazyStopwords:
                     "NLTK 'stopwords' corpus is not available and could not be loaded. "
                     "Please check your internet connection or pre-install the corpus."
                 ) from e
-        STOPWORDS = self._stopwords
         return self._stopwords
 
     def __contains__(self, item: object) -> bool:
         return item in self._load()
 
-STOPWORDS: set[str] = LazyStopwords()  # type: ignore
+    def __iter__(self) -> collections.abc.Iterator[str]:
+        return iter(self._load())
+
+    def __len__(self) -> int:
+        return len(self._load())
+
+STOPWORDS: collections.abc.Set[str] = LazyStopwords()
 
 LIGATURE_TRANSLATION = str.maketrans({
     "æ": "ae",
