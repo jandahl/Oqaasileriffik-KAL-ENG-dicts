@@ -30,7 +30,8 @@ class LazyStopwords:
                 nltk.data.find('corpora/stopwords')
             except LookupError:
                 try:
-                    nltk.download('stopwords', quiet=True)
+                    if not nltk.download('stopwords', quiet=True):
+                        raise RuntimeError("NLTK download returned False")
                 except Exception as e:
                     raise RuntimeError(
                         "Failed to download NLTK 'stopwords' corpus. "
