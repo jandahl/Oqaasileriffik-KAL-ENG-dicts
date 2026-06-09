@@ -15,12 +15,12 @@ if [ ! -d "$VENV_DIR" ]; then
 fi
 
 echo "Upgrading pip..."
-"$VENV_DIR/bin/pip" install --upgrade pip
+"$VENV_DIR/bin/python" -m pip install --upgrade pip
 
 if [ -f "$ROOT_DIR/pyproject.toml" ]; then
     echo "Installing project and dev requirements from pyproject.toml..."
     # Install the project in editable mode with dev dependencies
-    (cd "$ROOT_DIR" && "$VENV_DIR/bin/pip" install -e ".[dev]")
+    (cd "$ROOT_DIR" && "$VENV_DIR/bin/python" -m pip install -e ".[dev]")
 else
     echo "No pyproject.toml found."
 fi
