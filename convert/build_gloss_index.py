@@ -29,18 +29,26 @@ class LazyStopwords:
             try:
                 nltk.data.find('corpora/stopwords')
             except LookupError:
-                nltk.download('stopwords', quiet=True)
+                try:
+                    nltk.download('stopwords', quiet=True)
+                except Exception as e:
+                    raise RuntimeError(
+                        "Failed to download NLTK 'stopwords' corpus. "
+                        "Please check your internet connection, write permissions, or pre-install the corpus."
+                    ) from e
             try:
                 self._stopwords = set(stopwords.words('english'))
-            except LookupError as e:
+            except Exception as e:
                 raise RuntimeError(
-                    "NLTK 'stopwords' corpus is not available and could not be downloaded. "
+                    "NLTK 'stopwords' corpus is not available and could not be loaded. "
                     "Please check your internet connection or pre-install the corpus."
                 ) from e
         return self._stopwords
 
     def __contains__(self, item: object) -> bool:
-        return item in self._load()
+        if self._stopwords is None:
+            self._load()
+        return item in self._stopwords
 
 STOPWORDS = LazyStopwords()
 
