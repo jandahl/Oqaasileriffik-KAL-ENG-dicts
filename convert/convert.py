@@ -7,9 +7,9 @@ from datetime import datetime, timezone
 import argparse
 from typing import Any
 
-try:
+if __package__:
     from .build_gloss_index import build_gloss_index
-except ImportError:
+else:
     from build_gloss_index import build_gloss_index
 
 from odf.opendocument import load
