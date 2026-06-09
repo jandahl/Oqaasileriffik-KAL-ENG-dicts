@@ -17,16 +17,16 @@ import unicodedata
 from pathlib import Path
 from collections import defaultdict
 
-STOPWORDS = {
-    "a", "an", "the", "and", "or", "to", "of", "in", "is", "be", "i", "it",
-    "at", "on", "as", "by", "do", "go", "my", "we", "he", "she", "they",
-    "this", "that", "with", "for", "not", "no", "so", "but", "are", "was",
-    "were", "been", "have", "has", "had", "your", "their", "what", "which",
-    "who", "when", "where", "why", "how", "all", "each", "every", "both",
-    "either", "neither", "some", "any", "many", "much", "few", "more", "most",
-    "you", "him", "her", "them", "his", "its", "our", "can",
-    "will", "would", "should", "could", "may", "might", "must",
-}
+import nltk
+from nltk.corpus import stopwords
+
+# Ensure stopwords are downloaded
+try:
+    nltk.data.find('corpora/stopwords.zip')
+except LookupError:
+    nltk.download('stopwords', quiet=True)
+
+STOPWORDS = set(stopwords.words('english'))
 
 LIGATURE_TRANSLATION = str.maketrans({
     "æ": "ae",
