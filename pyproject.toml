@@ -22,3 +22,6 @@ dev = [
 
 [tool.setuptools]
 packages = ["convert"]
+
+[tool.setuptools.package-data]
+convert = ["*.json"]
