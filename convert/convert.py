@@ -177,13 +177,11 @@ def load_authored_presets(path: Path) -> list[dict[str, Any]]:
         return []
     try:
         data = json.loads(path.read_text(encoding='utf-8'))
-        if isinstance(data, list) and all(isinstance(item, dict) for item in data):
-            return data
-        log.warning("authored_presets is not a list of dictionaries")
-        return []
     except Exception as e:
-        log.warning("Failed to load authored_presets: %s", e)
-        return []
+        raise ValueError(f"Failed to load authored_presets: {e}") from e
+    if not isinstance(data, list) or not all(isinstance(item, dict) for item in data):
+        raise TypeError("authored_presets is not a list of dictionaries")
+    return data
 
 
 def validate_output(data: dict, schema_path: Path) -> None:

@@ -12,6 +12,9 @@ dependencies = [
     "jsonschema==4.23.0"
 ]
 
+[project.scripts]
+convert-dicts = "convert.convert:main"
+
 [project.optional-dependencies]
 dev = [
     "mypy>=1.6.0",

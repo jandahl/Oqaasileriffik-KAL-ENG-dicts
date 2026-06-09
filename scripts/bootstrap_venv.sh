@@ -6,6 +6,10 @@ ROOT_DIR="$(dirname "$DIR")"
 VENV_DIR="$ROOT_DIR/.venv"
 
 if [ ! -x "$VENV_DIR/bin/python" ]; then
+    if ! command -v python3 > /dev/null 2>&1; then
+        echo "Error: python3 is required but not installed." >&2
+        exit 1
+    fi
     if ! python3 -c 'import sys; sys.exit(0 if sys.version_info >= (3, 10) else 1)' 2>/dev/null; then
         echo "Error: Python 3.10 or higher is required." >&2
         exit 1
