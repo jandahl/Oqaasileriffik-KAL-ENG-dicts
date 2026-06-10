@@ -44,7 +44,7 @@
           "gloss_en": { "type": "string" },
           "source_file": { "type": "string" },
           "source_row": { "type": "integer" },
-          "valence": { "type": "integer" }
+          "valence": { "type": "integer", "enum": [1, 2] }
         }
       }
     }
