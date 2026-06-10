@@ -17,16 +17,40 @@ import unicodedata
 from pathlib import Path
 from collections import defaultdict
 
-STOPWORDS = {
-    "a", "an", "the", "and", "or", "to", "of", "in", "is", "be", "i", "it",
-    "at", "on", "as", "by", "do", "go", "my", "we", "he", "she", "they",
-    "this", "that", "with", "for", "not", "no", "so", "but", "are", "was",
-    "were", "been", "have", "has", "had", "your", "their", "what", "which",
-    "who", "when", "where", "why", "how", "all", "each", "every", "both",
-    "either", "neither", "some", "any", "many", "much", "few", "more", "most",
-    "you", "him", "her", "them", "his", "its", "our", "can",
-    "will", "would", "should", "could", "may", "might", "must",
-}
+import collections.abc
+import nltk
+from nltk.corpus import stopwords
+
+class LazyStopwords(collections.abc.Set[str]):
+    def __init__(self) -> None:
+        self._stopwords: set[str] | None = None
+
+    def _load(self) -> set[str]:
+        if self._stopwords is None:
+            try:
+                self._stopwords = set(stopwords.words('english'))
+            except LookupError:
+                try:
+                    if not nltk.download('stopwords', quiet=True):
+                        raise RuntimeError("NLTK download returned False")
+                    self._stopwords = set(stopwords.words('english'))
+                except Exception as e:
+                    raise RuntimeError(
+                        "Failed to download or load NLTK 'stopwords' corpus. "
+                        "Please check your internet connection, write permissions, or pre-install the corpus."
+                    ) from e
+        return self._stopwords
+
+    def __contains__(self, item: object) -> bool:
+        return item in self._load()
+
+    def __iter__(self) -> collections.abc.Iterator[str]:
+        return iter(self._load())
+
+    def __len__(self) -> int:
+        return len(self._load())
+
+STOPWORDS: collections.abc.Set[str] = LazyStopwords()
 
 LIGATURE_TRANSLATION = str.maketrans({
     "æ": "ae",

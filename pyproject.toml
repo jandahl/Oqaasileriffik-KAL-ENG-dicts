@@ -9,7 +9,8 @@ description = "Oqaasileriffik KAL-ENG dictionaries conversion pipeline"
 requires-python = ">=3.10"
 dependencies = [
     "odfpy==1.4.1",
-    "jsonschema==4.23.0"
+    "jsonschema==4.23.0",
+    "nltk==3.8.1"
 ]
 
 [project.scripts]
@@ -42,4 +43,8 @@ strict_optional = true
 
 [[tool.mypy.overrides]]
 module = "odf.*"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "nltk.*"
 ignore_missing_imports = true
