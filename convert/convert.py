@@ -8,8 +8,6 @@ from datetime import datetime, timezone
 import argparse
 from typing import Any
 
-sys.path.insert(0, str(Path(__file__).parent.parent.resolve()))
-
 from convert.build_gloss_index import build_gloss_index
 
 from odf.opendocument import load
