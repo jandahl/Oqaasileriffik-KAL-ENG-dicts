@@ -5,7 +5,13 @@
   "properties": {
     "meta": {
       "type": "object",
-      "required": ["schema_version", "license", "attribution", "generated_at"]
+      "required": ["schema_version", "license", "attribution", "generated_at"],
+      "properties": {
+        "available_fields": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
     },
     "sandhi_presets": {
       "type": "array",
@@ -22,6 +28,24 @@
                 "type": { "enum": ["ROOT", "AFFIX", "INFLECTION"] },
                 "join": { "enum": ["NONE", "TRUNCATIVE", "ASSIMILATIVE", "ADDITIVE"] }
               }
+            }
+          }
+        }
+      }
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source_id", "raw_data"],
+        "properties": {
+          "source_id": { "type": "string" },
+          "raw_data": {
+            "type": "object",
+            "properties": {
+              "lexeme": { "type": "string" },
+              "word_class": { "type": "string" },
+              "gloss_en": { "type": "string" }
             }
           }
         }
