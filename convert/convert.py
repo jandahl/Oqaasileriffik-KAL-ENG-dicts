@@ -317,7 +317,7 @@ def main() -> None:
 
     source_map_entries = [
         {
-            "source_id": str(entry.get("id") or ""),
+            "source_id": "" if entry.get("id") is None else str(entry["id"]),
             "raw_data": {
                 "lexeme": entry.get("lexeme") or "",
                 "word_class": entry.get("word_class") or "",
