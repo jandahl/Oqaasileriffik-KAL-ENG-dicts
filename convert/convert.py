@@ -317,11 +317,11 @@ def main() -> None:
 
     source_map_entries = [
         {
-            "source_id": entry["id"],
+            "source_id": str(entry["id"]),
             "raw_data": {
-                "lexeme": entry["lexeme"],
-                "word_class": entry["word_class"],
-                "gloss_en": entry.get("gloss_en", "")
+                "lexeme": entry.get("lexeme") or "",
+                "word_class": entry.get("word_class") or "",
+                "gloss_en": entry.get("gloss_en") or ""
             }
         }
         for entry in all_entries
