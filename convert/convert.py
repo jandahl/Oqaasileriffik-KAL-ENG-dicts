@@ -317,7 +317,7 @@ def main() -> None:
 
     source_map_entries = [
         {
-            "source_id": str(entry["id"]),
+            "source_id": str(entry.get("id") or ""),
             "raw_data": {
                 "lexeme": entry.get("lexeme") or "",
                 "word_class": entry.get("word_class") or "",
