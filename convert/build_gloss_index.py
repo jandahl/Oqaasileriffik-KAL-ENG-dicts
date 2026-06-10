@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!.venv/bin/python
 """
 Build an inverted index of English keywords to Kalaallisut starting letters.
 
@@ -28,23 +28,17 @@ class LazyStopwords(collections.abc.Set[str]):
     def _load(self) -> set[str]:
         if self._stopwords is None:
             try:
-                nltk.data.find('corpora/stopwords')
+                self._stopwords = set(stopwords.words('english'))
             except LookupError:
                 try:
                     if not nltk.download('stopwords', quiet=True):
                         raise RuntimeError("NLTK download returned False")
+                    self._stopwords = set(stopwords.words('english'))
                 except Exception as e:
                     raise RuntimeError(
-                        "Failed to download NLTK 'stopwords' corpus. "
+                        "Failed to download or load NLTK 'stopwords' corpus. "
                         "Please check your internet connection, write permissions, or pre-install the corpus."
                     ) from e
-            try:
-                self._stopwords = set(stopwords.words('english'))
-            except Exception as e:
-                raise RuntimeError(
-                    "NLTK 'stopwords' corpus is not available and could not be loaded. "
-                    "Please check your internet connection or pre-install the corpus."
-                ) from e
         return self._stopwords
 
     def __contains__(self, item: object) -> bool:
