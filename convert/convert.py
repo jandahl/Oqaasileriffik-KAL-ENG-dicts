@@ -156,7 +156,7 @@ def parse_ods_file(filepath: Path, column_map: dict) -> list[dict]:
             wc = entry["word_class"].strip()
             wc_key = wc.lower()
             if wc_key in WORD_CLASS_TO_PATH:
-                entry["class_path"] = WORD_CLASS_TO_PATH[wc_key]
+                entry["class_path"] = list(WORD_CLASS_TO_PATH[wc_key])
                 if "transitive" in entry["class_path"]:
                     entry["valence"] = 2
                 elif "intransitive" in entry["class_path"]:

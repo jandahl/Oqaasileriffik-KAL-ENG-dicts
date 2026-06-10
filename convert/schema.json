@@ -33,6 +33,17 @@
         "type": "object",
         "required": ["id", "lexeme", "word_class", "class_path", "source_file", "source_row"],
         "properties": {
+          "id": { "type": "string" },
+          "lexeme": { "type": "string" },
+          "word_class": { "type": "string" },
+          "class_path": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "stem": { "type": "string" },
+          "gloss_en": { "type": "string" },
+          "source_file": { "type": "string" },
+          "source_row": { "type": "integer" },
           "valence": { "type": "integer" }
         }
       }
