@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-05-27T14:22:42.432611+00:00",
+    "generated_at": "2026-05-26T19:10:50.639945+00:00",
     "license": "CC-BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
     "source_repo": "https://github.com/Oqaasileriffik/dicts",
@@ -107,12 +107,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "viinnisorpoq",
       "gloss_en": "drinks wine",
       "source_file": "V W Y.ods",
-      "source_row": 11
+      "source_row": 11,
+      "valence": 1
     },
     {
       "id": "V W Y_VWY_12",
@@ -146,12 +147,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "viiveerpoq",
       "gloss_en": "is sleeping (children's speech)",
       "source_file": "V W Y.ods",
-      "source_row": 14
+      "source_row": 14,
+      "valence": 1
     },
     {
       "id": "V W Y_VWY_15",
@@ -380,12 +382,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "videorpoq",
       "gloss_en": "watches videos",
       "source_file": "V W Y.ods",
-      "source_row": 34
+      "source_row": 34,
+      "valence": 1
     },
     {
       "id": "V W Y_VWY_35",
@@ -445,12 +448,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "versiliorpoq",
       "gloss_en": "writes poetry, writes verse",
       "source_file": "V W Y.ods",
-      "source_row": 42
+      "source_row": 42,
+      "valence": 1
     }
   ]
 }

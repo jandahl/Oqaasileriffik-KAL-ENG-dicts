@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-05-27T14:22:42.432611+00:00",
+    "generated_at": "2026-05-26T19:10:50.639945+00:00",
     "license": "CC-BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
     "source_repo": "https://github.com/Oqaasileriffik/dicts",
@@ -81,12 +81,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "danskisoorpoq",
       "gloss_en": "takes Danish in school",
       "source_file": "D.ods",
-      "source_row": 7
+      "source_row": 7,
+      "valence": 1
     },
     {
       "id": "D_PP_8",
@@ -94,12 +95,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "danskisoorpoq",
       "gloss_en": "speaks Danish",
       "source_file": "D.ods",
-      "source_row": 8
+      "source_row": 8,
+      "valence": 1
     },
     {
       "id": "D_PP_9",
@@ -325,12 +327,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "digitalinngortippaa",
       "gloss_en": "convert text or picture into a digital form",
       "source_file": "D.ods",
-      "source_row": 26
+      "source_row": 26,
+      "valence": 2
     },
     {
       "id": "D_PP_27",
@@ -468,12 +471,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "doblerpaa",
       "gloss_en": "bids \"double\" in card games",
       "source_file": "D.ods",
-      "source_row": 37
+      "source_row": 37,
+      "valence": 2
     },
     {
       "id": "D_PP_38",
@@ -520,12 +524,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "doktorinngorpoq",
       "gloss_en": "receives a doctorate",
       "source_file": "D.ods",
-      "source_row": 41
+      "source_row": 41,
+      "valence": 1
     },
     {
       "id": "D_PP_42",
@@ -611,12 +616,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "dumperpoq",
       "gloss_en": "fails a test or exam",
       "source_file": "D.ods",
-      "source_row": 48
+      "source_row": 48,
+      "valence": 1
     },
     {
       "id": "D_PP_49",
@@ -650,12 +656,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "duplikeererpaa",
       "gloss_en": "makes a copy of it, copies it",
       "source_file": "D.ods",
-      "source_row": 51
+      "source_row": 51,
+      "valence": 2
     },
     {
       "id": "D_PP_52",

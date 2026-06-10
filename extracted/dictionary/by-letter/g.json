@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-05-27T14:22:42.432611+00:00",
+    "generated_at": "2026-05-26T19:10:50.639945+00:00",
     "license": "CC-BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
     "source_repo": "https://github.com/Oqaasileriffik/dicts",
@@ -68,12 +68,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "ganngerpaa",
       "gloss_en": "multiplies it with it",
       "source_file": "G.ods",
-      "source_row": 6
+      "source_row": 6,
+      "valence": 2
     },
     {
       "id": "G_G_7",
@@ -419,12 +420,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "googlerpoq",
       "gloss_en": "using google to find information",
       "source_file": "G.ods",
-      "source_row": 33
+      "source_row": 33,
+      "valence": 1
     },
     {
       "id": "G_G_34",

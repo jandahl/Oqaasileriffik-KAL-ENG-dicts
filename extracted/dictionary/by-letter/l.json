@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-05-27T14:22:42.432611+00:00",
+    "generated_at": "2026-05-26T19:10:50.639945+00:00",
     "license": "CC-BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
     "source_repo": "https://github.com/Oqaasileriffik/dicts",
@@ -42,12 +42,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "lakkerpaa",
       "gloss_en": "shellacs it, varnishes it, paints it",
       "source_file": "L.ods",
-      "source_row": 4
+      "source_row": 4,
+      "valence": 2
     },
     {
       "id": "L_L_5",
@@ -380,12 +381,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "liimmerpaa",
       "gloss_en": "glues it, pastes it",
       "source_file": "L.ods",
-      "source_row": 30
+      "source_row": 30,
+      "valence": 2
     },
     {
       "id": "L_L_31",

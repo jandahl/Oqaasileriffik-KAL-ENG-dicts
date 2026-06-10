@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-05-27T14:22:42.432611+00:00",
+    "generated_at": "2026-05-26T19:10:50.639945+00:00",
     "license": "CC-BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
     "source_repo": "https://github.com/Oqaasileriffik/dicts",
@@ -29,12 +29,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "baaliarpoq",
       "gloss_en": "takes a tub bath",
       "source_file": "B.ods",
-      "source_row": 3
+      "source_row": 3,
+      "valence": 1
     },
     {
       "id": "B_B_4",
@@ -340,12 +341,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "basaareqarput",
       "gloss_en": "are having a lottery or raffle",
       "source_file": "B.ods",
-      "source_row": 27
+      "source_row": 27,
+      "valence": 1
     },
     {
       "id": "B_B_28",
@@ -535,12 +537,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "biilerpoq",
       "gloss_en": "drives a car, drives the car",
       "source_file": "B.ods",
-      "source_row": 42
+      "source_row": 42,
+      "valence": 1
     },
     {
       "id": "B_B_43",
@@ -730,12 +733,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "bingorput",
       "gloss_en": "play bingo",
       "source_file": "B.ods",
-      "source_row": 57
+      "source_row": 57,
+      "valence": 1
     },
     {
       "id": "B_B_58",
@@ -1250,12 +1254,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "børsterpaa",
       "gloss_en": "brushes it",
       "source_file": "B.ods",
-      "source_row": 97
+      "source_row": 97,
+      "valence": 2
     },
     {
       "id": "B_B_98",

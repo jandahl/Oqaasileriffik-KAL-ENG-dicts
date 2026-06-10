@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-05-27T14:22:42.432611+00:00",
+    "generated_at": "2026-05-26T19:10:50.639945+00:00",
     "license": "CC-BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
     "source_repo": "https://github.com/Oqaasileriffik/dicts",
@@ -42,12 +42,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "magguppoq",
       "gloss_en": "sinks in, burrows into something",
       "source_file": "M.ods",
-      "source_row": 3
+      "source_row": 3,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_4",
@@ -120,12 +121,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "majorallappoq",
       "gloss_en": "keeps up speed on the way up a slope (on skis or with a sled)",
       "source_file": "M.ods",
-      "source_row": 9
+      "source_row": 9,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_10",
@@ -133,12 +135,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "majorappoq",
       "gloss_en": "goes upstream, runs up onto the beach (said of a kayak or boat)",
       "source_file": "M.ods",
-      "source_row": 10
+      "source_row": 10,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_11",
@@ -146,12 +149,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "majorassaarpoq",
       "gloss_en": "runs up onto the beach (said of a kayak or boat)",
       "source_file": "M.ods",
-      "source_row": 11
+      "source_row": 11,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_12",
@@ -172,12 +176,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "majorpoq",
       "gloss_en": "travels up against the current",
       "source_file": "M.ods",
-      "source_row": 13
+      "source_row": 13,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_14",
@@ -185,12 +190,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "majorteqivoq",
       "gloss_en": "pulls up his/her pants, hitches up his/her pants",
       "source_file": "M.ods",
-      "source_row": 14
+      "source_row": 14,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_15",
@@ -224,12 +230,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "majuarpoq",
       "gloss_en": "goes up, climbs up, ascends",
       "source_file": "M.ods",
-      "source_row": 17
+      "source_row": 17,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_18",
@@ -263,12 +270,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "majuffapput",
       "gloss_en": "are coming up in numbers, many are on their way up",
       "source_file": "M.ods",
-      "source_row": 20
+      "source_row": 20,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_21",
@@ -289,12 +297,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "majukujoorpoq",
       "gloss_en": "jumps up on people (said of a dog)",
       "source_file": "M.ods",
-      "source_row": 22
+      "source_row": 22,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_23",
@@ -302,12 +311,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "majuuppaa",
       "gloss_en": "takes it up, brings it up",
       "source_file": "M.ods",
-      "source_row": 23
+      "source_row": 23,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_24",
@@ -315,12 +325,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "majuaapput",
       "gloss_en": "are coming up in numbers, many are on their way up",
       "source_file": "M.ods",
-      "source_row": 24
+      "source_row": 24,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_25",
@@ -354,12 +365,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "makialavoq",
       "gloss_en": "is a little frayed",
       "source_file": "M.ods",
-      "source_row": 27
+      "source_row": 27,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_28",
@@ -367,12 +379,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "makialippoq",
       "gloss_en": "is frayed, worn out",
       "source_file": "M.ods",
-      "source_row": 28
+      "source_row": 28,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_29",
@@ -393,12 +406,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "makippoq",
       "gloss_en": "gets out of bed, rights himself (for ex. a kayaker whose boat has capsized)",
       "source_file": "M.ods",
-      "source_row": 30
+      "source_row": 30,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_31",
@@ -406,12 +420,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "makippaa",
       "gloss_en": "turns it rightside up, draws an exam question",
       "source_file": "M.ods",
-      "source_row": 31
+      "source_row": 31,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_32",
@@ -458,12 +473,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "makisiluppoq",
       "gloss_en": "has lower back pain, has lumbago",
       "source_file": "M.ods",
-      "source_row": 35
+      "source_row": 35,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_36",
@@ -471,12 +487,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "makitajuippoq",
       "gloss_en": "is mild, is meek, is humble",
       "source_file": "M.ods",
-      "source_row": 36
+      "source_row": 36,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_37",
@@ -484,12 +501,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "makitasaarpoq",
       "gloss_en": "behaves agressively",
       "source_file": "M.ods",
-      "source_row": 37
+      "source_row": 37,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_38",
@@ -497,12 +515,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "makitavoq",
       "gloss_en": "sticks up, stands erect, is awake, has gotten up",
       "source_file": "M.ods",
-      "source_row": 38
+      "source_row": 38,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_39",
@@ -510,12 +529,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "makiterpoq",
       "gloss_en": "is about to stand up",
       "source_file": "M.ods",
-      "source_row": 39
+      "source_row": 39,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_40",
@@ -523,12 +543,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "makitippaa",
       "gloss_en": "raises it up, helps him/her up",
       "source_file": "M.ods",
-      "source_row": 40
+      "source_row": 40,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_41",
@@ -536,12 +557,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "makitserivoq",
       "gloss_en": "has lower back pain",
       "source_file": "M.ods",
-      "source_row": 41
+      "source_row": 41,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_42",
@@ -588,12 +610,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "makittappoq",
       "gloss_en": "becomes overbearing, becomes demanding",
       "source_file": "M.ods",
-      "source_row": 45
+      "source_row": 45,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_46",
@@ -601,12 +624,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "makittappaa",
       "gloss_en": "keeps it (a kayak) upright in spite of taking a breaking wave",
       "source_file": "M.ods",
-      "source_row": 46
+      "source_row": 46,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_47",
@@ -627,12 +651,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "makittaqarpoq",
       "gloss_en": "can roll a kayak, can right the kayak after a capsize",
       "source_file": "M.ods",
-      "source_row": 48
+      "source_row": 48,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_49",
@@ -640,12 +665,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "makittarippoq",
       "gloss_en": "is level, is horizontal",
       "source_file": "M.ods",
-      "source_row": 49
+      "source_row": 49,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_50",
@@ -679,12 +705,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "makiaalluvoq",
       "gloss_en": "usually gets up early in the morning",
       "source_file": "M.ods",
-      "source_row": 52
+      "source_row": 52,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_53",
@@ -692,12 +719,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "makiaarpoq",
       "gloss_en": "gets up early in the morning",
       "source_file": "M.ods",
-      "source_row": 53
+      "source_row": 53,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_54",
@@ -731,12 +759,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "makkorpoq",
       "gloss_en": "makes a bang, makes a the sound of bangs, crashes, makes the something hard hitting something",
       "source_file": "M.ods",
-      "source_row": 56
+      "source_row": 56,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_57",
@@ -754,12 +783,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "makkuinnarpoq",
       "gloss_en": "misfires (of a gun)",
       "source_file": "M.ods",
-      "source_row": 58
+      "source_row": 58,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_59",
@@ -767,12 +797,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "makkuluppoq",
       "gloss_en": "knocks, makes a knocking sound",
       "source_file": "M.ods",
-      "source_row": 59
+      "source_row": 59,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_60",
@@ -780,12 +811,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "makkuppaa",
       "gloss_en": "has righted it (a kayak) after a capsize",
       "source_file": "M.ods",
-      "source_row": 60
+      "source_row": 60,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_61",
@@ -806,12 +838,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "makuppaa",
       "gloss_en": "has proven to him/her that he is stronger",
       "source_file": "M.ods",
-      "source_row": 62
+      "source_row": 62,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_63",
@@ -819,12 +852,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "malakartippaa",
       "gloss_en": "lifts it half way",
       "source_file": "M.ods",
-      "source_row": 63
+      "source_row": 63,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_64",
@@ -845,12 +879,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "malangavoq",
       "gloss_en": "holds his/her head bent back",
       "source_file": "M.ods",
-      "source_row": 65
+      "source_row": 65,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_66",
@@ -858,12 +893,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "malangaarpoq",
       "gloss_en": "holds his/her head upright",
       "source_file": "M.ods",
-      "source_row": 66
+      "source_row": 66,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_67",
@@ -884,12 +920,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "malarpoq",
       "gloss_en": "bends his head backwards",
       "source_file": "M.ods",
-      "source_row": 68
+      "source_row": 68,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_69",
@@ -897,12 +934,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "malartitassaanngilaq",
       "gloss_en": "is stubborn, won't change his/her mind",
       "source_file": "M.ods",
-      "source_row": 69
+      "source_row": 69,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_70",
@@ -910,12 +948,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "malartaaserpoq",
       "gloss_en": "has to have his/her way, is obstinate",
       "source_file": "M.ods",
-      "source_row": 70
+      "source_row": 70,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_71",
@@ -923,12 +962,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maleqqerivoq",
       "gloss_en": "is keen on going out to hunt seals and smaller whales",
       "source_file": "M.ods",
-      "source_row": 71
+      "source_row": 71,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_72",
@@ -936,12 +976,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maleqqiarpoq",
       "gloss_en": "goes out with others to hunt seals and smaller whales",
       "source_file": "M.ods",
-      "source_row": 72
+      "source_row": 72,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_73",
@@ -949,12 +990,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "malerariipput",
       "gloss_en": "are inseparable (said of friends)",
       "source_file": "M.ods",
-      "source_row": 73
+      "source_row": 73,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_74",
@@ -962,12 +1004,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "malersorpaa",
       "gloss_en": "chases him/her, tries to catch him/her",
       "source_file": "M.ods",
-      "source_row": 74
+      "source_row": 74,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_75",
@@ -988,12 +1031,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "maleruarpaa",
       "gloss_en": "follows it (for ex. instructions or orders)",
       "source_file": "M.ods",
-      "source_row": 76
+      "source_row": 76,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_77",
@@ -1001,12 +1045,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maleruuppoq",
       "gloss_en": "is cooperative, is obedient, is willing to change his/her mind",
       "source_file": "M.ods",
-      "source_row": 77
+      "source_row": 77,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_78",
@@ -1014,12 +1059,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maleruutiinnarpoq",
       "gloss_en": "obeys immediately",
       "source_file": "M.ods",
-      "source_row": 78
+      "source_row": 78,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_79",
@@ -1027,12 +1073,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maliallerpoq",
       "gloss_en": "the sea has gotten stirred up or rough (with waves)",
       "source_file": "M.ods",
-      "source_row": 79
+      "source_row": 79,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_80",
@@ -1040,12 +1087,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "malialuppoq",
       "gloss_en": "it is a little rough sailing",
       "source_file": "M.ods",
-      "source_row": 80
+      "source_row": 80,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_81",
@@ -1053,12 +1101,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maliaqivoq",
       "gloss_en": "the sea is very rough",
       "source_file": "M.ods",
-      "source_row": 81
+      "source_row": 81,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_82",
@@ -1105,12 +1154,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maligassiorpaa",
       "gloss_en": "acts as a role model for him/her",
       "source_file": "M.ods",
-      "source_row": 85
+      "source_row": 85,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_86",
@@ -1144,12 +1194,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maligassiuivoq",
       "gloss_en": "is a pathbreaker, inspiration to others",
       "source_file": "M.ods",
-      "source_row": 88
+      "source_row": 88,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_89",
@@ -1157,12 +1208,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maligaasiorpoq",
       "gloss_en": "has waves",
       "source_file": "M.ods",
-      "source_row": 89
+      "source_row": 89,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_90",
@@ -1234,12 +1286,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "malinnaavoq",
       "gloss_en": "can follow, can keep up with what is being said",
       "source_file": "M.ods",
-      "source_row": 95
+      "source_row": 95,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_96",
@@ -1247,12 +1300,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "malippaa",
       "gloss_en": "follows him/her",
       "source_file": "M.ods",
-      "source_row": 96
+      "source_row": 96,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_97",
@@ -1260,12 +1314,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "malissiorpoq",
       "gloss_en": "is sailing in rough seas",
       "source_file": "M.ods",
-      "source_row": 97
+      "source_row": 97,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_98",
@@ -1273,12 +1328,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "malisungaannarlugu",
       "gloss_en": "right on his/her heels, right after him/her",
       "source_file": "M.ods",
-      "source_row": 98
+      "source_row": 98,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_99",
@@ -1312,12 +1368,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "malittaqqutiinnarpoq",
       "gloss_en": "comes right after someone/something",
       "source_file": "M.ods",
-      "source_row": 101
+      "source_row": 101,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_102",
@@ -1364,12 +1421,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "malittaraa",
       "gloss_en": "is a follower of his/hers, behaves according to him/her/it",
       "source_file": "M.ods",
-      "source_row": 105
+      "source_row": 105,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_106",
@@ -1390,12 +1448,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mallerpoq",
       "gloss_en": "big seas are running, there are rough seas",
       "source_file": "M.ods",
-      "source_row": 107
+      "source_row": 107,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_108",
@@ -1403,12 +1462,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mallersorsuuvoq",
       "gloss_en": "really rough seas",
       "source_file": "M.ods",
-      "source_row": 108
+      "source_row": 108,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_109",
@@ -1416,12 +1476,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "malliukkaarpoq",
       "gloss_en": "there are very high waves, there are very high seas",
       "source_file": "M.ods",
-      "source_row": 109
+      "source_row": 109,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_110",
@@ -1429,12 +1490,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mallorpaa",
       "gloss_en": "digs it (turf) up",
       "source_file": "M.ods",
-      "source_row": 110
+      "source_row": 110,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_111",
@@ -1442,12 +1504,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "malluppaa",
       "gloss_en": "follows someone with something",
       "source_file": "M.ods",
-      "source_row": 111
+      "source_row": 111,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_112",
@@ -1455,12 +1518,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "malluserpaa",
       "gloss_en": "sets out to chase him/her/it, gives chase to him/her/it",
       "source_file": "M.ods",
-      "source_row": 112
+      "source_row": 112,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_113",
@@ -1468,12 +1532,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "malugisimaarpoq",
       "gloss_en": "is a little drunk, is buzzed",
       "source_file": "M.ods",
-      "source_row": 113
+      "source_row": 113,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_114",
@@ -1481,12 +1546,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "malugisoorpaa",
       "gloss_en": "happens to notice it",
       "source_file": "M.ods",
-      "source_row": 114
+      "source_row": 114,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_115",
@@ -1494,12 +1560,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "malugisoortippoq",
       "gloss_en": "is accidentally noticed",
       "source_file": "M.ods",
-      "source_row": 115
+      "source_row": 115,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_116",
@@ -1519,12 +1586,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "malugusunnarpoq",
       "gloss_en": "it feels like a nice change",
       "source_file": "M.ods",
-      "source_row": 117
+      "source_row": 117,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_118",
@@ -1532,12 +1600,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "malugusuppoq",
       "gloss_en": "is happy about the change",
       "source_file": "M.ods",
-      "source_row": 118
+      "source_row": 118,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_119",
@@ -1545,12 +1614,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "malugaa",
       "gloss_en": "notices it, observes it, feels that…",
       "source_file": "M.ods",
-      "source_row": 119
+      "source_row": 119,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_120",
@@ -1558,12 +1628,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "malunnarpoq",
       "gloss_en": "is noticible, It can be seen that...",
       "source_file": "M.ods",
-      "source_row": 120
+      "source_row": 120,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_121",
@@ -1571,12 +1642,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "malunnartippaa",
       "gloss_en": "celebrate",
       "source_file": "M.ods",
-      "source_row": 121
+      "source_row": 121,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_122",
@@ -1584,12 +1656,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "malunnersimaarpoq",
       "gloss_en": "is a iittle drunk, is tipsy, is buzzed",
       "source_file": "M.ods",
-      "source_row": 122
+      "source_row": 122,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_123",
@@ -1597,12 +1670,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "malunniuppoq",
       "gloss_en": "it (an effect) is starting to be noticeable",
       "source_file": "M.ods",
-      "source_row": 123
+      "source_row": 123,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_124",
@@ -1610,12 +1684,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "malunnaarsaarpoq",
       "gloss_en": "makes an effort not to be noticed, tries to conceal what he/she is up to",
       "source_file": "M.ods",
-      "source_row": 124
+      "source_row": 124,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_125",
@@ -1623,12 +1698,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "malunnaateqarpoq",
       "gloss_en": "it has an effect, it is noticible",
       "source_file": "M.ods",
-      "source_row": 125
+      "source_row": 125,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_126",
@@ -1636,12 +1712,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "malussarippoq",
       "gloss_en": "is sensitive, can notice small things, reacts quickly",
       "source_file": "M.ods",
-      "source_row": 126
+      "source_row": 126,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_127",
@@ -1662,12 +1739,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "malussarniartalerput",
       "gloss_en": "they belive in ghosts, they believe in qivittut (cf. qivittoq), they see spirits everywhere",
       "source_file": "M.ods",
-      "source_row": 128
+      "source_row": 128,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_129",
@@ -1675,12 +1753,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "malussarpoq",
       "gloss_en": "notices something, takes note of something",
       "source_file": "M.ods",
-      "source_row": 129
+      "source_row": 129,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_130",
@@ -1688,12 +1767,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maluttarpoq",
       "gloss_en": "is sensitive",
       "source_file": "M.ods",
-      "source_row": 130
+      "source_row": 130,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_131",
@@ -1752,12 +1832,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mamallatsiinnarpoq",
       "gloss_en": "tastes so good you want more",
       "source_file": "M.ods",
-      "source_row": 135
+      "source_row": 135,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_136",
@@ -1791,12 +1872,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mamanngerpoq",
       "gloss_en": "has a sweet tooth, likes candy",
       "source_file": "M.ods",
-      "source_row": 138
+      "source_row": 138,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_139",
@@ -1816,12 +1898,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mamaraluartitsivoq",
       "gloss_en": "tastes so good you want more",
       "source_file": "M.ods",
-      "source_row": 140
+      "source_row": 140,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_141",
@@ -1842,12 +1925,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mamarlerpaa",
       "gloss_en": "slanders him/her, defamation",
       "source_file": "M.ods",
-      "source_row": 142
+      "source_row": 142,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_143",
@@ -1868,12 +1952,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mamarpoq",
       "gloss_en": "tastes good",
       "source_file": "M.ods",
-      "source_row": 144
+      "source_row": 144,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_145",
@@ -1881,12 +1966,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mamarsarpoq",
       "gloss_en": "wolfs his/her food down, gobbles his/her food down",
       "source_file": "M.ods",
-      "source_row": 145
+      "source_row": 145,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_146",
@@ -1907,12 +1993,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mamarsisippaa",
       "gloss_en": "can't stop eating it",
       "source_file": "M.ods",
-      "source_row": 147
+      "source_row": 147,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_148",
@@ -1920,12 +2007,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mamarsivoq",
       "gloss_en": "has started to taste right, has come to taste better",
       "source_file": "M.ods",
-      "source_row": 148
+      "source_row": 148,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_149",
@@ -1933,12 +2021,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mamarsaatigaa",
       "gloss_en": "talks behind his/her back",
       "source_file": "M.ods",
-      "source_row": 149
+      "source_row": 149,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_150",
@@ -1959,12 +2048,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mamasivaa",
       "gloss_en": "keeps on eating it, can't stop eating it",
       "source_file": "M.ods",
-      "source_row": 151
+      "source_row": 151,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_152",
@@ -1972,12 +2062,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mamatorpoq",
       "gloss_en": "eats sweets, eats candy",
       "source_file": "M.ods",
-      "source_row": 152
+      "source_row": 152,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_153",
@@ -1985,12 +2076,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mamiagaa",
       "gloss_en": "gets upset about it, gets angry because of it",
       "source_file": "M.ods",
-      "source_row": 153
+      "source_row": 153,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_154",
@@ -1998,12 +2090,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mamianarpoq",
       "gloss_en": "is upsetting, makes one angry",
       "source_file": "M.ods",
-      "source_row": 154
+      "source_row": 154,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_155",
@@ -2011,12 +2104,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mamiasuppoq",
       "gloss_en": "becomes upset, feels insulted, is mistreated, is wronged",
       "source_file": "M.ods",
-      "source_row": 155
+      "source_row": 155,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_156",
@@ -2024,12 +2118,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mamiasaarpaa",
       "gloss_en": "makes fun of him/her, teases him/her mercilessly",
       "source_file": "M.ods",
-      "source_row": 156
+      "source_row": 156,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_157",
@@ -2037,12 +2132,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mamiatsaatigaa",
       "gloss_en": "is angered by it, feels wronged by it, takes offense at it",
       "source_file": "M.ods",
-      "source_row": 157
+      "source_row": 157,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_158",
@@ -2076,12 +2172,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mamilippoq",
       "gloss_en": "closes completely",
       "source_file": "M.ods",
-      "source_row": 160
+      "source_row": 160,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_161",
@@ -2102,12 +2199,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "maminngavoq",
       "gloss_en": "is inside out, is upside down",
       "source_file": "M.ods",
-      "source_row": 162
+      "source_row": 162,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_163",
@@ -2115,12 +2213,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mamippoq",
       "gloss_en": "is healed, has healed up",
       "source_file": "M.ods",
-      "source_row": 163
+      "source_row": 163,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_164",
@@ -2128,12 +2227,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mamisarpoq",
       "gloss_en": "pulls on the wound, tugs on the incision",
       "source_file": "M.ods",
-      "source_row": 164
+      "source_row": 164,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_165",
@@ -2154,12 +2254,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mamitarpoq",
       "gloss_en": "capsizes (said of a kayaker)",
       "source_file": "M.ods",
-      "source_row": 166
+      "source_row": 166,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_167",
@@ -2167,12 +2268,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mammarpoq",
       "gloss_en": "eats",
       "source_file": "M.ods",
-      "source_row": 167
+      "source_row": 167,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_168",
@@ -2180,12 +2282,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mammatappoq",
       "gloss_en": "is dead tired",
       "source_file": "M.ods",
-      "source_row": 168
+      "source_row": 168,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_169",
@@ -2206,12 +2309,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mamaagaa",
       "gloss_en": "dislikes its taste, thinks it tastes bad",
       "source_file": "M.ods",
-      "source_row": 170
+      "source_row": 170,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_171",
@@ -2219,12 +2323,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mamaappoq",
       "gloss_en": "tastes bad",
       "source_file": "M.ods",
-      "source_row": 171
+      "source_row": 171,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_172",
@@ -2232,12 +2337,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mamaarpoq",
       "gloss_en": "loses hair (said of a seal), has peeling skin (said of a whale)",
       "source_file": "M.ods",
-      "source_row": 172
+      "source_row": 172,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_173",
@@ -2245,12 +2351,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mamaatsoornarpoq",
       "gloss_en": "produces an unpleasant taste in the mouth",
       "source_file": "M.ods",
-      "source_row": 173
+      "source_row": 173,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_174",
@@ -2258,12 +2365,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mamaatsoorpoq",
       "gloss_en": "is disappointed, had expected more, had counted on something better",
       "source_file": "M.ods",
-      "source_row": 174
+      "source_row": 174,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_175",
@@ -2271,12 +2379,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mamaatsoorpoq",
       "gloss_en": "tastes something unpleasant",
       "source_file": "M.ods",
-      "source_row": 175
+      "source_row": 175,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_176",
@@ -2349,12 +2458,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "manerippoq",
       "gloss_en": "the sea has grown calm",
       "source_file": "M.ods",
-      "source_row": 181
+      "source_row": 181,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_182",
@@ -2362,12 +2472,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mangappaa",
       "gloss_en": "pesters him/her about something, puts pressure on him/her in order to get something",
       "source_file": "M.ods",
-      "source_row": 182
+      "source_row": 182,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_183",
@@ -2375,12 +2486,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mangiarpoq",
       "gloss_en": "grasses, to gnaw",
       "source_file": "M.ods",
-      "source_row": 183
+      "source_row": 183,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_184",
@@ -2388,12 +2500,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "manguppaa",
       "gloss_en": "stuffs it in, tucks it in",
       "source_file": "M.ods",
-      "source_row": 184
+      "source_row": 184,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_185",
@@ -2401,12 +2514,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mangutserpoq",
       "gloss_en": "tucks his/her shirt or undershirt in",
       "source_file": "M.ods",
-      "source_row": 185
+      "source_row": 185,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_186",
@@ -2440,12 +2554,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "manguttaajarpoq",
       "gloss_en": "splits, comes apart in the middle (of a persons's clothes)",
       "source_file": "M.ods",
-      "source_row": 188
+      "source_row": 188,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_189",
@@ -2453,12 +2568,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "manigorpaa",
       "gloss_en": "tries to win him/her over, tries to molify him/her, tries to pacify him/her",
       "source_file": "M.ods",
-      "source_row": 189
+      "source_row": 189,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_190",
@@ -2466,12 +2582,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "maniguuffigaa",
       "gloss_en": "is subservient to him/her, is submissive to him/her, is humble in his/her presence",
       "source_file": "M.ods",
-      "source_row": 190
+      "source_row": 190,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_191",
@@ -2479,12 +2596,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maniguuppoq",
       "gloss_en": "is submissive, is meek",
       "source_file": "M.ods",
-      "source_row": 191
+      "source_row": 191,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_192",
@@ -2492,12 +2610,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maniilakuluppoq",
       "gloss_en": "has a rough surface, is rough to the touch",
       "source_file": "M.ods",
-      "source_row": 192
+      "source_row": 192,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_193",
@@ -2505,12 +2624,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maniilappoq",
       "gloss_en": "is uneven, has rough spots",
       "source_file": "M.ods",
-      "source_row": 193
+      "source_row": 193,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_194",
@@ -2531,12 +2651,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maniileraarpoq",
       "gloss_en": "has a rough surface, is rough to the touch",
       "source_file": "M.ods",
-      "source_row": 195
+      "source_row": 195,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_196",
@@ -2544,12 +2665,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maniillivoq",
       "gloss_en": "become rough, become bumby, become uneven",
       "source_file": "M.ods",
-      "source_row": 196
+      "source_row": 196,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_197",
@@ -2557,12 +2679,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maniilaaraqarpoq",
       "gloss_en": "is bumpy, has small bumps all over",
       "source_file": "M.ods",
-      "source_row": 197
+      "source_row": 197,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_198",
@@ -2570,12 +2693,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maniilaavoq",
       "gloss_en": "is uneven, has rough spots",
       "source_file": "M.ods",
-      "source_row": 198
+      "source_row": 198,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_199",
@@ -2583,12 +2707,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maniippoq",
       "gloss_en": "uneven",
       "source_file": "M.ods",
-      "source_row": 199
+      "source_row": 199,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_200",
@@ -2596,12 +2721,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maniippoq",
       "gloss_en": "is uneven",
       "source_file": "M.ods",
-      "source_row": 200
+      "source_row": 200,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_201",
@@ -2635,12 +2761,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "manikujutsippoq",
       "gloss_en": "is a little offended, feels a little insulted",
       "source_file": "M.ods",
-      "source_row": 203
+      "source_row": 203,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_204",
@@ -2648,12 +2775,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "manilerivoq",
       "gloss_en": "hangs out clothes to dry, spreads clothes out to dry",
       "source_file": "M.ods",
-      "source_row": 204
+      "source_row": 204,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_205",
@@ -2661,12 +2789,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maninnippoq",
       "gloss_en": "comes into calm waters",
       "source_file": "M.ods",
-      "source_row": 205
+      "source_row": 205,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_206",
@@ -2674,12 +2803,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "manioqqaavoq",
       "gloss_en": "hangs out clothes to dry, spreads clothes out to dry",
       "source_file": "M.ods",
-      "source_row": 206
+      "source_row": 206,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_207",
@@ -2687,12 +2817,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "manippoq",
       "gloss_en": "is flat, is smooth",
       "source_file": "M.ods",
-      "source_row": 207
+      "source_row": 207,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_208",
@@ -2713,12 +2844,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "manisivoq",
       "gloss_en": "hangs something out to dry, spreads something out to dry",
       "source_file": "M.ods",
-      "source_row": 209
+      "source_row": 209,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_210",
@@ -2726,12 +2858,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "manissarpaa",
       "gloss_en": "iron it (article of clothing); flatten it (article of clothing or bed clothes) by using a mangle; flatten it (the ground) with a roller",
       "source_file": "M.ods",
-      "source_row": 210
+      "source_row": 210,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_211",
@@ -2791,12 +2924,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "manittorpoq",
       "gloss_en": "sobs loudly",
       "source_file": "M.ods",
-      "source_row": 215
+      "source_row": 215,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_216",
@@ -2804,12 +2938,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "manivaa",
       "gloss_en": "hangs it up to dry, spreads it out to dry",
       "source_file": "M.ods",
-      "source_row": 216
+      "source_row": 216,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_217",
@@ -2867,12 +3002,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "manneeqqiarpoq",
       "gloss_en": "goes out to gather tern eggs",
       "source_file": "M.ods",
-      "source_row": 221
+      "source_row": 221,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_222",
@@ -2893,12 +3029,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "manneerartarpoq",
       "gloss_en": "gathers tern eggs",
       "source_file": "M.ods",
-      "source_row": 223
+      "source_row": 223,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_224",
@@ -2919,12 +3056,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "manngerpoq",
       "gloss_en": "is hard",
       "source_file": "M.ods",
-      "source_row": 225
+      "source_row": 225,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_226",
@@ -2945,12 +3083,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "manngertippoq",
       "gloss_en": "becomes hard, hardens, will not change his/her mind, is obdurate, is obstinate",
       "source_file": "M.ods",
-      "source_row": 227
+      "source_row": 227,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_228",
@@ -2958,12 +3097,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "manngertitsivoq",
       "gloss_en": "is constipated",
       "source_file": "M.ods",
-      "source_row": 228
+      "source_row": 228,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_229",
@@ -3049,12 +3189,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mannguppoq",
       "gloss_en": "has been put into something",
       "source_file": "M.ods",
-      "source_row": 235
+      "source_row": 235,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_236",
@@ -3062,12 +3203,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mannguppoq",
       "gloss_en": "has been put into something",
       "source_file": "M.ods",
-      "source_row": 236
+      "source_row": 236,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_237",
@@ -3075,12 +3217,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "manngussuuppaa",
       "gloss_en": "stuffs it down",
       "source_file": "M.ods",
-      "source_row": 237
+      "source_row": 237,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_238",
@@ -3088,12 +3231,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "manngaallappoq",
       "gloss_en": "is more resistance than expected, feels harder than expected",
       "source_file": "M.ods",
-      "source_row": 238
+      "source_row": 238,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_239",
@@ -3127,12 +3271,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "manniliarpoq",
       "gloss_en": "goes out to gather eggs",
       "source_file": "M.ods",
-      "source_row": 241
+      "source_row": 241,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_242",
@@ -3140,12 +3285,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "manniliorpoq",
       "gloss_en": "lays an egg, cooks eggs",
       "source_file": "M.ods",
-      "source_row": 242
+      "source_row": 242,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_243",
@@ -3179,12 +3325,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mannissarpoq",
       "gloss_en": "gathers eggs, finds an egg",
       "source_file": "M.ods",
-      "source_row": 245
+      "source_row": 245,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_246",
@@ -3257,12 +3404,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mapperpoq",
       "gloss_en": "opens, becomes open",
       "source_file": "M.ods",
-      "source_row": 251
+      "source_row": 251,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_252",
@@ -3270,12 +3418,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mapperpaa",
       "gloss_en": "opens it, opens it up",
       "source_file": "M.ods",
-      "source_row": 252
+      "source_row": 252,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_253",
@@ -3309,12 +3458,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mappersimavoq",
       "gloss_en": "is open, stands open",
       "source_file": "M.ods",
-      "source_row": 255
+      "source_row": 255,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_256",
@@ -3348,12 +3498,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mappiuppaa",
       "gloss_en": "opens the door for hm/her",
       "source_file": "M.ods",
-      "source_row": 258
+      "source_row": 258,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_259",
@@ -3361,12 +3512,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maqippoq",
       "gloss_en": "carries a watercraft upside down overland",
       "source_file": "M.ods",
-      "source_row": 259
+      "source_row": 259,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_260",
@@ -3374,12 +3526,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "maqippaa",
       "gloss_en": "taps it, draws liquid from it",
       "source_file": "M.ods",
-      "source_row": 260
+      "source_row": 260,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_261",
@@ -3387,12 +3540,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maqisuinnanngorpoq",
       "gloss_en": "he/she is dripping in sweat",
       "source_file": "M.ods",
-      "source_row": 261
+      "source_row": 261,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_262",
@@ -3426,12 +3580,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maqiterivoq",
       "gloss_en": "fills bottles with beer or soda from a barrel or larger vessel",
       "source_file": "M.ods",
-      "source_row": 264
+      "source_row": 264,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_265",
@@ -3439,12 +3594,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maqivoq",
       "gloss_en": "inflammation, pus comes out of the wound",
       "source_file": "M.ods",
-      "source_row": 265
+      "source_row": 265,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_266",
@@ -3452,12 +3608,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maqqallappoq",
       "gloss_en": "is full, is satiated, is satisfied",
       "source_file": "M.ods",
-      "source_row": 266
+      "source_row": 266,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_267",
@@ -3491,12 +3648,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maqaasinarpoq",
       "gloss_en": "he/she is missed by someone",
       "source_file": "M.ods",
-      "source_row": 269
+      "source_row": 269,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_270",
@@ -3504,12 +3662,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maqaasivoq",
       "gloss_en": "misses someone",
       "source_file": "M.ods",
-      "source_row": 270
+      "source_row": 270,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_271",
@@ -3517,12 +3676,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "maqaasivaa",
       "gloss_en": "misses him/her, wishes he/she were here",
       "source_file": "M.ods",
-      "source_row": 271
+      "source_row": 271,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_272",
@@ -3647,12 +3807,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "marloriarpoq",
       "gloss_en": "does something twice",
       "source_file": "M.ods",
-      "source_row": 281
+      "source_row": 281,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_282",
@@ -3699,12 +3860,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "marloraarpoq",
       "gloss_en": "catches two (fish or game animals or birds)",
       "source_file": "M.ods",
-      "source_row": 285
+      "source_row": 285,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_286",
@@ -3764,12 +3926,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "marlukkuutaarput",
       "gloss_en": "are grouped in pairs, appear two at a time",
       "source_file": "M.ods",
-      "source_row": 290
+      "source_row": 290,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_291",
@@ -3816,12 +3979,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "marlulivoq",
       "gloss_en": "becomes the parent of twins",
       "source_file": "M.ods",
-      "source_row": 294
+      "source_row": 294,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_295",
@@ -3879,12 +4043,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "marlunngorneruvoq",
       "gloss_en": "it is Tuesday",
       "source_file": "M.ods",
-      "source_row": 299
+      "source_row": 299,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_300",
@@ -3904,12 +4069,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "marlunngorpoq",
       "gloss_en": "it is two o'clock",
       "source_file": "M.ods",
-      "source_row": 301
+      "source_row": 301,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_302",
@@ -4034,12 +4200,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "marluuppaat",
       "gloss_en": "are of two minds about it, disagree about it",
       "source_file": "M.ods",
-      "source_row": 311
+      "source_row": 311,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_312",
@@ -4060,12 +4227,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "marluussipput",
       "gloss_en": "two of them took part in the catch, they are playing four hands piano",
       "source_file": "M.ods",
-      "source_row": 313
+      "source_row": 313,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_314",
@@ -4125,12 +4293,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "marniliorpoq",
       "gloss_en": "is inflammed, is infected",
       "source_file": "M.ods",
-      "source_row": 318
+      "source_row": 318,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_319",
@@ -4138,12 +4307,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "marniliuuppoq",
       "gloss_en": "it has become inflamed, has become infected",
       "source_file": "M.ods",
-      "source_row": 319
+      "source_row": 319,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_320",
@@ -4177,12 +4347,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "marrarasappoq",
       "gloss_en": "it has gotten clay on it, it has become spotted with clay",
       "source_file": "M.ods",
-      "source_row": 322
+      "source_row": 322,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_323",
@@ -4190,12 +4361,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "marrarpaa",
       "gloss_en": "coats it with clay, plasters it with clay",
       "source_file": "M.ods",
-      "source_row": 323
+      "source_row": 323,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_324",
@@ -4216,12 +4388,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "marriorpoq",
       "gloss_en": "makes pottery",
       "source_file": "M.ods",
-      "source_row": 325
+      "source_row": 325,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_326",
@@ -4242,12 +4415,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "marrippoq",
       "gloss_en": "is stuck in the mud, is stuck in clay",
       "source_file": "M.ods",
-      "source_row": 327
+      "source_row": 327,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_328",
@@ -4255,12 +4429,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "marrisimaarpoq",
       "gloss_en": "is not at all anxious to leave (said of a guest)",
       "source_file": "M.ods",
-      "source_row": 328
+      "source_row": 328,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_329",
@@ -4294,12 +4469,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "marraavoq",
       "gloss_en": "muddy, sticky (said of dirt or earth)",
       "source_file": "M.ods",
-      "source_row": 331
+      "source_row": 331,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_332",
@@ -4307,12 +4483,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "marserpoq",
       "gloss_en": "marches",
       "source_file": "M.ods",
-      "source_row": 332
+      "source_row": 332,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_333",
@@ -4320,12 +4497,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "marserpoq",
       "gloss_en": "marches",
       "source_file": "M.ods",
-      "source_row": 333
+      "source_row": 333,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_334",
@@ -4359,12 +4537,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "marsivoq",
       "gloss_en": "is teary, his/her eyes are tearing, sheds tears",
       "source_file": "M.ods",
-      "source_row": 336
+      "source_row": 336,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_337",
@@ -4424,12 +4603,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "masannarpoq",
       "gloss_en": "it is wet weather",
       "source_file": "M.ods",
-      "source_row": 341
+      "source_row": 341,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_342",
@@ -4450,12 +4630,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "masappoq",
       "gloss_en": "is wet",
       "source_file": "M.ods",
-      "source_row": 343
+      "source_row": 343,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_344",
@@ -4463,12 +4644,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "masarlerpaa",
       "gloss_en": "wipes it dry",
       "source_file": "M.ods",
-      "source_row": 344
+      "source_row": 344,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_345",
@@ -4502,12 +4684,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "masatalaarpoq",
       "gloss_en": "gets wet",
       "source_file": "M.ods",
-      "source_row": 347
+      "source_row": 347,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_348",
@@ -4515,12 +4698,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "masatserpaa",
       "gloss_en": "wets it, makes it wet",
       "source_file": "M.ods",
-      "source_row": 348
+      "source_row": 348,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_349",
@@ -4606,12 +4790,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maskiinaajarpoq",
       "gloss_en": "has engine failure",
       "source_file": "M.ods",
-      "source_row": 355
+      "source_row": 355,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_356",
@@ -4718,12 +4903,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "massalippoq",
       "gloss_en": "flakes off, its surface is being eaten away",
       "source_file": "M.ods",
-      "source_row": 364
+      "source_row": 364,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_365",
@@ -4743,12 +4929,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "massappaa",
       "gloss_en": "removes the skin with the fat from a seal carcass",
       "source_file": "M.ods",
-      "source_row": 366
+      "source_row": 366,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_367",
@@ -4756,12 +4943,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "massarpaa",
       "gloss_en": "treats a wound",
       "source_file": "M.ods",
-      "source_row": 367
+      "source_row": 367,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_368",
@@ -4769,12 +4957,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "massikarpoq",
       "gloss_en": "gets loose, loosens up",
       "source_file": "M.ods",
-      "source_row": 368
+      "source_row": 368,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_369",
@@ -4782,12 +4971,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "massippoq",
       "gloss_en": "sits halfway up from a recumbent position",
       "source_file": "M.ods",
-      "source_row": 369
+      "source_row": 369,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_370",
@@ -4795,12 +4985,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "massuavoq",
       "gloss_en": "complains, expresses his/her dissatisfaction",
       "source_file": "M.ods",
-      "source_row": 370
+      "source_row": 370,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_371",
@@ -4883,12 +5074,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "matoorpaa",
       "gloss_en": "covers it over, puts a lid on it",
       "source_file": "M.ods",
-      "source_row": 377
+      "source_row": 377,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_378",
@@ -4896,12 +5088,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "matooruppaa",
       "gloss_en": "buries it and covers it over",
       "source_file": "M.ods",
-      "source_row": 378
+      "source_row": 378,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_379",
@@ -4922,12 +5115,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "matoqqavoq",
       "gloss_en": "is closed",
       "source_file": "M.ods",
-      "source_row": 380
+      "source_row": 380,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_381",
@@ -4935,12 +5129,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "matorluppoq",
       "gloss_en": "someone is banging on the door",
       "source_file": "M.ods",
-      "source_row": 381
+      "source_row": 381,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_382",
@@ -4974,12 +5169,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mattakarpoq",
       "gloss_en": "throws off its harness (said of a sled dog)",
       "source_file": "M.ods",
-      "source_row": 384
+      "source_row": 384,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_385",
@@ -5000,12 +5196,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mattarpoq",
       "gloss_en": "takes his/her jacket off",
       "source_file": "M.ods",
-      "source_row": 386
+      "source_row": 386,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_387",
@@ -5013,12 +5210,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mattarterpoq",
       "gloss_en": "strips to the waist",
       "source_file": "M.ods",
-      "source_row": 387
+      "source_row": 387,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_388",
@@ -5039,12 +5237,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mattorluppoq",
       "gloss_en": "will not close completely (said of a door, lid, etc.)",
       "source_file": "M.ods",
-      "source_row": 389
+      "source_row": 389,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_390",
@@ -5065,12 +5264,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mattuppaa",
       "gloss_en": "locks him/her in, locks him/her up, incarcerates him/her",
       "source_file": "M.ods",
-      "source_row": 391
+      "source_row": 391,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_392",
@@ -5078,12 +5278,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mattuserpaa",
       "gloss_en": "bandages it, dresses his/her wounds",
       "source_file": "M.ods",
-      "source_row": 392
+      "source_row": 392,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_393",
@@ -5117,12 +5318,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mattussaavoq",
       "gloss_en": "is locked up, is in jail, is quarantined",
       "source_file": "M.ods",
-      "source_row": 395
+      "source_row": 395,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_396",
@@ -5169,12 +5371,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mattutsippoq",
       "gloss_en": "becomes hard, becomes tough",
       "source_file": "M.ods",
-      "source_row": 399
+      "source_row": 399,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_400",
@@ -5208,12 +5411,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mattutaarpaa",
       "gloss_en": "removes his/her bandages, takes the bandages off of it",
       "source_file": "M.ods",
-      "source_row": 402
+      "source_row": 402,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_403",
@@ -5221,12 +5425,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mattuvoq",
       "gloss_en": "is tough, is hard",
       "source_file": "M.ods",
-      "source_row": 403
+      "source_row": 403,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_404",
@@ -5234,12 +5439,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mattaajarpaa",
       "gloss_en": "cuts the mattak off of it (a whale), removes the skin with some of the blubber from it",
       "source_file": "M.ods",
-      "source_row": 404
+      "source_row": 404,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_405",
@@ -5247,12 +5453,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mattaangavoq",
       "gloss_en": "is naked from the waist up",
       "source_file": "M.ods",
-      "source_row": 405
+      "source_row": 405,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_406",
@@ -5420,12 +5627,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "matuvoq",
       "gloss_en": "is closed",
       "source_file": "M.ods",
-      "source_row": 419
+      "source_row": 419,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_420",
@@ -5433,12 +5641,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "matuaa",
       "gloss_en": "closes it, puts a lid on it, puts its cover on",
       "source_file": "M.ods",
-      "source_row": 420
+      "source_row": 420,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_421",
@@ -5563,12 +5772,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "meeqqerivoq",
       "gloss_en": "child care provider",
       "source_file": "M.ods",
-      "source_row": 430
+      "source_row": 430,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_431",
@@ -5589,12 +5799,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "meeqqiorpoq",
       "gloss_en": "bears children, has one child after another",
       "source_file": "M.ods",
-      "source_row": 432
+      "source_row": 432,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_433",
@@ -5602,12 +5813,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "meeqqisarpoq",
       "gloss_en": "contraception",
       "source_file": "M.ods",
-      "source_row": 433
+      "source_row": 433,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_434",
@@ -5641,12 +5853,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "meerarpaluppoq",
       "gloss_en": "is childlike, is naïve",
       "source_file": "M.ods",
-      "source_row": 436
+      "source_row": 436,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_437",
@@ -5654,12 +5867,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "meerartaarpoq",
       "gloss_en": "has a child, gives birth to a child",
       "source_file": "M.ods",
-      "source_row": 437
+      "source_row": 437,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_438",
@@ -5706,12 +5920,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "meerpoq",
       "gloss_en": "immitates a sheep, goes \"baa\"",
       "source_file": "M.ods",
-      "source_row": 441
+      "source_row": 441,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_442",
@@ -5719,12 +5934,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "meertorpoq",
       "gloss_en": "bleats (said of a sheep or goat)",
       "source_file": "M.ods",
-      "source_row": 442
+      "source_row": 442,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_443",
@@ -5732,12 +5948,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "meerujutsippoq",
       "gloss_en": "gets coddled, is being overprotected",
       "source_file": "M.ods",
-      "source_row": 443
+      "source_row": 443,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_444",
@@ -5745,12 +5962,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "meerujuuvoq",
       "gloss_en": "is spoiled, is coddled",
       "source_file": "M.ods",
-      "source_row": 444
+      "source_row": 444,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_445",
@@ -5810,12 +6028,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "meeraasaarpoq",
       "gloss_en": "behaves childishly, is coddled",
       "source_file": "M.ods",
-      "source_row": 449
+      "source_row": 449,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_450",
@@ -5875,12 +6094,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "meqqilerpaa",
       "gloss_en": "labels it, brands it",
       "source_file": "M.ods",
-      "source_row": 454
+      "source_row": 454,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_455",
@@ -5914,12 +6134,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "meqqorippoq",
       "gloss_en": "has beautiful hair (said of a hide), it has a luxurient growth of plants",
       "source_file": "M.ods",
-      "source_row": 457
+      "source_row": 457,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_458",
@@ -5927,12 +6148,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "meqqorissarpoq",
       "gloss_en": "preens its feathers",
       "source_file": "M.ods",
-      "source_row": 458
+      "source_row": 458,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_459",
@@ -5940,12 +6162,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "meqqorissarpaa",
       "gloss_en": "washes it (a skin) and smoothes the hair",
       "source_file": "M.ods",
-      "source_row": 459
+      "source_row": 459,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_460",
@@ -5953,12 +6176,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "meqquerpoq",
       "gloss_en": "is losing hair, is hairless",
       "source_file": "M.ods",
-      "source_row": 460
+      "source_row": 460,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_461",
@@ -6031,12 +6255,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "meqqunippoq",
       "gloss_en": "gets hair, gets feathers",
       "source_file": "M.ods",
-      "source_row": 466
+      "source_row": 466,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_467",
@@ -6109,12 +6334,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "meqqutaajarpoq",
       "gloss_en": "the needle broke",
       "source_file": "M.ods",
-      "source_row": 472
+      "source_row": 472,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_473",
@@ -6161,12 +6387,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "merarput",
       "gloss_en": "land one after another (said of birds)",
       "source_file": "M.ods",
-      "source_row": 476
+      "source_row": 476,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_477",
@@ -6200,12 +6427,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "meriannguvoq",
       "gloss_en": "is seasick, is suffering from motion sickness",
       "source_file": "M.ods",
-      "source_row": 479
+      "source_row": 479,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_480",
@@ -6213,12 +6441,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "meriarpoq",
       "gloss_en": "throws up, vomits",
       "source_file": "M.ods",
-      "source_row": 480
+      "source_row": 480,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_481",
@@ -6226,12 +6455,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "meriarsarpoq",
       "gloss_en": "tries to make himself/herself throw up",
       "source_file": "M.ods",
-      "source_row": 481
+      "source_row": 481,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_482",
@@ -6278,12 +6508,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "merngorpoq",
       "gloss_en": "is exhausted, is all tired out",
       "source_file": "M.ods",
-      "source_row": 485
+      "source_row": 485,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_486",
@@ -6291,12 +6522,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mernguerserpoq",
       "gloss_en": "sits down to catch his/her breath",
       "source_file": "M.ods",
-      "source_row": 486
+      "source_row": 486,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_487",
@@ -6304,12 +6536,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "merserinngilaa",
       "gloss_en": "is not scared of it, is not intimitated by it",
       "source_file": "M.ods",
-      "source_row": 487
+      "source_row": 487,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_488",
@@ -6317,12 +6550,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mersernarpoq",
       "gloss_en": "looks intimidating, seems unapproachable",
       "source_file": "M.ods",
-      "source_row": 488
+      "source_row": 488,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_489",
@@ -6330,12 +6564,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mersersaarpoq",
       "gloss_en": "behaves haughtily, behaves in a supercilious manner",
       "source_file": "M.ods",
-      "source_row": 489
+      "source_row": 489,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_490",
@@ -6343,12 +6578,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "merserusuppoq",
       "gloss_en": "wants to avoid doing something, does not want to get involved with something",
       "source_file": "M.ods",
-      "source_row": 490
+      "source_row": 490,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_491",
@@ -6356,12 +6592,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "merseraa",
       "gloss_en": "does not dare to take it on, does not dare to start in on it",
       "source_file": "M.ods",
-      "source_row": 491
+      "source_row": 491,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_492",
@@ -6395,12 +6632,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mersorpoq",
       "gloss_en": "sews, sews something",
       "source_file": "M.ods",
-      "source_row": 494
+      "source_row": 494,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_495",
@@ -6408,12 +6646,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mersorpaa",
       "gloss_en": "sews it",
       "source_file": "M.ods",
-      "source_row": 495
+      "source_row": 495,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_496",
@@ -6460,12 +6699,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mersullaqqippoq",
       "gloss_en": "is good at sewing, sews nicely",
       "source_file": "M.ods",
-      "source_row": 499
+      "source_row": 499,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_500",
@@ -6473,12 +6713,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mersuuppaa",
       "gloss_en": "sews for him/her, sews it onto something",
       "source_file": "M.ods",
-      "source_row": 500
+      "source_row": 500,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_501",
@@ -6538,12 +6779,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "miaggoorpoq",
       "gloss_en": "howls (said of a dog or wolf)",
       "source_file": "M.ods",
-      "source_row": 505
+      "source_row": 505,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_506",
@@ -6564,12 +6806,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mianernarpoq",
       "gloss_en": "is easily insulted, is easily offended",
       "source_file": "M.ods",
-      "source_row": 507
+      "source_row": 507,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_508",
@@ -6590,12 +6833,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mianersorpoq",
       "gloss_en": "is careful",
       "source_file": "M.ods",
-      "source_row": 509
+      "source_row": 509,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_510",
@@ -6616,12 +6860,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mianersuaalliorpoq",
       "gloss_en": "behaves carelessly, acts recklessly, does something without caution",
       "source_file": "M.ods",
-      "source_row": 511
+      "source_row": 511,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_512",
@@ -6642,12 +6887,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mianersuaappoq",
       "gloss_en": "is not cautious, does not take precautions, is a daredevil",
       "source_file": "M.ods",
-      "source_row": 513
+      "source_row": 513,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_514",
@@ -6655,12 +6901,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mianeraa",
       "gloss_en": "has respect for it, is wary of it",
       "source_file": "M.ods",
-      "source_row": 514
+      "source_row": 514,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_515",
@@ -6681,12 +6928,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mikersarpoq",
       "gloss_en": "cannot fit it, it is too small",
       "source_file": "M.ods",
-      "source_row": 516
+      "source_row": 516,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_517",
@@ -6694,12 +6942,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mikialaaliorpoq",
       "gloss_en": "cooks lightly fermented fish",
       "source_file": "M.ods",
-      "source_row": 517
+      "source_row": 517,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_518",
@@ -6733,12 +6982,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mikiarnippoq",
       "gloss_en": "smells rotten",
       "source_file": "M.ods",
-      "source_row": 520
+      "source_row": 520,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_521",
@@ -6746,12 +6996,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mikiarpoq",
       "gloss_en": "rots, gets rotten",
       "source_file": "M.ods",
-      "source_row": 521
+      "source_row": 521,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_522",
@@ -6772,12 +7023,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mikigaa",
       "gloss_en": "finds it to small, it is too small for him/her",
       "source_file": "M.ods",
-      "source_row": 523
+      "source_row": 523,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_524",
@@ -6798,12 +7050,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mikippaa",
       "gloss_en": "bites off a piece of it",
       "source_file": "M.ods",
-      "source_row": 525
+      "source_row": 525,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_526",
@@ -6837,12 +7090,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mikivoq",
       "gloss_en": "is small, is little",
       "source_file": "M.ods",
-      "source_row": 528
+      "source_row": 528,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_529",
@@ -6850,12 +7104,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mikkappoq",
       "gloss_en": "strips skin off of something with the teeth",
       "source_file": "M.ods",
-      "source_row": 529
+      "source_row": 529,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_530",
@@ -6863,12 +7118,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mikkappaa",
       "gloss_en": "strips the skin from it with the teeth",
       "source_file": "M.ods",
-      "source_row": 530
+      "source_row": 530,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_531",
@@ -6980,12 +7236,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "milikarpoq",
       "gloss_en": "plugs it up",
       "source_file": "M.ods",
-      "source_row": 539
+      "source_row": 539,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_540",
@@ -6993,12 +7250,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "milikkiuppoq",
       "gloss_en": "blocks the passage",
       "source_file": "M.ods",
-      "source_row": 540
+      "source_row": 540,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_541",
@@ -7006,12 +7264,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "milinngatsivoq",
       "gloss_en": "has a stopped-up nose",
       "source_file": "M.ods",
-      "source_row": 541
+      "source_row": 541,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_542",
@@ -7019,12 +7278,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "milippoq",
       "gloss_en": "is plugged, is corked, is stopped up",
       "source_file": "M.ods",
-      "source_row": 542
+      "source_row": 542,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_543",
@@ -7045,12 +7305,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "millalaarpoq",
       "gloss_en": "buzzes (said of an insect)",
       "source_file": "M.ods",
-      "source_row": 544
+      "source_row": 544,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_545",
@@ -7097,12 +7358,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "millilerpaa",
       "gloss_en": "makes it smaller, takes it (a garment) in",
       "source_file": "M.ods",
-      "source_row": 548
+      "source_row": 548,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_549",
@@ -7149,12 +7411,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "millissiuppaa",
       "gloss_en": "uses it to put the food on",
       "source_file": "M.ods",
-      "source_row": 552
+      "source_row": 552,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_553",
@@ -7162,12 +7425,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "millivoq",
       "gloss_en": "grows smaller, shrinks",
       "source_file": "M.ods",
-      "source_row": 553
+      "source_row": 553,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_554",
@@ -7175,12 +7439,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "milloorpoq",
       "gloss_en": "throws something",
       "source_file": "M.ods",
-      "source_row": 554
+      "source_row": 554,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_555",
@@ -7188,12 +7453,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "milloorpaa",
       "gloss_en": "throws things at him/her/it again and again",
       "source_file": "M.ods",
-      "source_row": 555
+      "source_row": 555,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_556",
@@ -7201,12 +7467,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "milluarpaa",
       "gloss_en": "sucks it up, drinks through a straw",
       "source_file": "M.ods",
-      "source_row": 556
+      "source_row": 556,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_557",
@@ -7253,12 +7520,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "milluguppoq",
       "gloss_en": "attaches it by suction",
       "source_file": "M.ods",
-      "source_row": 560
+      "source_row": 560,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_561",
@@ -7266,12 +7534,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "milluguppaa",
       "gloss_en": "sucks it in",
       "source_file": "M.ods",
-      "source_row": 561
+      "source_row": 561,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_562",
@@ -7292,12 +7561,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "milluppaa",
       "gloss_en": "takes a sip of it",
       "source_file": "M.ods",
-      "source_row": 563
+      "source_row": 563,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_564",
@@ -7305,12 +7575,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "millusukarpaa",
       "gloss_en": "slurps it up, sucks it up",
       "source_file": "M.ods",
-      "source_row": 564
+      "source_row": 564,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_565",
@@ -7370,12 +7641,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "miloriarnertuvoq",
       "gloss_en": "can throw things far, has a good arm",
       "source_file": "M.ods",
-      "source_row": 569
+      "source_row": 569,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_570",
@@ -7383,12 +7655,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "miloriarpoq",
       "gloss_en": "throws a stone or snowball",
       "source_file": "M.ods",
-      "source_row": 570
+      "source_row": 570,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_571",
@@ -7396,12 +7669,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "miloriarpaa",
       "gloss_en": "throw something at him/her/it",
       "source_file": "M.ods",
-      "source_row": 571
+      "source_row": 571,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_572",
@@ -7409,12 +7683,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "miloriuppaa",
       "gloss_en": "tosses it down, throws it down, hits it with something thrown",
       "source_file": "M.ods",
-      "source_row": 572
+      "source_row": 572,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_573",
@@ -7422,12 +7697,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "miloriuppaa",
       "gloss_en": "throws the object",
       "source_file": "M.ods",
-      "source_row": 573
+      "source_row": 573,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_574",
@@ -7435,12 +7711,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "milorpaa",
       "gloss_en": "hits it with something thrown, throws something at a target and hits it",
       "source_file": "M.ods",
-      "source_row": 574
+      "source_row": 574,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_575",
@@ -7448,12 +7725,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "miluerpoq",
       "gloss_en": "is weaned, no longer nurses",
       "source_file": "M.ods",
-      "source_row": 575
+      "source_row": 575,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_576",
@@ -7500,12 +7778,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "miluguppoq",
       "gloss_en": "attaches itself with suction",
       "source_file": "M.ods",
-      "source_row": 579
+      "source_row": 579,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_580",
@@ -7526,12 +7805,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "milukaarpoq",
       "gloss_en": "licks a lollipop",
       "source_file": "M.ods",
-      "source_row": 581
+      "source_row": 581,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_582",
@@ -7539,12 +7819,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "miluppoq",
       "gloss_en": "nurses, suckles",
       "source_file": "M.ods",
-      "source_row": 582
+      "source_row": 582,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_583",
@@ -7565,12 +7846,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "milutsitsivoq",
       "gloss_en": "nurses a baby, breastfeeds a baby",
       "source_file": "M.ods",
-      "source_row": 584
+      "source_row": 584,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_585",
@@ -7604,12 +7886,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "minarpoq",
       "gloss_en": "takes some good food home (for ex., from a dinner)",
       "source_file": "M.ods",
-      "source_row": 587
+      "source_row": 587,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_588",
@@ -7617,12 +7900,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mingiuppaa",
       "gloss_en": "gets it caught between two things",
       "source_file": "M.ods",
-      "source_row": 588
+      "source_row": 588,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_589",
@@ -7630,12 +7914,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mingiutivilluni ingippoq",
       "gloss_en": "squeezes in between two seated people to sit down",
       "source_file": "M.ods",
-      "source_row": 589
+      "source_row": 589,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_590",
@@ -7643,12 +7928,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "minguerpoq",
       "gloss_en": "gets clean",
       "source_file": "M.ods",
-      "source_row": 590
+      "source_row": 590,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_591",
@@ -7656,12 +7942,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "minguippoq",
       "gloss_en": "is clean",
       "source_file": "M.ods",
-      "source_row": 591
+      "source_row": 591,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_592",
@@ -7682,12 +7969,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mingulerterpaa",
       "gloss_en": "threatens him/her with a clenched fist",
       "source_file": "M.ods",
-      "source_row": 593
+      "source_row": 593,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_594",
@@ -7695,12 +7983,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mingulerterpaa",
       "gloss_en": "threatens him/her with a clenched fist",
       "source_file": "M.ods",
-      "source_row": 594
+      "source_row": 594,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_595",
@@ -7708,12 +7997,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mingunnarpoq",
       "gloss_en": "it makes one dirty, it's dirty work",
       "source_file": "M.ods",
-      "source_row": 595
+      "source_row": 595,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_596",
@@ -7721,12 +8011,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "minguppoq",
       "gloss_en": "is dirty, is polluted",
       "source_file": "M.ods",
-      "source_row": 596
+      "source_row": 596,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_597",
@@ -7734,12 +8025,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mingutsippaa",
       "gloss_en": "pollutes it, sullies it",
       "source_file": "M.ods",
-      "source_row": 597
+      "source_row": 597,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_598",
@@ -7760,12 +8052,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mingutsitsivoq",
       "gloss_en": "pollutes, makes things dirty",
       "source_file": "M.ods",
-      "source_row": 599
+      "source_row": 599,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_600",
@@ -7786,12 +8079,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "minippaa",
       "gloss_en": "leaves him/her out (of an invitation or a portion of something)",
       "source_file": "M.ods",
-      "source_row": 601
+      "source_row": 601,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_602",
@@ -7838,12 +8132,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "minitserivoq",
       "gloss_en": "seals the nail holes in a skin boat with viscous whale oil",
       "source_file": "M.ods",
-      "source_row": 605
+      "source_row": 605,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_606",
@@ -7877,12 +8172,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "minitaavoq",
       "gloss_en": "has been passed up, has not been included",
       "source_file": "M.ods",
-      "source_row": 608
+      "source_row": 608,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_609",
@@ -7890,12 +8186,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "minivoq",
       "gloss_en": "it is drizzling",
       "source_file": "M.ods",
-      "source_row": 609
+      "source_row": 609,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_610",
@@ -7968,12 +8265,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "minngerivoq",
       "gloss_en": "works with something dirty, works with dirty stuff",
       "source_file": "M.ods",
-      "source_row": 615
+      "source_row": 615,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_616",
@@ -7981,12 +8279,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "minngernarpoq",
       "gloss_en": "makes one dirty, is dirty work",
       "source_file": "M.ods",
-      "source_row": 616
+      "source_row": 616,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_617",
@@ -7994,12 +8293,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "minngerpoq",
       "gloss_en": "gets dirty, gets filthy",
       "source_file": "M.ods",
-      "source_row": 617
+      "source_row": 617,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_618",
@@ -8020,12 +8320,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "minngaappoq",
       "gloss_en": "is lethargic, is sloppy, is lax",
       "source_file": "M.ods",
-      "source_row": 619
+      "source_row": 619,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_620",
@@ -8033,12 +8334,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "minnaarpaa",
       "gloss_en": "makes it too small, thinks it is too small",
       "source_file": "M.ods",
-      "source_row": 620
+      "source_row": 620,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_621",
@@ -8082,12 +8384,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mipperpoq",
       "gloss_en": "beg, sponges off someone",
       "source_file": "M.ods",
-      "source_row": 624
+      "source_row": 624,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_625",
@@ -8095,12 +8398,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mippoq",
       "gloss_en": "lands (said of an airplane), alights (said of a bird)",
       "source_file": "M.ods",
-      "source_row": 625
+      "source_row": 625,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_626",
@@ -8108,12 +8412,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mippaarpoq",
       "gloss_en": "beg, sponges off someone",
       "source_file": "M.ods",
-      "source_row": 626
+      "source_row": 626,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_627",
@@ -8134,12 +8439,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "misarpaluppoq",
       "gloss_en": "makes a splashing sound, splashes",
       "source_file": "M.ods",
-      "source_row": 628
+      "source_row": 628,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_629",
@@ -8147,12 +8453,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "misarpoq",
       "gloss_en": "breaks the surface of the water with its mouth (of a fish)",
       "source_file": "M.ods",
-      "source_row": 629
+      "source_row": 629,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_630",
@@ -8160,12 +8467,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "miseqqiorpoq",
       "gloss_en": "makes gravy, makes sauce",
       "source_file": "M.ods",
-      "source_row": 630
+      "source_row": 630,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_631",
@@ -8186,12 +8494,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "miserartorpoq",
       "gloss_en": "eats dried fish dipped in seal oil",
       "source_file": "M.ods",
-      "source_row": 632
+      "source_row": 632,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_633",
@@ -8199,12 +8508,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "miserrappaa",
       "gloss_en": "denies his/her guilt",
       "source_file": "M.ods",
-      "source_row": 633
+      "source_row": 633,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_634",
@@ -8212,12 +8522,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "miserrarippoq",
       "gloss_en": "is in the habit of saying he/she hasn't done anything wrong",
       "source_file": "M.ods",
-      "source_row": 634
+      "source_row": 634,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_635",
@@ -8225,12 +8536,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "miserratigaa",
       "gloss_en": "does not want to admit his/her guilt, refuses to admit it, denies his/her responsibility",
       "source_file": "M.ods",
-      "source_row": 635
+      "source_row": 635,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_636",
@@ -8251,12 +8563,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "misiarpoq",
       "gloss_en": "refuses to tell the truth, denies having done anything",
       "source_file": "M.ods",
-      "source_row": 637
+      "source_row": 637,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_638",
@@ -8264,12 +8577,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "misigeqatigaa",
       "gloss_en": "has sympathy for him/her, sympathizes with him/her",
       "source_file": "M.ods",
-      "source_row": 638
+      "source_row": 638,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_639",
@@ -8277,12 +8591,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "misigiitsoorpoq",
       "gloss_en": "time just flew by for him/her",
       "source_file": "M.ods",
-      "source_row": 639
+      "source_row": 639,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_640",
@@ -8290,12 +8605,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "misigilerpoq",
       "gloss_en": "he/he realizes that…, it dawns on him that …",
       "source_file": "M.ods",
-      "source_row": 640
+      "source_row": 640,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_641",
@@ -8303,12 +8619,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "misiginneqataavoq",
       "gloss_en": "offers his/her condolences, offers his/her sympathies",
       "source_file": "M.ods",
-      "source_row": 641
+      "source_row": 641,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_642",
@@ -8368,12 +8685,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "misigittarpoq",
       "gloss_en": "has sympathy, is sympathetic",
       "source_file": "M.ods",
-      "source_row": 646
+      "source_row": 646,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_647",
@@ -8381,12 +8699,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "misigittaappoq",
       "gloss_en": "is inconsiderate, is rude, is unsympathetic",
       "source_file": "M.ods",
-      "source_row": 647
+      "source_row": 647,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_648",
@@ -8394,12 +8713,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "misigaa",
       "gloss_en": "feels it, experiences it",
       "source_file": "M.ods",
-      "source_row": 648
+      "source_row": 648,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_649",
@@ -8407,12 +8727,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "misileraavoq",
       "gloss_en": "tests something out, experiments, tries something out, tries different methods for achieving a result",
       "source_file": "M.ods",
-      "source_row": 649
+      "source_row": 649,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_650",
@@ -8459,12 +8780,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "misiliivoq",
       "gloss_en": "does an experiment, performs a test, tests something out",
       "source_file": "M.ods",
-      "source_row": 653
+      "source_row": 653,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_654",
@@ -8472,12 +8794,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "misilippaa",
       "gloss_en": "tests it, examines it, does an experiment on it",
       "source_file": "M.ods",
-      "source_row": 654
+      "source_row": 654,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_655",
@@ -8485,12 +8808,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "misilippaa (misiliivoq)",
       "gloss_en": "tries it out, tries it on",
       "source_file": "M.ods",
-      "source_row": 655
+      "source_row": 655,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_656",
@@ -8498,12 +8822,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "misilitsippoq",
       "gloss_en": "is being tested, is being examined",
       "source_file": "M.ods",
-      "source_row": 656
+      "source_row": 656,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_657",
@@ -8524,12 +8849,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "misillerfigaa",
       "gloss_en": "has had enough of it, is fed up with it",
       "source_file": "M.ods",
-      "source_row": 658
+      "source_row": 658,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_659",
@@ -8537,12 +8863,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "misillerpoq",
       "gloss_en": "has had enough of it, is fed up with it",
       "source_file": "M.ods",
-      "source_row": 659
+      "source_row": 659,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_660",
@@ -8550,12 +8877,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "misinnarpoq",
       "gloss_en": "is remarkable",
       "source_file": "M.ods",
-      "source_row": 660
+      "source_row": 660,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_661",
@@ -8563,12 +8891,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "misinnaappoq",
       "gloss_en": "the time is passing quickly, the time is flying by",
       "source_file": "M.ods",
-      "source_row": 661
+      "source_row": 661,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_662",
@@ -8576,12 +8905,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "misinnaatsoorpoq",
       "gloss_en": "has lost track of time, the time has passed quickly for him/her",
       "source_file": "M.ods",
-      "source_row": 662
+      "source_row": 662,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_663",
@@ -8589,12 +8919,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "misissorpai",
       "gloss_en": "investigates them",
       "source_file": "M.ods",
-      "source_row": 663
+      "source_row": 663,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_664",
@@ -8602,12 +8933,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "misissorpoq",
       "gloss_en": "is alert, is careful, investigates something",
       "source_file": "M.ods",
-      "source_row": 664
+      "source_row": 664,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_665",
@@ -8615,12 +8947,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "misissorpaa",
       "gloss_en": "investigates him/her/it, does research on him/her/it",
       "source_file": "M.ods",
-      "source_row": 665
+      "source_row": 665,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_666",
@@ -8628,12 +8961,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "misissorpaa",
       "gloss_en": "investigates him/her/it, does research on him/her/it",
       "source_file": "M.ods",
-      "source_row": 666
+      "source_row": 666,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_667",
@@ -8641,12 +8975,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "misissortippoq",
       "gloss_en": "is under investigation",
       "source_file": "M.ods",
-      "source_row": 667
+      "source_row": 667,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_668",
@@ -8706,12 +9041,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "misissuivoq",
       "gloss_en": "performs experiments, investigates something, does research on something",
       "source_file": "M.ods",
-      "source_row": 672
+      "source_row": 672,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_673",
@@ -8732,12 +9068,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "misissuaappoq",
       "gloss_en": "isn't careful, doesn't pay attention",
       "source_file": "M.ods",
-      "source_row": 674
+      "source_row": 674,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_675",
@@ -8745,12 +9082,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "misiuppaa",
       "gloss_en": "testifies that he/she (another) is innocent, vouches for him/her",
       "source_file": "M.ods",
-      "source_row": 675
+      "source_row": 675,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_676",
@@ -8758,12 +9096,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "misiutigaa",
       "gloss_en": "will not confess, will not admit his/her guilt, will not confess to it",
       "source_file": "M.ods",
-      "source_row": 676
+      "source_row": 676,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_677",
@@ -8797,12 +9136,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "missigaa",
       "gloss_en": "is approximately that, is that in round numbers",
       "source_file": "M.ods",
-      "source_row": 679
+      "source_row": 679,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_680",
@@ -8822,12 +9162,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "missiliorpaa",
       "gloss_en": "approximates it, estimates it",
       "source_file": "M.ods",
-      "source_row": 681
+      "source_row": 681,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_682",
@@ -8848,12 +9189,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "missiliuuppaa",
       "gloss_en": "compares it to something else, thinks that it is about the same size as something else",
       "source_file": "M.ods",
-      "source_row": 683
+      "source_row": 683,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_684",
@@ -8899,12 +9241,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "missingersuuppaa",
       "gloss_en": "measures it with respect to something else, thinks it is about the same size as something else",
       "source_file": "M.ods",
-      "source_row": 687
+      "source_row": 687,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_688",
@@ -8938,12 +9281,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "missugaa",
       "gloss_en": "always skips him/her, regularly fails to give him/her anything",
       "source_file": "M.ods",
-      "source_row": 690
+      "source_row": 690,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_691",
@@ -8951,12 +9295,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "missukugaa",
       "gloss_en": "always skips him/her, regularly fails to give him/her anything",
       "source_file": "M.ods",
-      "source_row": 691
+      "source_row": 691,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_692",
@@ -8990,12 +9335,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "misuppaa",
       "gloss_en": "immerses it, dips it in something",
       "source_file": "M.ods",
-      "source_row": 694
+      "source_row": 694,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_695",
@@ -9016,12 +9362,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "misuttarpaa",
       "gloss_en": "dyes it in a vat, dyes it in a dye bath",
       "source_file": "M.ods",
-      "source_row": 696
+      "source_row": 696,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_697",
@@ -9094,12 +9441,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mitallerpoq",
       "gloss_en": "is mean, is malevolent",
       "source_file": "M.ods",
-      "source_row": 702
+      "source_row": 702,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_703",
@@ -9107,12 +9455,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mitappaa",
       "gloss_en": "makes fun of him/her",
       "source_file": "M.ods",
-      "source_row": 703
+      "source_row": 703,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_704",
@@ -9120,12 +9469,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mitassippoq",
       "gloss_en": "makes funny faces, pulls faces",
       "source_file": "M.ods",
-      "source_row": 704
+      "source_row": 704,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_705",
@@ -9198,12 +9548,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mitsimavoq",
       "gloss_en": "perches (said of a bird)",
       "source_file": "M.ods",
-      "source_row": 710
+      "source_row": 710,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_711",
@@ -9224,12 +9575,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mitsimaarput",
       "gloss_en": "dance in place, do not move around while dancing with each other",
       "source_file": "M.ods",
-      "source_row": 712
+      "source_row": 712,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_713",
@@ -9289,12 +9641,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mittatigaa",
       "gloss_en": "makes fun of him/her, makes a fool of him/her, bullies him/her",
       "source_file": "M.ods",
-      "source_row": 717
+      "source_row": 717,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_718",
@@ -9302,12 +9655,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mittatigaa (mittatilliivoq/mittatiginnippoq)",
       "gloss_en": "makes fun of him/her, bullies",
       "source_file": "M.ods",
-      "source_row": 718
+      "source_row": 718,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_719",
@@ -9315,12 +9669,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mittataavoq",
       "gloss_en": "is made fun of, is made a fool of",
       "source_file": "M.ods",
-      "source_row": 719
+      "source_row": 719,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_720",
@@ -9341,12 +9696,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mitaarpoq",
       "gloss_en": "dresses up for a carnival",
       "source_file": "M.ods",
-      "source_row": 721
+      "source_row": 721,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_722",
@@ -9354,12 +9710,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mitaarpoq",
       "gloss_en": "makes faces, makes grimaces, is in costume, is wearing a costume",
       "source_file": "M.ods",
-      "source_row": 722
+      "source_row": 722,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_723",
@@ -9380,12 +9737,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mitaatigaa",
       "gloss_en": "makes fun of him/her, mocks him/her, is rude to him/her",
       "source_file": "M.ods",
-      "source_row": 724
+      "source_row": 724,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_725",
@@ -9445,12 +9803,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "moreerpaa",
       "gloss_en": "grinds it, sharpens it, sands it",
       "source_file": "M.ods",
-      "source_row": 729
+      "source_row": 729,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_730",
@@ -9484,12 +9843,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "morfippoq",
       "gloss_en": "is stuck in the mud",
       "source_file": "M.ods",
-      "source_row": 732
+      "source_row": 732,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_733",
@@ -9497,12 +9857,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "moriippoq",
       "gloss_en": "has a rounded top (said of a mountain), is blunt (said of a tool)",
       "source_file": "M.ods",
-      "source_row": 733
+      "source_row": 733,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_734",
@@ -9523,12 +9884,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "morparpoq",
       "gloss_en": "sinks further in, sinks sown deeper",
       "source_file": "M.ods",
-      "source_row": 735
+      "source_row": 735,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_736",
@@ -9536,12 +9898,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "morroorpoq",
       "gloss_en": "barks (said of a fox)",
       "source_file": "M.ods",
-      "source_row": 736
+      "source_row": 736,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_737",
@@ -9549,12 +9912,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "morsuppoq",
       "gloss_en": "disappears under the surface of the water",
       "source_file": "M.ods",
-      "source_row": 737
+      "source_row": 737,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_738",
@@ -9562,12 +9926,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "morsusimavoq",
       "gloss_en": "is submerged, is below the surface of the water",
       "source_file": "M.ods",
-      "source_row": 738
+      "source_row": 738,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_739",
@@ -9575,12 +9940,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "motoorersorpoq",
       "gloss_en": "uses the motor, uses the engine",
       "source_file": "M.ods",
-      "source_row": 739
+      "source_row": 739,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_740",
@@ -9601,12 +9967,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "motooriiarpoq",
       "gloss_en": "has engine problems, suffers some engine damage",
       "source_file": "M.ods",
-      "source_row": 741
+      "source_row": 741,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_742",
@@ -9679,12 +10046,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mulluppaa",
       "gloss_en": "takes a long time to bring it",
       "source_file": "M.ods",
-      "source_row": 747
+      "source_row": 747,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_748",
@@ -9692,12 +10060,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mulummersorpoq",
       "gloss_en": "takes his/her/its time getting there, takes a while to arrive",
       "source_file": "M.ods",
-      "source_row": 748
+      "source_row": 748,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_749",
@@ -9705,12 +10074,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "muluvoq",
       "gloss_en": "is away for a long time",
       "source_file": "M.ods",
-      "source_row": 749
+      "source_row": 749,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_750",
@@ -9744,12 +10114,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mumingavoq",
       "gloss_en": "is inside out, is upside down",
       "source_file": "M.ods",
-      "source_row": 752
+      "source_row": 752,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_753",
@@ -9757,12 +10128,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "muminngavoq",
       "gloss_en": "is facing the wrong side up/ wrong side out",
       "source_file": "M.ods",
-      "source_row": 753
+      "source_row": 753,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_754",
@@ -9770,12 +10142,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mumipput",
       "gloss_en": "change side after the first half of a game",
       "source_file": "M.ods",
-      "source_row": 754
+      "source_row": 754,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_755",
@@ -9783,12 +10156,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mumippaa",
       "gloss_en": "turns it over",
       "source_file": "M.ods",
-      "source_row": 755
+      "source_row": 755,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_756",
@@ -9809,12 +10183,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "mumisitsipput",
       "gloss_en": "are in revolt, are staging a revolution",
       "source_file": "M.ods",
-      "source_row": 757
+      "source_row": 757,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_758",
@@ -9900,12 +10275,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "mærkilerpaa",
       "gloss_en": "labels it, brands it, puts an emblem on it",
       "source_file": "M.ods",
-      "source_row": 764
+      "source_row": 764,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_765",
@@ -9939,12 +10315,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maagaliorpoq",
       "gloss_en": "walks along with feet sinking in",
       "source_file": "M.ods",
-      "source_row": 767
+      "source_row": 767,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_768",
@@ -9952,12 +10329,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maagarpoq",
       "gloss_en": "walks along with feet sinking in",
       "source_file": "M.ods",
-      "source_row": 768
+      "source_row": 768,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_769",
@@ -9965,12 +10343,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maagaarpoq",
       "gloss_en": "is soft to sit on, is soft to lie on, is soft to walk on",
       "source_file": "M.ods",
-      "source_row": 769
+      "source_row": 769,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_770",
@@ -10017,12 +10396,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maajuppoq",
       "gloss_en": "is repelled by something, finds something repugnant",
       "source_file": "M.ods",
-      "source_row": 773
+      "source_row": 773,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_774",
@@ -10069,12 +10449,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maakkarpoq",
       "gloss_en": "walks along with feet sinking in",
       "source_file": "M.ods",
-      "source_row": 777
+      "source_row": 777,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_778",
@@ -10082,12 +10463,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maalavoq",
       "gloss_en": "screams in pain, groans",
       "source_file": "M.ods",
-      "source_row": 778
+      "source_row": 778,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_779",
@@ -10095,12 +10477,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "maallatigaa",
       "gloss_en": "complains about it",
       "source_file": "M.ods",
-      "source_row": 779
+      "source_row": 779,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_780",
@@ -10108,12 +10491,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "maallatigaa maalaarutigaa",
       "gloss_en": "complains about it",
       "source_file": "M.ods",
-      "source_row": 780
+      "source_row": 780,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_781",
@@ -10121,12 +10505,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "maallavigaa",
       "gloss_en": "complains to him/her",
       "source_file": "M.ods",
-      "source_row": 781
+      "source_row": 781,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_782",
@@ -10134,12 +10519,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "maallavigaa maalaffigaa",
       "gloss_en": "complains to someone",
       "source_file": "M.ods",
-      "source_row": 782
+      "source_row": 782,
+      "valence": 2
     },
     {
       "id": "M_Sheet1_783",
@@ -10147,12 +10533,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maalaarpoq",
       "gloss_en": "complains, voices disapproval",
       "source_file": "M.ods",
-      "source_row": 783
+      "source_row": 783,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_784",
@@ -10234,12 +10621,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maangaannarpoq",
       "gloss_en": "does not work out, does not come to fruition",
       "source_file": "M.ods",
-      "source_row": 790
+      "source_row": 790,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_791",
@@ -10259,12 +10647,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maaniippoq",
       "gloss_en": "is here, is located here, has showed up",
       "source_file": "M.ods",
-      "source_row": 792
+      "source_row": 792,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_793",
@@ -10353,12 +10742,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maannarpoq",
       "gloss_en": "is on his/her way here",
       "source_file": "M.ods",
-      "source_row": 800
+      "source_row": 800,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_801",
@@ -10389,12 +10779,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maanngarpoq",
       "gloss_en": "is on his/her way here",
       "source_file": "M.ods",
-      "source_row": 803
+      "source_row": 803,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_804",
@@ -10425,12 +10816,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maaqanngilaq",
       "gloss_en": "is sensitive, easily feels pain",
       "source_file": "M.ods",
-      "source_row": 806
+      "source_row": 806,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_807",
@@ -10490,12 +10882,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maattuvoq",
       "gloss_en": "is tough, can put up with hardships, can take pain",
       "source_file": "M.ods",
-      "source_row": 811
+      "source_row": 811,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_812",
@@ -10503,12 +10896,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maavoq",
       "gloss_en": "sinks in with the feet",
       "source_file": "M.ods",
-      "source_row": 812
+      "source_row": 812,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_813",
@@ -10516,12 +10910,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "maavaarpoq",
       "gloss_en": "is soft to sit on, is soft to lie on, is soft to walk on",
       "source_file": "M.ods",
-      "source_row": 813
+      "source_row": 813,
+      "valence": 1
     },
     {
       "id": "M_Sheet1_815",
