@@ -1,4 +1,4 @@
-#!.venv/bin/python
+#!/usr/bin/env python3
 """
 Build an inverted index of English keywords to Kalaallisut starting letters.
 
