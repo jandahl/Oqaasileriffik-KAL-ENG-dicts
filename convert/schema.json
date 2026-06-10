@@ -31,7 +31,10 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "lexeme", "word_class", "class_path", "source_file", "source_row"]
+        "required": ["id", "lexeme", "word_class", "class_path", "source_file", "source_row"],
+        "properties": {
+          "valence": { "type": "integer" }
+        }
       }
     }
   }

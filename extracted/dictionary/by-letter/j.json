@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-05-27T14:22:42.432611+00:00",
+    "generated_at": "2026-05-26T19:10:50.639945+00:00",
     "license": "CC-BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
     "source_repo": "https://github.com/Oqaasileriffik/dicts",
@@ -224,12 +224,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "juujoortorpaa",
       "gloss_en": "teases him/her by saying \"yoo,yoo\";",
       "source_file": "J.ods",
-      "source_row": 18
+      "source_row": 18,
+      "valence": 2
     },
     {
       "id": "J_J_19",
@@ -315,12 +316,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "juulliaraq aqaguppoq",
       "gloss_en": "it is Christmas Eve",
       "source_file": "J.ods",
-      "source_row": 25
+      "source_row": 25,
+      "valence": 1
     },
     {
       "id": "J_J_26",
@@ -341,12 +343,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "juullimi pilluarit!",
       "gloss_en": "Merry Christmas!",
       "source_file": "J.ods",
-      "source_row": 27
+      "source_row": 27,
+      "valence": 1
     },
     {
       "id": "J_J_28",
@@ -445,12 +448,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "juullisiorluarit!",
       "gloss_en": "Merry Christmas!",
       "source_file": "J.ods",
-      "source_row": 35
+      "source_row": 35,
+      "valence": 1
     },
     {
       "id": "J_J_36",
@@ -458,12 +462,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "juullisiorpoq",
       "gloss_en": "celebrates Christmas",
       "source_file": "J.ods",
-      "source_row": 36
+      "source_row": 36,
+      "valence": 1
     },
     {
       "id": "J_J_37",

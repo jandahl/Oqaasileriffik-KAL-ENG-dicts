@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-05-27T14:22:42.432611+00:00",
+    "generated_at": "2026-05-26T19:10:50.639945+00:00",
     "license": "CC-BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
     "source_repo": "https://github.com/Oqaasileriffik/dicts",
@@ -150,12 +150,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "hesterpoq",
       "gloss_en": "rides a horse, is horseback riding",
       "source_file": "H.ods",
-      "source_row": 13
+      "source_row": 13,
+      "valence": 1
     },
     {
       "id": "H_H_14",
@@ -251,12 +252,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "hiisterpoq",
       "gloss_en": "rides a horse, is horseback riding",
       "source_file": "H.ods",
-      "source_row": 21
+      "source_row": 21,
+      "valence": 1
     },
     {
       "id": "H_H_22",
@@ -404,12 +406,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "horaartorpoq",
       "gloss_en": "cries \"Hurrah!\"",
       "source_file": "H.ods",
-      "source_row": 33
+      "source_row": 33,
+      "valence": 1
     },
     {
       "id": "H_H_34",

@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-05-27T14:22:42.432611+00:00",
+    "generated_at": "2026-05-26T19:10:50.639945+00:00",
     "license": "CC-BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
     "source_repo": "https://github.com/Oqaasileriffik/dicts",
@@ -120,12 +120,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "feeriarpoq",
       "gloss_en": "is on vacation, takes a vacation",
       "source_file": "F.ods",
-      "source_row": 10
+      "source_row": 10,
+      "valence": 1
     },
     {
       "id": "F_F_11",
@@ -159,12 +160,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "festerpoq",
       "gloss_en": "is at a party, is has a party, hosts a party",
       "source_file": "F.ods",
-      "source_row": 13
+      "source_row": 13,
+      "valence": 1
     },
     {
       "id": "F_F_14",
@@ -263,12 +265,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "filmeriarpoq",
       "gloss_en": "goes to the movies",
       "source_file": "F.ods",
-      "source_row": 21
+      "source_row": 21,
+      "valence": 1
     },
     {
       "id": "F_F_22",
@@ -276,12 +279,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "filmerpoq",
       "gloss_en": "watches a movie, is at the movies",
       "source_file": "F.ods",
-      "source_row": 22
+      "source_row": 22,
+      "valence": 1
     },
     {
       "id": "F_F_23",
@@ -380,12 +384,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "filmiliorpoq",
       "gloss_en": "shoots a movie, films something, makes a movie",
       "source_file": "F.ods",
-      "source_row": 30
+      "source_row": 30,
+      "valence": 1
     },
     {
       "id": "F_F_31",
@@ -627,12 +632,13 @@
       "word_class": "oqaluut susalik",
       "class_path": [
         "verbal_root",
-        "intransitive"
+        "transitive"
       ],
       "stem": "frimærkilerpaa",
       "gloss_en": "puts a stamp on it",
       "source_file": "F.ods",
-      "source_row": 49
+      "source_row": 49,
+      "valence": 2
     },
     {
       "id": "F_F_50",
@@ -666,12 +672,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "frokosterput",
       "gloss_en": "they are having or hosting a meal of open faced sandwiches",
       "source_file": "F.ods",
-      "source_row": 52
+      "source_row": 52,
+      "valence": 1
     },
     {
       "id": "F_F_53",

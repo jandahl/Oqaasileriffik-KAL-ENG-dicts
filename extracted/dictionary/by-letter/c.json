@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-05-27T14:22:42.432611+00:00",
+    "generated_at": "2026-05-26T19:10:50.639945+00:00",
     "license": "CC-BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
     "source_repo": "https://github.com/Oqaasileriffik/dicts",
@@ -107,12 +107,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "cementiliorpoq",
       "gloss_en": "mix cement",
       "source_file": "C.ods",
-      "source_row": 9
+      "source_row": 9,
+      "valence": 1
     },
     {
       "id": "C_C PP_10",
@@ -380,12 +381,13 @@
       "word_class": "oqaluut susaatsoq",
       "class_path": [
         "verbal_root",
-        "transitive"
+        "intransitive"
       ],
       "stem": "cyklerpoq",
       "gloss_en": "rides a bicycle, goes by bicycle",
       "source_file": "C.ods",
-      "source_row": 30
+      "source_row": 30,
+      "valence": 1
     },
     {
       "id": "C_C PP_31",

@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import os
 import sys
 import json
@@ -6,6 +7,8 @@ from pathlib import Path
 from datetime import datetime, timezone
 import argparse
 from typing import Any
+
+sys.path.insert(0, str(Path(__file__).parent.parent.resolve()))
 
 from convert.build_gloss_index import build_gloss_index
 
@@ -68,21 +71,21 @@ WORD_CLASS_TO_PATH: dict[str, list[str]] = {
     "proprium/egennavn":                     ["nominal_root", "proper_noun"],
     "stednavn":                              ["nominal_root", "proper_noun"],   # Danish: place name
     "oqaluut":                               ["verbal_root"],
-    "oqaluut susaatsoq":                     ["verbal_root", "transitive"],
-    "oqaluut susaatsoq qasseersiut":         ["verbal_root", "transitive"],
-    "oqaluut susaatsq":                      ["verbal_root", "transitive"],   # typo
-    "oqaluut susaatsot":                     ["verbal_root", "transitive"],   # typo
-    "oqaluut susaatoq":                      ["verbal_root", "transitive"],   # typo
-    "oqaluut suaatsoq":                      ["verbal_root", "transitive"],   # typo
-    "oqaluut susaaatsoq":                    ["verbal_root", "transitive"],   # typo
-    "oqaluut susaatsoq (taggit)":            ["verbal_root", "transitive"],
-    "oqaluut susaatsoq plus htr??":          ["verbal_root", "transitive"],
-    "oqaluut susalik":                       ["verbal_root", "intransitive"],
-    "oqlauut susalik":                       ["verbal_root", "intransitive"],  # typo
-    "oqaluut susasalik":                     ["verbal_root", "intransitive"],  # typo
-    "oqaluut sasalik":                       ["verbal_root", "intransitive"],  # typo
-    "oqaluut susalik (oqaluut susaasalik)":  ["verbal_root", "intransitive"],
-    "oqaluut susaasalik":                    ["verbal_root", "intransitive"],
+    "oqaluut susaatsoq":                     ["verbal_root", "intransitive"],
+    "oqaluut susaatsoq qasseersiut":         ["verbal_root", "intransitive"],
+    "oqaluut susaatsq":                      ["verbal_root", "intransitive"],   # typo
+    "oqaluut susaatsot":                     ["verbal_root", "intransitive"],   # typo
+    "oqaluut susaatoq":                      ["verbal_root", "intransitive"],   # typo
+    "oqaluut suaatsoq":                      ["verbal_root", "intransitive"],   # typo
+    "oqaluut susaaatsoq":                    ["verbal_root", "intransitive"],   # typo
+    "oqaluut susaatsoq (taggit)":            ["verbal_root", "intransitive"],
+    "oqaluut susaatsoq plus htr??":          ["verbal_root", "intransitive"],
+    "oqaluut susalik":                       ["verbal_root", "transitive"],
+    "oqlauut susalik":                       ["verbal_root", "transitive"],  # typo
+    "oqaluut susasalik":                     ["verbal_root", "transitive"],  # typo
+    "oqaluut sasalik":                       ["verbal_root", "transitive"],  # typo
+    "oqaluut susalik (oqaluut susaasalik)":  ["verbal_root", "transitive"],
+    "oqaluut susaasalik":                    ["verbal_root", "transitive"],
     "oqaluut aappiuttartoq":                 ["verbal_root"],
     "oqaluut pisimasorsiut":                 ["verbal_root"],
     "oqaluut taggisaasaq":                   ["verbal_root"],
@@ -154,6 +157,10 @@ def parse_ods_file(filepath: Path, column_map: dict) -> list[dict]:
             wc_key = wc.lower()
             if wc_key in WORD_CLASS_TO_PATH:
                 entry["class_path"] = WORD_CLASS_TO_PATH[wc_key]
+                if "transitive" in entry["class_path"]:
+                    entry["valence"] = 2
+                elif "intransitive" in entry["class_path"]:
+                    entry["valence"] = 1
             elif wc:
                 log.warning(
                     "Unknown word_class %r in %s sheet %r row %d",
