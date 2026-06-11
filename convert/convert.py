@@ -207,12 +207,11 @@ def write_atomic(path: Path, data: Any, indent: int | None = 2) -> None:
             except OSError:
                 pass
         os.replace(tmp_path, path)
-    except Exception:
+    finally:
         try:
             tmp_path.unlink(missing_ok=True)
         except OSError:
             pass
-        raise
 
 
 def main() -> None:
