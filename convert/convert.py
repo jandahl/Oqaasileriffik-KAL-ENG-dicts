@@ -228,7 +228,7 @@ def main() -> None:
     ods_cwd = Path.cwd() / "2018 Chicago"
     ods_script = script_dir.parent / "2018 Chicago"
 
-    if not ods_cwd.exists() and ods_script.exists():
+    if not ods_cwd.is_dir() and ods_script.is_dir():
         ods_dir = ods_script
         extracted_dir = script_dir.parent / "extracted" / "dictionary"
     else:
