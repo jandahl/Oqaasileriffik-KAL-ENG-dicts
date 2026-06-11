@@ -207,11 +207,12 @@ def write_atomic(path: Path, data: Any, indent: int | None = 2) -> None:
             except OSError:
                 pass
         os.replace(tmp_path, path)
-    finally:
+    except BaseException:
         try:
             tmp_path.unlink(missing_ok=True)
         except OSError:
             pass
+        raise
 
 
 def main() -> None:
@@ -301,7 +302,11 @@ def main() -> None:
         log.info("  -> %d entries", len(entries))
         all_entries.extend(entries)
 
-        write_atomic(cache_path, entries, indent=None)
+        try:
+            write_atomic(cache_path, entries, indent=None)
+        except OSError as e:
+            log.error("Failed to write cache for %s: %s", ods_path.name, e)
+            sys.exit(1)
 
     log.info("Total dictionary_entries: %d", len(all_entries))
 
@@ -357,11 +362,19 @@ def main() -> None:
     )
 
     source_map_path = extracted_dir / "source_map.json"
-    write_atomic(source_map_path, {"meta": meta, "entries": source_map_entries})
+    try:
+        write_atomic(source_map_path, {"meta": meta, "entries": source_map_entries})
+    except OSError as e:
+        log.error("Failed to write output to %s: %s", source_map_path, e)
+        sys.exit(1)
     log.info("Wrote %s (%d raw entries)", source_map_path, len(source_map_entries))
 
     presets_path = extracted_dir / "presets.json"
-    write_atomic(presets_path, {"meta": meta, "sandhi_presets": sandhi_presets})
+    try:
+        write_atomic(presets_path, {"meta": meta, "sandhi_presets": sandhi_presets})
+    except OSError as e:
+        log.error("Failed to write output to %s: %s", presets_path, e)
+        sys.exit(1)
     log.info("Wrote %s (%d sandhi presets)", presets_path, len(sandhi_presets))
 
     all_entries_path = extracted_dir / "all_entries.json"
@@ -377,7 +390,11 @@ def main() -> None:
     written: set[str] = set()
     for letter, entries in sorted(grouped.items()):
         letter_path = by_letter_dir / f"{letter}.json"
-        write_atomic(letter_path, {"meta": meta, "dictionary_entries": entries})
+        try:
+            write_atomic(letter_path, {"meta": meta, "dictionary_entries": entries})
+        except OSError as e:
+            log.error("Failed to write output to %s: %s", letter_path, e)
+            sys.exit(1)
         log.info("Wrote %s (%d entries)", letter_path, len(entries))
         written.add(letter_path.name)
 
@@ -389,7 +406,11 @@ def main() -> None:
 
     log.info("Wrote %d by-letter files", len(grouped))
 
-    write_atomic(all_entries_path, {"meta": meta, "dictionary_entries": all_entries})
+    try:
+        write_atomic(all_entries_path, {"meta": meta, "dictionary_entries": all_entries})
+    except OSError as e:
+        log.error("Failed to write output to %s: %s", all_entries_path, e)
+        sys.exit(1)
     log.info("Wrote %s (%d total entries)", all_entries_path, len(all_entries))
 
     build_gloss_index(by_letter_dir, gloss_index_path)
