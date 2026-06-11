@@ -216,6 +216,14 @@ def write_atomic(path: Path, data: Any, indent: int | None = 2) -> None:
 
 
 def main() -> None:
+    try:
+        _main_impl()
+    except OSError:
+        log.exception("File operation failed")
+        sys.exit(1)
+
+
+def _main_impl() -> None:
     parser = argparse.ArgumentParser(description="ODS -> KalaalliCut presets.json converter")
     parser.add_argument('--inspect', metavar='ODS_FILE',
                         help='Print column headers for every sheet in ODS_FILE and exit')
@@ -400,8 +408,4 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    try:
-        main()
-    except OSError as e:
-        log.error("File operation failed: %s", e)
-        sys.exit(1)
+    main()
