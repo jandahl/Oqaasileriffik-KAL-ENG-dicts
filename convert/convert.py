@@ -259,6 +259,7 @@ def main() -> None:
         "fork_repo": "https://github.com/jandahl/Oqaasileriffik-KAL-ENG-dicts",
         "attribution": "Oqaasileriffik (Greenlandic Language Secretariat), 2018 Chicago Kalaallisut–English Dictionary, CC-BY-SA 4.0",
         "changes": "Subset of entries extracted and reformatted; class_path fields added for KalaalliCut color mapping.",
+        "available_fields": ["lexeme", "word_class", "gloss_en"],
     }
 
     all_entries: list[dict] = []
@@ -314,10 +315,31 @@ def main() -> None:
         sandhi_presets.extend(stubs)
         log.info("Generated %d stubs from dictionary entries", len(stubs))
 
+    source_map_entries = [
+        {
+            "source_id": "" if entry.get("id") is None else str(entry["id"]),
+            "raw_data": {
+                "lexeme": entry.get("lexeme") or "",
+                "word_class": entry.get("word_class") or "",
+                "gloss_en": entry.get("gloss_en") or ""
+            }
+        }
+        for entry in all_entries
+    ]
+
     validate_output(
-        {"meta": meta, "sandhi_presets": sandhi_presets, "dictionary_entries": all_entries},
+        {
+            "meta": meta,
+            "sandhi_presets": sandhi_presets,
+            "dictionary_entries": all_entries,
+            "entries": source_map_entries
+        },
         schema_path,
     )
+
+    source_map_path = extracted_dir / "source_map.json"
+    write_atomic(source_map_path, {"meta": meta, "entries": source_map_entries})
+    log.info("Wrote %s (%d raw entries)", source_map_path, len(source_map_entries))
 
     presets_path = extracted_dir / "presets.json"
     write_atomic(presets_path, {"meta": meta, "sandhi_presets": sandhi_presets})
