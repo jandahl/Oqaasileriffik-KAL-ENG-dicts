@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-import os
-import sys
+import argparse
 import json
 import logging
-from pathlib import Path
+import os
+import secrets
+import sys
 from datetime import datetime, timezone
-import argparse
+from pathlib import Path
 from typing import Any
 
 from convert.build_gloss_index import build_gloss_index
@@ -193,12 +194,24 @@ def validate_output(data: dict, schema_path: Path) -> None:
 
 
 def write_atomic(path: Path, data: Any, indent: int | None = 2) -> None:
-    tmp = path.with_suffix('.tmp')
+    parent = path.parent
+    parent.mkdir(parents=True, exist_ok=True)
+    tmp_path = parent / f".{path.name}.{secrets.token_hex(8)}.tmp"
     try:
-        tmp.write_text(json.dumps(data, ensure_ascii=False, indent=indent), encoding='utf-8')
-        os.replace(tmp, path)
+        with open(tmp_path, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=indent)
+            f.write("\n")
+            f.flush()
+            try:
+                os.fsync(f.fileno())
+            except OSError:
+                pass
+        os.replace(tmp_path, path)
     finally:
-        tmp.unlink(missing_ok=True)
+        try:
+            tmp_path.unlink(missing_ok=True)
+        except OSError:
+            pass
 
 
 def main() -> None:
@@ -209,12 +222,18 @@ def main() -> None:
                         help='Generate root stubs from dictionary entries (placeholder)')
     args = parser.parse_args()
 
-    repo_root = Path(__file__).parent.parent.resolve()
-    convert_dir = repo_root / "convert"
-    ods_dir = repo_root / "2018 Chicago"
-    extracted_dir = repo_root / "extracted" / "dictionary"
-    schema_path = convert_dir / "schema.json"
-    authored_path = convert_dir / "authored_presets.json"
+    script_dir = Path(__file__).resolve().parent
+    schema_path = script_dir / "schema.json"
+    authored_path = script_dir / "authored_presets.json"
+    ods_cwd = Path.cwd() / "2018 Chicago"
+    ods_script = script_dir.parent / "2018 Chicago"
+
+    if not ods_cwd.is_dir() and ods_script.is_dir():
+        ods_dir = ods_script
+        extracted_dir = script_dir.parent / "extracted" / "dictionary"
+    else:
+        ods_dir = ods_cwd
+        extracted_dir = Path.cwd() / "extracted" / "dictionary"
 
     if args.inspect:
         filepath = Path(args.inspect)
@@ -234,14 +253,14 @@ def main() -> None:
 
     log.info("Starting ODS conversion pipeline")
 
-    extracted_dir.mkdir(exist_ok=True)
+    extracted_dir.mkdir(parents=True, exist_ok=True)
     by_letter_dir = extracted_dir / "by-letter"
-    by_letter_dir.mkdir(exist_ok=True)
+    by_letter_dir.mkdir(parents=True, exist_ok=True)
 
     # Per-ODS parse cache (gitignored). Each file stores the raw entries list
     # for one ODS file; avoids re-parsing unchanged sources.
     cache_dir = extracted_dir / ".cache"
-    cache_dir.mkdir(exist_ok=True)
+    cache_dir.mkdir(parents=True, exist_ok=True)
 
     ods_paths = sorted(ods_dir.glob("*.ods"))
     if not ods_paths:

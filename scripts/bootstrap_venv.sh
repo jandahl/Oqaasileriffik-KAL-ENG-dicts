@@ -6,10 +6,11 @@ ROOT_DIR="$(dirname "$DIR")"
 VENV_DIR="$ROOT_DIR/.venv"
 
 if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "cygwin" ]]; then
-    VENV_PYTHON="$VENV_DIR/Scripts/python"
-else
-    VENV_PYTHON="$VENV_DIR/bin/python"
+    echo "Error: Windows environments (msys/cygwin) are not supported by this script." >&2
+    exit 1
 fi
+
+VENV_PYTHON="$VENV_DIR/bin/python"
 
 if [ ! -x "$VENV_PYTHON" ]; then
     if ! command -v python3 > /dev/null 2>&1; then
