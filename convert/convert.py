@@ -253,14 +253,14 @@ def main() -> None:
 
     log.info("Starting ODS conversion pipeline")
 
-    extracted_dir.mkdir(exist_ok=True)
+    extracted_dir.mkdir(parents=True, exist_ok=True)
     by_letter_dir = extracted_dir / "by-letter"
-    by_letter_dir.mkdir(exist_ok=True)
+    by_letter_dir.mkdir(parents=True, exist_ok=True)
 
     # Per-ODS parse cache (gitignored). Each file stores the raw entries list
     # for one ODS file; avoids re-parsing unchanged sources.
     cache_dir = extracted_dir / ".cache"
-    cache_dir.mkdir(exist_ok=True)
+    cache_dir.mkdir(parents=True, exist_ok=True)
 
     ods_paths = sorted(ods_dir.glob("*.ods"))
     if not ods_paths:
