@@ -227,9 +227,11 @@ def main() -> None:
     schema_path = script_dir / "schema.json"
     authored_path = script_dir / "authored_presets.json"
     ods_dir = script_dir.parent / "2018 Chicago"
-    if not ods_dir.exists():
+    if ods_dir.exists():
+        extracted_dir = script_dir.parent / "extracted" / "dictionary"
+    else:
         ods_dir = Path.cwd() / "2018 Chicago"
-    extracted_dir = Path.cwd() / "extracted" / "dictionary"
+        extracted_dir = Path.cwd() / "extracted" / "dictionary"
 
     if args.inspect:
         filepath = Path(args.inspect)
