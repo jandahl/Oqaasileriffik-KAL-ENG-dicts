@@ -310,7 +310,7 @@ def main() -> None:
         log.info("  -> %d entries", len(entries))
         all_entries.extend(entries)
 
-        write_atomic_safe(cache_path, entries, indent=None, error_msg=f"Failed to write cache for {ods_path.name}")
+        write_atomic_safe(cache_path, entries, indent=None, error_msg=f"Failed to write cache for {ods_path.name} to")
 
     log.info("Total dictionary_entries: %d", len(all_entries))
 
