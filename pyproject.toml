@@ -10,7 +10,7 @@ requires-python = ">=3.10"
 dependencies = [
     "odfpy==1.4.1",
     "jsonschema==4.23.0",
-    "nltk==3.8.1"
+    "nltk==3.9.1"
 ]
 
 [project.scripts]
@@ -18,10 +18,9 @@ convert-dicts = "convert.convert:main"
 
 [project.optional-dependencies]
 dev = [
-    "mypy>=1.6.0",
-    "pytest>=7.4.0",
-    "ruff>=0.1.0",
-    "types-jsonschema"
+    "mypy==1.15.0",
+    "pytest==8.3.0",
+    "ruff==0.9.0"
 ]
 
 [tool.setuptools]

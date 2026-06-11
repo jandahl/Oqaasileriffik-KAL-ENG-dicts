@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-import os
-import sys
+import argparse
 import json
 import logging
-from pathlib import Path
+import os
+import secrets
+import sys
 from datetime import datetime, timezone
-import argparse
+from pathlib import Path
 from typing import Any
 
 from convert.build_gloss_index import build_gloss_index
@@ -193,12 +194,22 @@ def validate_output(data: dict, schema_path: Path) -> None:
 
 
 def write_atomic(path: Path, data: Any, indent: int | None = 2) -> None:
-    tmp = path.with_suffix('.tmp')
+    parent = path.parent
+    parent.mkdir(parents=True, exist_ok=True)
+    tmp_path = parent / f".{path.name}.{secrets.token_hex(8)}.tmp"
     try:
-        tmp.write_text(json.dumps(data, ensure_ascii=False, indent=indent), encoding='utf-8')
-        os.replace(tmp, path)
-    finally:
-        tmp.unlink(missing_ok=True)
+        with open(tmp_path, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=indent)
+            f.write("\n")
+            f.flush()
+            os.fsync(f.fileno())
+        os.replace(tmp_path, path)
+    except Exception:
+        try:
+            tmp_path.unlink(missing_ok=True)
+        except OSError:
+            pass
+        raise
 
 
 def main() -> None:
@@ -209,12 +220,11 @@ def main() -> None:
                         help='Generate root stubs from dictionary entries (placeholder)')
     args = parser.parse_args()
 
-    repo_root = Path(__file__).parent.parent.resolve()
-    convert_dir = repo_root / "convert"
-    ods_dir = repo_root / "2018 Chicago"
-    extracted_dir = repo_root / "extracted" / "dictionary"
-    schema_path = convert_dir / "schema.json"
-    authored_path = convert_dir / "authored_presets.json"
+    script_dir = Path(__file__).resolve().parent
+    schema_path = script_dir / "schema.json"
+    authored_path = script_dir / "authored_presets.json"
+    ods_dir = script_dir.parent / "2018 Chicago"
+    extracted_dir = Path.cwd() / "extracted" / "dictionary"
 
     if args.inspect:
         filepath = Path(args.inspect)

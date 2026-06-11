@@ -5,11 +5,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 ROOT_DIR="$(dirname "$DIR")"
 VENV_DIR="$ROOT_DIR/.venv"
 
-if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "cygwin" ]]; then
-    VENV_PYTHON="$VENV_DIR/Scripts/python"
-else
-    VENV_PYTHON="$VENV_DIR/bin/python"
-fi
+VENV_PYTHON="$VENV_DIR/bin/python"
 
 if [ ! -x "$VENV_PYTHON" ]; then
     if ! command -v python3 > /dev/null 2>&1; then
