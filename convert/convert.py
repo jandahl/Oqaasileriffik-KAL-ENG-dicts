@@ -215,6 +215,14 @@ def write_atomic(path: Path, data: Any, indent: int | None = 2) -> None:
         raise
 
 
+def write_atomic_safe(path: Path, data: Any, indent: int | None = 2, error_msg: str = "Failed to write") -> None:
+    try:
+        write_atomic(path, data, indent=indent)
+    except OSError as e:
+        log.error("%s %s: %s", error_msg, path, e)
+        sys.exit(1)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="ODS -> KalaalliCut presets.json converter")
     parser.add_argument('--inspect', metavar='ODS_FILE',
@@ -302,11 +310,7 @@ def main() -> None:
         log.info("  -> %d entries", len(entries))
         all_entries.extend(entries)
 
-        try:
-            write_atomic(cache_path, entries, indent=None)
-        except OSError as e:
-            log.error("Failed to write cache for %s: %s", ods_path.name, e)
-            sys.exit(1)
+        write_atomic_safe(cache_path, entries, indent=None, error_msg=f"Failed to write cache for {ods_path.name}")
 
     log.info("Total dictionary_entries: %d", len(all_entries))
 
@@ -362,19 +366,11 @@ def main() -> None:
     )
 
     source_map_path = extracted_dir / "source_map.json"
-    try:
-        write_atomic(source_map_path, {"meta": meta, "entries": source_map_entries})
-    except OSError as e:
-        log.error("Failed to write output to %s: %s", source_map_path, e)
-        sys.exit(1)
+    write_atomic_safe(source_map_path, {"meta": meta, "entries": source_map_entries}, error_msg="Failed to write output to")
     log.info("Wrote %s (%d raw entries)", source_map_path, len(source_map_entries))
 
     presets_path = extracted_dir / "presets.json"
-    try:
-        write_atomic(presets_path, {"meta": meta, "sandhi_presets": sandhi_presets})
-    except OSError as e:
-        log.error("Failed to write output to %s: %s", presets_path, e)
-        sys.exit(1)
+    write_atomic_safe(presets_path, {"meta": meta, "sandhi_presets": sandhi_presets}, error_msg="Failed to write output to")
     log.info("Wrote %s (%d sandhi presets)", presets_path, len(sandhi_presets))
 
     all_entries_path = extracted_dir / "all_entries.json"
@@ -390,11 +386,7 @@ def main() -> None:
     written: set[str] = set()
     for letter, entries in sorted(grouped.items()):
         letter_path = by_letter_dir / f"{letter}.json"
-        try:
-            write_atomic(letter_path, {"meta": meta, "dictionary_entries": entries})
-        except OSError as e:
-            log.error("Failed to write output to %s: %s", letter_path, e)
-            sys.exit(1)
+        write_atomic_safe(letter_path, {"meta": meta, "dictionary_entries": entries}, error_msg="Failed to write output to")
         log.info("Wrote %s (%d entries)", letter_path, len(entries))
         written.add(letter_path.name)
 
@@ -406,11 +398,7 @@ def main() -> None:
 
     log.info("Wrote %d by-letter files", len(grouped))
 
-    try:
-        write_atomic(all_entries_path, {"meta": meta, "dictionary_entries": all_entries})
-    except OSError as e:
-        log.error("Failed to write output to %s: %s", all_entries_path, e)
-        sys.exit(1)
+    write_atomic_safe(all_entries_path, {"meta": meta, "dictionary_entries": all_entries}, error_msg="Failed to write output to")
     log.info("Wrote %s (%d total entries)", all_entries_path, len(all_entries))
 
     build_gloss_index(by_letter_dir, gloss_index_path)

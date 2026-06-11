@@ -5,7 +5,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 ROOT_DIR="$(dirname "$DIR")"
 VENV_DIR="$ROOT_DIR/.venv"
 
-if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "cygwin" || "$OSTYPE" == "mingw" || "$OSTYPE" == mingw* ]]; then
+if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "cygwin" || "$OSTYPE" == mingw* ]]; then
     echo "Error: Windows environments (msys/cygwin/mingw) are not supported by this script." >&2
     exit 1
 fi
