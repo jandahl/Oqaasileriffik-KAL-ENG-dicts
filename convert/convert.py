@@ -202,7 +202,10 @@ def write_atomic(path: Path, data: Any, indent: int | None = 2) -> None:
             json.dump(data, f, ensure_ascii=False, indent=indent)
             f.write("\n")
             f.flush()
-            os.fsync(f.fileno())
+            try:
+                os.fsync(f.fileno())
+            except OSError:
+                pass
         os.replace(tmp_path, path)
     except Exception:
         try:
@@ -224,6 +227,8 @@ def main() -> None:
     schema_path = script_dir / "schema.json"
     authored_path = script_dir / "authored_presets.json"
     ods_dir = script_dir.parent / "2018 Chicago"
+    if not ods_dir.exists():
+        ods_dir = Path.cwd() / "2018 Chicago"
     extracted_dir = Path.cwd() / "extracted" / "dictionary"
 
     if args.inspect:
