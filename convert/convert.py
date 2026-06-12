@@ -208,8 +208,10 @@ def write_atomic(path: Path, data: Any, indent: int | None = 2) -> None:
         except OSError:
             pass
         if isinstance(e, OSError):
-            msg = str(e).replace(str(tmp_path), str(path))
-            raise type(e)(msg) from None
+            if e.filename == str(tmp_path):
+                e.filename = str(path)
+            if e.filename2 == str(tmp_path):
+                e.filename2 = str(path)
         raise
 
 
