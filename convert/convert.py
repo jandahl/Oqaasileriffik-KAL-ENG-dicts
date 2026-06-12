@@ -212,6 +212,16 @@ def write_atomic(path: Path, data: Any, indent: int | None = 2) -> None:
                 e.filename = str(path)
             if e.filename2 == str(tmp_path):
                 e.filename2 = str(path)
+            if e.filename == str(path) and e.filename2 == str(path):
+                e.filename2 = None
+
+            # Reconstruct e.args to prevent the temporary path from leaking via args
+            args = list(e.args)
+            if len(args) > 2:
+                args[2] = e.filename
+            if len(args) > 4:
+                args[4] = e.filename2
+            e.args = tuple(args)
         raise
 
 
