@@ -17,11 +17,6 @@ from odf.text import P
 
 import jsonschema
 
-logging.basicConfig(
-    stream=sys.stdout,
-    level=logging.INFO,
-    format='%(levelname)s %(message)s',
-)
 log = logging.getLogger(__name__)
 
 # Inspected against 2018 Chicago/A.ods — col 2 header "Tuluttuua" is used to
@@ -207,15 +202,25 @@ def write_atomic(path: Path, data: Any, indent: int | None = 2) -> None:
             except OSError:
                 pass
         os.replace(tmp_path, path)
-    except BaseException:
+    except BaseException as e:
         try:
             tmp_path.unlink(missing_ok=True)
         except OSError:
             pass
+        if isinstance(e, OSError):
+            if e.filename == str(tmp_path):
+                e.filename = str(path)
+            if e.filename2 == str(tmp_path):
+                e.filename2 = str(path)
         raise
 
 
 def main() -> None:
+    logging.basicConfig(
+        stream=sys.stdout,
+        level=logging.INFO,
+        format='%(levelname)s %(message)s',
+    )
     try:
         _main_impl()
     except FileNotFoundError as e:
