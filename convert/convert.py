@@ -218,6 +218,9 @@ def write_atomic(path: Path, data: Any, indent: int | None = 2) -> None:
 def main() -> None:
     try:
         _main_impl()
+    except FileNotFoundError as e:
+        log.error("File not found: %s", e)
+        sys.exit(1)
     except OSError:
         log.exception("File operation failed")
         sys.exit(1)
