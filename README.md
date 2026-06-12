@@ -39,9 +39,13 @@ extracted/
 
 Always use a virtual environment — never install into the system Python.
 
+> [!WARNING]
+> **Windows environments (including MSYS2, Cygwin, and MinGW) are explicitly NOT supported.**
+> Do not attempt to run this pipeline or install dependencies on a Windows machine.
+
 ```bash
 python3 -m venv .venv
-source .venv/bin/activate      # Windows: .venv\Scripts\activate
+source .venv/bin/activate
 pip install -r convert/requirements.txt
 ```
 

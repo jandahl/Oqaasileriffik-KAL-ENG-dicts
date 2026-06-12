@@ -207,14 +207,26 @@ def write_atomic(path: Path, data: Any, indent: int | None = 2) -> None:
             except OSError:
                 pass
         os.replace(tmp_path, path)
-    finally:
+    except BaseException:
         try:
             tmp_path.unlink(missing_ok=True)
         except OSError:
             pass
+        raise
 
 
 def main() -> None:
+    try:
+        _main_impl()
+    except FileNotFoundError as e:
+        log.error("File not found: %s", e)
+        sys.exit(1)
+    except OSError:
+        log.exception("File operation failed")
+        sys.exit(1)
+
+
+def _main_impl() -> None:
     parser = argparse.ArgumentParser(description="ODS -> KalaalliCut presets.json converter")
     parser.add_argument('--inspect', metavar='ODS_FILE',
                         help='Print column headers for every sheet in ODS_FILE and exit')
