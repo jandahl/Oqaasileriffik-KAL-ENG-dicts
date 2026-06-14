@@ -9,13 +9,12 @@ description = "Oqaasileriffik KAL-ENG dictionaries conversion pipeline"
 requires-python = ">=3.10"
 dependencies = [
     "odfpy==1.4.1",
-    "jsonschema==4.23.0",
     "nltk==3.9.1",
     "oqaasileriffik-template @ git+https://github.com/jandahl/Oqaasileriffik-template.git@0.1"
 ]
 
 [project.scripts]
-convert-dicts = "convert.convert:main"
+convert-dicts = "kal_eng_dicts.extractor:main"
 
 [project.optional-dependencies]
 dev = [
@@ -25,10 +24,10 @@ dev = [
 ]
 
 [tool.setuptools]
-packages = ["convert"]
+packages = ["kal_eng_dicts"]
 
 [tool.setuptools.package-data]
-convert = ["*.json"]
+kal_eng_dicts = ["*.json"]
 
 [tool.mypy]
 python_version = "3.10"

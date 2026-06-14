@@ -7,7 +7,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from convert.build_gloss_index import build_gloss_index
+from kal_eng_dicts.build_gloss_index import build_gloss_index
 
 from odf.opendocument import load
 from odf.table import Table, TableRow, TableCell
@@ -263,7 +263,7 @@ def _main_impl() -> None:
     sandhi_presets = []
     all_entries = []
 
-    def extractor_func(data_dir: Path) -> list[dict[str, Any]]:
+    def extractor_func(_data_dir: Path) -> list[dict[str, Any]]:
         nonlocal sandhi_presets, all_entries
         
         script_mtime = Path(__file__).stat().st_mtime
