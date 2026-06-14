@@ -14,7 +14,7 @@ dependencies = [
 ]
 
 [project.scripts]
-convert-dicts = "kal_eng_dicts.extractor:main"
+convert-dicts = "kal_eng_dicts.ODS_lexeme_extractor:main"
 
 [project.optional-dependencies]
 dev = [
