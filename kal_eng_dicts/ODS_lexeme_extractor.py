@@ -196,8 +196,8 @@ def main() -> None:
     except OSError:
         log.exception("File operation failed")
         sys.exit(1)
-    except Exception as e:
-        log.error("Execution failed: %s", e)
+    except Exception:
+        log.exception("Execution failed")
         sys.exit(1)
 
 
