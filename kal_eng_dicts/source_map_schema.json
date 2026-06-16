@@ -5,10 +5,10 @@
   "properties": {
     "meta": {
       "type": "object",
-      "required": ["source_repo", "extraction_date", "available_fields"],
+      "required": ["source_repo", "generated_at", "available_fields"],
       "properties": {
         "source_repo": { "type": "string" },
-        "extraction_date": { "type": "string", "format": "date-time" },
+        "generated_at": { "type": "string", "format": "date-time" },
         "available_fields": {
           "type": "array",
           "items": { "type": "string" }

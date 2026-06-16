@@ -1,21 +1,20 @@
-#!/usr/bin/env python3
+#!/Users/jangronemann/testcode/Oqaasileriffik-KAL-ENG-dicts/.venv/bin/python
 import argparse
 import json
 import logging
-import os
-import secrets
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from convert.build_gloss_index import build_gloss_index
+from kal_eng_dicts.build_gloss_index import build_gloss_index
 
 from odf.opendocument import load
 from odf.table import Table, TableRow, TableCell
 from odf.text import P
 
-import jsonschema
+
+from oqaasileriffik_pipeline import Pipeline, write_atomic
 
 log = logging.getLogger(__name__)
 
@@ -182,48 +181,6 @@ def load_authored_presets(path: Path) -> list[dict[str, Any]]:
     return data
 
 
-def validate_output(data: dict, schema_path: Path) -> None:
-    schema = json.loads(schema_path.read_text(encoding='utf-8'))
-    jsonschema.validate(instance=data, schema=schema)
-    log.info("Schema validation passed")
-
-
-def write_atomic(path: Path, data: Any, indent: int | None = 2) -> None:
-    parent = path.parent
-    parent.mkdir(parents=True, exist_ok=True)
-    tmp_path = parent / f".{path.name}.{secrets.token_hex(8)}.tmp"
-    try:
-        with open(tmp_path, 'w', encoding='utf-8') as f:
-            json.dump(data, f, ensure_ascii=False, indent=indent)
-            f.write("\n")
-            f.flush()
-            try:
-                os.fsync(f.fileno())
-            except OSError:
-                pass
-        os.replace(tmp_path, path)
-    except BaseException as e:
-        try:
-            tmp_path.unlink(missing_ok=True)
-        except OSError:
-            pass
-        if isinstance(e, OSError):
-            if e.filename == str(tmp_path):
-                e.filename = str(path)
-            if e.filename2 == str(tmp_path):
-                e.filename2 = str(path)
-            if e.filename == str(path) and e.filename2 == str(path):
-                e.filename2 = None
-
-            # Reconstruct e.args to prevent the temporary path from leaking via args
-            args = list(e.args)
-            if len(args) > 2:
-                args[2] = e.filename
-            if len(args) > 4:
-                args[4] = e.filename2
-            e.args = tuple(args)
-        raise
-
 
 def main() -> None:
     logging.basicConfig(
@@ -239,6 +196,9 @@ def main() -> None:
     except OSError:
         log.exception("File operation failed")
         sys.exit(1)
+    except Exception:
+        log.exception("Execution failed")
+        sys.exit(1)
 
 
 def _main_impl() -> None:
@@ -250,7 +210,6 @@ def _main_impl() -> None:
     args = parser.parse_args()
 
     script_dir = Path(__file__).resolve().parent
-    schema_path = script_dir / "schema.json"
     authored_path = script_dir / "authored_presets.json"
     ods_cwd = Path.cwd() / "2018 Chicago"
     ods_script = script_dir.parent / "2018 Chicago"
@@ -284,8 +243,6 @@ def _main_impl() -> None:
     by_letter_dir = extracted_dir / "by-letter"
     by_letter_dir.mkdir(parents=True, exist_ok=True)
 
-    # Per-ODS parse cache (gitignored). Each file stores the raw entries list
-    # for one ODS file; avoids re-parsing unchanged sources.
     cache_dir = extracted_dir / ".cache"
     cache_dir.mkdir(parents=True, exist_ok=True)
 
@@ -294,8 +251,6 @@ def _main_impl() -> None:
         raise FileNotFoundError(f"No ODS files found in {ods_dir}")
     max_ods_mtime = max(p.stat().st_mtime for p in ods_paths)
 
-    # generated_at is derived from source mtimes so re-running on unchanged
-    # files produces byte-identical JSON and a clean git diff.
     meta = {
         "schema_version": "1.0",
         "generated_at": datetime.fromtimestamp(max_ods_mtime, tz=timezone.utc).isoformat(),
@@ -308,85 +263,92 @@ def _main_impl() -> None:
         "available_fields": ["lexeme", "word_class", "gloss_en"],
     }
 
-    all_entries: list[dict] = []
-    script_mtime = Path(__file__).stat().st_mtime
+    sandhi_presets = []
+    all_entries = []
 
-    for ods_path in ods_paths:
-        cache_path = cache_dir / f"{ods_path.stem}.json"
-        ods_mtime = ods_path.stat().st_mtime
-
-        if cache_path.exists() and cache_path.stat().st_mtime >= max(ods_mtime, script_mtime):
-            try:
-                log.info("Skipping %s (cache up to date)", ods_path.name)
-                all_entries.extend(json.loads(cache_path.read_text(encoding='utf-8')))
-                continue
-            except (json.JSONDecodeError, OSError) as e:
-                log.warning("Cache read failed for %s (%s), re-parsing", ods_path.name, e)
-
-        log.info("Parsing %s ...", ods_path.name)
-        entries = parse_ods_file(ods_path, COLUMN_MAP)
-        log.info("  -> %d entries", len(entries))
-        all_entries.extend(entries)
-
-        write_atomic(cache_path, entries, indent=None)
-
-    log.info("Total dictionary_entries: %d", len(all_entries))
-
-    sandhi_presets = load_authored_presets(authored_path)
-    log.info("Loaded %d hand-authored sandhi presets", len(sandhi_presets))
-
-    if args.generate_stubs:
-        existing_expected = {p["expected"] for p in sandhi_presets if "expected" in p}
-        stubs = []
-        for entry in all_entries:
-            lexeme = entry["lexeme"]
-            if lexeme in existing_expected:
-                continue
-            existing_expected.add(lexeme)
-            stub = {
-                "id": f"stub_{entry['id']}",
-                "desc": entry.get("gloss_en", ""),
-                "class_path": entry.get("class_path", []),
-                "seq": [
-                    {
-                        "text": lexeme,
-                        "type": "ROOT",
-                        "join": "NONE"
-                    }
-                ],
-                "expected": lexeme,
-                "source": f"Autogenerated from {entry['source_file']}"
+    def extractor_func(_data_dir: Path) -> list[dict[str, Any]]:
+        nonlocal sandhi_presets, all_entries
+        
+        script_mtime = Path(__file__).stat().st_mtime
+        
+        for ods_path in ods_paths:
+            cache_path = cache_dir / f"{ods_path.stem}.json"
+            ods_mtime = ods_path.stat().st_mtime
+            
+            if cache_path.exists() and cache_path.stat().st_mtime >= max(ods_mtime, script_mtime):
+                try:
+                    log.info("Skipping %s (cache up to date)", ods_path.name)
+                    all_entries.extend(json.loads(cache_path.read_text(encoding='utf-8')))
+                    continue
+                except (json.JSONDecodeError, OSError) as e:
+                    log.warning("Cache read failed for %s (%s), re-parsing", ods_path.name, e)
+                    
+            log.info("Parsing %s ...", ods_path.name)
+            entries = parse_ods_file(ods_path, COLUMN_MAP)
+            log.info("  -> %d entries", len(entries))
+            all_entries.extend(entries)
+            
+            write_atomic(cache_path, entries, indent=None)
+            
+        log.info("Total dictionary_entries: %d", len(all_entries))
+        
+        sandhi_presets.extend(load_authored_presets(authored_path))
+        log.info("Loaded %d hand-authored sandhi presets", len(sandhi_presets))
+        
+        if args.generate_stubs:
+            existing_expected = {p["expected"] for p in sandhi_presets if "expected" in p}
+            stubs = []
+            for entry in all_entries:
+                lexeme = entry["lexeme"]
+                if lexeme in existing_expected:
+                    continue
+                existing_expected.add(lexeme)
+                stub = {
+                    "id": f"stub_{entry['id']}",
+                    "desc": entry.get("gloss_en", ""),
+                    "class_path": entry.get("class_path", []),
+                    "seq": [
+                        {
+                            "text": lexeme,
+                            "type": "ROOT",
+                            "join": "NONE"
+                        }
+                    ],
+                    "expected": lexeme,
+                    "source": f"Autogenerated from {entry['source_file']}"
+                }
+                stubs.append(stub)
+            sandhi_presets.extend(stubs)
+            log.info("Generated %d stubs from dictionary entries", len(stubs))
+            
+        source_map_entries = [
+            {
+                "source_id": "" if entry.get("id") is None else str(entry["id"]),
+                "raw_data": {
+                    "lexeme": entry.get("lexeme") or "",
+                    "word_class": entry.get("word_class") or "",
+                    "gloss_en": entry.get("gloss_en") or ""
+                }
             }
-            stubs.append(stub)
-        sandhi_presets.extend(stubs)
-        log.info("Generated %d stubs from dictionary entries", len(stubs))
+            for entry in all_entries
+        ]
+        
+        return source_map_entries
 
-    source_map_entries = [
-        {
-            "source_id": "" if entry.get("id") is None else str(entry["id"]),
-            "raw_data": {
-                "lexeme": entry.get("lexeme") or "",
-                "word_class": entry.get("word_class") or "",
-                "gloss_en": entry.get("gloss_en") or ""
-            }
-        }
-        for entry in all_entries
-    ]
+    schema_path = script_dir / "source_map_schema.json"
+    if not schema_path.is_file():
+        raise FileNotFoundError(f"Schema file not found at {schema_path}")
 
-    validate_output(
-        {
-            "meta": meta,
-            "sandhi_presets": sandhi_presets,
-            "dictionary_entries": all_entries,
-            "entries": source_map_entries
-        },
-        schema_path,
+    pipeline = Pipeline(
+        extractor_func=extractor_func,
+        schema_path=schema_path,
+        meta=meta,
+        output_dir=extracted_dir
     )
+    
+    pipeline.run(ods_dir)
 
-    source_map_path = extracted_dir / "source_map.json"
-    write_atomic(source_map_path, {"meta": meta, "entries": source_map_entries})
-    log.info("Wrote %s (%d raw entries)", source_map_path, len(source_map_entries))
-
+    # Post-pipeline custom artifact writing
     presets_path = extracted_dir / "presets.json"
     write_atomic(presets_path, {"meta": meta, "sandhi_presets": sandhi_presets})
     log.info("Wrote %s (%d sandhi presets)", presets_path, len(sandhi_presets))
@@ -408,7 +370,6 @@ def _main_impl() -> None:
         log.info("Wrote %s (%d entries)", letter_path, len(entries))
         written.add(letter_path.name)
 
-    # Remove any letter files from previous runs not produced this time.
     for f in by_letter_dir.glob("*.json"):
         if f.name not in written:
             f.unlink()
@@ -421,9 +382,6 @@ def _main_impl() -> None:
 
     build_gloss_index(by_letter_dir, gloss_index_path)
     log.info("Wrote %s", gloss_index_path)
-
-
-
 
 if __name__ == "__main__":
     main()
