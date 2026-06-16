@@ -182,32 +182,36 @@ def load_authored_presets(path: Path) -> list[dict[str, Any]]:
 
 
 
-def main() -> None:
+def main(argv: list[str] | None = None) -> int:
     logging.basicConfig(
         stream=sys.stdout,
         level=logging.INFO,
         format='%(levelname)s %(message)s',
     )
     try:
-        _main_impl()
+        _main_impl(argv)
+        return 0
     except FileNotFoundError as e:
         log.error("File not found: %s", e)
-        sys.exit(1)
+        return 1
     except OSError:
         log.exception("File operation failed")
-        sys.exit(1)
+        return 1
+    except ValueError as e:
+        log.error("Configuration error: %s", e)
+        return 1
     except Exception:
         log.exception("Execution failed")
-        sys.exit(1)
+        return 1
 
 
-def _main_impl() -> None:
+def _main_impl(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(description="ODS -> KalaalliCut presets.json converter")
     parser.add_argument('--inspect', metavar='ODS_FILE',
                         help='Print column headers for every sheet in ODS_FILE and exit')
     parser.add_argument('--generate-stubs', action='store_true',
                         help='Generate root stubs from dictionary entries (placeholder)')
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
 
     script_dir = Path(__file__).resolve().parent
     authored_path = script_dir / "authored_presets.json"
@@ -384,4 +388,4 @@ def _main_impl() -> None:
     log.info("Wrote %s", gloss_index_path)
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
