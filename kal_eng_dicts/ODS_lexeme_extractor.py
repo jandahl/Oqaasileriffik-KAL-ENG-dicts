@@ -335,9 +335,13 @@ def _main_impl() -> None:
         
         return source_map_entries
 
+    schema_path = script_dir / "source_map_schema.json"
+    if not schema_path.is_file():
+        raise FileNotFoundError(f"Schema file not found at {schema_path}")
+
     pipeline = Pipeline(
         extractor_func=extractor_func,
-        schema_path=script_dir / "source_map_schema.json",
+        schema_path=schema_path,
         meta=meta,
         output_dir=extracted_dir
     )
