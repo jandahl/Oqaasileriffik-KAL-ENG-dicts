@@ -10,6 +10,7 @@ requires-python = ">=3.10"
 dependencies = [
     "odfpy==1.4.1",
     "nltk==3.9.1",
+    "jsonschema",
     "oqaasileriffik-template @ git+https://github.com/jandahl/Oqaasileriffik-template.git@0.1"
 ]
 

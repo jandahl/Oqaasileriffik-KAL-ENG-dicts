@@ -6,6 +6,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+import jsonschema
 
 from kal_eng_dicts.build_gloss_index import build_gloss_index
 
@@ -193,6 +194,9 @@ def main(argv: list[str] | None = None) -> int:
         return 0
     except FileNotFoundError as e:
         log.error("File not found: %s", e)
+        return 1
+    except jsonschema.ValidationError:
+        # The pipeline already logs the validation error details
         return 1
     except OSError:
         log.exception("File operation failed")
