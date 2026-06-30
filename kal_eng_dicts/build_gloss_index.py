@@ -7,15 +7,25 @@ gloss_index.json mapping each significant English keyword to the set of
 Kalaallisut starting letters where that keyword appears.
 
 Output: extracted/dictionary/gloss_index.json
-Example: {"dream": ["s"], "sleep": ["s", "u"], "walk": ["a", "p"]}
+Example:
+    {
+      "meta": {"version": "1.0", "license": "CC-BY-SA-4.0", ...},
+      "index": {"dream": ["s"], "sleep": ["s", "u"], "walk": ["a", "p"]}
+    }
+
+The root is a one-level wrapper ({"meta": ..., "index": ...}) rather than a bare
+keyword -> [letters] map, so license/version metadata can be carried inline
+without colliding with keyword keys (any keyword could otherwise shadow "meta").
 """
 
 import json
 import os
 import re
 import unicodedata
+from datetime import datetime, timezone
 from pathlib import Path
 from collections import defaultdict
+from typing import Any
 
 import collections.abc
 import nltk
@@ -72,9 +82,27 @@ def tokenize_gloss(gloss: str) -> set[str]:
     tokens = re.findall(r'\b[a-z]{3,}\b', text)
     return {t for t in tokens if t not in STOPWORDS}
 
-def build_gloss_index(by_letter_dir: Path, output_file: Path) -> None:
+def _default_meta() -> dict[str, Any]:
+    """Fallback metadata used when no pipeline meta is supplied (e.g. standalone runs)."""
+    return {
+        "version": "1.0",
+        "license": "CC-BY-SA-4.0",
+        "source": "jandahl/Oqaasileriffik-KAL-ENG-dicts",
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+    }
+
+
+def build_gloss_index(
+    by_letter_dir: Path,
+    output_file: Path,
+    meta: dict[str, Any] | None = None,
+) -> None:
     """
     Build the gloss index from all by-letter JSON files.
+
+    The output is wrapped as ``{"meta": <meta>, "index": <keyword map>}``. When
+    ``meta`` is None a minimal default block is generated so the file always
+    carries license/version metadata.
     """
     index = defaultdict(set)
 
@@ -121,7 +149,11 @@ def build_gloss_index(by_letter_dir: Path, output_file: Path) -> None:
 
     print(f"\nTotal unique keywords: {len(index)}")
 
-    output_dict = {kw: sorted(letters) for kw, letters in sorted(index.items())}
+    index_dict = {kw: sorted(letters) for kw, letters in sorted(index.items())}
+    output_dict = {
+        "meta": meta if meta is not None else _default_meta(),
+        "index": index_dict,
+    }
 
     tmp = output_file.with_suffix(".tmp")
     with open(tmp, "w", encoding="utf-8") as f:
