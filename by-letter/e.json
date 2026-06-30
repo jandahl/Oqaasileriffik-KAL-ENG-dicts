@@ -1,0 +1,5644 @@
+{
+  "meta": {
+    "schema_version": "1.0",
+    "generated_at": "2026-05-26T19:10:50.639945+00:00",
+    "license": "CC-BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source_repo": "https://github.com/Oqaasileriffik/dicts",
+    "fork_repo": "https://github.com/jandahl/Oqaasileriffik-KAL-ENG-dicts",
+    "attribution": "Oqaasileriffik (Greenlandic Language Secretariat), 2018 Chicago Kalaallisut–English Dictionary, CC-BY-SA 4.0",
+    "changes": "Subset of entries extracted and reformatted; class_path fields added for KalaalliCut color mapping.",
+    "available_fields": [
+      "lexeme",
+      "word_class",
+      "gloss_en"
+    ]
+  },
+  "dictionary_entries": [
+    {
+      "id": "E_Sheet1_2",
+      "lexeme": "eertaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eertaq",
+      "gloss_en": "pea, bean",
+      "source_file": "E.ods",
+      "source_row": 2
+    },
+    {
+      "id": "E_Sheet1_3",
+      "lexeme": "eertat-qaqortut",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eertat-qaqortut",
+      "gloss_en": "yellow beans",
+      "source_file": "E.ods",
+      "source_row": 3
+    },
+    {
+      "id": "E_Sheet1_4",
+      "lexeme": "eertat-qernertut",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eertat-qernertut",
+      "gloss_en": "brown beans",
+      "source_file": "E.ods",
+      "source_row": 4
+    },
+    {
+      "id": "E_Sheet1_5",
+      "lexeme": "efterskole",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "efterskole",
+      "gloss_en": "residential school",
+      "source_file": "E.ods",
+      "source_row": 5
+    },
+    {
+      "id": "E_Sheet1_6",
+      "lexeme": "elektriciteti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "elektriciteti",
+      "gloss_en": "electricity",
+      "source_file": "E.ods",
+      "source_row": 6
+    },
+    {
+      "id": "E_Sheet1_7",
+      "lexeme": "elektricitetiliorfik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "elektricitetiliorfik",
+      "gloss_en": "power plant, electrical generating station",
+      "source_file": "E.ods",
+      "source_row": 7
+    },
+    {
+      "id": "E_Sheet1_8",
+      "lexeme": "elevatori",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "elevatori",
+      "gloss_en": "elevator",
+      "source_file": "E.ods",
+      "source_row": 8
+    },
+    {
+      "id": "E_Sheet1_9",
+      "lexeme": "elværki",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "elværki",
+      "gloss_en": "power plant, electrical generating station",
+      "source_file": "E.ods",
+      "source_row": 9
+    },
+    {
+      "id": "E_Sheet1_10",
+      "lexeme": "emalje",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "emalje",
+      "gloss_en": "enamelware",
+      "source_file": "E.ods",
+      "source_row": 10
+    },
+    {
+      "id": "E_Sheet1_11",
+      "lexeme": "emblemi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "emblemi",
+      "gloss_en": "emblem",
+      "source_file": "E.ods",
+      "source_row": 11
+    },
+    {
+      "id": "E_Sheet1_12",
+      "lexeme": "eqaallivoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqaallivoq",
+      "gloss_en": "has become soft and supple, has ceased being stiff",
+      "source_file": "E.ods",
+      "source_row": 12,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_13",
+      "lexeme": "eqaappoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqaappoq",
+      "gloss_en": "is soft and supple",
+      "source_file": "E.ods",
+      "source_row": 13,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_14",
+      "lexeme": "eqaarsaarfik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqaarsaarfik",
+      "gloss_en": "gymnasium",
+      "source_file": "E.ods",
+      "source_row": 14
+    },
+    {
+      "id": "E_Sheet1_15",
+      "lexeme": "eqaarsaarneq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqaarsaarneq",
+      "gloss_en": "gymnastics",
+      "source_file": "E.ods",
+      "source_row": 15
+    },
+    {
+      "id": "E_Sheet1_16",
+      "lexeme": "eqaarsaarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqaarsaarpoq",
+      "gloss_en": "is doing gymnastics",
+      "source_file": "E.ods",
+      "source_row": 16,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_17",
+      "lexeme": "eqaarsaartartoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqaarsaartartoq",
+      "gloss_en": "gymnastics",
+      "source_file": "E.ods",
+      "source_row": 17
+    },
+    {
+      "id": "E_Sheet1_18",
+      "lexeme": "eqalliarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqalliarpoq",
+      "gloss_en": "is out trout fishing",
+      "source_file": "E.ods",
+      "source_row": 18,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_19",
+      "lexeme": "eqallivoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqallivoq",
+      "gloss_en": "preserves trout on the spot by drying, salting, or smoking;",
+      "source_file": "E.ods",
+      "source_row": 19,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_20",
+      "lexeme": "eqaloraq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqaloraq",
+      "gloss_en": "Arctic cod",
+      "source_file": "E.ods",
+      "source_row": 20
+    },
+    {
+      "id": "E_Sheet1_21",
+      "lexeme": "eqalugaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqalugaq",
+      "gloss_en": "immature trout",
+      "source_file": "E.ods",
+      "source_row": 21
+    },
+    {
+      "id": "E_Sheet1_22",
+      "lexeme": "eqaluit-suaasaat",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqaluit-suaasaat",
+      "gloss_en": "sago",
+      "source_file": "E.ods",
+      "source_row": 22
+    },
+    {
+      "id": "E_Sheet1_23",
+      "lexeme": "eqaluk",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqaluk",
+      "gloss_en": "arctic char, trout",
+      "source_file": "E.ods",
+      "source_row": 23
+    },
+    {
+      "id": "E_Sheet1_24",
+      "lexeme": "eqalunniarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqalunniarpoq",
+      "gloss_en": "is fishing for trout",
+      "source_file": "E.ods",
+      "source_row": 24,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_25",
+      "lexeme": "eqalussuannguvoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqalussuannguvoq",
+      "gloss_en": "is \"sharkdrunk\" (of a dog that has eaten fermented shark meat)",
+      "source_file": "E.ods",
+      "source_row": 25,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_26",
+      "lexeme": "eqalussuaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqalussuaq",
+      "gloss_en": "a bluish cotton cloth",
+      "source_file": "E.ods",
+      "source_row": 26
+    },
+    {
+      "id": "E_Sheet1_27",
+      "lexeme": "eqalussuaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqalussuaq",
+      "gloss_en": "shark",
+      "source_file": "E.ods",
+      "source_row": 27
+    },
+    {
+      "id": "E_Sheet1_28",
+      "lexeme": "eqalussuaq kukilik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqalussuaq kukilik",
+      "gloss_en": "Greenland shark",
+      "source_file": "E.ods",
+      "source_row": 28
+    },
+    {
+      "id": "E_Sheet1_29",
+      "lexeme": "eqalussuaq pilattuutitalik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqalussuaq pilattuutitalik",
+      "gloss_en": "sawfish",
+      "source_file": "E.ods",
+      "source_row": 29
+    },
+    {
+      "id": "E_Sheet1_30",
+      "lexeme": "eqalussuaq qernertoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqalussuaq qernertoq",
+      "gloss_en": "velvet belly lanternshark",
+      "source_file": "E.ods",
+      "source_row": 30
+    },
+    {
+      "id": "E_Sheet1_31",
+      "lexeme": "eqalussuarnaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqalussuarnaq",
+      "gloss_en": "basking shark",
+      "source_file": "E.ods",
+      "source_row": 31
+    },
+    {
+      "id": "E_Sheet1_32",
+      "lexeme": "eqalussuup nulia",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqalussuup nulia",
+      "gloss_en": "ray",
+      "source_file": "E.ods",
+      "source_row": 32
+    },
+    {
+      "id": "E_Sheet1_33",
+      "lexeme": "eqarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqarpoq",
+      "gloss_en": "is stiff, is rigid",
+      "source_file": "E.ods",
+      "source_row": 33,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_34",
+      "lexeme": "eqartaaruppoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqartaaruppoq",
+      "gloss_en": "is worn thin, is worn smooth (said of a skin)",
+      "source_file": "E.ods",
+      "source_row": 34,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_35",
+      "lexeme": "eqarti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqarti",
+      "gloss_en": "outer layer of a skin, grain of leather",
+      "source_file": "E.ods",
+      "source_row": 35
+    },
+    {
+      "id": "E_Sheet1_36",
+      "lexeme": "eqatalaarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqatalaarpoq",
+      "gloss_en": "walks stifly, behaves rigidly",
+      "source_file": "E.ods",
+      "source_row": 36,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_37",
+      "lexeme": "eqeerpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqeerpoq",
+      "gloss_en": "wakes up fully",
+      "source_file": "E.ods",
+      "source_row": 37,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_38",
+      "lexeme": "eqeersaasartoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqeersaasartoq",
+      "gloss_en": "alarm clock",
+      "source_file": "E.ods",
+      "source_row": 38
+    },
+    {
+      "id": "E_Sheet1_39",
+      "lexeme": "eqeersagaaneq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqeersagaaneq",
+      "gloss_en": "religious awakening, revival, is being waken",
+      "source_file": "E.ods",
+      "source_row": 39
+    },
+    {
+      "id": "E_Sheet1_40",
+      "lexeme": "eqeersimaartoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqeersimaartoq",
+      "gloss_en": "someone who is enterprising, active, alert, alive;",
+      "source_file": "E.ods",
+      "source_row": 40
+    },
+    {
+      "id": "E_Sheet1_41",
+      "lexeme": "eqeersoorpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqeersoorpoq",
+      "gloss_en": "lies awake, can not fall asleep",
+      "source_file": "E.ods",
+      "source_row": 41,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_42",
+      "lexeme": "eqeq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqeq",
+      "gloss_en": "corner of the mouth",
+      "source_file": "E.ods",
+      "source_row": 42
+    },
+    {
+      "id": "E_Sheet1_43",
+      "lexeme": "eqeqqoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqeqqoq",
+      "gloss_en": "little finger, pinkie",
+      "source_file": "E.ods",
+      "source_row": 43
+    },
+    {
+      "id": "E_Sheet1_44",
+      "lexeme": "eqi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqi",
+      "gloss_en": "cove, small bay in a fjord",
+      "source_file": "E.ods",
+      "source_row": 44
+    },
+    {
+      "id": "E_Sheet1_45",
+      "lexeme": "eqiagaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqiagaa",
+      "gloss_en": "does not care to do it, is too lazy to do it",
+      "source_file": "E.ods",
+      "source_row": 45,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_46",
+      "lexeme": "eqiasuippoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqiasuippoq",
+      "gloss_en": "is diligent",
+      "source_file": "E.ods",
+      "source_row": 46,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_47",
+      "lexeme": "eqiasuppaaluk",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqiasuppaaluk",
+      "gloss_en": "sloth",
+      "source_file": "E.ods",
+      "source_row": 47
+    },
+    {
+      "id": "E_Sheet1_48",
+      "lexeme": "eqiasuppaluk",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqiasuppaluk",
+      "gloss_en": "sounds lazy, looks lazy",
+      "source_file": "E.ods",
+      "source_row": 48
+    },
+    {
+      "id": "E_Sheet1_49",
+      "lexeme": "eqiasuppoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqiasuppoq",
+      "gloss_en": "does not want to do things, is too lazy to do things",
+      "source_file": "E.ods",
+      "source_row": 49,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_50",
+      "lexeme": "eqiatitaarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqiatitaarpoq",
+      "gloss_en": "does not care to do anything",
+      "source_file": "E.ods",
+      "source_row": 50,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_51",
+      "lexeme": "eqiattarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqiattarpoq",
+      "gloss_en": "is uninterested in doing anything, is a slacker, is a lazybones",
+      "source_file": "E.ods",
+      "source_row": 51,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_52",
+      "lexeme": "eqiiallappoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqiiallappoq",
+      "gloss_en": "feels exhilarated, feels re-enlivened",
+      "source_file": "E.ods",
+      "source_row": 52,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_53",
+      "lexeme": "eqiingavoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqiingavoq",
+      "gloss_en": "is attentive, is bright, is clever",
+      "source_file": "E.ods",
+      "source_row": 53,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_54",
+      "lexeme": "eqik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqik",
+      "gloss_en": "corner of the mouth",
+      "source_file": "E.ods",
+      "source_row": 54
+    },
+    {
+      "id": "E_Sheet1_55",
+      "lexeme": "eqikkaaneq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqikkaaneq",
+      "gloss_en": "summary, precis",
+      "source_file": "E.ods",
+      "source_row": 55
+    },
+    {
+      "id": "E_Sheet1_56",
+      "lexeme": "eqikkakkat",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqikkakkat",
+      "gloss_en": "summarized material",
+      "source_file": "E.ods",
+      "source_row": 56
+    },
+    {
+      "id": "E_Sheet1_57",
+      "lexeme": "eqikkarpaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqikkarpaa",
+      "gloss_en": "summarizes it, gives a summary of it, gives a precis of it",
+      "source_file": "E.ods",
+      "source_row": 57,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_58",
+      "lexeme": "eqimapput",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqimapput",
+      "gloss_en": "are pushed close together, are tighly packed",
+      "source_file": "E.ods",
+      "source_row": 58,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_59",
+      "lexeme": "eqimattakkuutaat",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqimattakkuutaat",
+      "gloss_en": "it is put in piles/heaps, groups;",
+      "source_file": "E.ods",
+      "source_row": 59
+    },
+    {
+      "id": "E_Sheet1_60",
+      "lexeme": "eqimattat",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqimattat",
+      "gloss_en": "heap, pile, group",
+      "source_file": "E.ods",
+      "source_row": 60
+    },
+    {
+      "id": "E_Sheet1_61",
+      "lexeme": "eqingasulittoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqingasulittoq",
+      "gloss_en": "is wrinkled up",
+      "source_file": "E.ods",
+      "source_row": 61
+    },
+    {
+      "id": "E_Sheet1_62",
+      "lexeme": "eqingavoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqingavoq",
+      "gloss_en": "is shrunken, is drawn together",
+      "source_file": "E.ods",
+      "source_row": 62,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_63",
+      "lexeme": "eqinnaappoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqinnaappoq",
+      "gloss_en": "is helpful, likes to work",
+      "source_file": "E.ods",
+      "source_row": 63,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_64",
+      "lexeme": "eqippaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqippaa",
+      "gloss_en": "greets him/her, shakes hands with him/her",
+      "source_file": "E.ods",
+      "source_row": 64,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_65",
+      "lexeme": "eqippoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqippoq",
+      "gloss_en": "shrinks",
+      "source_file": "E.ods",
+      "source_row": 65,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_66",
+      "lexeme": "eqipput",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqipput",
+      "gloss_en": "greet each other, shake hands with each other, give each other a hug, hug each other",
+      "source_file": "E.ods",
+      "source_row": 66,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_67",
+      "lexeme": "eqisaavaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqisaavaq",
+      "gloss_en": "mosquito larva",
+      "source_file": "E.ods",
+      "source_row": 67
+    },
+    {
+      "id": "E_Sheet1_68",
+      "lexeme": "eqisaluttoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqisaluttoq",
+      "gloss_en": "something wrinkled",
+      "source_file": "E.ods",
+      "source_row": 68
+    },
+    {
+      "id": "E_Sheet1_69",
+      "lexeme": "eqisarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqisarpoq",
+      "gloss_en": "has muscle spasms, has a cramp",
+      "source_file": "E.ods",
+      "source_row": 69,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_70",
+      "lexeme": "eqisartitsivoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqisartitsivoq",
+      "gloss_en": "winks as an indication that someone is coming or that something is about to happen",
+      "source_file": "E.ods",
+      "source_row": 70,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_71",
+      "lexeme": "eqisimaarput",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqisimaarput",
+      "gloss_en": "walk along arm in arm",
+      "source_file": "E.ods",
+      "source_row": 71,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_72",
+      "lexeme": "eqisimissat",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqisimissat",
+      "gloss_en": "handful",
+      "source_file": "E.ods",
+      "source_row": 72
+    },
+    {
+      "id": "E_Sheet1_73",
+      "lexeme": "eqissuppaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqissuppaa",
+      "gloss_en": "is disgusted with another's unwillingness to do anything",
+      "source_file": "E.ods",
+      "source_row": 73,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_74",
+      "lexeme": "eqissuppoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqissuppoq",
+      "gloss_en": "apologizes for his/her own passivity/inactivity",
+      "source_file": "E.ods",
+      "source_row": 74,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_75",
+      "lexeme": "eqitaarput",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqitaarput",
+      "gloss_en": "they hug",
+      "source_file": "E.ods",
+      "source_row": 75,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_76",
+      "lexeme": "eqitaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqitaq",
+      "gloss_en": "a rounded stick that is held by two contestants in a test of strength",
+      "source_file": "E.ods",
+      "source_row": 76
+    },
+    {
+      "id": "E_Sheet1_77",
+      "lexeme": "eqiterpaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqiterpaa",
+      "gloss_en": "crumples it",
+      "source_file": "E.ods",
+      "source_row": 77,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_78",
+      "lexeme": "eqiterpai",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqiterpai",
+      "gloss_en": "piles them up, puts them in a heap",
+      "source_file": "E.ods",
+      "source_row": 78,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_79",
+      "lexeme": "eqiterput",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqiterput",
+      "gloss_en": "assemble, come together",
+      "source_file": "E.ods",
+      "source_row": 79,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_80",
+      "lexeme": "eqitersimasoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqitersimasoq",
+      "gloss_en": "something crumpled, something rumpled",
+      "source_file": "E.ods",
+      "source_row": 80
+    },
+    {
+      "id": "E_Sheet1_81",
+      "lexeme": "eqiterupput",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqiterupput",
+      "gloss_en": "gather together, flock together",
+      "source_file": "E.ods",
+      "source_row": 81,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_82",
+      "lexeme": "eqiterutit",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqiterutit",
+      "gloss_en": "tear, rip",
+      "source_file": "E.ods",
+      "source_row": 82
+    },
+    {
+      "id": "E_Sheet1_83",
+      "lexeme": "eqittaavoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqittaavoq",
+      "gloss_en": "shakes hands with people",
+      "source_file": "E.ods",
+      "source_row": 83,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_84",
+      "lexeme": "eqorpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqorpoq",
+      "gloss_en": "wipes his/her bottom, wipes himself/herself",
+      "source_file": "E.ods",
+      "source_row": 84,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_85",
+      "lexeme": "eqqa",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqa",
+      "gloss_en": "his/her anus",
+      "source_file": "E.ods",
+      "source_row": 85
+    },
+    {
+      "id": "E_Sheet1_86",
+      "lexeme": "eqqaakulupput",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqqaakulupput",
+      "gloss_en": "remembering old days (used about old relationships)",
+      "source_file": "E.ods",
+      "source_row": 86,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_87",
+      "lexeme": "eqqaamajuminarsaat",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqaamajuminarsaat",
+      "gloss_en": "memory aid, mnemonic",
+      "source_file": "E.ods",
+      "source_row": 87
+    },
+    {
+      "id": "E_Sheet1_88",
+      "lexeme": "eqqaamajuminarsagaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqaamajuminarsagaq",
+      "gloss_en": "something made easier to remember",
+      "source_file": "E.ods",
+      "source_row": 88
+    },
+    {
+      "id": "E_Sheet1_89",
+      "lexeme": "eqqaamasaarunneq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqaamasaarunneq",
+      "gloss_en": "memory loss, amnesia",
+      "source_file": "E.ods",
+      "source_row": 89
+    },
+    {
+      "id": "E_Sheet1_90",
+      "lexeme": "eqqaamasalersaarutit",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqaamasalersaarutit",
+      "gloss_en": "memories, memoir, memoirs",
+      "source_file": "E.ods",
+      "source_row": 90
+    },
+    {
+      "id": "E_Sheet1_91",
+      "lexeme": "eqqaamasassanut allattuiffik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqaamasassanut allattuiffik",
+      "gloss_en": "to do list, shopping list",
+      "source_file": "E.ods",
+      "source_row": 91
+    },
+    {
+      "id": "E_Sheet1_92",
+      "lexeme": "eqqaamasat",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqaamasat",
+      "gloss_en": "memories, recollections",
+      "source_file": "E.ods",
+      "source_row": 92
+    },
+    {
+      "id": "E_Sheet1_93",
+      "lexeme": "eqqaamasat",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqaamasat",
+      "gloss_en": "folklore, traditional stories",
+      "source_file": "E.ods",
+      "source_row": 93
+    },
+    {
+      "id": "E_Sheet1_94",
+      "lexeme": "eqqaamassutissiorneq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqaamassutissiorneq",
+      "gloss_en": "note-taking techniques",
+      "source_file": "E.ods",
+      "source_row": 94
+    },
+    {
+      "id": "E_Sheet1_95",
+      "lexeme": "eqqaamassutissiorpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqqaamassutissiorpoq",
+      "gloss_en": "takes notes",
+      "source_file": "E.ods",
+      "source_row": 95,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_96",
+      "lexeme": "eqqaamavaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqqaamavaa",
+      "gloss_en": "remembers it, has it among his/her memories",
+      "source_file": "E.ods",
+      "source_row": 96,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_97",
+      "lexeme": "eqqaamiut",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqaamiut",
+      "gloss_en": "those who live in its vicinity",
+      "source_file": "E.ods",
+      "source_row": 97
+    },
+    {
+      "id": "E_Sheet1_98",
+      "lexeme": "eqqaanarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqqaanarpoq",
+      "gloss_en": "is reminiscent of something, reminds one of something",
+      "source_file": "E.ods",
+      "source_row": 98,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_99",
+      "lexeme": "eqqaaneq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqaaneq",
+      "gloss_en": "renovation",
+      "source_file": "E.ods",
+      "source_row": 99
+    },
+    {
+      "id": "E_Sheet1_100",
+      "lexeme": "eqqaani",
+      "word_class": "",
+      "class_path": [],
+      "stem": "eqqaani",
+      "gloss_en": "in his/her/its vicinity, near him/her/it",
+      "source_file": "E.ods",
+      "source_row": 100
+    },
+    {
+      "id": "E_Sheet1_101",
+      "lexeme": "eqqaaniaaneq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqaaniaaneq",
+      "gloss_en": "commemorative celebration, commemoration",
+      "source_file": "E.ods",
+      "source_row": 101
+    },
+    {
+      "id": "E_Sheet1_102",
+      "lexeme": "eqqaaniarlugu",
+      "word_class": "oqaluut",
+      "class_path": [
+        "verbal_root"
+      ],
+      "stem": "eqqaaniarlugu",
+      "gloss_en": "in memory of him/her",
+      "source_file": "E.ods",
+      "source_row": 102
+    },
+    {
+      "id": "E_Sheet1_103",
+      "lexeme": "eqqaaniarpaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqqaaniarpaa",
+      "gloss_en": "bring him/her/it to mind, thinks of him/her/it",
+      "source_file": "E.ods",
+      "source_row": 103,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_104",
+      "lexeme": "eqqaaniut",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqaaniut",
+      "gloss_en": "commemorating",
+      "source_file": "E.ods",
+      "source_row": 104
+    },
+    {
+      "id": "E_Sheet1_105",
+      "lexeme": "eqqaanni",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqaanni",
+      "gloss_en": "in the vicinity of",
+      "source_file": "E.ods",
+      "source_row": 105
+    },
+    {
+      "id": "E_Sheet1_106",
+      "lexeme": "eqqaappai",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqqaappai",
+      "gloss_en": "shoots at them",
+      "source_file": "E.ods",
+      "source_row": 106,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_107",
+      "lexeme": "eqqaasiorpaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqqaasiorpaa",
+      "gloss_en": "moves right up to it",
+      "source_file": "E.ods",
+      "source_row": 107,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_108",
+      "lexeme": "eqqaasippaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqqaasippaa",
+      "gloss_en": "reminds him/her of something, gives him/her a reminder about something",
+      "source_file": "E.ods",
+      "source_row": 108,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_109",
+      "lexeme": "eqqaasitsissutigaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqqaasitsissutigaa",
+      "gloss_en": "reminds someone of it, gives someone a reminder about it",
+      "source_file": "E.ods",
+      "source_row": 109,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_110",
+      "lexeme": "eqqaassutissaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqaassutissaq",
+      "gloss_en": "memorial, tombstone, historical marker",
+      "source_file": "E.ods",
+      "source_row": 110
+    },
+    {
+      "id": "E_Sheet1_111",
+      "lexeme": "eqqaassutissiaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqaassutissiaq",
+      "gloss_en": "tombstone, historical marker",
+      "source_file": "E.ods",
+      "source_row": 111
+    },
+    {
+      "id": "E_Sheet1_112",
+      "lexeme": "eqqaavaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqqaavaa",
+      "gloss_en": "brings it to mind, comes to think of it, recalls it",
+      "source_file": "E.ods",
+      "source_row": 112,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_113",
+      "lexeme": "eqqaavik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqaavik",
+      "gloss_en": "garbage can, waste basket",
+      "source_file": "E.ods",
+      "source_row": 113
+    },
+    {
+      "id": "E_Sheet1_114",
+      "lexeme": "eqqagaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqqagaa",
+      "gloss_en": "is worried about him/her/it",
+      "source_file": "E.ods",
+      "source_row": 114,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_115",
+      "lexeme": "eqqagassanik eqqaaneq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqagassanik eqqaaneq",
+      "gloss_en": "renovation",
+      "source_file": "E.ods",
+      "source_row": 115
+    },
+    {
+      "id": "E_Sheet1_116",
+      "lexeme": "eqqagassanik immikkoortiterineq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqagassanik immikkoortiterineq",
+      "gloss_en": "sorting garbage",
+      "source_file": "E.ods",
+      "source_row": 116
+    },
+    {
+      "id": "E_Sheet1_117",
+      "lexeme": "eqqakkat aqqutaat",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqakkat aqqutaat",
+      "gloss_en": "sewer",
+      "source_file": "E.ods",
+      "source_row": 117
+    },
+    {
+      "id": "E_Sheet1_118",
+      "lexeme": "eqqakkat immikkoortitikkat",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqakkat immikkoortitikkat",
+      "gloss_en": "sorted garbage",
+      "source_file": "E.ods",
+      "source_row": 118
+    },
+    {
+      "id": "E_Sheet1_119",
+      "lexeme": "eqqakkat pinarnersiorlugit immikkoortiterneri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqakkat pinarnersiorlugit immikkoortiterneri",
+      "gloss_en": "sorted garbage according to importance",
+      "source_file": "E.ods",
+      "source_row": 119
+    },
+    {
+      "id": "E_Sheet1_120",
+      "lexeme": "eqqakkat suussuseqatigiikkuutaat immikkoortut",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqakkat suussuseqatigiikkuutaat immikkoortut",
+      "gloss_en": "sorted garbage accorting to material",
+      "source_file": "E.ods",
+      "source_row": 120
+    },
+    {
+      "id": "E_Sheet1_121",
+      "lexeme": "eqqakkat",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqakkat",
+      "gloss_en": "garbage, trash",
+      "source_file": "E.ods",
+      "source_row": 121
+    },
+    {
+      "id": "E_Sheet1_122",
+      "lexeme": "eqqanaarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqqanaarpoq",
+      "gloss_en": "has provided for himself in advance, has hoarded things for the future",
+      "source_file": "E.ods",
+      "source_row": 122,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_123",
+      "lexeme": "eqqanaarsarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqqanaarsarpoq",
+      "gloss_en": "provides for himself in advance, hoards things for the future",
+      "source_file": "E.ods",
+      "source_row": 123,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_124",
+      "lexeme": "eqqanaartorpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqqanaartorpoq",
+      "gloss_en": "moans about things, is fearful of the future, predicts doom",
+      "source_file": "E.ods",
+      "source_row": 124,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_125",
+      "lexeme": "eqqanaq!",
+      "word_class": "",
+      "class_path": [],
+      "stem": "eqqanaq!",
+      "gloss_en": "Oh no! That's awful!",
+      "source_file": "E.ods",
+      "source_row": 125
+    },
+    {
+      "id": "E_Sheet1_126",
+      "lexeme": "eqqanaraluttuaq!",
+      "word_class": "",
+      "class_path": [],
+      "stem": "eqqanaraluttuaq!",
+      "gloss_en": "How will this end! The outcome looks bleak!",
+      "source_file": "E.ods",
+      "source_row": 126
+    },
+    {
+      "id": "E_Sheet1_127",
+      "lexeme": "eqqaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqaq",
+      "gloss_en": "region, vicinity, neighborhood",
+      "source_file": "E.ods",
+      "source_row": 127
+    },
+    {
+      "id": "E_Sheet1_128",
+      "lexeme": "eqqarleq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqarleq",
+      "gloss_en": "relative, someone who is related",
+      "source_file": "E.ods",
+      "source_row": 128
+    },
+    {
+      "id": "E_Sheet1_129",
+      "lexeme": "eqqarleriipput",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqqarleriipput",
+      "gloss_en": "are related to each other",
+      "source_file": "E.ods",
+      "source_row": 129,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_130",
+      "lexeme": "eqqarleriit",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqarleriit",
+      "gloss_en": "group of relatives, family, extended family",
+      "source_file": "E.ods",
+      "source_row": 130
+    },
+    {
+      "id": "E_Sheet1_131",
+      "lexeme": "eqqarlimaarpaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqqarlimaarpaa",
+      "gloss_en": "show him/her special kindness because he/she is related to him",
+      "source_file": "E.ods",
+      "source_row": 131,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_132",
+      "lexeme": "eqqarpai",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqqarpai",
+      "gloss_en": "throws them away, throws them out",
+      "source_file": "E.ods",
+      "source_row": 132,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_133",
+      "lexeme": "eqqarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqqarpoq",
+      "gloss_en": "shoot at will, fire away",
+      "source_file": "E.ods",
+      "source_row": 133,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_134",
+      "lexeme": "eqqarsaat",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqarsaat",
+      "gloss_en": "thought",
+      "source_file": "E.ods",
+      "source_row": 134
+    },
+    {
+      "id": "E_Sheet1_135",
+      "lexeme": "eqqarsaatersorneq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqarsaatersorneq",
+      "gloss_en": "thinking, thought process",
+      "source_file": "E.ods",
+      "source_row": 135
+    },
+    {
+      "id": "E_Sheet1_136",
+      "lexeme": "eqqarsaatersorpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqqarsaatersorpoq",
+      "gloss_en": "thinks about things, uses his/her head",
+      "source_file": "E.ods",
+      "source_row": 136,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_137",
+      "lexeme": "eqqarsaatersuut",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqarsaatersuut",
+      "gloss_en": "thought-provoking statement, profound observation",
+      "source_file": "E.ods",
+      "source_row": 137
+    },
+    {
+      "id": "E_Sheet1_138",
+      "lexeme": "eqqarsaatigaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqqarsaatigaa",
+      "gloss_en": "thinks about it, considers it",
+      "source_file": "E.ods",
+      "source_row": 138,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_139",
+      "lexeme": "eqqarsaatigiunnaarpaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqqarsaatigiunnaarpaa",
+      "gloss_en": "stops thinking about it, puts it out of his/her head",
+      "source_file": "E.ods",
+      "source_row": 139,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_140",
+      "lexeme": "eqqarsaatissiissut",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqarsaatissiissut",
+      "gloss_en": "something to think about",
+      "source_file": "E.ods",
+      "source_row": 140
+    },
+    {
+      "id": "E_Sheet1_141",
+      "lexeme": "eqqarsaqqissaarneq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqarsaqqissaarneq",
+      "gloss_en": "reflection, careful thinking",
+      "source_file": "E.ods",
+      "source_row": 141
+    },
+    {
+      "id": "E_Sheet1_142",
+      "lexeme": "eqqarsarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqqarsarpoq",
+      "gloss_en": "thinks about something, considers something",
+      "source_file": "E.ods",
+      "source_row": 142,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_143",
+      "lexeme": "eqqarsartaaseq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqarsartaaseq",
+      "gloss_en": "way of thinking, thought processes",
+      "source_file": "E.ods",
+      "source_row": 143
+    },
+    {
+      "id": "E_Sheet1_144",
+      "lexeme": "eqqartorpaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqqartorpaa",
+      "gloss_en": "talks about it, describes it, refers to it",
+      "source_file": "E.ods",
+      "source_row": 144,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_145",
+      "lexeme": "eqqartuineq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqartuineq",
+      "gloss_en": "anecdote, witty account, amusing story",
+      "source_file": "E.ods",
+      "source_row": 145
+    },
+    {
+      "id": "E_Sheet1_146",
+      "lexeme": "eqqartulerpaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqqartulerpaa",
+      "gloss_en": "brings it up (for ex., a topic);",
+      "source_file": "E.ods",
+      "source_row": 146,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_147",
+      "lexeme": "eqqartuuppaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqqartuuppaa",
+      "gloss_en": "judges him/her, pronounces judgment on him/her",
+      "source_file": "E.ods",
+      "source_row": 147,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_148",
+      "lexeme": "eqqartuussaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqartuussaq",
+      "gloss_en": "individual judged guilty, person convicted by a court",
+      "source_file": "E.ods",
+      "source_row": 148
+    },
+    {
+      "id": "E_Sheet1_149",
+      "lexeme": "eqqartuusseqataasartut",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqartuusseqataasartut",
+      "gloss_en": "jury, group of jurors",
+      "source_file": "E.ods",
+      "source_row": 149
+    },
+    {
+      "id": "E_Sheet1_150",
+      "lexeme": "eqqartuusseqataasoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqartuusseqataasoq",
+      "gloss_en": "juror",
+      "source_file": "E.ods",
+      "source_row": 150
+    },
+    {
+      "id": "E_Sheet1_151",
+      "lexeme": "eqqartuussisoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqartuussisoq",
+      "gloss_en": "judge, district court judge",
+      "source_file": "E.ods",
+      "source_row": 151
+    },
+    {
+      "id": "E_Sheet1_152",
+      "lexeme": "eqqartuussisoqarfik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqartuussisoqarfik",
+      "gloss_en": "jurisdiction",
+      "source_file": "E.ods",
+      "source_row": 152
+    },
+    {
+      "id": "E_Sheet1_153",
+      "lexeme": "eqqartuussisoqarneq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqartuussisoqarneq",
+      "gloss_en": "judiciary, judicial branch",
+      "source_file": "E.ods",
+      "source_row": 153
+    },
+    {
+      "id": "E_Sheet1_154",
+      "lexeme": "eqqartuussissuserisoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqartuussissuserisoq",
+      "gloss_en": "lawyer",
+      "source_file": "E.ods",
+      "source_row": 154
+    },
+    {
+      "id": "E_Sheet1_155",
+      "lexeme": "eqqartuussisut",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqartuussisut",
+      "gloss_en": "the court, law court",
+      "source_file": "E.ods",
+      "source_row": 155
+    },
+    {
+      "id": "E_Sheet1_156",
+      "lexeme": "eqqartuussisutigoortippaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqqartuussisutigoortippaa",
+      "gloss_en": "prosecutes him/her",
+      "source_file": "E.ods",
+      "source_row": 156,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_157",
+      "lexeme": "eqqartuussisutigoortitsineq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqartuussisutigoortitsineq",
+      "gloss_en": "prosecution of someone",
+      "source_file": "E.ods",
+      "source_row": 157
+    },
+    {
+      "id": "E_Sheet1_158",
+      "lexeme": "eqqartuussisutigoortoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqartuussisutigoortoq",
+      "gloss_en": "something judicial, something having to do with the law",
+      "source_file": "E.ods",
+      "source_row": 158
+    },
+    {
+      "id": "E_Sheet1_159",
+      "lexeme": "eqqartuussisuuneq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqartuussisuuneq",
+      "gloss_en": "high court in Greenland",
+      "source_file": "E.ods",
+      "source_row": 159
+    },
+    {
+      "id": "E_Sheet1_160",
+      "lexeme": "eqqartuussivik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqartuussivik",
+      "gloss_en": "courthouse, courtroom, court building",
+      "source_file": "E.ods",
+      "source_row": 160
+    },
+    {
+      "id": "E_Sheet1_161",
+      "lexeme": "eqqartuussivikkut aalajangiineq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqartuussivikkut aalajangiineq",
+      "gloss_en": "court decision",
+      "source_file": "E.ods",
+      "source_row": 161
+    },
+    {
+      "id": "E_Sheet1_162",
+      "lexeme": "eqqartuussivimmi pisortaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqartuussivimmi pisortaq",
+      "gloss_en": "court leader",
+      "source_file": "E.ods",
+      "source_row": 162
+    },
+    {
+      "id": "E_Sheet1_163",
+      "lexeme": "eqqartuussivoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqqartuussivoq",
+      "gloss_en": "holds court, conducts a trial",
+      "source_file": "E.ods",
+      "source_row": 163,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_164",
+      "lexeme": "eqqartuussut",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqartuussut",
+      "gloss_en": "verdict, sentence, judgment",
+      "source_file": "E.ods",
+      "source_row": 164
+    },
+    {
+      "id": "E_Sheet1_165",
+      "lexeme": "eqqartuussutigineqareerpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqqartuussutigineqareerpoq",
+      "gloss_en": "a verdict has been reached, the court has made a judgment in the case",
+      "source_file": "E.ods",
+      "source_row": 165,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_166",
+      "lexeme": "eqqartuussutip inernera",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqartuussutip inernera",
+      "gloss_en": "decision by a court concerning a question in a trial",
+      "source_file": "E.ods",
+      "source_row": 166
+    },
+    {
+      "id": "E_Sheet1_167",
+      "lexeme": "eqqartuutiffissaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqartuutiffissaq",
+      "gloss_en": "Judgment Day",
+      "source_file": "E.ods",
+      "source_row": 167
+    },
+    {
+      "id": "E_Sheet1_168",
+      "lexeme": "eqqartuutitinniagaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqartuutitinniagaq",
+      "gloss_en": "defendant",
+      "source_file": "E.ods",
+      "source_row": 168
+    },
+    {
+      "id": "E_Sheet1_169",
+      "lexeme": "eqqartuutitinniarpaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqqartuutitinniarpaa",
+      "gloss_en": "sues him/her, takes him/her to court",
+      "source_file": "E.ods",
+      "source_row": 169,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_170",
+      "lexeme": "eqqartuutititsiniartoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqartuutititsiniartoq",
+      "gloss_en": "plaintiff",
+      "source_file": "E.ods",
+      "source_row": 170
+    },
+    {
+      "id": "E_Sheet1_171",
+      "lexeme": "eqqasuppoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqqasuppoq",
+      "gloss_en": "is worried, is concerned",
+      "source_file": "E.ods",
+      "source_row": 171,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_172",
+      "lexeme": "eqqasuut",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqasuut",
+      "gloss_en": "worry, concern, something that causes concern",
+      "source_file": "E.ods",
+      "source_row": 172
+    },
+    {
+      "id": "E_Sheet1_173",
+      "lexeme": "eqqatsappoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqqatsappoq",
+      "gloss_en": "becomes concerned",
+      "source_file": "E.ods",
+      "source_row": 173,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_174",
+      "lexeme": "eqqattaarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqqattaarpoq",
+      "gloss_en": "throws a harpoon at the target (from a kayak)",
+      "source_file": "E.ods",
+      "source_row": 174,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_175",
+      "lexeme": "eqqeq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqeq",
+      "gloss_en": "louse egg, nit",
+      "source_file": "E.ods",
+      "source_row": 175
+    },
+    {
+      "id": "E_Sheet1_176",
+      "lexeme": "eqqiaassutit",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqiaassutit",
+      "gloss_en": "cleaning products",
+      "source_file": "E.ods",
+      "source_row": 176
+    },
+    {
+      "id": "E_Sheet1_177",
+      "lexeme": "eqqiarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqqiarpoq",
+      "gloss_en": "washes himself/herself thoroughly",
+      "source_file": "E.ods",
+      "source_row": 177,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_178",
+      "lexeme": "eqqilik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqilik",
+      "gloss_en": "Indian",
+      "source_file": "E.ods",
+      "source_row": 178
+    },
+    {
+      "id": "E_Sheet1_179",
+      "lexeme": "eqqillit",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqillit",
+      "gloss_en": "people from Greenlandic folklore with supernatural powers",
+      "source_file": "E.ods",
+      "source_row": 179
+    },
+    {
+      "id": "E_Sheet1_180",
+      "lexeme": "eqqiluippoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqqiluippoq",
+      "gloss_en": "is clean, is hygienic",
+      "source_file": "E.ods",
+      "source_row": 180,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_181",
+      "lexeme": "eqqissaarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqqissaarpoq",
+      "gloss_en": "sits in peace and quiet",
+      "source_file": "E.ods",
+      "source_row": 181,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_182",
+      "lexeme": "eqqissilluni",
+      "word_class": "oqaluut",
+      "class_path": [
+        "verbal_root"
+      ],
+      "stem": "eqqissilluni",
+      "gloss_en": "calmly, peacefully",
+      "source_file": "E.ods",
+      "source_row": 182
+    },
+    {
+      "id": "E_Sheet1_183",
+      "lexeme": "eqqissineq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqissineq",
+      "gloss_en": "peace, calm, quietude",
+      "source_file": "E.ods",
+      "source_row": 183
+    },
+    {
+      "id": "E_Sheet1_184",
+      "lexeme": "eqqissisimaarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqqissisimaarpoq",
+      "gloss_en": "feels comfortable in the setting, is among friends",
+      "source_file": "E.ods",
+      "source_row": 184,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_185",
+      "lexeme": "eqqissisimatitaavoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqqissisimatitaavoq",
+      "gloss_en": "is set aside as a preserve for animals, is a conservation area",
+      "source_file": "E.ods",
+      "source_row": 185,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_186",
+      "lexeme": "eqqissisimatitsineq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqissisimatitsineq",
+      "gloss_en": "conservation of nature, or the act of making someone comfortable/relaxed;",
+      "source_file": "E.ods",
+      "source_row": 186
+    },
+    {
+      "id": "E_Sheet1_187",
+      "lexeme": "eqqissisimatitsivik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqissisimatitsivik",
+      "gloss_en": "wildlife area, conservation area, nature preserve",
+      "source_file": "E.ods",
+      "source_row": 187
+    },
+    {
+      "id": "E_Sheet1_188",
+      "lexeme": "eqqissiviitsoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqissiviitsoq",
+      "gloss_en": "outlaw",
+      "source_file": "E.ods",
+      "source_row": 188
+    },
+    {
+      "id": "E_Sheet1_189",
+      "lexeme": "eqqissivissioqatigiinneq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqissivissioqatigiinneq",
+      "gloss_en": "peace treaty, armistice",
+      "source_file": "E.ods",
+      "source_row": 189
+    },
+    {
+      "id": "E_Sheet1_190",
+      "lexeme": "eqqissivissioqatigiipput",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqqissivissioqatigiipput",
+      "gloss_en": "mutually agree to peace terms, sign a peace treaty",
+      "source_file": "E.ods",
+      "source_row": 190,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_191",
+      "lexeme": "eqqissivoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqqissivoq",
+      "gloss_en": "finds peace, grows calm",
+      "source_file": "E.ods",
+      "source_row": 191,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_192",
+      "lexeme": "eqqoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqoq",
+      "gloss_en": "buttocks, rump, rear",
+      "source_file": "E.ods",
+      "source_row": 192
+    },
+    {
+      "id": "E_Sheet1_193",
+      "lexeme": "eqqoqqortooq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqoqqortooq",
+      "gloss_en": "white wagtail",
+      "source_file": "E.ods",
+      "source_row": 193
+    },
+    {
+      "id": "E_Sheet1_194",
+      "lexeme": "eqqoriarpaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqqoriarpaa",
+      "gloss_en": "makes a guess at it",
+      "source_file": "E.ods",
+      "source_row": 194,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_195",
+      "lexeme": "eqqorluarpaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqqorluarpaa",
+      "gloss_en": "is precisely right about it",
+      "source_file": "E.ods",
+      "source_row": 195,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_196",
+      "lexeme": "eqqorlugu",
+      "word_class": "oqaluut",
+      "class_path": [
+        "verbal_root"
+      ],
+      "stem": "eqqorlugu",
+      "gloss_en": "precisely, exactly, absolutely correctly",
+      "source_file": "E.ods",
+      "source_row": 196
+    },
+    {
+      "id": "E_Sheet1_197",
+      "lexeme": "eqqornaveeqqut",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqornaveeqqut",
+      "gloss_en": "shield",
+      "source_file": "E.ods",
+      "source_row": 197
+    },
+    {
+      "id": "E_Sheet1_198",
+      "lexeme": "eqqorniaavoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqqorniaavoq",
+      "gloss_en": "makes a bet, bets on sports, plays the lottery",
+      "source_file": "E.ods",
+      "source_row": 198,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_199",
+      "lexeme": "eqqorniunneq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqorniunneq",
+      "gloss_en": "lottery, the lottery",
+      "source_file": "E.ods",
+      "source_row": 199
+    },
+    {
+      "id": "E_Sheet1_200",
+      "lexeme": "eqqorpaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqqorpaa",
+      "gloss_en": "hits it, guesses it correctly, hits it the first time",
+      "source_file": "E.ods",
+      "source_row": 200,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_201",
+      "lexeme": "eqqorpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqqorpoq",
+      "gloss_en": "is correct, is true, is right",
+      "source_file": "E.ods",
+      "source_row": 201,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_202",
+      "lexeme": "eqqorsuppoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqqorsuppoq",
+      "gloss_en": "is good at shooting",
+      "source_file": "E.ods",
+      "source_row": 202,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_203",
+      "lexeme": "eqqortinngilaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqqortinngilaa",
+      "gloss_en": "breaks his/her promise, does not keep his/her word",
+      "source_file": "E.ods",
+      "source_row": 203,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_204",
+      "lexeme": "eqqortippaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqqortippaa",
+      "gloss_en": "keeps his/her word, keeps his/her promise",
+      "source_file": "E.ods",
+      "source_row": 204,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_205",
+      "lexeme": "eqqortumik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqortumik",
+      "gloss_en": "correctly",
+      "source_file": "E.ods",
+      "source_row": 205
+    },
+    {
+      "id": "E_Sheet1_206",
+      "lexeme": "eqqorutit",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqorutit",
+      "gloss_en": "a fishing lure with four hooks",
+      "source_file": "E.ods",
+      "source_row": 206
+    },
+    {
+      "id": "E_Sheet1_207",
+      "lexeme": "eqqugaasoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqugaasoq",
+      "gloss_en": "victim",
+      "source_file": "E.ods",
+      "source_row": 207
+    },
+    {
+      "id": "E_Sheet1_208",
+      "lexeme": "eqqugassaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqugassaq",
+      "gloss_en": "winnings in a game of chance such as a lottery",
+      "source_file": "E.ods",
+      "source_row": 208
+    },
+    {
+      "id": "E_Sheet1_209",
+      "lexeme": "eqqugassat annersaat",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqugassat annersaat",
+      "gloss_en": "first prize in a lottery or other game of chance",
+      "source_file": "E.ods",
+      "source_row": 209
+    },
+    {
+      "id": "E_Sheet1_210",
+      "lexeme": "eqquiniaasitsineq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqquiniaasitsineq",
+      "gloss_en": "the holding of a lottery",
+      "source_file": "E.ods",
+      "source_row": 210
+    },
+    {
+      "id": "E_Sheet1_211",
+      "lexeme": "eqquiniarneq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqquiniarneq",
+      "gloss_en": "gambling game, sports pool",
+      "source_file": "E.ods",
+      "source_row": 211
+    },
+    {
+      "id": "E_Sheet1_212",
+      "lexeme": "eqquiniarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqquiniarpoq",
+      "gloss_en": "gambles, bets on sports",
+      "source_file": "E.ods",
+      "source_row": 212,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_213",
+      "lexeme": "eqquiniunneq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqquiniunneq",
+      "gloss_en": "lottery",
+      "source_file": "E.ods",
+      "source_row": 213
+    },
+    {
+      "id": "E_Sheet1_214",
+      "lexeme": "eqqumavoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqqumavoq",
+      "gloss_en": "is awake",
+      "source_file": "E.ods",
+      "source_row": 214,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_215",
+      "lexeme": "eqqumiilliorpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqqumiilliorpoq",
+      "gloss_en": "do something remarkable, do something unusual",
+      "source_file": "E.ods",
+      "source_row": 215,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_216",
+      "lexeme": "eqqumiippoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqqumiippoq",
+      "gloss_en": "is remarkable, is extraordinary, is unusual",
+      "source_file": "E.ods",
+      "source_row": 216,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_217",
+      "lexeme": "eqqumiitsuliaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqumiitsuliaq",
+      "gloss_en": "work of art",
+      "source_file": "E.ods",
+      "source_row": 217
+    },
+    {
+      "id": "E_Sheet1_218",
+      "lexeme": "eqqumiitsuliatut allagartarsualiat",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqumiitsuliatut allagartarsualiat",
+      "gloss_en": "artwork posters",
+      "source_file": "E.ods",
+      "source_row": 218
+    },
+    {
+      "id": "E_Sheet1_219",
+      "lexeme": "eqqumiitsuliatut assilialiat",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqumiitsuliatut assilialiat",
+      "gloss_en": "artwork pictures",
+      "source_file": "E.ods",
+      "source_row": 219
+    },
+    {
+      "id": "E_Sheet1_220",
+      "lexeme": "eqqumiitsuliorneq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqumiitsuliorneq",
+      "gloss_en": "art, fine arts, visual arts",
+      "source_file": "E.ods",
+      "source_row": 220
+    },
+    {
+      "id": "E_Sheet1_221",
+      "lexeme": "eqqumiitsuliornermik ilinniarfik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqumiitsuliornermik ilinniarfik",
+      "gloss_en": "school of art",
+      "source_file": "E.ods",
+      "source_row": 221
+    },
+    {
+      "id": "E_Sheet1_222",
+      "lexeme": "eqqumiitsuliornermik qaammarsaaneq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqumiitsuliornermik qaammarsaaneq",
+      "gloss_en": "enlightening about art",
+      "source_file": "E.ods",
+      "source_row": 222
+    },
+    {
+      "id": "E_Sheet1_223",
+      "lexeme": "eqqumiitsuliornerup oqaluttuarisaanera",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqumiitsuliornerup oqaluttuarisaanera",
+      "gloss_en": "art history",
+      "source_file": "E.ods",
+      "source_row": 223
+    },
+    {
+      "id": "E_Sheet1_224",
+      "lexeme": "eqqumiitsuliortoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqumiitsuliortoq",
+      "gloss_en": "artist",
+      "source_file": "E.ods",
+      "source_row": 224
+    },
+    {
+      "id": "E_Sheet1_225",
+      "lexeme": "Eqqumiitsuliortunngorniartut Ilinniarfiat",
+      "word_class": "",
+      "class_path": [],
+      "stem": "Eqqumiitsuliortunngorniartut Ilinniarfiat",
+      "gloss_en": "The Royal Danish Academy of Fine Arts",
+      "source_file": "E.ods",
+      "source_row": 225
+    },
+    {
+      "id": "E_Sheet1_226",
+      "lexeme": "eqqumiitsuliortut pinngorartitsisuusut ingerlatsisuusullu",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqumiitsuliortut pinngorartitsisuusut ingerlatsisuusullu",
+      "gloss_en": "artwork artists and promotors",
+      "source_file": "E.ods",
+      "source_row": 226
+    },
+    {
+      "id": "E_Sheet1_227",
+      "lexeme": "eqqumiitsuliortut suleqatigiiffii",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqumiitsuliortut suleqatigiiffii",
+      "gloss_en": "artists unions",
+      "source_file": "E.ods",
+      "source_row": 227
+    },
+    {
+      "id": "E_Sheet1_228",
+      "lexeme": "eqqummippoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqqummippoq",
+      "gloss_en": "sits down, sits down on the edge of something",
+      "source_file": "E.ods",
+      "source_row": 228,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_229",
+      "lexeme": "eqqunngitsuliorfigisaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqunngitsuliorfigisaq",
+      "gloss_en": "someone who has been offended, someone who has been treated badly",
+      "source_file": "E.ods",
+      "source_row": 229
+    },
+    {
+      "id": "E_Sheet1_230",
+      "lexeme": "eqqunngivippoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqqunngivippoq",
+      "gloss_en": "there is nothing to it (a rumor), is completely untrue",
+      "source_file": "E.ods",
+      "source_row": 230,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_231",
+      "lexeme": "eqquppaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqquppaa",
+      "gloss_en": "takes it in, brings it in",
+      "source_file": "E.ods",
+      "source_row": 231,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_232",
+      "lexeme": "eqqusaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqusaq",
+      "gloss_en": "sea urchin",
+      "source_file": "E.ods",
+      "source_row": 232
+    },
+    {
+      "id": "E_Sheet1_233",
+      "lexeme": "eqqussorpai",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqqussorpai",
+      "gloss_en": "brings them in in stages",
+      "source_file": "E.ods",
+      "source_row": 233,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_234",
+      "lexeme": "eqquuppoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eqquuppoq",
+      "gloss_en": "comes true, is fulfilled",
+      "source_file": "E.ods",
+      "source_row": 234,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_235",
+      "lexeme": "eqquutitippaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eqquutitippaa",
+      "gloss_en": "fulfills it, keeps a promise, makes it so",
+      "source_file": "E.ods",
+      "source_row": 235,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_236",
+      "lexeme": "equngaaluk",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "equngaaluk",
+      "gloss_en": "crossbill, bird of the genus",
+      "source_file": "E.ods",
+      "source_row": 236
+    },
+    {
+      "id": "E_Sheet1_237",
+      "lexeme": "equngavoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "equngavoq",
+      "gloss_en": "is bent, is crooked, is out of line",
+      "source_file": "E.ods",
+      "source_row": 237,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_238",
+      "lexeme": "equsaarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "equsaarpoq",
+      "gloss_en": "wriggles, squirms",
+      "source_file": "E.ods",
+      "source_row": 238,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_239",
+      "lexeme": "equummivoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "equummivoq",
+      "gloss_en": "has soiled his/her pants, has had a little accident in his/her pants",
+      "source_file": "E.ods",
+      "source_row": 239,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_240",
+      "lexeme": "equutigaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "equutigaa",
+      "gloss_en": "uses it for toilet paper, wipes himself/herself with it",
+      "source_file": "E.ods",
+      "source_row": 240,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_241",
+      "lexeme": "equutissaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "equutissaq",
+      "gloss_en": "toilet paper",
+      "source_file": "E.ods",
+      "source_row": 241
+    },
+    {
+      "id": "E_Sheet1_242",
+      "lexeme": "equutit",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "equutit",
+      "gloss_en": "bladder wrack (a seaweed),",
+      "source_file": "E.ods",
+      "source_row": 242
+    },
+    {
+      "id": "E_Sheet1_243",
+      "lexeme": "equvoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "equvoq",
+      "gloss_en": "comes out of alignment, gets crooked, gets bent",
+      "source_file": "E.ods",
+      "source_row": 243,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_244",
+      "lexeme": "erfagiuppaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "erfagiuppaa",
+      "gloss_en": "flings it away",
+      "source_file": "E.ods",
+      "source_row": 244,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_245",
+      "lexeme": "erfalasoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erfalasoq",
+      "gloss_en": "flag, banner",
+      "source_file": "E.ods",
+      "source_row": 245
+    },
+    {
+      "id": "E_Sheet1_246",
+      "lexeme": "erfalasulerfik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erfalasulerfik",
+      "gloss_en": "flagpole",
+      "source_file": "E.ods",
+      "source_row": 246
+    },
+    {
+      "id": "E_Sheet1_247",
+      "lexeme": "erfalasulisartoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erfalasulisartoq",
+      "gloss_en": "flag bearer, standard bearer",
+      "source_file": "E.ods",
+      "source_row": 247
+    },
+    {
+      "id": "E_Sheet1_248",
+      "lexeme": "erfalavoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "erfalavoq",
+      "gloss_en": "waves, flutters",
+      "source_file": "E.ods",
+      "source_row": 248,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_249",
+      "lexeme": "erfaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erfaq",
+      "gloss_en": "outermost garment of de-haired sealskin worn by a kayaker",
+      "source_file": "E.ods",
+      "source_row": 249
+    },
+    {
+      "id": "E_Sheet1_250",
+      "lexeme": "eriagaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "eriagaa",
+      "gloss_en": "takes good care of it, does not want to lose it",
+      "source_file": "E.ods",
+      "source_row": 250,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_251",
+      "lexeme": "eriaginartoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eriaginartoq",
+      "gloss_en": "worth keeping, worth taking care of",
+      "source_file": "E.ods",
+      "source_row": 251
+    },
+    {
+      "id": "E_Sheet1_252",
+      "lexeme": "eriagisaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eriagisaq",
+      "gloss_en": "something one would not like to lose",
+      "source_file": "E.ods",
+      "source_row": 252
+    },
+    {
+      "id": "E_Sheet1_253",
+      "lexeme": "eriagisatut nalinga",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eriagisatut nalinga",
+      "gloss_en": "its sentimental value",
+      "source_file": "E.ods",
+      "source_row": 253
+    },
+    {
+      "id": "E_Sheet1_254",
+      "lexeme": "eriaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eriaq",
+      "gloss_en": "water bucket make of skin",
+      "source_file": "E.ods",
+      "source_row": 254
+    },
+    {
+      "id": "E_Sheet1_255",
+      "lexeme": "erinagippoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "erinagippoq",
+      "gloss_en": "has a beautiful voice, sings beautifully",
+      "source_file": "E.ods",
+      "source_row": 255,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_256",
+      "lexeme": "erinaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erinaq",
+      "gloss_en": "tune, melody",
+      "source_file": "E.ods",
+      "source_row": 256
+    },
+    {
+      "id": "E_Sheet1_257",
+      "lexeme": "erinaq juullisiut",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erinaq juullisiut",
+      "gloss_en": "Christmas song, Christmas carol",
+      "source_file": "E.ods",
+      "source_row": 257
+    },
+    {
+      "id": "E_Sheet1_258",
+      "lexeme": "erinarsoqatigiit",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erinarsoqatigiit",
+      "gloss_en": "choir, chorus",
+      "source_file": "E.ods",
+      "source_row": 258
+    },
+    {
+      "id": "E_Sheet1_259",
+      "lexeme": "erinarsorfigaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "erinarsorfigaa",
+      "gloss_en": "sings to him/her",
+      "source_file": "E.ods",
+      "source_row": 259,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_260",
+      "lexeme": "erinarsornermi uteqattaartagaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erinarsornermi uteqattaartagaq",
+      "gloss_en": "refrain, chorus",
+      "source_file": "E.ods",
+      "source_row": 260
+    },
+    {
+      "id": "E_Sheet1_261",
+      "lexeme": "erinarsorpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "erinarsorpoq",
+      "gloss_en": "sings",
+      "source_file": "E.ods",
+      "source_row": 261,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_262",
+      "lexeme": "erinarsortartoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erinarsortartoq",
+      "gloss_en": "sings",
+      "source_file": "E.ods",
+      "source_row": 262
+    },
+    {
+      "id": "E_Sheet1_263",
+      "lexeme": "erinarsuut",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erinarsuut",
+      "gloss_en": "song",
+      "source_file": "E.ods",
+      "source_row": 263
+    },
+    {
+      "id": "E_Sheet1_264",
+      "lexeme": "erinarsuutit",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erinarsuutit",
+      "gloss_en": "songbook",
+      "source_file": "E.ods",
+      "source_row": 264
+    },
+    {
+      "id": "E_Sheet1_265",
+      "lexeme": "erineersaarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "erineersaarpoq",
+      "gloss_en": "does something to kill time",
+      "source_file": "E.ods",
+      "source_row": 265,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_266",
+      "lexeme": "erinigaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "erinigaa",
+      "gloss_en": "longs for it, looks forwrd to it, cannot wait for it to happen",
+      "source_file": "E.ods",
+      "source_row": 266,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_267",
+      "lexeme": "erininaq!",
+      "word_class": "",
+      "class_path": [],
+      "stem": "erininaq!",
+      "gloss_en": "It's taking so long! When is it ever going to happen?",
+      "source_file": "E.ods",
+      "source_row": 267
+    },
+    {
+      "id": "E_Sheet1_268",
+      "lexeme": "erininarsinngitsoq",
+      "word_class": "oqaluut",
+      "class_path": [
+        "verbal_root"
+      ],
+      "stem": "erininarsinngitsoq",
+      "gloss_en": "before long, not long after",
+      "source_file": "E.ods",
+      "source_row": 268
+    },
+    {
+      "id": "E_Sheet1_269",
+      "lexeme": "erinisuppoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "erinisuppoq",
+      "gloss_en": "longs for something, is anxious for something to happen, is tired of waiting",
+      "source_file": "E.ods",
+      "source_row": 269,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_270",
+      "lexeme": "erinitsappoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "erinitsappoq",
+      "gloss_en": "runs out of patience, becomes impatient",
+      "source_file": "E.ods",
+      "source_row": 270,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_271",
+      "lexeme": "erinivoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "erinivoq",
+      "gloss_en": "is anxiously waiting, is impatient",
+      "source_file": "E.ods",
+      "source_row": 271,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_272",
+      "lexeme": "erinnersaarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "erinnersaarpoq",
+      "gloss_en": "chants a prayer or Bible verse",
+      "source_file": "E.ods",
+      "source_row": 272,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_273",
+      "lexeme": "erinniaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erinniaq",
+      "gloss_en": "melody, tune, smaller musical composition",
+      "source_file": "E.ods",
+      "source_row": 273
+    },
+    {
+      "id": "E_Sheet1_274",
+      "lexeme": "erinniarsuaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erinniarsuaq",
+      "gloss_en": "major work of music",
+      "source_file": "E.ods",
+      "source_row": 274
+    },
+    {
+      "id": "E_Sheet1_275",
+      "lexeme": "erinniortoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erinniortoq",
+      "gloss_en": "composer, composed by…",
+      "source_file": "E.ods",
+      "source_row": 275
+    },
+    {
+      "id": "E_Sheet1_276",
+      "lexeme": "erinniugaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erinniugaq",
+      "gloss_en": "melody, tune, smaller musical composition",
+      "source_file": "E.ods",
+      "source_row": 276
+    },
+    {
+      "id": "E_Sheet1_277",
+      "lexeme": "Erinniugassiat Pingaarnersaat",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "Erinniugassiat Pingaarnersaat",
+      "gloss_en": "Song of Songs",
+      "source_file": "E.ods",
+      "source_row": 277
+    },
+    {
+      "id": "E_Sheet1_278",
+      "lexeme": "erippaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "erippaa",
+      "gloss_en": "pluck its feathers, removes the hair from it",
+      "source_file": "E.ods",
+      "source_row": 278,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_279",
+      "lexeme": "erisaaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erisaaq",
+      "gloss_en": "outermost garment of de-haired sealskin worn by a kayaker",
+      "source_file": "E.ods",
+      "source_row": 279
+    },
+    {
+      "id": "E_Sheet1_280",
+      "lexeme": "erisarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "erisarpoq",
+      "gloss_en": "pluck its feathers, removes the hair from it",
+      "source_file": "E.ods",
+      "source_row": 280,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_281",
+      "lexeme": "eritsarippoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "eritsarippoq",
+      "gloss_en": "is good at plucking fowl, is good at removing hair from sealskins",
+      "source_file": "E.ods",
+      "source_row": 281,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_282",
+      "lexeme": "erivippoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "erivippoq",
+      "gloss_en": "has been softened by soaking in water (of a skin)",
+      "source_file": "E.ods",
+      "source_row": 282,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_283",
+      "lexeme": "erlaveersiniooq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erlaveersiniooq",
+      "gloss_en": "the Gutstealer, a being from Greenlandic myth;",
+      "source_file": "E.ods",
+      "source_row": 283
+    },
+    {
+      "id": "E_Sheet1_284",
+      "lexeme": "erlaviit",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erlaviit",
+      "gloss_en": "intestines, gut, guts",
+      "source_file": "E.ods",
+      "source_row": 284
+    },
+    {
+      "id": "E_Sheet1_285",
+      "lexeme": "erligaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "erligaa",
+      "gloss_en": "values it, does not want to be rid of it, wants to keep it safe",
+      "source_file": "E.ods",
+      "source_row": 285,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_286",
+      "lexeme": "erliguuppaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "erliguuppaa",
+      "gloss_en": "doesn't want to give him/her anything, won't let him/her have anything",
+      "source_file": "E.ods",
+      "source_row": 286,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_287",
+      "lexeme": "erlinnarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "erlinnarpoq",
+      "gloss_en": "is valuable, is expensive, is precious",
+      "source_file": "E.ods",
+      "source_row": 287,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_288",
+      "lexeme": "erlinnartut",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erlinnartut",
+      "gloss_en": "precious",
+      "source_file": "E.ods",
+      "source_row": 288
+    },
+    {
+      "id": "E_Sheet1_289",
+      "lexeme": "erlinnartuut",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erlinnartuut",
+      "gloss_en": "precious object (said mostly of antiques)",
+      "source_file": "E.ods",
+      "source_row": 289
+    },
+    {
+      "id": "E_Sheet1_290",
+      "lexeme": "erlippak",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erlippak",
+      "gloss_en": "molar",
+      "source_file": "E.ods",
+      "source_row": 290
+    },
+    {
+      "id": "E_Sheet1_291",
+      "lexeme": "erlittooq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erlittooq",
+      "gloss_en": "miserly person, someone who is stingy, cheapskate",
+      "source_file": "E.ods",
+      "source_row": 291
+    },
+    {
+      "id": "E_Sheet1_292",
+      "lexeme": "erloq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erloq",
+      "gloss_en": "rectum",
+      "source_file": "E.ods",
+      "source_row": 292
+    },
+    {
+      "id": "E_Sheet1_293",
+      "lexeme": "erloqinartoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erloqinartoq",
+      "gloss_en": "irritation, vexation",
+      "source_file": "E.ods",
+      "source_row": 293
+    },
+    {
+      "id": "E_Sheet1_294",
+      "lexeme": "erloqivoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "erloqivoq",
+      "gloss_en": "is in pain, suffers",
+      "source_file": "E.ods",
+      "source_row": 294,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_295",
+      "lexeme": "erloqquppaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "erloqquppaa",
+      "gloss_en": "forces him/her to do something, makes him/her do something",
+      "source_file": "E.ods",
+      "source_row": 295,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_296",
+      "lexeme": "erluk",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erluk",
+      "gloss_en": "rectum",
+      "source_file": "E.ods",
+      "source_row": 296
+    },
+    {
+      "id": "E_Sheet1_297",
+      "lexeme": "erlunnguumminarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "erlunnguumminarpoq",
+      "gloss_en": "is something that makes one's stomach tickle",
+      "source_file": "E.ods",
+      "source_row": 297,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_298",
+      "lexeme": "erlunnguummivoq",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "erlunnguummivoq",
+      "gloss_en": "tickles one's stomach",
+      "source_file": "E.ods",
+      "source_row": 298,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_299",
+      "lexeme": "ermalisaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ermalisaq",
+      "gloss_en": "skin that a kayaker sits on",
+      "source_file": "E.ods",
+      "source_row": 299
+    },
+    {
+      "id": "E_Sheet1_300",
+      "lexeme": "ermi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ermi",
+      "gloss_en": "the earth's water resources",
+      "source_file": "E.ods",
+      "source_row": 300
+    },
+    {
+      "id": "E_Sheet1_301",
+      "lexeme": "ermiaqqaannivoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "ermiaqqaannivoq",
+      "gloss_en": "now that he's washed his face, one can see it;",
+      "source_file": "E.ods",
+      "source_row": 301,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_302",
+      "lexeme": "ermiffik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ermiffik",
+      "gloss_en": "water barrel",
+      "source_file": "E.ods",
+      "source_row": 302
+    },
+    {
+      "id": "E_Sheet1_303",
+      "lexeme": "ermippoq",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "ermippoq",
+      "gloss_en": "washes his/her face",
+      "source_file": "E.ods",
+      "source_row": 303,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_304",
+      "lexeme": "ermiut",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ermiut",
+      "gloss_en": "washcloth (for the face)",
+      "source_file": "E.ods",
+      "source_row": 304
+    },
+    {
+      "id": "E_Sheet1_305",
+      "lexeme": "ermup aqqutaa",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ermup aqqutaa",
+      "gloss_en": "water distribution system, water pipes",
+      "source_file": "E.ods",
+      "source_row": 305
+    },
+    {
+      "id": "E_Sheet1_306",
+      "lexeme": "ermup nukinga",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ermup nukinga",
+      "gloss_en": "hydroelectric power",
+      "source_file": "E.ods",
+      "source_row": 306
+    },
+    {
+      "id": "E_Sheet1_307",
+      "lexeme": "ermupput",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "ermupput",
+      "gloss_en": "are having a bacchanal",
+      "source_file": "E.ods",
+      "source_row": 307,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_308",
+      "lexeme": "ermuseq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ermuseq",
+      "gloss_en": "mug, beer stein",
+      "source_file": "E.ods",
+      "source_row": 308
+    },
+    {
+      "id": "E_Sheet1_309",
+      "lexeme": "ernaaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ernaaq",
+      "gloss_en": "heartwood (wood from the central part of a tree trunk)",
+      "source_file": "E.ods",
+      "source_row": 309
+    },
+    {
+      "id": "E_Sheet1_310",
+      "lexeme": "ernannaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ernannaq",
+      "gloss_en": "winged harpoon",
+      "source_file": "E.ods",
+      "source_row": 310
+    },
+    {
+      "id": "E_Sheet1_311",
+      "lexeme": "erneq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erneq",
+      "gloss_en": "son",
+      "source_file": "E.ods",
+      "source_row": 311
+    },
+    {
+      "id": "E_Sheet1_312",
+      "lexeme": "erneq tammaraluartoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erneq tammaraluartoq",
+      "gloss_en": "the Prodigal Son",
+      "source_file": "E.ods",
+      "source_row": 312
+    },
+    {
+      "id": "E_Sheet1_313",
+      "lexeme": "ernerluni",
+      "word_class": "oqaluut",
+      "class_path": [
+        "verbal_root"
+      ],
+      "stem": "ernerluni",
+      "gloss_en": "doing right away, immediately",
+      "source_file": "E.ods",
+      "source_row": 313
+    },
+    {
+      "id": "E_Sheet1_314",
+      "lexeme": "ernersiaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ernersiaq",
+      "gloss_en": "foster son",
+      "source_file": "E.ods",
+      "source_row": 314
+    },
+    {
+      "id": "E_Sheet1_315",
+      "lexeme": "ernertaarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "ernertaarpoq",
+      "gloss_en": "becomes the parent of a baby boy",
+      "source_file": "E.ods",
+      "source_row": 315,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_316",
+      "lexeme": "erngaaserfik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erngaaserfik",
+      "gloss_en": "pan under a seal-oil lamp for catching drippings",
+      "source_file": "E.ods",
+      "source_row": 316
+    },
+    {
+      "id": "E_Sheet1_317",
+      "lexeme": "erngaat",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erngaat",
+      "gloss_en": "seal oil drippings",
+      "source_file": "E.ods",
+      "source_row": 317
+    },
+    {
+      "id": "E_Sheet1_318",
+      "lexeme": "erngaataasaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erngaataasaq",
+      "gloss_en": "syrup",
+      "source_file": "E.ods",
+      "source_row": 318
+    },
+    {
+      "id": "E_Sheet1_319",
+      "lexeme": "erngalisaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erngalisaq",
+      "gloss_en": "skin that a kayaker sits on",
+      "source_file": "E.ods",
+      "source_row": 319
+    },
+    {
+      "id": "E_Sheet1_320",
+      "lexeme": "erngarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "erngarpoq",
+      "gloss_en": "leaks, is leaky, is not waterproof",
+      "source_file": "E.ods",
+      "source_row": 320,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_321",
+      "lexeme": "erngerluni",
+      "word_class": "oqaluut",
+      "class_path": [
+        "verbal_root"
+      ],
+      "stem": "erngerluni",
+      "gloss_en": "doing right away, doing immediately",
+      "source_file": "E.ods",
+      "source_row": 321
+    },
+    {
+      "id": "E_Sheet1_322",
+      "lexeme": "erngi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erngi",
+      "gloss_en": "their waters",
+      "source_file": "E.ods",
+      "source_row": 322
+    },
+    {
+      "id": "E_Sheet1_323",
+      "lexeme": "erngiinnannguaq",
+      "word_class": "oqaaseeraq",
+      "class_path": [
+        "enclitic"
+      ],
+      "stem": "erngiinnannguaq",
+      "gloss_en": "right away, immediately, at once",
+      "source_file": "E.ods",
+      "source_row": 323
+    },
+    {
+      "id": "E_Sheet1_324",
+      "lexeme": "erngiinnaq",
+      "word_class": "oqaaseeraq",
+      "class_path": [
+        "enclitic"
+      ],
+      "stem": "erngiinnaq",
+      "gloss_en": "soon, shortly",
+      "source_file": "E.ods",
+      "source_row": 324
+    },
+    {
+      "id": "E_Sheet1_325",
+      "lexeme": "erngumavoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "erngumavoq",
+      "gloss_en": "is worried, is anxious",
+      "source_file": "E.ods",
+      "source_row": 325,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_326",
+      "lexeme": "erngup aqqutaa",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erngup aqqutaa",
+      "gloss_en": "water distribution system, water pipes",
+      "source_file": "E.ods",
+      "source_row": 326
+    },
+    {
+      "id": "E_Sheet1_327",
+      "lexeme": "erngup nukinga",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erngup nukinga",
+      "gloss_en": "hydroelectric power",
+      "source_file": "E.ods",
+      "source_row": 327
+    },
+    {
+      "id": "E_Sheet1_328",
+      "lexeme": "erngup-nukissiorfik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erngup-nukissiorfik",
+      "gloss_en": "hydroelectric power plant",
+      "source_file": "E.ods",
+      "source_row": 328
+    },
+    {
+      "id": "E_Sheet1_329",
+      "lexeme": "erngupput",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "erngupput",
+      "gloss_en": "are having a bacchanal",
+      "source_file": "E.ods",
+      "source_row": 329,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_330",
+      "lexeme": "ernguseq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ernguseq",
+      "gloss_en": "mug, beer stein",
+      "source_file": "E.ods",
+      "source_row": 330
+    },
+    {
+      "id": "E_Sheet1_331",
+      "lexeme": "erngutaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erngutaq",
+      "gloss_en": "grandson",
+      "source_file": "E.ods",
+      "source_row": 331
+    },
+    {
+      "id": "E_Sheet1_332",
+      "lexeme": "erngutaqqiut",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erngutaqqiut",
+      "gloss_en": "great-grandson",
+      "source_file": "E.ods",
+      "source_row": 332
+    },
+    {
+      "id": "E_Sheet1_333",
+      "lexeme": "erni",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erni",
+      "gloss_en": "his/her son",
+      "source_file": "E.ods",
+      "source_row": 333
+    },
+    {
+      "id": "E_Sheet1_334",
+      "lexeme": "erniat",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erniat",
+      "gloss_en": "interest, rate of return",
+      "source_file": "E.ods",
+      "source_row": 334
+    },
+    {
+      "id": "E_Sheet1_335",
+      "lexeme": "ernigaluarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "ernigaluarpoq",
+      "gloss_en": "miscarries",
+      "source_file": "E.ods",
+      "source_row": 335,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_336",
+      "lexeme": "erniinnannguaq",
+      "word_class": "oqaaseeraq",
+      "class_path": [
+        "enclitic"
+      ],
+      "stem": "erniinnannguaq",
+      "gloss_en": "very soon, in a moment, in a flash",
+      "source_file": "E.ods",
+      "source_row": 336
+    },
+    {
+      "id": "E_Sheet1_337",
+      "lexeme": "erniinnaq",
+      "word_class": "oqaaseeraq",
+      "class_path": [
+        "enclitic"
+      ],
+      "stem": "erniinnaq",
+      "gloss_en": "in a moment",
+      "source_file": "E.ods",
+      "source_row": 337
+    },
+    {
+      "id": "E_Sheet1_338",
+      "lexeme": "ernioqqinneq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ernioqqinneq",
+      "gloss_en": "soon, in a little while",
+      "source_file": "E.ods",
+      "source_row": 338
+    },
+    {
+      "id": "E_Sheet1_339",
+      "lexeme": "erniorput",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "erniorput",
+      "gloss_en": "multiply, increase in population",
+      "source_file": "E.ods",
+      "source_row": 339,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_340",
+      "lexeme": "ernisarfik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ernisarfik",
+      "gloss_en": "maternity clinic",
+      "source_file": "E.ods",
+      "source_row": 340
+    },
+    {
+      "id": "E_Sheet1_341",
+      "lexeme": "ernissaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ernissaq",
+      "gloss_en": "stepson",
+      "source_file": "E.ods",
+      "source_row": 341
+    },
+    {
+      "id": "E_Sheet1_342",
+      "lexeme": "ernisuippoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "ernisuippoq",
+      "gloss_en": "is not able to have children",
+      "source_file": "E.ods",
+      "source_row": 342,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_343",
+      "lexeme": "ernisuppoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "ernisuppoq",
+      "gloss_en": "is having labor pains, is having contractions",
+      "source_file": "E.ods",
+      "source_row": 343,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_344",
+      "lexeme": "ernisussiortoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ernisussiortoq",
+      "gloss_en": "midwife",
+      "source_file": "E.ods",
+      "source_row": 344
+    },
+    {
+      "id": "E_Sheet1_345",
+      "lexeme": "erniuvoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "erniuvoq",
+      "gloss_en": "is born, is delivered",
+      "source_file": "E.ods",
+      "source_row": 345,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_346",
+      "lexeme": "ernivissatut killiliussaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ernivissatut killiliussaq",
+      "gloss_en": "due date of pregnancy",
+      "source_file": "E.ods",
+      "source_row": 346
+    },
+    {
+      "id": "E_Sheet1_347",
+      "lexeme": "ernivoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "ernivoq",
+      "gloss_en": "bears a child",
+      "source_file": "E.ods",
+      "source_row": 347,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_348",
+      "lexeme": "ernumanassutsimut uuttuut",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ernumanassutsimut uuttuut",
+      "gloss_en": "anxiety scale",
+      "source_file": "E.ods",
+      "source_row": 348
+    },
+    {
+      "id": "E_Sheet1_349",
+      "lexeme": "ernumavoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "ernumavoq",
+      "gloss_en": "is worried, is anxious",
+      "source_file": "E.ods",
+      "source_row": 349,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_350",
+      "lexeme": "ernutaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ernutaq",
+      "gloss_en": "grandson",
+      "source_file": "E.ods",
+      "source_row": 350
+    },
+    {
+      "id": "E_Sheet1_351",
+      "lexeme": "ernutaqqiut",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ernutaqqiut",
+      "gloss_en": "great-grandson",
+      "source_file": "E.ods",
+      "source_row": 351
+    },
+    {
+      "id": "E_Sheet1_352",
+      "lexeme": "errorpaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "errorpaa",
+      "gloss_en": "washes clothing",
+      "source_file": "E.ods",
+      "source_row": 352,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_353",
+      "lexeme": "errorsineq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "errorsineq",
+      "gloss_en": "washing clothes, doing the laundry",
+      "source_file": "E.ods",
+      "source_row": 353
+    },
+    {
+      "id": "E_Sheet1_354",
+      "lexeme": "errorsisarfik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "errorsisarfik",
+      "gloss_en": "laundry room",
+      "source_file": "E.ods",
+      "source_row": 354
+    },
+    {
+      "id": "E_Sheet1_355",
+      "lexeme": "errorsissut",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "errorsissut",
+      "gloss_en": "washing machine, washer",
+      "source_file": "E.ods",
+      "source_row": 355
+    },
+    {
+      "id": "E_Sheet1_356",
+      "lexeme": "errorsivik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "errorsivik",
+      "gloss_en": "wash tub",
+      "source_file": "E.ods",
+      "source_row": 356
+    },
+    {
+      "id": "E_Sheet1_357",
+      "lexeme": "errorsivoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "errorsivoq",
+      "gloss_en": "washes clothes, does the laundry",
+      "source_file": "E.ods",
+      "source_row": 357,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_358",
+      "lexeme": "errortassat",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "errortassat",
+      "gloss_en": "dirty laundry",
+      "source_file": "E.ods",
+      "source_row": 358
+    },
+    {
+      "id": "E_Sheet1_359",
+      "lexeme": "errortat",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "errortat",
+      "gloss_en": "clean clothes, clean laundry",
+      "source_file": "E.ods",
+      "source_row": 359
+    },
+    {
+      "id": "E_Sheet1_360",
+      "lexeme": "errortorfik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "errortorfik",
+      "gloss_en": "large old fashioned cup without a handle",
+      "source_file": "E.ods",
+      "source_row": 360
+    },
+    {
+      "id": "E_Sheet1_361",
+      "lexeme": "errortoriaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "errortoriaq",
+      "gloss_en": "omasum, third stomach of a ruminant",
+      "source_file": "E.ods",
+      "source_row": 361
+    },
+    {
+      "id": "E_Sheet1_362",
+      "lexeme": "errortorpaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "errortorpaa",
+      "gloss_en": "rinses it, rinses it off",
+      "source_file": "E.ods",
+      "source_row": 362,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_363",
+      "lexeme": "erruissut",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erruissut",
+      "gloss_en": "dishwasher",
+      "source_file": "E.ods",
+      "source_row": 363
+    },
+    {
+      "id": "E_Sheet1_364",
+      "lexeme": "erruivoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "erruivoq",
+      "gloss_en": "does the dishes, washes the dishes",
+      "source_file": "E.ods",
+      "source_row": 364,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_365",
+      "lexeme": "erruut",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erruut",
+      "gloss_en": "dishcloth",
+      "source_file": "E.ods",
+      "source_row": 365
+    },
+    {
+      "id": "E_Sheet1_366",
+      "lexeme": "ersaappoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "ersaappoq",
+      "gloss_en": "Bell's palsy, paralysis of part of the face",
+      "source_file": "E.ods",
+      "source_row": 366,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_367",
+      "lexeme": "ersaarpaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "ersaarpaa",
+      "gloss_en": "slaps him/her in the face, gives him/her a slap in the face",
+      "source_file": "E.ods",
+      "source_row": 367,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_368",
+      "lexeme": "ersaartaapput",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "ersaartaapput",
+      "gloss_en": "are clapping, are applauding",
+      "source_file": "E.ods",
+      "source_row": 368,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_369",
+      "lexeme": "ersalippoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "ersalippoq",
+      "gloss_en": "is rough, is scratchy",
+      "source_file": "E.ods",
+      "source_row": 369,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_370",
+      "lexeme": "ersangavoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "ersangavoq",
+      "gloss_en": "speaks the South Greenlandic dialect",
+      "source_file": "E.ods",
+      "source_row": 370,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_371",
+      "lexeme": "ersappoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "ersappoq",
+      "gloss_en": "shows his/her teeth, bares his/her teeth",
+      "source_file": "E.ods",
+      "source_row": 371,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_372",
+      "lexeme": "ersaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ersaq",
+      "gloss_en": "cheek",
+      "source_file": "E.ods",
+      "source_row": 372
+    },
+    {
+      "id": "E_Sheet1_373",
+      "lexeme": "ersaqutit",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ersaqutit",
+      "gloss_en": "sideburns",
+      "source_file": "E.ods",
+      "source_row": 373
+    },
+    {
+      "id": "E_Sheet1_374",
+      "lexeme": "ersarippoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "ersarippoq",
+      "gloss_en": "is clear, is easy to see",
+      "source_file": "E.ods",
+      "source_row": 374,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_375",
+      "lexeme": "ersarissarpaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "ersarissarpaa",
+      "gloss_en": "pats him/her on the cheek, strokes his/her cheek, carresses his/her cheek",
+      "source_file": "E.ods",
+      "source_row": 375,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_376",
+      "lexeme": "ersaroq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ersaroq",
+      "gloss_en": "cardia, the cardiac section or heart of the stomach",
+      "source_file": "E.ods",
+      "source_row": 376
+    },
+    {
+      "id": "E_Sheet1_377",
+      "lexeme": "ersarunnguvoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "ersarunnguvoq",
+      "gloss_en": "has the feeling that someone is talking about him/her",
+      "source_file": "E.ods",
+      "source_row": 377,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_378",
+      "lexeme": "ersarut",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ersarut",
+      "gloss_en": "muzzle",
+      "source_file": "E.ods",
+      "source_row": 378
+    },
+    {
+      "id": "E_Sheet1_379",
+      "lexeme": "erseqqarippoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "erseqqarippoq",
+      "gloss_en": "is clear, the visibility is good",
+      "source_file": "E.ods",
+      "source_row": 379,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_380",
+      "lexeme": "erseqqarissoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erseqqarissoq",
+      "gloss_en": "good visibility",
+      "source_file": "E.ods",
+      "source_row": 380
+    },
+    {
+      "id": "E_Sheet1_381",
+      "lexeme": "erseqqarissuseq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erseqqarissuseq",
+      "gloss_en": "(degree of) visibility",
+      "source_file": "E.ods",
+      "source_row": 381
+    },
+    {
+      "id": "E_Sheet1_382",
+      "lexeme": "erseqqarivinngitsoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erseqqarivinngitsoq",
+      "gloss_en": "moderate visibility",
+      "source_file": "E.ods",
+      "source_row": 382
+    },
+    {
+      "id": "E_Sheet1_383",
+      "lexeme": "erseqqippoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "erseqqippoq",
+      "gloss_en": "is clear, is easy to see",
+      "source_file": "E.ods",
+      "source_row": 383,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_384",
+      "lexeme": "erseqqissaaneq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erseqqissaaneq",
+      "gloss_en": "clarifying",
+      "source_file": "E.ods",
+      "source_row": 384
+    },
+    {
+      "id": "E_Sheet1_385",
+      "lexeme": "erseqqissivaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "erseqqissivaa",
+      "gloss_en": "is now easy to see, has just become visible",
+      "source_file": "E.ods",
+      "source_row": 385,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_386",
+      "lexeme": "erseqqissuliorfigaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "erseqqissuliorfigaa",
+      "gloss_en": "gives him/her clear information, gives him/her an unambiguous report",
+      "source_file": "E.ods",
+      "source_row": 386,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_387",
+      "lexeme": "ersernerluppoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "ersernerluppoq",
+      "gloss_en": "is indistinct, is hard to see",
+      "source_file": "E.ods",
+      "source_row": 387,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_388",
+      "lexeme": "erserpaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "erserpaa",
+      "gloss_en": "now sees it clearly, can now see it distinctly",
+      "source_file": "E.ods",
+      "source_row": 388,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_389",
+      "lexeme": "erserpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "erserpoq",
+      "gloss_en": "becomes visible, is no longer obscure",
+      "source_file": "E.ods",
+      "source_row": 389,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_390",
+      "lexeme": "ersersarpaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "ersersarpaa",
+      "gloss_en": "develops it (for ex., photographic film);",
+      "source_file": "E.ods",
+      "source_row": 390,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_391",
+      "lexeme": "ersersitsineq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ersersitsineq",
+      "gloss_en": "report, account, estimation",
+      "source_file": "E.ods",
+      "source_row": 391
+    },
+    {
+      "id": "E_Sheet1_392",
+      "lexeme": "ersigaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "ersigaa",
+      "gloss_en": "is afraid of him/her/it",
+      "source_file": "E.ods",
+      "source_row": 392,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_393",
+      "lexeme": "ersigunnaarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "ersigunnaarpoq",
+      "gloss_en": "has become obscure, is no longer visible",
+      "source_file": "E.ods",
+      "source_row": 393,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_394",
+      "lexeme": "ersinarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "ersinarpoq",
+      "gloss_en": "is frightening, is scary",
+      "source_file": "E.ods",
+      "source_row": 394,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_395",
+      "lexeme": "ersinngilaq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "ersinngilaq",
+      "gloss_en": "can't be seen, can't be heard, is out of sight, is out of earshot",
+      "source_file": "E.ods",
+      "source_row": 395,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_396",
+      "lexeme": "ersinngilaq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "ersinngilaq",
+      "gloss_en": "is not afraid",
+      "source_file": "E.ods",
+      "source_row": 396,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_397",
+      "lexeme": "ersiorpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "ersiorpoq",
+      "gloss_en": "is afraid of something, is anxious about something",
+      "source_file": "E.ods",
+      "source_row": 397,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_398",
+      "lexeme": "ersippoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "ersippoq",
+      "gloss_en": "can be seen, can be heard, is visible, is audible",
+      "source_file": "E.ods",
+      "source_row": 398,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_399",
+      "lexeme": "ersisuippoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "ersisuippoq",
+      "gloss_en": "is brave, is intrepid, is self-confident",
+      "source_file": "E.ods",
+      "source_row": 399,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_400",
+      "lexeme": "ersitooq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ersitooq",
+      "gloss_en": "coward",
+      "source_file": "E.ods",
+      "source_row": 400
+    },
+    {
+      "id": "E_Sheet1_401",
+      "lexeme": "ersitsappoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "ersitsappoq",
+      "gloss_en": "gets very scared, has a big scare",
+      "source_file": "E.ods",
+      "source_row": 401,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_402",
+      "lexeme": "ersiummerpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "ersiummerpoq",
+      "gloss_en": "has a sudden scare, is suddenly afraid",
+      "source_file": "E.ods",
+      "source_row": 402,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_403",
+      "lexeme": "ersiummisaarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "ersiummisaarpoq",
+      "gloss_en": "is sometimes fearful",
+      "source_file": "E.ods",
+      "source_row": 403,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_404",
+      "lexeme": "ersiut",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ersiut",
+      "gloss_en": "vowel",
+      "source_file": "E.ods",
+      "source_row": 404
+    },
+    {
+      "id": "E_Sheet1_405",
+      "lexeme": "ersiut",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ersiut",
+      "gloss_en": "proof, evidence, documentation",
+      "source_file": "E.ods",
+      "source_row": 405
+    },
+    {
+      "id": "E_Sheet1_406",
+      "lexeme": "ersivoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "ersivoq",
+      "gloss_en": "is frightened, is scared, is afraid",
+      "source_file": "E.ods",
+      "source_row": 406,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_407",
+      "lexeme": "ersorpaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "ersorpaa",
+      "gloss_en": "scrapes it (for ex., a caribou skin);",
+      "source_file": "E.ods",
+      "source_row": 407,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_408",
+      "lexeme": "ersukkiuppaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "ersukkiuppaa",
+      "gloss_en": "puts it up on his/her shoulder",
+      "source_file": "E.ods",
+      "source_row": 408,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_409",
+      "lexeme": "ersulligaapput",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "ersulligaapput",
+      "gloss_en": "are playing hide-and-go-seek, are playing hide-and-seek",
+      "source_file": "E.ods",
+      "source_row": 409,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_410",
+      "lexeme": "ersuppaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "ersuppaa",
+      "gloss_en": "hides from him/her",
+      "source_file": "E.ods",
+      "source_row": 410,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_411",
+      "lexeme": "ersuppaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "ersuppaa",
+      "gloss_en": "carries it on his/her shoulder",
+      "source_file": "E.ods",
+      "source_row": 411,
+      "valence": 2
+    },
+    {
+      "id": "E_Sheet1_412",
+      "lexeme": "ersuppoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "ersuppoq",
+      "gloss_en": "carries something on his/her shoulder",
+      "source_file": "E.ods",
+      "source_row": 412,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_413",
+      "lexeme": "ersuutit",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ersuutit",
+      "gloss_en": "yoke, stick for carrying things over the shoulder",
+      "source_file": "E.ods",
+      "source_row": 413
+    },
+    {
+      "id": "E_Sheet1_414",
+      "lexeme": "erulluppoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "erulluppoq",
+      "gloss_en": "has a rash, has a skin irritation",
+      "source_file": "E.ods",
+      "source_row": 414,
+      "valence": 1
+    },
+    {
+      "id": "E_Sheet1_415",
+      "lexeme": "eskimooq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eskimooq",
+      "gloss_en": "Eskimo",
+      "source_file": "E.ods",
+      "source_row": 415
+    },
+    {
+      "id": "E_Sheet1_416",
+      "lexeme": "essi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "essi",
+      "gloss_en": "ace (playing card)",
+      "source_file": "E.ods",
+      "source_row": 416
+    },
+    {
+      "id": "E_Sheet1_417",
+      "lexeme": "etnografip oqaluttuassartaa",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "etnografip oqaluttuassartaa",
+      "gloss_en": "Etnographic history / The study of humanity",
+      "source_file": "E.ods",
+      "source_row": 417
+    },
+    {
+      "id": "E_Sheet1_418",
+      "lexeme": "Europamiu",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "Europamiu",
+      "gloss_en": "European",
+      "source_file": "E.ods",
+      "source_row": 418
+    },
+    {
+      "id": "E_Sheet1_420",
+      "lexeme": "eqqumiitsuliortut kattuffii",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqumiitsuliortut kattuffii",
+      "gloss_en": "artists unions",
+      "source_file": "E.ods",
+      "source_row": 420
+    },
+    {
+      "id": "E_Sheet1_421",
+      "lexeme": "erinaq juullerpalaartoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "erinaq juullerpalaartoq",
+      "gloss_en": "Christmas song, Christmas carol",
+      "source_file": "E.ods",
+      "source_row": 421
+    },
+    {
+      "id": "E_Sheet1_423",
+      "lexeme": "eqqagassat",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqqagassat",
+      "gloss_en": "garbage, trash",
+      "source_file": "E.ods",
+      "source_row": 423
+    },
+    {
+      "id": "K_K_1282",
+      "lexeme": "eqinnaatsoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "eqinnaatsoq",
+      "gloss_en": "service minded person",
+      "source_file": "K.ods",
+      "source_row": 1282
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "schema_version": "1.0",
+    "generated_at": "2026-05-26T19:10:50.639945+00:00",
+    "license": "CC-BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source_repo": "https://github.com/Oqaasileriffik/dicts",
+    "fork_repo": "https://github.com/jandahl/Oqaasileriffik-KAL-ENG-dicts",
+    "attribution": "Oqaasileriffik (Greenlandic Language Secretariat), 2018 Chicago Kalaallisut–English Dictionary, CC-BY-SA 4.0",
+    "changes": "Subset of entries extracted and reformatted; class_path fields added for KalaalliCut color mapping.",
+    "available_fields": [
+      "lexeme",
+      "word_class",
+      "gloss_en"
+    ]
+  },
+  "dictionary_entries": [
+    {
+      "id": "V W Y_VWY_2",
+      "lexeme": "watti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "watti",
+      "gloss_en": "abbrev. watt",
+      "source_file": "V W Y.ods",
+      "source_row": 2
+    },
+    {
+      "id": "V W Y_VWY_5",
+      "lexeme": "wc",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "wc",
+      "gloss_en": "bathroom, toilet room, men's room, women's room",
+      "source_file": "V W Y.ods",
+      "source_row": 5
+    },
+    {
+      "id": "V W Y_VWY_8",
+      "lexeme": "wienerbrødi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "wienerbrødi",
+      "gloss_en": "Danish pastry",
+      "source_file": "V W Y.ods",
+      "source_row": 8
+    },
+    {
+      "id": "V W Y_VWY_16",
+      "lexeme": "walkmanni",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "walkmanni",
+      "gloss_en": "portable tape recorder",
+      "source_file": "V W Y.ods",
+      "source_row": 16
+    },
+    {
+      "id": "V W Y_VWY_36",
+      "lexeme": "weekendi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "weekendi",
+      "gloss_en": "weekend",
+      "source_file": "V W Y.ods",
+      "source_row": 36
+    },
+    {
+      "id": "V W Y_VWY_37",
+      "lexeme": "whisky",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "whisky",
+      "gloss_en": "whiskey",
+      "source_file": "V W Y.ods",
+      "source_row": 37
+    },
+    {
+      "id": "V W Y_VWY_38",
+      "lexeme": "whist",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "whist",
+      "gloss_en": "whist",
+      "source_file": "V W Y.ods",
+      "source_row": 38
+    }
+  ]
+}

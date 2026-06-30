@@ -1,0 +1,767 @@
+{
+  "meta": {
+    "schema_version": "1.0",
+    "generated_at": "2026-05-26T19:10:50.639945+00:00",
+    "license": "CC-BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source_repo": "https://github.com/Oqaasileriffik/dicts",
+    "fork_repo": "https://github.com/jandahl/Oqaasileriffik-KAL-ENG-dicts",
+    "attribution": "Oqaasileriffik (Greenlandic Language Secretariat), 2018 Chicago Kalaallisut–English Dictionary, CC-BY-SA 4.0",
+    "changes": "Subset of entries extracted and reformatted; class_path fields added for KalaalliCut color mapping.",
+    "available_fields": [
+      "lexeme",
+      "word_class",
+      "gloss_en"
+    ]
+  },
+  "dictionary_entries": [
+    {
+      "id": "F_F_2",
+      "lexeme": "fabrikki",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "fabrikki",
+      "gloss_en": "factory",
+      "source_file": "F.ods",
+      "source_row": 2
+    },
+    {
+      "id": "F_F_3",
+      "lexeme": "fagi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "fagi",
+      "gloss_en": "school subject, course of study, area of knowledge",
+      "source_file": "F.ods",
+      "source_row": 3
+    },
+    {
+      "id": "F_F_4",
+      "lexeme": "faglæreri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "faglæreri",
+      "gloss_en": "teacher of a particular study, teacher specializing in a certain area of knowledge",
+      "source_file": "F.ods",
+      "source_row": 4
+    },
+    {
+      "id": "F_F_5",
+      "lexeme": "farisiiari",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "farisiiari",
+      "gloss_en": "Pharisee",
+      "source_file": "F.ods",
+      "source_row": 5
+    },
+    {
+      "id": "F_F_6",
+      "lexeme": "farsi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "farsi",
+      "gloss_en": "ground meat",
+      "source_file": "F.ods",
+      "source_row": 6
+    },
+    {
+      "id": "F_F_7",
+      "lexeme": "feberi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "feberi",
+      "gloss_en": "fever",
+      "source_file": "F.ods",
+      "source_row": 7
+    },
+    {
+      "id": "F_F_8",
+      "lexeme": "februaari",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "februaari",
+      "gloss_en": "February",
+      "source_file": "F.ods",
+      "source_row": 8
+    },
+    {
+      "id": "F_F_9",
+      "lexeme": "feeria",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "feeria",
+      "gloss_en": "vacation, school break",
+      "source_file": "F.ods",
+      "source_row": 9
+    },
+    {
+      "id": "F_F_10",
+      "lexeme": "feeriarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "feeriarpoq",
+      "gloss_en": "is on vacation, takes a vacation",
+      "source_file": "F.ods",
+      "source_row": 10,
+      "valence": 1
+    },
+    {
+      "id": "F_F_11",
+      "lexeme": "fernisi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "fernisi",
+      "gloss_en": "varnish",
+      "source_file": "F.ods",
+      "source_row": 11
+    },
+    {
+      "id": "F_F_12",
+      "lexeme": "ferskeni",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ferskeni",
+      "gloss_en": "peach, nectarine",
+      "source_file": "F.ods",
+      "source_row": 12
+    },
+    {
+      "id": "F_F_13",
+      "lexeme": "festerpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "festerpoq",
+      "gloss_en": "is at a party, is has a party, hosts a party",
+      "source_file": "F.ods",
+      "source_row": 13,
+      "valence": 1
+    },
+    {
+      "id": "F_F_14",
+      "lexeme": "festivali",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "festivali",
+      "gloss_en": "festival",
+      "source_file": "F.ods",
+      "source_row": 14
+    },
+    {
+      "id": "F_F_15",
+      "lexeme": "fili salitassaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "fili salitassaq",
+      "gloss_en": "virus infected file (comp)",
+      "source_file": "F.ods",
+      "source_row": 15
+    },
+    {
+      "id": "F_F_16",
+      "lexeme": "filinik takussutissiaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "filinik takussutissiaq",
+      "gloss_en": "presentation of files",
+      "source_file": "F.ods",
+      "source_row": 16
+    },
+    {
+      "id": "F_F_17",
+      "lexeme": "filip aqqa",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "filip aqqa",
+      "gloss_en": "name of the file",
+      "source_file": "F.ods",
+      "source_row": 17
+    },
+    {
+      "id": "F_F_18",
+      "lexeme": "filip suussusia",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "filip suussusia",
+      "gloss_en": "content of the file",
+      "source_file": "F.ods",
+      "source_row": 18
+    },
+    {
+      "id": "F_F_19",
+      "lexeme": "filipensi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "filipensi",
+      "gloss_en": "acne",
+      "source_file": "F.ods",
+      "source_row": 19
+    },
+    {
+      "id": "F_F_20",
+      "lexeme": "filisteri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "filisteri",
+      "gloss_en": "philistine",
+      "source_file": "F.ods",
+      "source_row": 20
+    },
+    {
+      "id": "F_F_21",
+      "lexeme": "filmeriarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "filmeriarpoq",
+      "gloss_en": "goes to the movies",
+      "source_file": "F.ods",
+      "source_row": 21,
+      "valence": 1
+    },
+    {
+      "id": "F_F_22",
+      "lexeme": "filmerpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "filmerpoq",
+      "gloss_en": "watches a movie, is at the movies",
+      "source_file": "F.ods",
+      "source_row": 22,
+      "valence": 1
+    },
+    {
+      "id": "F_F_23",
+      "lexeme": "filmertarfik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "filmertarfik",
+      "gloss_en": "movie theater, cinema",
+      "source_file": "F.ods",
+      "source_row": 23
+    },
+    {
+      "id": "F_F_24",
+      "lexeme": "filmi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "filmi",
+      "gloss_en": "film, movie",
+      "source_file": "F.ods",
+      "source_row": 24
+    },
+    {
+      "id": "F_F_25",
+      "lexeme": "filmi pisimanilersaarut",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "filmi pisimanilersaarut",
+      "gloss_en": "film inspired by events",
+      "source_file": "F.ods",
+      "source_row": 25
+    },
+    {
+      "id": "F_F_26",
+      "lexeme": "fiilmi piviusumik tunngavilik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "fiilmi piviusumik tunngavilik",
+      "gloss_en": "film based on real events",
+      "source_file": "F.ods",
+      "source_row": 26
+    },
+    {
+      "id": "F_F_27",
+      "lexeme": "filmiliaq qalipaateqanngitsoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "filmiliaq qalipaateqanngitsoq",
+      "gloss_en": "black and white movie",
+      "source_file": "F.ods",
+      "source_row": 27
+    },
+    {
+      "id": "F_F_28",
+      "lexeme": "filmiliaq qalipaatilik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "filmiliaq qalipaatilik",
+      "gloss_en": "color file, color movie, movie in color",
+      "source_file": "F.ods",
+      "source_row": 28
+    },
+    {
+      "id": "F_F_29",
+      "lexeme": "filmiliorfik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "filmiliorfik",
+      "gloss_en": "movie studio, film studio",
+      "source_file": "F.ods",
+      "source_row": 29
+    },
+    {
+      "id": "F_F_30",
+      "lexeme": "filmiliorpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "filmiliorpoq",
+      "gloss_en": "shoots a movie, films something, makes a movie",
+      "source_file": "F.ods",
+      "source_row": 30,
+      "valence": 1
+    },
+    {
+      "id": "F_F_31",
+      "lexeme": "filosoffi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "filosoffi",
+      "gloss_en": "philosopher",
+      "source_file": "F.ods",
+      "source_row": 31
+    },
+    {
+      "id": "F_F_32",
+      "lexeme": "filosofii",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "filosofii",
+      "gloss_en": "philosophy",
+      "source_file": "F.ods",
+      "source_row": 32
+    },
+    {
+      "id": "F_F_33",
+      "lexeme": "firma",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "firma",
+      "gloss_en": "company, firm, buisness",
+      "source_file": "F.ods",
+      "source_row": 33
+    },
+    {
+      "id": "F_F_34",
+      "lexeme": "fiskeskipperi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "fiskeskipperi",
+      "gloss_en": "captain of a fishing boat",
+      "source_file": "F.ods",
+      "source_row": 34
+    },
+    {
+      "id": "F_F_35",
+      "lexeme": "fjernsyni",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "fjernsyni",
+      "gloss_en": "television",
+      "source_file": "F.ods",
+      "source_row": 35
+    },
+    {
+      "id": "F_F_36",
+      "lexeme": "flygeli",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "flygeli",
+      "gloss_en": "grand piano",
+      "source_file": "F.ods",
+      "source_row": 36
+    },
+    {
+      "id": "F_F_37",
+      "lexeme": "FN",
+      "word_class": "taggit atiusoq",
+      "class_path": [
+        "nominal_root",
+        "proper_noun"
+      ],
+      "stem": "FN",
+      "gloss_en": "United Nations",
+      "source_file": "F.ods",
+      "source_row": 37
+    },
+    {
+      "id": "F_F_38",
+      "lexeme": "folkeregisteri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "folkeregisteri",
+      "gloss_en": "local register of citizens containg their residence, date of birth, etc.;",
+      "source_file": "F.ods",
+      "source_row": 38
+    },
+    {
+      "id": "F_F_39",
+      "lexeme": "folketingi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "folketingi",
+      "gloss_en": "parliament",
+      "source_file": "F.ods",
+      "source_row": 39
+    },
+    {
+      "id": "F_F_40",
+      "lexeme": "folketingimut ilaasortaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "folketingimut ilaasortaq",
+      "gloss_en": "member of parliament",
+      "source_file": "F.ods",
+      "source_row": 40
+    },
+    {
+      "id": "F_F_41",
+      "lexeme": "fondi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "fondi",
+      "gloss_en": "foundation",
+      "source_file": "F.ods",
+      "source_row": 41
+    },
+    {
+      "id": "F_F_42",
+      "lexeme": "formandi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "formandi",
+      "gloss_en": "organization devoted to the furtherance of certain desirable goals",
+      "source_file": "F.ods",
+      "source_row": 42
+    },
+    {
+      "id": "F_F_43",
+      "lexeme": "forstanderi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "forstanderi",
+      "gloss_en": "director, chairman, head",
+      "source_file": "F.ods",
+      "source_row": 43
+    },
+    {
+      "id": "F_F_44",
+      "lexeme": "franskeq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "franskeq",
+      "gloss_en": "Frenchman",
+      "source_file": "F.ods",
+      "source_row": 44
+    },
+    {
+      "id": "F_F_45",
+      "lexeme": "franskit",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "franskit",
+      "gloss_en": "french men",
+      "source_file": "F.ods",
+      "source_row": 45
+    },
+    {
+      "id": "F_F_46",
+      "lexeme": "frikadiili",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "frikadiili",
+      "gloss_en": "meat ball",
+      "source_file": "F.ods",
+      "source_row": 46
+    },
+    {
+      "id": "F_F_47",
+      "lexeme": "frikorti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "frikorti",
+      "gloss_en": "tax card indicating that an employer should not deduct tax from your pay",
+      "source_file": "F.ods",
+      "source_row": 47
+    },
+    {
+      "id": "F_F_48",
+      "lexeme": "frimærke",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "frimærke",
+      "gloss_en": "postage stamp",
+      "source_file": "F.ods",
+      "source_row": 48
+    },
+    {
+      "id": "F_F_49",
+      "lexeme": "frimærkilerpaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "frimærkilerpaa",
+      "gloss_en": "puts a stamp on it",
+      "source_file": "F.ods",
+      "source_row": 49,
+      "valence": 2
+    },
+    {
+      "id": "F_F_50",
+      "lexeme": "frimærkinik katersuisoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "frimærkinik katersuisoq",
+      "gloss_en": "stamp collector, philatelist",
+      "source_file": "F.ods",
+      "source_row": 50
+    },
+    {
+      "id": "F_F_51",
+      "lexeme": "fritidsklubbi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "fritidsklubbi",
+      "gloss_en": "afterschool activities forpre-teens guided by a trained pedagogue",
+      "source_file": "F.ods",
+      "source_row": 51
+    },
+    {
+      "id": "F_F_52",
+      "lexeme": "frokosterput",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "frokosterput",
+      "gloss_en": "they are having or hosting a meal of open faced sandwiches",
+      "source_file": "F.ods",
+      "source_row": 52,
+      "valence": 1
+    },
+    {
+      "id": "F_F_53",
+      "lexeme": "frokosti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "frokosti",
+      "gloss_en": "lunch",
+      "source_file": "F.ods",
+      "source_row": 53
+    },
+    {
+      "id": "F_F_54",
+      "lexeme": "fuldmægtigi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "fuldmægtigi",
+      "gloss_en": "store manager, chief salesperson",
+      "source_file": "F.ods",
+      "source_row": 54
+    },
+    {
+      "id": "F_F_55",
+      "lexeme": "fyrste",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "fyrste",
+      "gloss_en": "prince",
+      "source_file": "F.ods",
+      "source_row": 55
+    },
+    {
+      "id": "F_F_56",
+      "lexeme": "fyrsteqarfik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "fyrsteqarfik",
+      "gloss_en": "prinicipality",
+      "source_file": "F.ods",
+      "source_row": 56
+    },
+    {
+      "id": "F_F_57",
+      "lexeme": "fysikeri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "fysikeri",
+      "gloss_en": "physicist",
+      "source_file": "F.ods",
+      "source_row": 57
+    },
+    {
+      "id": "F_F_58",
+      "lexeme": "fysikki",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "fysikki",
+      "gloss_en": "physics",
+      "source_file": "F.ods",
+      "source_row": 58
+    }
+  ]
+}

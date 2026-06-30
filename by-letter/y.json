@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "schema_version": "1.0",
+    "generated_at": "2026-05-26T19:10:50.639945+00:00",
+    "license": "CC-BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source_repo": "https://github.com/Oqaasileriffik/dicts",
+    "fork_repo": "https://github.com/jandahl/Oqaasileriffik-KAL-ENG-dicts",
+    "attribution": "Oqaasileriffik (Greenlandic Language Secretariat), 2018 Chicago Kalaallisut–English Dictionary, CC-BY-SA 4.0",
+    "changes": "Subset of entries extracted and reformatted; class_path fields added for KalaalliCut color mapping.",
+    "available_fields": [
+      "lexeme",
+      "word_class",
+      "gloss_en"
+    ]
+  },
+  "dictionary_entries": [
+    {
+      "id": "V W Y_VWY_18",
+      "lexeme": "ymeri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ymeri",
+      "gloss_en": "soured yoghurt (Danish product)",
+      "source_file": "V W Y.ods",
+      "source_row": 18
+    },
+    {
+      "id": "V W Y_VWY_43",
+      "lexeme": "yoga",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "yoga",
+      "gloss_en": "yoga",
+      "source_file": "V W Y.ods",
+      "source_row": 43
+    },
+    {
+      "id": "V W Y_VWY_44",
+      "lexeme": "yoghurti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "yoghurti",
+      "gloss_en": "yoghurt",
+      "source_file": "V W Y.ods",
+      "source_row": 44
+    }
+  ]
+}

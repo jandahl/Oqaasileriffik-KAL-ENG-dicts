@@ -1,0 +1,760 @@
+{
+  "meta": {
+    "schema_version": "1.0",
+    "generated_at": "2026-05-26T19:10:50.639945+00:00",
+    "license": "CC-BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source_repo": "https://github.com/Oqaasileriffik/dicts",
+    "fork_repo": "https://github.com/jandahl/Oqaasileriffik-KAL-ENG-dicts",
+    "attribution": "Oqaasileriffik (Greenlandic Language Secretariat), 2018 Chicago Kalaallisut–English Dictionary, CC-BY-SA 4.0",
+    "changes": "Subset of entries extracted and reformatted; class_path fields added for KalaalliCut color mapping.",
+    "available_fields": [
+      "lexeme",
+      "word_class",
+      "gloss_en"
+    ]
+  },
+  "dictionary_entries": [
+    {
+      "id": "R_R_2",
+      "lexeme": "russeq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "russeq",
+      "gloss_en": "a Russian",
+      "source_file": "R.ods",
+      "source_row": 2
+    },
+    {
+      "id": "R_R_3",
+      "lexeme": "revisori",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "revisori",
+      "gloss_en": "accountant",
+      "source_file": "R.ods",
+      "source_row": 3
+    },
+    {
+      "id": "R_R_4",
+      "lexeme": "reklame",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "reklame",
+      "gloss_en": "adverticement, ad",
+      "source_file": "R.ods",
+      "source_row": 4
+    },
+    {
+      "id": "R_R_5",
+      "lexeme": "regulatori",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "regulatori",
+      "gloss_en": "check senses (regulator)",
+      "source_file": "R.ods",
+      "source_row": 5
+    },
+    {
+      "id": "R_R_6",
+      "lexeme": "rådhusi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "rådhusi",
+      "gloss_en": "city hall",
+      "source_file": "R.ods",
+      "source_row": 6
+    },
+    {
+      "id": "R_R_7",
+      "lexeme": "ruderi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ruderi",
+      "gloss_en": "diamonds (playing card suit)",
+      "source_file": "R.ods",
+      "source_row": 7
+    },
+    {
+      "id": "R_R_8",
+      "lexeme": "redaktøri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "redaktøri",
+      "gloss_en": "editor",
+      "source_file": "R.ods",
+      "source_row": 8
+    },
+    {
+      "id": "R_R_9",
+      "lexeme": "ruusarneq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ruusarneq",
+      "gloss_en": "erysipelas (skin disease)",
+      "source_file": "R.ods",
+      "source_row": 9
+    },
+    {
+      "id": "R_R_10",
+      "lexeme": "realklasse",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "realklasse",
+      "gloss_en": "high school",
+      "source_file": "R.ods",
+      "source_row": 10
+    },
+    {
+      "id": "R_R_11",
+      "lexeme": "realskole",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "realskole",
+      "gloss_en": "high school graduation exam",
+      "source_file": "R.ods",
+      "source_row": 11
+    },
+    {
+      "id": "R_R_12",
+      "lexeme": "rente",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "rente",
+      "gloss_en": "interest (from an investement)",
+      "source_file": "R.ods",
+      "source_row": 12
+    },
+    {
+      "id": "R_R_13",
+      "lexeme": "ruusarpoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ruusarpoq",
+      "gloss_en": "is suffering from erysipelas",
+      "source_file": "R.ods",
+      "source_row": 13
+    },
+    {
+      "id": "R_R_14",
+      "lexeme": "ruujori",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ruujori",
+      "gloss_en": "pipe, plumbing pipe",
+      "source_file": "R.ods",
+      "source_row": 14
+    },
+    {
+      "id": "R_R_15",
+      "lexeme": "ruujorilerisoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ruujorilerisoq",
+      "gloss_en": "plumber",
+      "source_file": "R.ods",
+      "source_row": 15
+    },
+    {
+      "id": "R_R_16",
+      "lexeme": "rektori",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "rektori",
+      "gloss_en": "principal",
+      "source_file": "R.ods",
+      "source_row": 16
+    },
+    {
+      "id": "R_R_17",
+      "lexeme": "race",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "race",
+      "gloss_en": "race, breed",
+      "source_file": "R.ods",
+      "source_row": 17
+    },
+    {
+      "id": "R_R_18",
+      "lexeme": "radari",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "radari",
+      "gloss_en": "radar",
+      "source_file": "R.ods",
+      "source_row": 18
+    },
+    {
+      "id": "R_R_19",
+      "lexeme": "radio",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "radio",
+      "gloss_en": "radio",
+      "source_file": "R.ods",
+      "source_row": 19
+    },
+    {
+      "id": "R_R_20",
+      "lexeme": "radiukkut naalagiarneq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "radiukkut naalagiarneq",
+      "gloss_en": "radio church service, church attendance broadcast on the radio",
+      "source_file": "R.ods",
+      "source_row": 20
+    },
+    {
+      "id": "R_R_21",
+      "lexeme": "radioavisi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "radioavisi",
+      "gloss_en": "radio newscast, news on the radio",
+      "source_file": "R.ods",
+      "source_row": 21
+    },
+    {
+      "id": "R_R_22",
+      "lexeme": "radiukkut aallakaatitassaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "radiukkut aallakaatitassaq",
+      "gloss_en": "radio program",
+      "source_file": "R.ods",
+      "source_row": 22
+    },
+    {
+      "id": "R_R_23",
+      "lexeme": "radiohusi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "radiohusi",
+      "gloss_en": "radio station",
+      "source_file": "R.ods",
+      "source_row": 23
+    },
+    {
+      "id": "R_R_24",
+      "lexeme": "radioqarfik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "radioqarfik",
+      "gloss_en": "radio station, television station, a place with radio",
+      "source_file": "R.ods",
+      "source_row": 24
+    },
+    {
+      "id": "R_R_25",
+      "lexeme": "radioteateri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "radioteateri",
+      "gloss_en": "radio theatre",
+      "source_file": "R.ods",
+      "source_row": 25
+    },
+    {
+      "id": "R_R_26",
+      "lexeme": "radise",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "radise",
+      "gloss_en": "radish",
+      "source_file": "R.ods",
+      "source_row": 26
+    },
+    {
+      "id": "R_R_27",
+      "lexeme": "radiusi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "radiusi",
+      "gloss_en": "radius",
+      "source_file": "R.ods",
+      "source_row": 27
+    },
+    {
+      "id": "R_R_28",
+      "lexeme": "realisti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "realisti",
+      "gloss_en": "realist",
+      "source_file": "R.ods",
+      "source_row": 28
+    },
+    {
+      "id": "R_R_29",
+      "lexeme": "rekorti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "rekorti",
+      "gloss_en": "record",
+      "source_file": "R.ods",
+      "source_row": 29
+    },
+    {
+      "id": "R_R_30",
+      "lexeme": "rektangeli",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "rektangeli",
+      "gloss_en": "rectangle",
+      "source_file": "R.ods",
+      "source_row": 30
+    },
+    {
+      "id": "R_R_31",
+      "lexeme": "rødkålit",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "rødkålit",
+      "gloss_en": "red cabbage",
+      "source_file": "R.ods",
+      "source_row": 31
+    },
+    {
+      "id": "R_R_32",
+      "lexeme": "Røde Korsi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "Røde Korsi",
+      "gloss_en": "Red Cross",
+      "source_file": "R.ods",
+      "source_row": 32
+    },
+    {
+      "id": "R_R_33",
+      "lexeme": "ribsi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ribsi",
+      "gloss_en": "red currant",
+      "source_file": "R.ods",
+      "source_row": 33
+    },
+    {
+      "id": "R_R_34",
+      "lexeme": "religioni",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "religioni",
+      "gloss_en": "religion",
+      "source_file": "R.ods",
+      "source_row": 34
+    },
+    {
+      "id": "R_R_35",
+      "lexeme": "remulade",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "remulade",
+      "gloss_en": "remoulade",
+      "source_file": "R.ods",
+      "source_row": 35
+    },
+    {
+      "id": "R_R_36",
+      "lexeme": "republikki",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "republikki",
+      "gloss_en": "republic",
+      "source_file": "R.ods",
+      "source_row": 36
+    },
+    {
+      "id": "R_R_37",
+      "lexeme": "rabarberi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "rabarberi",
+      "gloss_en": "rhubarb",
+      "source_file": "R.ods",
+      "source_row": 37
+    },
+    {
+      "id": "R_R_38",
+      "lexeme": "rytme",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "rytme",
+      "gloss_en": "rhythm",
+      "source_file": "R.ods",
+      "source_row": 38
+    },
+    {
+      "id": "R_R_39",
+      "lexeme": "rinngi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "rinngi",
+      "gloss_en": "ring",
+      "source_file": "R.ods",
+      "source_row": 39
+    },
+    {
+      "id": "R_R_40",
+      "lexeme": "rituali",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "rituali",
+      "gloss_en": "ritual",
+      "source_file": "R.ods",
+      "source_row": 40
+    },
+    {
+      "id": "R_R_41",
+      "lexeme": "roboti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "roboti",
+      "gloss_en": "robot",
+      "source_file": "R.ods",
+      "source_row": 41
+    },
+    {
+      "id": "R_R_42",
+      "lexeme": "rocki",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "rocki",
+      "gloss_en": "rock music, rock and roll",
+      "source_file": "R.ods",
+      "source_row": 42
+    },
+    {
+      "id": "R_R_43",
+      "lexeme": "raketti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "raketti",
+      "gloss_en": "rocket",
+      "source_file": "R.ods",
+      "source_row": 43
+    },
+    {
+      "id": "R_R_44",
+      "lexeme": "Ruumamiut kisitsisaat",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "Ruumamiut kisitsisaat",
+      "gloss_en": "Roman numerals",
+      "source_file": "R.ods",
+      "source_row": 44
+    },
+    {
+      "id": "R_R_45",
+      "lexeme": "romantikki",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "romantikki",
+      "gloss_en": "romanticsm, romantic age",
+      "source_file": "R.ods",
+      "source_row": 45
+    },
+    {
+      "id": "R_R_46",
+      "lexeme": "ruusa",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ruusa",
+      "gloss_en": "rose",
+      "source_file": "R.ods",
+      "source_row": 46
+    },
+    {
+      "id": "R_R_47",
+      "lexeme": "rækkehusi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "rækkehusi",
+      "gloss_en": "row house, townhouse",
+      "source_file": "R.ods",
+      "source_row": 47
+    },
+    {
+      "id": "R_R_48",
+      "lexeme": "rommi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "rommi",
+      "gloss_en": "rum",
+      "source_file": "R.ods",
+      "source_row": 48
+    },
+    {
+      "id": "R_R_49",
+      "lexeme": "rommy",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "rommy",
+      "gloss_en": "rummy, gin rummy",
+      "source_file": "R.ods",
+      "source_row": 49
+    },
+    {
+      "id": "R_R_50",
+      "lexeme": "Russit Nunaat",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "Russit Nunaat",
+      "gloss_en": "Russia",
+      "source_file": "R.ods",
+      "source_row": 50
+    },
+    {
+      "id": "R_R_51",
+      "lexeme": "raajaleriffik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "raajaleriffik",
+      "gloss_en": "shrimp factory",
+      "source_file": "R.ods",
+      "source_row": 51
+    },
+    {
+      "id": "R_R_52",
+      "lexeme": "raajarniarneq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "raajarniarneq",
+      "gloss_en": "shrimp fishery, shrimp fishing",
+      "source_file": "R.ods",
+      "source_row": 52
+    },
+    {
+      "id": "R_R_53",
+      "lexeme": "raajaqarfik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "raajaqarfik",
+      "gloss_en": "shrimp fishing grounds",
+      "source_file": "R.ods",
+      "source_row": 53
+    },
+    {
+      "id": "R_R_54",
+      "lexeme": "raajarniut",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "raajarniut",
+      "gloss_en": "shrimp fishing vessel",
+      "source_file": "R.ods",
+      "source_row": 54
+    },
+    {
+      "id": "R_R_55",
+      "lexeme": "raaja",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "raaja",
+      "gloss_en": "shrimp, prawn",
+      "source_file": "R.ods",
+      "source_row": 55
+    },
+    {
+      "id": "R_R_56",
+      "lexeme": "Rigsombudi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "Rigsombudi",
+      "gloss_en": "the office of the Danish Ombudsman in Greenland",
+      "source_file": "R.ods",
+      "source_row": 56
+    },
+    {
+      "id": "R_R_57",
+      "lexeme": "ruua",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ruua",
+      "gloss_en": "turnip",
+      "source_file": "R.ods",
+      "source_row": 57
+    },
+    {
+      "id": "R_R_58",
+      "lexeme": "røntgeni",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "røntgeni",
+      "gloss_en": "x-ray",
+      "source_file": "R.ods",
+      "source_row": 58
+    }
+  ]
+}

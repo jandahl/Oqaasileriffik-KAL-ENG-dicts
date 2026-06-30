@@ -1,0 +1,749 @@
+{
+  "meta": {
+    "schema_version": "1.0",
+    "generated_at": "2026-05-26T19:10:50.639945+00:00",
+    "license": "CC-BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source_repo": "https://github.com/Oqaasileriffik/dicts",
+    "fork_repo": "https://github.com/jandahl/Oqaasileriffik-KAL-ENG-dicts",
+    "attribution": "Oqaasileriffik (Greenlandic Language Secretariat), 2018 Chicago Kalaallisut–English Dictionary, CC-BY-SA 4.0",
+    "changes": "Subset of entries extracted and reformatted; class_path fields added for KalaalliCut color mapping.",
+    "available_fields": [
+      "lexeme",
+      "word_class",
+      "gloss_en"
+    ]
+  },
+  "dictionary_entries": [
+    {
+      "id": "G_G_2",
+      "lexeme": "galease",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "galease",
+      "gloss_en": "ketch or yawl, sailboat with two masts",
+      "source_file": "G.ods",
+      "source_row": 2
+    },
+    {
+      "id": "G_G_3",
+      "lexeme": "galochit",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "galochit",
+      "gloss_en": "galoshes, rubber boots",
+      "source_file": "G.ods",
+      "source_row": 3
+    },
+    {
+      "id": "G_G_4",
+      "lexeme": "galvaniseerigaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "galvaniseerigaq",
+      "gloss_en": "something galvanised",
+      "source_file": "G.ods",
+      "source_row": 4
+    },
+    {
+      "id": "G_G_5",
+      "lexeme": "gamache",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "gamache",
+      "gloss_en": "tights, leggings",
+      "source_file": "G.ods",
+      "source_row": 5
+    },
+    {
+      "id": "G_G_6",
+      "lexeme": "ganngerpaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "ganngerpaa",
+      "gloss_en": "multiplies it with it",
+      "source_file": "G.ods",
+      "source_row": 6,
+      "valence": 2
+    },
+    {
+      "id": "G_G_7",
+      "lexeme": "ganngiut",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ganngiut",
+      "gloss_en": "factor, multiplier",
+      "source_file": "G.ods",
+      "source_row": 7
+    },
+    {
+      "id": "G_G_8",
+      "lexeme": "garage",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "garage",
+      "gloss_en": "garage",
+      "source_file": "G.ods",
+      "source_row": 8
+    },
+    {
+      "id": "G_G_9",
+      "lexeme": "garderobe",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "garderobe",
+      "gloss_en": "coat check, baggage room",
+      "source_file": "G.ods",
+      "source_row": 9
+    },
+    {
+      "id": "G_G_10",
+      "lexeme": "gassi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "gassi",
+      "gloss_en": "natural gas, propane",
+      "source_file": "G.ods",
+      "source_row": 10
+    },
+    {
+      "id": "G_G_11",
+      "lexeme": "gassiliorfissuaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "gassiliorfissuaq",
+      "gloss_en": "plant for production of city gas",
+      "source_file": "G.ods",
+      "source_row": 11
+    },
+    {
+      "id": "G_G_12",
+      "lexeme": "gassip ikumarnga",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "gassip ikumarnga",
+      "gloss_en": "gas flame",
+      "source_file": "G.ods",
+      "source_row": 12
+    },
+    {
+      "id": "G_G_13",
+      "lexeme": "gassiusivik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "gassiusivik",
+      "gloss_en": "propane tank, natural gas tank, gas cylinder",
+      "source_file": "G.ods",
+      "source_row": 13
+    },
+    {
+      "id": "G_G_14",
+      "lexeme": "generaldirektøri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "generaldirektøri",
+      "gloss_en": "general director",
+      "source_file": "G.ods",
+      "source_row": 14
+    },
+    {
+      "id": "G_G_15",
+      "lexeme": "generalforsamlingi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "generalforsamlingi",
+      "gloss_en": "general meeting",
+      "source_file": "G.ods",
+      "source_row": 15
+    },
+    {
+      "id": "G_G_16",
+      "lexeme": "generali",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "generali",
+      "gloss_en": "general",
+      "source_file": "G.ods",
+      "source_row": 16
+    },
+    {
+      "id": "G_G_17",
+      "lexeme": "generatori",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "generatori",
+      "gloss_en": "generator",
+      "source_file": "G.ods",
+      "source_row": 17
+    },
+    {
+      "id": "G_G_18",
+      "lexeme": "geodæti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "geodæti",
+      "gloss_en": "geodesist, person engaged in geodetic science",
+      "source_file": "G.ods",
+      "source_row": 18
+    },
+    {
+      "id": "G_G_19",
+      "lexeme": "geologi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "geologi",
+      "gloss_en": "geologist",
+      "source_file": "G.ods",
+      "source_row": 19
+    },
+    {
+      "id": "G_G_20",
+      "lexeme": "geologii",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "geologii",
+      "gloss_en": "geology",
+      "source_file": "G.ods",
+      "source_row": 20
+    },
+    {
+      "id": "G_G_21",
+      "lexeme": "geometrii",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "geometrii",
+      "gloss_en": "geometry",
+      "source_file": "G.ods",
+      "source_row": 21
+    },
+    {
+      "id": "G_G_22",
+      "lexeme": "gesandti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "gesandti",
+      "gloss_en": "emissary (from one nation to another)",
+      "source_file": "G.ods",
+      "source_row": 22
+    },
+    {
+      "id": "G_G_23",
+      "lexeme": "giffeli",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "giffeli",
+      "gloss_en": "Danish bread roll that tapers at both ends",
+      "source_file": "G.ods",
+      "source_row": 23
+    },
+    {
+      "id": "G_G_24",
+      "lexeme": "gigti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "gigti",
+      "gloss_en": "gout, arthritis",
+      "source_file": "G.ods",
+      "source_row": 24
+    },
+    {
+      "id": "G_G_25",
+      "lexeme": "gipsi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "gipsi",
+      "gloss_en": "plaster, cast",
+      "source_file": "G.ods",
+      "source_row": 25
+    },
+    {
+      "id": "G_G_26",
+      "lexeme": "girokorti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "girokorti",
+      "gloss_en": "card used to make payments from a post office giro account",
+      "source_file": "G.ods",
+      "source_row": 26
+    },
+    {
+      "id": "G_G_27",
+      "lexeme": "globusi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "globusi",
+      "gloss_en": "globe, spherical map of Earth",
+      "source_file": "G.ods",
+      "source_row": 27
+    },
+    {
+      "id": "G_G_28",
+      "lexeme": "glose",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "glose",
+      "gloss_en": "gloss, individual word, translation of a word into a foreign language",
+      "source_file": "G.ods",
+      "source_row": 28
+    },
+    {
+      "id": "G_G_29",
+      "lexeme": "glyceriina",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "glyceriina",
+      "gloss_en": "glycerin",
+      "source_file": "G.ods",
+      "source_row": 29
+    },
+    {
+      "id": "G_G_30",
+      "lexeme": "golfstrømmi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "golfstrømmi",
+      "gloss_en": "Gulf Stream",
+      "source_file": "G.ods",
+      "source_row": 30
+    },
+    {
+      "id": "G_G_31",
+      "lexeme": "gongongi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "gongongi",
+      "gloss_en": "signal bell, for ex. bell that ends a round in boxing;",
+      "source_file": "G.ods",
+      "source_row": 31
+    },
+    {
+      "id": "G_G_32",
+      "lexeme": "gonorré",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "gonorré",
+      "gloss_en": "gonorrhea",
+      "source_file": "G.ods",
+      "source_row": 32
+    },
+    {
+      "id": "G_G_33",
+      "lexeme": "googlerpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "googlerpoq",
+      "gloss_en": "using google to find information",
+      "source_file": "G.ods",
+      "source_row": 33,
+      "valence": 1
+    },
+    {
+      "id": "G_G_34",
+      "lexeme": "gorilla",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "gorilla",
+      "gloss_en": "gorilla",
+      "source_file": "G.ods",
+      "source_row": 34
+    },
+    {
+      "id": "G_G_35",
+      "lexeme": "gradi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "gradi",
+      "gloss_en": "degree",
+      "source_file": "G.ods",
+      "source_row": 35
+    },
+    {
+      "id": "G_G_36",
+      "lexeme": "grammatikki",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "grammatikki",
+      "gloss_en": "grammar",
+      "source_file": "G.ods",
+      "source_row": 36
+    },
+    {
+      "id": "G_G_37",
+      "lexeme": "grammi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "grammi",
+      "gloss_en": "gram",
+      "source_file": "G.ods",
+      "source_row": 37
+    },
+    {
+      "id": "G_G_38",
+      "lexeme": "granitti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "granitti",
+      "gloss_en": "granite",
+      "source_file": "G.ods",
+      "source_row": 38
+    },
+    {
+      "id": "G_G_39",
+      "lexeme": "greve",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "greve",
+      "gloss_en": "count, earl",
+      "source_file": "G.ods",
+      "source_row": 39
+    },
+    {
+      "id": "G_G_40",
+      "lexeme": "grundstoffi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "grundstoffi",
+      "gloss_en": "chemical element",
+      "source_file": "G.ods",
+      "source_row": 40
+    },
+    {
+      "id": "G_G_41",
+      "lexeme": "grækeri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "grækeri",
+      "gloss_en": "Greek, person from Greece",
+      "source_file": "G.ods",
+      "source_row": 41
+    },
+    {
+      "id": "G_G_42",
+      "lexeme": "grønkåli",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "grønkåli",
+      "gloss_en": "green cabbage, kale",
+      "source_file": "G.ods",
+      "source_row": 42
+    },
+    {
+      "id": "G_G_43",
+      "lexeme": "grøntsagi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "grøntsagi",
+      "gloss_en": "vegetable",
+      "source_file": "G.ods",
+      "source_row": 43
+    },
+    {
+      "id": "G_G_44",
+      "lexeme": "guitari",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "guitari",
+      "gloss_en": "guitar",
+      "source_file": "G.ods",
+      "source_row": 44
+    },
+    {
+      "id": "G_G_45",
+      "lexeme": "gummi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "gummi",
+      "gloss_en": "rubber",
+      "source_file": "G.ods",
+      "source_row": 45
+    },
+    {
+      "id": "G_G_46",
+      "lexeme": "gummit",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "gummit",
+      "gloss_en": "rubber boots, rain boots",
+      "source_file": "G.ods",
+      "source_row": 46
+    },
+    {
+      "id": "G_G_47",
+      "lexeme": "guuti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "guuti",
+      "gloss_en": "God",
+      "source_file": "G.ods",
+      "source_row": 47
+    },
+    {
+      "id": "G_G_48",
+      "lexeme": "guutiitsoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "guutiitsoq",
+      "gloss_en": "atheist",
+      "source_file": "G.ods",
+      "source_row": 48
+    },
+    {
+      "id": "G_G_49",
+      "lexeme": "guutiliaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "guutiliaq",
+      "gloss_en": "idol, representation of a heathen god",
+      "source_file": "G.ods",
+      "source_row": 49
+    },
+    {
+      "id": "G_G_50",
+      "lexeme": "guutimik mianerinnittoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "guutimik mianerinnittoq",
+      "gloss_en": "God fearing, obedient to the precepts of God",
+      "source_file": "G.ods",
+      "source_row": 50
+    },
+    {
+      "id": "G_G_51",
+      "lexeme": "Guutimik nalusoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "Guutimik nalusoq",
+      "gloss_en": "heathen",
+      "source_file": "G.ods",
+      "source_row": 51
+    },
+    {
+      "id": "G_G_52",
+      "lexeme": "guutipiluk",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "guutipiluk",
+      "gloss_en": "false god",
+      "source_file": "G.ods",
+      "source_row": 52
+    },
+    {
+      "id": "G_G_53",
+      "lexeme": "guutipilussiorneq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "guutipilussiorneq",
+      "gloss_en": "worship of false gods",
+      "source_file": "G.ods",
+      "source_row": 53
+    },
+    {
+      "id": "G_G_54",
+      "lexeme": "guutisiorneq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "guutisiorneq",
+      "gloss_en": "worship of God",
+      "source_file": "G.ods",
+      "source_row": 54
+    },
+    {
+      "id": "G_G_55",
+      "lexeme": "guutiussuseq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "guutiussuseq",
+      "gloss_en": "deity",
+      "source_file": "G.ods",
+      "source_row": 55
+    },
+    {
+      "id": "G_G_56",
+      "lexeme": "GUX",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "GUX",
+      "gloss_en": "college preparatory education in Greenland, education in a Greenlandic gymnasium",
+      "source_file": "G.ods",
+      "source_row": 56
+    },
+    {
+      "id": "G_G_57",
+      "lexeme": "gymnasia",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "gymnasia",
+      "gloss_en": "gymnasium, college preparatory high school",
+      "source_file": "G.ods",
+      "source_row": 57
+    }
+  ]
+}

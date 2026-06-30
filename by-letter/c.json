@@ -1,0 +1,424 @@
+{
+  "meta": {
+    "schema_version": "1.0",
+    "generated_at": "2026-05-26T19:10:50.639945+00:00",
+    "license": "CC-BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source_repo": "https://github.com/Oqaasileriffik/dicts",
+    "fork_repo": "https://github.com/jandahl/Oqaasileriffik-KAL-ENG-dicts",
+    "attribution": "Oqaasileriffik (Greenlandic Language Secretariat), 2018 Chicago Kalaallisut–English Dictionary, CC-BY-SA 4.0",
+    "changes": "Subset of entries extracted and reformatted; class_path fields added for KalaalliCut color mapping.",
+    "available_fields": [
+      "lexeme",
+      "word_class",
+      "gloss_en"
+    ]
+  },
+  "dictionary_entries": [
+    {
+      "id": "C_C PP_2",
+      "lexeme": "chippi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "chippi",
+      "gloss_en": "chip",
+      "source_file": "C.ods",
+      "source_row": 2
+    },
+    {
+      "id": "C_C PP_3",
+      "lexeme": "CD",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "CD",
+      "gloss_en": "CD",
+      "source_file": "C.ods",
+      "source_row": 3
+    },
+    {
+      "id": "C_C PP_4",
+      "lexeme": "celle",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "celle",
+      "gloss_en": "cell",
+      "source_file": "C.ods",
+      "source_row": 4
+    },
+    {
+      "id": "C_C PP_5",
+      "lexeme": "cello",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "cello",
+      "gloss_en": "cello",
+      "source_file": "C.ods",
+      "source_row": 5
+    },
+    {
+      "id": "C_C PP_6",
+      "lexeme": "cellofani",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "cellofani",
+      "gloss_en": "cellophane",
+      "source_file": "C.ods",
+      "source_row": 6
+    },
+    {
+      "id": "C_C PP_7",
+      "lexeme": "celsiusi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "celsiusi",
+      "gloss_en": "Celsius",
+      "source_file": "C.ods",
+      "source_row": 7
+    },
+    {
+      "id": "C_C PP_8",
+      "lexeme": "cementi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "cementi",
+      "gloss_en": "cement",
+      "source_file": "C.ods",
+      "source_row": 8
+    },
+    {
+      "id": "C_C PP_9",
+      "lexeme": "cementiliorpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "cementiliorpoq",
+      "gloss_en": "mix cement",
+      "source_file": "C.ods",
+      "source_row": 9,
+      "valence": 1
+    },
+    {
+      "id": "C_C PP_10",
+      "lexeme": "censori",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "censori",
+      "gloss_en": "censor",
+      "source_file": "C.ods",
+      "source_row": 10
+    },
+    {
+      "id": "C_C PP_11",
+      "lexeme": "centiliteri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "centiliteri",
+      "gloss_en": "centiliter",
+      "source_file": "C.ods",
+      "source_row": 11
+    },
+    {
+      "id": "C_C PP_12",
+      "lexeme": "centimeteri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "centimeteri",
+      "gloss_en": "centimeter",
+      "source_file": "C.ods",
+      "source_row": 12
+    },
+    {
+      "id": "C_C PP_13",
+      "lexeme": "centrifuge",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "centrifuge",
+      "gloss_en": "centrifuge",
+      "source_file": "C.ods",
+      "source_row": 13
+    },
+    {
+      "id": "C_C PP_14",
+      "lexeme": "cerutti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "cerutti",
+      "gloss_en": "cheroot, a cylindrical cigar",
+      "source_file": "C.ods",
+      "source_row": 14
+    },
+    {
+      "id": "C_C PP_15",
+      "lexeme": "champagne",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "champagne",
+      "gloss_en": "champagne",
+      "source_file": "C.ods",
+      "source_row": 15
+    },
+    {
+      "id": "C_C PP_16",
+      "lexeme": "champignoni",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "champignoni",
+      "gloss_en": "mushroom, the common grocery mushroom",
+      "source_file": "C.ods",
+      "source_row": 16
+    },
+    {
+      "id": "C_C PP_17",
+      "lexeme": "chaufføri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "chaufføri",
+      "gloss_en": "chauffeur",
+      "source_file": "C.ods",
+      "source_row": 17
+    },
+    {
+      "id": "C_C PP_18",
+      "lexeme": "checki",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "checki",
+      "gloss_en": "check, bank check",
+      "source_file": "C.ods",
+      "source_row": 18
+    },
+    {
+      "id": "C_C PP_19",
+      "lexeme": "chimpanse",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "chimpanse",
+      "gloss_en": "chimpanzee",
+      "source_file": "C.ods",
+      "source_row": 19
+    },
+    {
+      "id": "C_C PP_20",
+      "lexeme": "cigaretti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "cigaretti",
+      "gloss_en": "cigarette",
+      "source_file": "C.ods",
+      "source_row": 20
+    },
+    {
+      "id": "C_C PP_21",
+      "lexeme": "cigarettikoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "cigarettikoq",
+      "gloss_en": "cigarette butt",
+      "source_file": "C.ods",
+      "source_row": 21
+    },
+    {
+      "id": "C_C PP_22",
+      "lexeme": "cirkeli",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "cirkeli",
+      "gloss_en": "circle",
+      "source_file": "C.ods",
+      "source_row": 22
+    },
+    {
+      "id": "C_C PP_23",
+      "lexeme": "cirkusi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "cirkusi",
+      "gloss_en": "circus",
+      "source_file": "C.ods",
+      "source_row": 23
+    },
+    {
+      "id": "C_C PP_24",
+      "lexeme": "citroni",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "citroni",
+      "gloss_en": "lemon",
+      "source_file": "C.ods",
+      "source_row": 24
+    },
+    {
+      "id": "C_C PP_25",
+      "lexeme": "civilingeniøri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "civilingeniøri",
+      "gloss_en": "graduate engineer",
+      "source_file": "C.ods",
+      "source_row": 25
+    },
+    {
+      "id": "C_C PP_26",
+      "lexeme": "computeri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "computeri",
+      "gloss_en": "computer",
+      "source_file": "C.ods",
+      "source_row": 26
+    },
+    {
+      "id": "C_C PP_27",
+      "lexeme": "CPR-normu",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "CPR-normu",
+      "gloss_en": "CPR number, Danish personal number issued to individuals",
+      "source_file": "C.ods",
+      "source_row": 27
+    },
+    {
+      "id": "C_C PP_28",
+      "lexeme": "crème",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "crème",
+      "gloss_en": "cream",
+      "source_file": "C.ods",
+      "source_row": 28
+    },
+    {
+      "id": "C_C PP_29",
+      "lexeme": "cykeli",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "cykeli",
+      "gloss_en": "bicycle, bike",
+      "source_file": "C.ods",
+      "source_row": 29
+    },
+    {
+      "id": "C_C PP_30",
+      "lexeme": "cyklerpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "cyklerpoq",
+      "gloss_en": "rides a bicycle, goes by bicycle",
+      "source_file": "C.ods",
+      "source_row": 30,
+      "valence": 1
+    },
+    {
+      "id": "C_C PP_31",
+      "lexeme": "cylinderi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "cylinderi",
+      "gloss_en": "cylinder",
+      "source_file": "C.ods",
+      "source_row": 31
+    },
+    {
+      "id": "C_C PP_32",
+      "lexeme": "cypressi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "cypressi",
+      "gloss_en": "cyprus",
+      "source_file": "C.ods",
+      "source_row": 32
+    }
+  ]
+}

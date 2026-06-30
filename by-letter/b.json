@@ -1,0 +1,1310 @@
+{
+  "meta": {
+    "schema_version": "1.0",
+    "generated_at": "2026-05-26T19:10:50.639945+00:00",
+    "license": "CC-BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source_repo": "https://github.com/Oqaasileriffik/dicts",
+    "fork_repo": "https://github.com/jandahl/Oqaasileriffik-KAL-ENG-dicts",
+    "attribution": "Oqaasileriffik (Greenlandic Language Secretariat), 2018 Chicago Kalaallisut–English Dictionary, CC-BY-SA 4.0",
+    "changes": "Subset of entries extracted and reformatted; class_path fields added for KalaalliCut color mapping.",
+    "available_fields": [
+      "lexeme",
+      "word_class",
+      "gloss_en"
+    ]
+  },
+  "dictionary_entries": [
+    {
+      "id": "B_B_2",
+      "lexeme": "baalia",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "baalia",
+      "gloss_en": "tub",
+      "source_file": "B.ods",
+      "source_row": 2
+    },
+    {
+      "id": "B_B_3",
+      "lexeme": "baaliarpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "baaliarpoq",
+      "gloss_en": "takes a tub bath",
+      "source_file": "B.ods",
+      "source_row": 3,
+      "valence": 1
+    },
+    {
+      "id": "B_B_4",
+      "lexeme": "bachelori",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "bachelori",
+      "gloss_en": "bachelors degree",
+      "source_file": "B.ods",
+      "source_row": 4
+    },
+    {
+      "id": "B_B_5",
+      "lexeme": "backi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "backi",
+      "gloss_en": "defensive player in soccer, football, etc.;",
+      "source_file": "B.ods",
+      "source_row": 5
+    },
+    {
+      "id": "B_B_6",
+      "lexeme": "baconi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "baconi",
+      "gloss_en": "bacon",
+      "source_file": "B.ods",
+      "source_row": 6
+    },
+    {
+      "id": "B_B_7",
+      "lexeme": "badmintoni",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "badmintoni",
+      "gloss_en": "badminton",
+      "source_file": "B.ods",
+      "source_row": 7
+    },
+    {
+      "id": "B_B_8",
+      "lexeme": "bagepapiri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "bagepapiri",
+      "gloss_en": "baking sheet",
+      "source_file": "B.ods",
+      "source_row": 8
+    },
+    {
+      "id": "B_B_9",
+      "lexeme": "baaj",
+      "word_class": "oqaaseeraq",
+      "class_path": [
+        "enclitic"
+      ],
+      "stem": "baaj",
+      "gloss_en": "good bye, bye",
+      "source_file": "B.ods",
+      "source_row": 9
+    },
+    {
+      "id": "B_B_10",
+      "lexeme": "bakki",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "bakki",
+      "gloss_en": "tray",
+      "source_file": "B.ods",
+      "source_row": 10
+    },
+    {
+      "id": "B_B_11",
+      "lexeme": "bakteria",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "bakteria",
+      "gloss_en": "bacteria",
+      "source_file": "B.ods",
+      "source_row": 11
+    },
+    {
+      "id": "B_B_12",
+      "lexeme": "bakteriat pissuseqatigiiaat",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "bakteriat pissuseqatigiiaat",
+      "gloss_en": "bacterial strain",
+      "source_file": "B.ods",
+      "source_row": 12
+    },
+    {
+      "id": "B_B_13",
+      "lexeme": "balkonngi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "balkonngi",
+      "gloss_en": "balcony",
+      "source_file": "B.ods",
+      "source_row": 13
+    },
+    {
+      "id": "B_B_14",
+      "lexeme": "ballasti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ballasti",
+      "gloss_en": "ballast",
+      "source_file": "B.ods",
+      "source_row": 14
+    },
+    {
+      "id": "B_B_15",
+      "lexeme": "ballet",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ballet",
+      "gloss_en": "ballet",
+      "source_file": "B.ods",
+      "source_row": 15
+    },
+    {
+      "id": "B_B_16",
+      "lexeme": "ballonngi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ballonngi",
+      "gloss_en": "balloon",
+      "source_file": "B.ods",
+      "source_row": 16
+    },
+    {
+      "id": "B_B_17",
+      "lexeme": "bamsi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "bamsi",
+      "gloss_en": "teddy bear",
+      "source_file": "B.ods",
+      "source_row": 17
+    },
+    {
+      "id": "B_B_18",
+      "lexeme": "banaani",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "banaani",
+      "gloss_en": "banana",
+      "source_file": "B.ods",
+      "source_row": 18
+    },
+    {
+      "id": "B_B_19",
+      "lexeme": "banegårdi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "banegårdi",
+      "gloss_en": "railway station",
+      "source_file": "B.ods",
+      "source_row": 19
+    },
+    {
+      "id": "B_B_20",
+      "lexeme": "banjo",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "banjo",
+      "gloss_en": "banjo",
+      "source_file": "B.ods",
+      "source_row": 20
+    },
+    {
+      "id": "B_B_21",
+      "lexeme": "banki",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "banki",
+      "gloss_en": "bank",
+      "source_file": "B.ods",
+      "source_row": 21
+    },
+    {
+      "id": "B_B_22",
+      "lexeme": "banko",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "banko",
+      "gloss_en": "bingo",
+      "source_file": "B.ods",
+      "source_row": 22
+    },
+    {
+      "id": "B_B_23",
+      "lexeme": "baptisti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "baptisti",
+      "gloss_en": "Baptist",
+      "source_file": "B.ods",
+      "source_row": 23
+    },
+    {
+      "id": "B_B_24",
+      "lexeme": "barakki",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "barakki",
+      "gloss_en": "hut, shed",
+      "source_file": "B.ods",
+      "source_row": 24
+    },
+    {
+      "id": "B_B_25",
+      "lexeme": "barduuni",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "barduuni",
+      "gloss_en": "guy wire",
+      "source_file": "B.ods",
+      "source_row": 25
+    },
+    {
+      "id": "B_B_26",
+      "lexeme": "bartenderi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "bartenderi",
+      "gloss_en": "Bartender",
+      "source_file": "B.ods",
+      "source_row": 26
+    },
+    {
+      "id": "B_B_27",
+      "lexeme": "basaareqarput",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "basaareqarput",
+      "gloss_en": "are having a lottery or raffle",
+      "source_file": "B.ods",
+      "source_row": 27,
+      "valence": 1
+    },
+    {
+      "id": "B_B_28",
+      "lexeme": "basaari",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "basaari",
+      "gloss_en": "lottery, raffle",
+      "source_file": "B.ods",
+      "source_row": 28
+    },
+    {
+      "id": "B_B_29",
+      "lexeme": "basalti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "basalti",
+      "gloss_en": "basalt",
+      "source_file": "B.ods",
+      "source_row": 29
+    },
+    {
+      "id": "B_B_30",
+      "lexeme": "base",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "base",
+      "gloss_en": "military base",
+      "source_file": "B.ods",
+      "source_row": 30
+    },
+    {
+      "id": "B_B_31",
+      "lexeme": "batteri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "batteri",
+      "gloss_en": "battery",
+      "source_file": "B.ods",
+      "source_row": 31
+    },
+    {
+      "id": "B_B_32",
+      "lexeme": "baviani",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "baviani",
+      "gloss_en": "baboon",
+      "source_file": "B.ods",
+      "source_row": 32
+    },
+    {
+      "id": "B_B_33",
+      "lexeme": "benziina",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "benziina",
+      "gloss_en": "gasoline",
+      "source_file": "B.ods",
+      "source_row": 33
+    },
+    {
+      "id": "B_B_34",
+      "lexeme": "bestyrelse",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "bestyrelse",
+      "gloss_en": "administration, board of directors",
+      "source_file": "B.ods",
+      "source_row": 34
+    },
+    {
+      "id": "B_B_35",
+      "lexeme": "betonngi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "betonngi",
+      "gloss_en": "concrete",
+      "source_file": "B.ods",
+      "source_row": 35
+    },
+    {
+      "id": "B_B_36",
+      "lexeme": "bibliotekari",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "bibliotekari",
+      "gloss_en": "librarian",
+      "source_file": "B.ods",
+      "source_row": 36
+    },
+    {
+      "id": "B_B_37",
+      "lexeme": "biblioteki",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "biblioteki",
+      "gloss_en": "library",
+      "source_file": "B.ods",
+      "source_row": 37
+    },
+    {
+      "id": "B_B_38",
+      "lexeme": "biibili",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "biibili",
+      "gloss_en": "Bible",
+      "source_file": "B.ods",
+      "source_row": 38
+    },
+    {
+      "id": "B_B_39",
+      "lexeme": "biileerniartoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "biileerniartoq",
+      "gloss_en": "car dealer",
+      "source_file": "B.ods",
+      "source_row": 39
+    },
+    {
+      "id": "B_B_40",
+      "lexeme": "biilerfik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "biilerfik",
+      "gloss_en": "lane (of a road)",
+      "source_file": "B.ods",
+      "source_row": 40
+    },
+    {
+      "id": "B_B_41",
+      "lexeme": "biilerneq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "biilerneq",
+      "gloss_en": "car trip, to drive",
+      "source_file": "B.ods",
+      "source_row": 41
+    },
+    {
+      "id": "B_B_42",
+      "lexeme": "biilerpoq",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "biilerpoq",
+      "gloss_en": "drives a car, drives the car",
+      "source_file": "B.ods",
+      "source_row": 42,
+      "valence": 1
+    },
+    {
+      "id": "B_B_43",
+      "lexeme": "biilersinnaanermut misilitsinnissamut atuagassat",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "biilersinnaanermut misilitsinnissamut atuagassat",
+      "gloss_en": "driving schools theory book",
+      "source_file": "B.ods",
+      "source_row": 43
+    },
+    {
+      "id": "B_B_44",
+      "lexeme": "biilertoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "biilertoq",
+      "gloss_en": "automobile driver, motorist",
+      "source_file": "B.ods",
+      "source_row": 44
+    },
+    {
+      "id": "B_B_45",
+      "lexeme": "biilertoq killormut ingerlasoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "biilertoq killormut ingerlasoq",
+      "gloss_en": "wrong way driver",
+      "source_file": "B.ods",
+      "source_row": 45
+    },
+    {
+      "id": "B_B_46",
+      "lexeme": "biili",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "biili",
+      "gloss_en": "car, automobile, auto",
+      "source_file": "B.ods",
+      "source_row": 46
+    },
+    {
+      "id": "B_B_47",
+      "lexeme": "biili ilaasartaat",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "biili ilaasartaat",
+      "gloss_en": "Taxi, cab",
+      "source_file": "B.ods",
+      "source_row": 47
+    },
+    {
+      "id": "B_B_48",
+      "lexeme": "biilip timitaa",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "biilip timitaa",
+      "gloss_en": "body of a car",
+      "source_file": "B.ods",
+      "source_row": 48
+    },
+    {
+      "id": "B_B_49",
+      "lexeme": "bikorti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "bikorti",
+      "gloss_en": "tax card for secondary job",
+      "source_file": "B.ods",
+      "source_row": 49
+    },
+    {
+      "id": "B_B_50",
+      "lexeme": "bilagi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "bilagi",
+      "gloss_en": "appendix",
+      "source_file": "B.ods",
+      "source_row": 50
+    },
+    {
+      "id": "B_B_51",
+      "lexeme": "bilitsi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "bilitsi",
+      "gloss_en": "ticket",
+      "source_file": "B.ods",
+      "source_row": 51
+    },
+    {
+      "id": "B_B_52",
+      "lexeme": "bilitsilerisoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "bilitsilerisoq",
+      "gloss_en": "ticket taker, conductor",
+      "source_file": "B.ods",
+      "source_row": 52
+    },
+    {
+      "id": "B_B_53",
+      "lexeme": "bilitsilerivik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "bilitsilerivik",
+      "gloss_en": "ticket office, ticket booth",
+      "source_file": "B.ods",
+      "source_row": 53
+    },
+    {
+      "id": "B_B_54",
+      "lexeme": "billardi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "billardi",
+      "gloss_en": "pool, billiards",
+      "source_file": "B.ods",
+      "source_row": 54
+    },
+    {
+      "id": "B_B_55",
+      "lexeme": "billioni",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "billioni",
+      "gloss_en": "trillion",
+      "source_file": "B.ods",
+      "source_row": 55
+    },
+    {
+      "id": "B_B_56",
+      "lexeme": "bingo",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "bingo",
+      "gloss_en": "bingo, game of bingo",
+      "source_file": "B.ods",
+      "source_row": 56
+    },
+    {
+      "id": "B_B_57",
+      "lexeme": "bingorput",
+      "word_class": "oqaluut susaatsoq",
+      "class_path": [
+        "verbal_root",
+        "intransitive"
+      ],
+      "stem": "bingorput",
+      "gloss_en": "play bingo",
+      "source_file": "B.ods",
+      "source_row": 57,
+      "valence": 1
+    },
+    {
+      "id": "B_B_58",
+      "lexeme": "biografi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "biografi",
+      "gloss_en": "movie theater, cinema",
+      "source_file": "B.ods",
+      "source_row": 58
+    },
+    {
+      "id": "B_B_59",
+      "lexeme": "biologi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "biologi",
+      "gloss_en": "biologist",
+      "source_file": "B.ods",
+      "source_row": 59
+    },
+    {
+      "id": "B_B_60",
+      "lexeme": "biologii",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "biologii",
+      "gloss_en": "biology",
+      "source_file": "B.ods",
+      "source_row": 60
+    },
+    {
+      "id": "B_B_61",
+      "lexeme": "biopsi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "biopsi",
+      "gloss_en": "biopsy",
+      "source_file": "B.ods",
+      "source_row": 61
+    },
+    {
+      "id": "B_B_62",
+      "lexeme": "bioteknologi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "bioteknologi",
+      "gloss_en": "biotechnology",
+      "source_file": "B.ods",
+      "source_row": 62
+    },
+    {
+      "id": "B_B_63",
+      "lexeme": "birkesi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "birkesi",
+      "gloss_en": "poppy seeds",
+      "source_file": "B.ods",
+      "source_row": 63
+    },
+    {
+      "id": "B_B_64",
+      "lexeme": "biskoppeqarfik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "biskoppeqarfik",
+      "gloss_en": "diocese, bishopric",
+      "source_file": "B.ods",
+      "source_row": 64
+    },
+    {
+      "id": "B_B_65",
+      "lexeme": "biskoppi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "biskoppi",
+      "gloss_en": "bishop",
+      "source_file": "B.ods",
+      "source_row": 65
+    },
+    {
+      "id": "B_B_66",
+      "lexeme": "biskoppip uliguaa",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "biskoppip uliguaa",
+      "gloss_en": "bishop's cape",
+      "source_file": "B.ods",
+      "source_row": 66
+    },
+    {
+      "id": "B_B_67",
+      "lexeme": "blanketti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "blanketti",
+      "gloss_en": "form",
+      "source_file": "B.ods",
+      "source_row": 67
+    },
+    {
+      "id": "B_B_68",
+      "lexeme": "blokfløjti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "blokfløjti",
+      "gloss_en": "recorder (musical instrument)",
+      "source_file": "B.ods",
+      "source_row": 68
+    },
+    {
+      "id": "B_B_69",
+      "lexeme": "blokki",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "blokki",
+      "gloss_en": "multi-apartment building",
+      "source_file": "B.ods",
+      "source_row": 69
+    },
+    {
+      "id": "B_B_70",
+      "lexeme": "bloktilskudi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "bloktilskudi",
+      "gloss_en": "block grant",
+      "source_file": "B.ods",
+      "source_row": 70
+    },
+    {
+      "id": "B_B_71",
+      "lexeme": "blomkåli",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "blomkåli",
+      "gloss_en": "cauliflower",
+      "source_file": "B.ods",
+      "source_row": 71
+    },
+    {
+      "id": "B_B_72",
+      "lexeme": "blækki",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "blækki",
+      "gloss_en": "ink",
+      "source_file": "B.ods",
+      "source_row": 72
+    },
+    {
+      "id": "B_B_73",
+      "lexeme": "Blå Korsi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "Blå Korsi",
+      "gloss_en": "Christian temperance society",
+      "source_file": "B.ods",
+      "source_row": 73
+    },
+    {
+      "id": "B_B_74",
+      "lexeme": "boardingkorti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "boardingkorti",
+      "gloss_en": "boarding card",
+      "source_file": "B.ods",
+      "source_row": 74
+    },
+    {
+      "id": "B_B_75",
+      "lexeme": "boksi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "boksi",
+      "gloss_en": "safe deposit box, post office box",
+      "source_file": "B.ods",
+      "source_row": 75
+    },
+    {
+      "id": "B_B_76",
+      "lexeme": "bonussi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "bonussi",
+      "gloss_en": "bonus, premium",
+      "source_file": "B.ods",
+      "source_row": 76
+    },
+    {
+      "id": "B_B_77",
+      "lexeme": "bordtennisi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "bordtennisi",
+      "gloss_en": "table tennis",
+      "source_file": "B.ods",
+      "source_row": 77
+    },
+    {
+      "id": "B_B_78",
+      "lexeme": "borgmesteri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "borgmesteri",
+      "gloss_en": "mayor",
+      "source_file": "B.ods",
+      "source_row": 78
+    },
+    {
+      "id": "B_B_79",
+      "lexeme": "borgmesterip tullia",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "borgmesterip tullia",
+      "gloss_en": "vice mayor",
+      "source_file": "B.ods",
+      "source_row": 79
+    },
+    {
+      "id": "B_B_80",
+      "lexeme": "botanikki",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "botanikki",
+      "gloss_en": "botany",
+      "source_file": "B.ods",
+      "source_row": 80
+    },
+    {
+      "id": "B_B_81",
+      "lexeme": "bremse",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "bremse",
+      "gloss_en": "brake",
+      "source_file": "B.ods",
+      "source_row": 81
+    },
+    {
+      "id": "B_B_82",
+      "lexeme": "brinti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "brinti",
+      "gloss_en": "hydrogen",
+      "source_file": "B.ods",
+      "source_row": 82
+    },
+    {
+      "id": "B_B_83",
+      "lexeme": "bronkitisi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "bronkitisi",
+      "gloss_en": "bronchitis",
+      "source_file": "B.ods",
+      "source_row": 83
+    },
+    {
+      "id": "B_B_84",
+      "lexeme": "bronze",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "bronze",
+      "gloss_en": "bronze",
+      "source_file": "B.ods",
+      "source_row": 84
+    },
+    {
+      "id": "B_B_85",
+      "lexeme": "Brugseni",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "Brugseni",
+      "gloss_en": "Brugsen (department store)",
+      "source_file": "B.ods",
+      "source_row": 85
+    },
+    {
+      "id": "B_B_86",
+      "lexeme": "brøki",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "brøki",
+      "gloss_en": "fraction",
+      "source_file": "B.ods",
+      "source_row": 86
+    },
+    {
+      "id": "B_B_87",
+      "lexeme": "bulldozeri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "bulldozeri",
+      "gloss_en": "bulldozer",
+      "source_file": "B.ods",
+      "source_row": 87
+    },
+    {
+      "id": "B_B_88",
+      "lexeme": "bundgarnersorneq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "bundgarnersorneq",
+      "gloss_en": "pound net fishing",
+      "source_file": "B.ods",
+      "source_row": 88
+    },
+    {
+      "id": "B_B_89",
+      "lexeme": "bundgarnit",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "bundgarnit",
+      "gloss_en": "pound net",
+      "source_file": "B.ods",
+      "source_row": 89
+    },
+    {
+      "id": "B_B_90",
+      "lexeme": "bungalowi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "bungalowi",
+      "gloss_en": "bungalow",
+      "source_file": "B.ods",
+      "source_row": 90
+    },
+    {
+      "id": "B_B_91",
+      "lexeme": "bussi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "bussi",
+      "gloss_en": "bus",
+      "source_file": "B.ods",
+      "source_row": 91
+    },
+    {
+      "id": "B_B_92",
+      "lexeme": "bussit",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "bussit",
+      "gloss_en": "busses, bus with pasengers",
+      "source_file": "B.ods",
+      "source_row": 92
+    },
+    {
+      "id": "B_B_93",
+      "lexeme": "bygderådi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "bygderådi",
+      "gloss_en": "village council",
+      "source_file": "B.ods",
+      "source_row": 93
+    },
+    {
+      "id": "B_B_94",
+      "lexeme": "byggelederi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "byggelederi",
+      "gloss_en": "foreman (of a construction project)",
+      "source_file": "B.ods",
+      "source_row": 94
+    },
+    {
+      "id": "B_B_95",
+      "lexeme": "bøffi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "bøffi",
+      "gloss_en": "beef",
+      "source_file": "B.ods",
+      "source_row": 95
+    },
+    {
+      "id": "B_B_96",
+      "lexeme": "børnehave",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "børnehave",
+      "gloss_en": "kindergarten, nursery school",
+      "source_file": "B.ods",
+      "source_row": 96
+    },
+    {
+      "id": "B_B_97",
+      "lexeme": "børsterpaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "børsterpaa",
+      "gloss_en": "brushes it",
+      "source_file": "B.ods",
+      "source_row": 97,
+      "valence": 2
+    },
+    {
+      "id": "B_B_98",
+      "lexeme": "børstiliortoq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "børstiliortoq",
+      "gloss_en": "brush maker",
+      "source_file": "B.ods",
+      "source_row": 98
+    },
+    {
+      "id": "B_B_99",
+      "lexeme": "børstit",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "børstit",
+      "gloss_en": "brush",
+      "source_file": "B.ods",
+      "source_row": 99
+    },
+    {
+      "id": "B_B_100",
+      "lexeme": "båndoptageri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "båndoptageri",
+      "gloss_en": "tape recorder",
+      "source_file": "B.ods",
+      "source_row": 100
+    }
+  ]
+}

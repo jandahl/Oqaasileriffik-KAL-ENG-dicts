@@ -1,0 +1,606 @@
+{
+  "meta": {
+    "schema_version": "1.0",
+    "generated_at": "2026-05-26T19:10:50.639945+00:00",
+    "license": "CC-BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source_repo": "https://github.com/Oqaasileriffik/dicts",
+    "fork_repo": "https://github.com/jandahl/Oqaasileriffik-KAL-ENG-dicts",
+    "attribution": "Oqaasileriffik (Greenlandic Language Secretariat), 2018 Chicago Kalaallisut–English Dictionary, CC-BY-SA 4.0",
+    "changes": "Subset of entries extracted and reformatted; class_path fields added for KalaalliCut color mapping.",
+    "available_fields": [
+      "lexeme",
+      "word_class",
+      "gloss_en"
+    ]
+  },
+  "dictionary_entries": [
+    {
+      "id": "L_L_2",
+      "lexeme": "laboratoria",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "laboratoria",
+      "gloss_en": "laboratory",
+      "source_file": "L.ods",
+      "source_row": 2
+    },
+    {
+      "id": "L_L_3",
+      "lexeme": "lagkage",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "lagkage",
+      "gloss_en": "layer cake",
+      "source_file": "L.ods",
+      "source_row": 3
+    },
+    {
+      "id": "L_L_4",
+      "lexeme": "lakkerpaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "lakkerpaa",
+      "gloss_en": "shellacs it, varnishes it, paints it",
+      "source_file": "L.ods",
+      "source_row": 4,
+      "valence": 2
+    },
+    {
+      "id": "L_L_5",
+      "lexeme": "lakki",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "lakki",
+      "gloss_en": "shellac, varnish",
+      "source_file": "L.ods",
+      "source_row": 5
+    },
+    {
+      "id": "L_L_6",
+      "lexeme": "lakskuut",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "lakskuut",
+      "gloss_en": "patent leather shoes",
+      "source_file": "L.ods",
+      "source_row": 6
+    },
+    {
+      "id": "L_L_7",
+      "lexeme": "lal’laaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "lal’laaq",
+      "gloss_en": "Dane (children's speech)",
+      "source_file": "L.ods",
+      "source_row": 7
+    },
+    {
+      "id": "L_L_8",
+      "lexeme": "lama",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "lama",
+      "gloss_en": "llama",
+      "source_file": "L.ods",
+      "source_row": 8
+    },
+    {
+      "id": "L_L_9",
+      "lexeme": "landsdommeri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "landsdommeri",
+      "gloss_en": "high court judge, chief justice",
+      "source_file": "L.ods",
+      "source_row": 9
+    },
+    {
+      "id": "L_L_10",
+      "lexeme": "landsfogedi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "landsfogedi",
+      "gloss_en": "Danish administrator of Greenland before 1950, one for North Greenland, and one for South Greenland;",
+      "source_file": "L.ods",
+      "source_row": 10
+    },
+    {
+      "id": "L_L_11",
+      "lexeme": "landsholdit",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "landsholdit",
+      "gloss_en": "national sports team",
+      "source_file": "L.ods",
+      "source_row": 11
+    },
+    {
+      "id": "L_L_12",
+      "lexeme": "landshøvdingi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "landshøvdingi",
+      "gloss_en": "Danish administrator for the whole of Greenland, 1950 – 1979;",
+      "source_file": "L.ods",
+      "source_row": 12
+    },
+    {
+      "id": "L_L_13",
+      "lexeme": "landskasse",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "landskasse",
+      "gloss_en": "national treasury of Greenland",
+      "source_file": "L.ods",
+      "source_row": 13
+    },
+    {
+      "id": "L_L_14",
+      "lexeme": "landslæge",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "landslæge",
+      "gloss_en": "administrator fo the health system in Greenland, surgeon general",
+      "source_file": "L.ods",
+      "source_row": 14
+    },
+    {
+      "id": "L_L_15",
+      "lexeme": "landsretti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "landsretti",
+      "gloss_en": "high court in Greenland",
+      "source_file": "L.ods",
+      "source_row": 15
+    },
+    {
+      "id": "L_L_16",
+      "lexeme": "landsrådi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "landsrådi",
+      "gloss_en": "elected advisory board in Greenland before Home Rule took effect in 1979",
+      "source_file": "L.ods",
+      "source_row": 16
+    },
+    {
+      "id": "L_L_17",
+      "lexeme": "landsstyre",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "landsstyre",
+      "gloss_en": "the Greenlandic cabinet, consisting of the ministers of the various departments of the Greenlandic government;",
+      "source_file": "L.ods",
+      "source_row": 17
+    },
+    {
+      "id": "L_L_18",
+      "lexeme": "landstingi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "landstingi",
+      "gloss_en": "Parliament of Greenland",
+      "source_file": "L.ods",
+      "source_row": 18
+    },
+    {
+      "id": "L_L_19",
+      "lexeme": "landstingip peqqussutaa",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "landstingip peqqussutaa",
+      "gloss_en": "Parliamentary regulations",
+      "source_file": "L.ods",
+      "source_row": 19
+    },
+    {
+      "id": "L_L_20",
+      "lexeme": "lapisi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "lapisi",
+      "gloss_en": "lapis lazuli",
+      "source_file": "L.ods",
+      "source_row": 20
+    },
+    {
+      "id": "L_L_21",
+      "lexeme": "lastbiili",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "lastbiili",
+      "gloss_en": "truck, van",
+      "source_file": "L.ods",
+      "source_row": 21
+    },
+    {
+      "id": "L_L_22",
+      "lexeme": "lasti",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "lasti",
+      "gloss_en": "cargo",
+      "source_file": "L.ods",
+      "source_row": 22
+    },
+    {
+      "id": "L_L_23",
+      "lexeme": "latiinerisut",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "latiinerisut",
+      "gloss_en": "Latin, in Latin",
+      "source_file": "L.ods",
+      "source_row": 23
+    },
+    {
+      "id": "L_L_24",
+      "lexeme": "lava",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "lava",
+      "gloss_en": "lava",
+      "source_file": "L.ods",
+      "source_row": 24
+    },
+    {
+      "id": "L_L_25",
+      "lexeme": "ledningi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ledningi",
+      "gloss_en": "electrical wiring",
+      "source_file": "L.ods",
+      "source_row": 25
+    },
+    {
+      "id": "L_L_26",
+      "lexeme": "legati",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "legati",
+      "gloss_en": "trust fund, annuity, scholarship",
+      "source_file": "L.ods",
+      "source_row": 26
+    },
+    {
+      "id": "L_L_27",
+      "lexeme": "leksikoni",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "leksikoni",
+      "gloss_en": "lexicon, encyclopedia",
+      "source_file": "L.ods",
+      "source_row": 27
+    },
+    {
+      "id": "L_L_28",
+      "lexeme": "lektori",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "lektori",
+      "gloss_en": "lecturer",
+      "source_file": "L.ods",
+      "source_row": 28
+    },
+    {
+      "id": "L_L_29",
+      "lexeme": "licensi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "licensi",
+      "gloss_en": "license",
+      "source_file": "L.ods",
+      "source_row": 29
+    },
+    {
+      "id": "L_L_30",
+      "lexeme": "liimmerpaa",
+      "word_class": "oqaluut susalik",
+      "class_path": [
+        "verbal_root",
+        "transitive"
+      ],
+      "stem": "liimmerpaa",
+      "gloss_en": "glues it, pastes it",
+      "source_file": "L.ods",
+      "source_row": 30,
+      "valence": 2
+    },
+    {
+      "id": "L_L_31",
+      "lexeme": "liimmi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "liimmi",
+      "gloss_en": "glue, paste",
+      "source_file": "L.ods",
+      "source_row": 31
+    },
+    {
+      "id": "L_L_32",
+      "lexeme": "liimmiliorfik",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "liimmiliorfik",
+      "gloss_en": "glue pot, mixing pot for glue",
+      "source_file": "L.ods",
+      "source_row": 32
+    },
+    {
+      "id": "L_L_33",
+      "lexeme": "likøri",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "likøri",
+      "gloss_en": "liquor, liqueur",
+      "source_file": "L.ods",
+      "source_row": 33
+    },
+    {
+      "id": "L_L_34",
+      "lexeme": "linoleumi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "linoleumi",
+      "gloss_en": "linoleum",
+      "source_file": "L.ods",
+      "source_row": 34
+    },
+    {
+      "id": "L_L_35",
+      "lexeme": "linoleumimut kigartugaq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "linoleumimut kigartugaq",
+      "gloss_en": "linoleaum print",
+      "source_file": "L.ods",
+      "source_row": 35
+    },
+    {
+      "id": "L_L_36",
+      "lexeme": "linolie",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "linolie",
+      "gloss_en": "linseed oil",
+      "source_file": "L.ods",
+      "source_row": 36
+    },
+    {
+      "id": "L_L_37",
+      "lexeme": "liste",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "liste",
+      "gloss_en": "list",
+      "source_file": "L.ods",
+      "source_row": 37
+    },
+    {
+      "id": "L_L_38",
+      "lexeme": "literi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "literi",
+      "gloss_en": "liter",
+      "source_file": "L.ods",
+      "source_row": 38
+    },
+    {
+      "id": "L_L_39",
+      "lexeme": "lotto",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "lotto",
+      "gloss_en": "lottery, lotto",
+      "source_file": "L.ods",
+      "source_row": 39
+    },
+    {
+      "id": "L_L_40",
+      "lexeme": "ludo",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "ludo",
+      "gloss_en": "board game in which pieces are moved accoring to the throw of dice",
+      "source_file": "L.ods",
+      "source_row": 40
+    },
+    {
+      "id": "L_L_41",
+      "lexeme": "lutherikkut",
+      "word_class": "taggit qasseersiut",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "lutherikkut",
+      "gloss_en": "Lutherans",
+      "source_file": "L.ods",
+      "source_row": 41
+    },
+    {
+      "id": "L_L_42",
+      "lexeme": "lutherikkuussuseq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "lutherikkuussuseq",
+      "gloss_en": "Lutheranism",
+      "source_file": "L.ods",
+      "source_row": 42
+    },
+    {
+      "id": "L_L_43",
+      "lexeme": "lærlingehjemmi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "lærlingehjemmi",
+      "gloss_en": "tradeschool and domicile for apprentices in various trades",
+      "source_file": "L.ods",
+      "source_row": 43
+    },
+    {
+      "id": "L_L_44",
+      "lexeme": "lærlingi",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "lærlingi",
+      "gloss_en": "apprentice",
+      "source_file": "L.ods",
+      "source_row": 44
+    },
+    {
+      "id": "L_L_45",
+      "lexeme": "løveq",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "løveq",
+      "gloss_en": "lion",
+      "source_file": "L.ods",
+      "source_row": 45
+    },
+    {
+      "id": "L_L_46",
+      "lexeme": "laaja",
+      "word_class": "taggit",
+      "class_path": [
+        "nominal_root",
+        "common_noun"
+      ],
+      "stem": "laaja",
+      "gloss_en": "casual laborer",
+      "source_file": "L.ods",
+      "source_row": 46
+    }
+  ]
+}

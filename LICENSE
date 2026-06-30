@@ -1,0 +1,15 @@
+The file presets.json in this directory is a derived work based on:
+
+  Oqaasileriffik (Greenlandic Language Secretariat)
+  2018 Chicago Kalaallisut–English Dictionary
+  Source: https://github.com/Oqaasileriffik/dicts
+
+Original work licensed under Creative Commons Attribution-ShareAlike 4.0
+International (CC-BY-SA 4.0).
+https://creativecommons.org/licenses/by-sa/4.0/
+
+Changes: Subset of entries extracted and reformatted; class_path fields added
+for KalaalliCut color mapping.
+
+This derived work is also licensed under CC-BY-SA 4.0.
+Fork: https://github.com/jandahl/Oqaasileriffik-KAL-ENG-dicts
