@@ -9,7 +9,7 @@ Kalaallisut starting letters where that keyword appears.
 Output: extracted/dictionary/gloss_index.json
 Example:
     {
-      "meta": {"schema_version": "1.0", "license": "CC-BY-SA-4.0", ...},
+      "meta": {"schema_version": "1.0", "license": "CC-BY-SA 4.0", ...},
       "index": {"dream": ["s"], "sleep": ["s", "u"], "walk": ["a", "p"]}
     }
 
@@ -86,7 +86,9 @@ def _default_meta() -> dict[str, Any]:
     """Fallback metadata used when no pipeline meta is supplied (e.g. standalone runs)."""
     return {
         "schema_version": "1.0",
-        "license": "CC-BY-SA-4.0",
+        "license": "CC-BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "attribution": "Oqaasileriffik (Greenlandic Language Secretariat), 2018 Chicago Kalaallisut–English Dictionary, CC-BY-SA 4.0",
         "source": "jandahl/Oqaasileriffik-KAL-ENG-dicts",
         "generated_at": datetime.now(timezone.utc).isoformat(),
     }

@@ -127,7 +127,7 @@ carried inline without colliding with keyword keys (the keyword map lives under
 
 ```json
 {
-  "meta": { "schema_version": "1.0", "license": "CC-BY-SA-4.0", "generated_at": "…" },
+  "meta": { "schema_version": "1.0", "license": "CC-BY-SA 4.0", "attribution": "…", "generated_at": "…" },
   "index": { "dream": ["s"], "sleep": ["a", "i", "s", "t", "u"], ... }
 }
 ```
