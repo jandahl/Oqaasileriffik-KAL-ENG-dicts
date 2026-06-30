@@ -9,7 +9,7 @@ Kalaallisut starting letters where that keyword appears.
 Output: extracted/dictionary/gloss_index.json
 Example:
     {
-      "meta": {"version": "1.0", "license": "CC-BY-SA-4.0", ...},
+      "meta": {"schema_version": "1.0", "license": "CC-BY-SA-4.0", ...},
       "index": {"dream": ["s"], "sleep": ["s", "u"], "walk": ["a", "p"]}
     }
 
@@ -85,7 +85,7 @@ def tokenize_gloss(gloss: str) -> set[str]:
 def _default_meta() -> dict[str, Any]:
     """Fallback metadata used when no pipeline meta is supplied (e.g. standalone runs)."""
     return {
-        "version": "1.0",
+        "schema_version": "1.0",
         "license": "CC-BY-SA-4.0",
         "source": "jandahl/Oqaasileriffik-KAL-ENG-dicts",
         "generated_at": datetime.now(timezone.utc).isoformat(),
