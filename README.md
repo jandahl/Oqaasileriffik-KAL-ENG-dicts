@@ -145,10 +145,10 @@ All output files are published on every push to `main` that changes anything und
 `extracted/dictionary/`:
 
 ```
-https://jandahl.github.io/Oqaasileriffik-KAL-ENG-dicts/presets.json
-https://jandahl.github.io/Oqaasileriffik-KAL-ENG-dicts/all_entries.json
-https://jandahl.github.io/Oqaasileriffik-KAL-ENG-dicts/gloss_index.json
-https://jandahl.github.io/Oqaasileriffik-KAL-ENG-dicts/by-letter/a.json
+https://jandahl.github.io/Oqaasileriffik-dicts/presets.json
+https://jandahl.github.io/Oqaasileriffik-dicts/all_entries.json
+https://jandahl.github.io/Oqaasileriffik-dicts/gloss_index.json
+https://jandahl.github.io/Oqaasileriffik-dicts/by-letter/a.json
 ```
 
 ---

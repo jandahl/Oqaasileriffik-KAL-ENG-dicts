@@ -1,4 +1,4 @@
-#!/Users/jangronemann/testcode/Oqaasileriffik-KAL-ENG-dicts/.venv/bin/python
+#!/usr/bin/env python3
 import argparse
 import json
 import logging
@@ -257,7 +257,7 @@ def _main_impl() -> None:
         "license": "CC-BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "source_repo": "https://github.com/Oqaasileriffik/dicts",
-        "fork_repo": "https://github.com/jandahl/Oqaasileriffik-KAL-ENG-dicts",
+        "fork_repo": "https://github.com/jandahl/Oqaasileriffik-dicts",
         "attribution": "Oqaasileriffik (Greenlandic Language Secretariat), 2018 Chicago Kalaallisut–English Dictionary, CC-BY-SA 4.0",
         "changes": "Subset of entries extracted and reformatted; class_path fields added for KalaalliCut color mapping.",
         "available_fields": ["lexeme", "word_class", "gloss_en"],
