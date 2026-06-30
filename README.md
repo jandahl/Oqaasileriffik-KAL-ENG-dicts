@@ -121,8 +121,15 @@ One file per starting letter of lexeme. Same `{meta, dictionary_entries}` shape 
 Inverted index of English keywords → sorted list of Kalaallisut starting letters.
 Compact minified JSON (~291 KB uncompressed).
 
+The root is a one-level `{meta, index}` wrapper so license/version metadata can be
+carried inline without colliding with keyword keys (the keyword map lives under
+`index`):
+
 ```json
-{ "dream": ["s"], "sleep": ["a", "i", "s", "t", "u"], ... }
+{
+  "meta": { "schema_version": "1.0", "license": "CC-BY-SA 4.0", "attribution": "…", "generated_at": "…" },
+  "index": { "dream": ["s"], "sleep": ["a", "i", "s", "t", "u"], ... }
+}
 ```
 
 Each `dictionary_entries` item has at minimum:

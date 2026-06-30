@@ -380,7 +380,7 @@ def _main_impl() -> None:
     write_atomic(all_entries_path, {"meta": meta, "dictionary_entries": all_entries})
     log.info("Wrote %s (%d total entries)", all_entries_path, len(all_entries))
 
-    build_gloss_index(by_letter_dir, gloss_index_path)
+    build_gloss_index(by_letter_dir, gloss_index_path, meta)
     log.info("Wrote %s", gloss_index_path)
 
 if __name__ == "__main__":
