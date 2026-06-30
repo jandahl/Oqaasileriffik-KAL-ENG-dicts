@@ -89,7 +89,8 @@ def _default_meta() -> dict[str, Any]:
         "license": "CC-BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "attribution": "Oqaasileriffik (Greenlandic Language Secretariat), 2018 Chicago Kalaallisut–English Dictionary, CC-BY-SA 4.0",
-        "source": "jandahl/Oqaasileriffik-KAL-ENG-dicts",
+        "source_repo": "https://github.com/Oqaasileriffik/dicts",
+        "fork_repo": "https://github.com/jandahl/Oqaasileriffik-KAL-ENG-dicts",
         "generated_at": datetime.now(timezone.utc).isoformat(),
     }
 
