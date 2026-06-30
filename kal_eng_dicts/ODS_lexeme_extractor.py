@@ -1,4 +1,4 @@
-#!/Users/jangronemann/testcode/Oqaasileriffik-dicts/.venv/bin/python
+#!/usr/bin/env python3
 import argparse
 import json
 import logging
