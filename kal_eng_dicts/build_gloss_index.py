@@ -150,8 +150,16 @@ def build_gloss_index(
     print(f"\nTotal unique keywords: {len(index)}")
 
     index_dict = {kw: sorted(letters) for kw, letters in sorted(index.items())}
+    if meta is not None:
+        # Copy before mutating so the caller's shared meta dict is untouched, and
+        # drop available_fields: it lists the dictionary-entry fields, which are
+        # meaningless for this inverted keyword -> [letters] index.
+        meta_dict = meta.copy()
+        meta_dict.pop("available_fields", None)
+    else:
+        meta_dict = _default_meta()
     output_dict = {
-        "meta": meta if meta is not None else _default_meta(),
+        "meta": meta_dict,
         "index": index_dict,
     }
 
